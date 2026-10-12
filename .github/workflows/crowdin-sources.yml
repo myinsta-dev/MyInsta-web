@@ -9,6 +9,7 @@ on:
       - "translations/manifest.json"
       - "translations/ui-manifest.json"
       - "scripts/prepare-crowdin-sources.mjs"
+      - "crowdin.yml"
       - ".github/workflows/crowdin-sources.yml"
   workflow_dispatch:
 
@@ -28,14 +29,14 @@ jobs:
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
 
       - name: Prepare active source groups
-        run: node scripts/prepare-crowdin-sources.mjs --output "$RUNNER_TEMP/crowdin-sources.json"
+        run: node scripts/prepare-crowdin-sources.mjs --output crowdin-sources.json
 
       - name: Upload source files to Crowdin
         uses: crowdin/github-action@8f01d54f70f1713ee3f09d82c2bbb2daeac28689
         with:
           token: ${{ secrets.CROWDIN_SOURCE_TOKEN }}
           project_id: 937181
-          config: ${{ runner.temp }}/crowdin-sources.json
+          config: crowdin-sources.json
           upload_sources: true
           upload_translations: false
           auto_approve_imported: false

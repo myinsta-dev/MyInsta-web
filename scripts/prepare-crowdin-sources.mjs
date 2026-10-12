@@ -7,8 +7,8 @@ export const CROWDIN_PROJECT_ID = 937181;
 const REPOSITORY_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const LOCALE_MAPPING = {
   two_letters_code: {
-    pt: "pt-BR",
-    tl: "fil",
+    "pt-BR": "pt-BR",
+    fil: "fil",
   },
 };
 const COMMON_FILE_OPTIONS = {

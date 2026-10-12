@@ -14,8 +14,8 @@ files:
     export_only_approved: true
     languages_mapping:
       two_letters_code:
-        pt: "pt-BR"
-        tl: "fil"
+        pt-BR: "pt-BR"
+        fil: "fil"
 
   - source: "/translations/source/ui.json"
     translation: "/translations/%two_letters_code%/ui.json"
@@ -25,8 +25,8 @@ files:
     export_only_approved: true
     languages_mapping:
       two_letters_code:
-        pt: "pt-BR"
-        tl: "fil"
+        pt-BR: "pt-BR"
+        fil: "fil"
 
   # Published CMS HTML is exported as one file per stable public key. Keeping
   # HTML separate lets the private importer validate tags, code/pre literals,
@@ -40,5 +40,5 @@ files:
     export_only_approved: true
     languages_mapping:
       two_letters_code:
-        pt: "pt-BR"
-        tl: "fil"
+        pt-BR: "pt-BR"
+        fil: "fil"

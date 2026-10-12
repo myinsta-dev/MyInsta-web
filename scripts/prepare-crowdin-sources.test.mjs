@@ -27,6 +27,9 @@ test("keeps UI active, skips empty CMS JSON, and includes present HTML files", a
       "/translations/source/html/nested/article.html",
     ]);
     assert.equal(config.files[1].translation, "/translations/%two_letters_code%/html/nested/article.html");
+    for (const file of config.files) {
+      assert.deepEqual(file.languages_mapping.two_letters_code, { "pt-BR": "pt-BR", fil: "fil" });
+    }
   } finally {
     await rm(root, { recursive: true, force: true });
   }
