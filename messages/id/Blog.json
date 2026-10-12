@@ -1,0 +1,34 @@
+{
+  "grid": {
+    "empty": "Belum ada cerita yang diterbitkan.",
+    "team": "Tim MyInsta",
+    "unscheduled": "Belum dijadwalkan"
+  },
+  "article": {
+    "share": "Bagikan",
+    "copied": "Disalin",
+    "copyLink": "Salin tautan"
+  },
+  "metadata": {
+    "title": "Jurnal",
+    "pageTitle": "Jurnal · Halaman {page}",
+    "description": "Konteks rilis MyInsta, catatan produk, penjelasan keamanan, dan panduan praktis."
+  },
+  "index": {
+    "eyebrow": "Jurnal",
+    "title": "Pemikiran",
+    "titleAccent": "di balik pembuatannya.",
+    "description": "Konteks rilis, keputusan produk, catatan kompatibilitas, dan panduan langsung dari meja editorial.",
+    "search": "Cari di arsip",
+    "categories": "Kategori jurnal",
+    "published": "Catatan terbitan",
+    "count": "{total} total · halaman {page} dari {pages}",
+    "sort": "Urutkan",
+    "latest": "Terbaru dulu",
+    "oldest": "Terlama dulu",
+    "apply": "Terapkan",
+    "pagination": "Paginasi jurnal",
+    "previous": "Sebelumnya",
+    "next": "Berikutnya"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Kaydı bul",
+  "title": "Ara",
+  "titleAccent": "her şey herkese açık.",
+  "inputLabel": "Yayınlanmış içeriği ara",
+  "placeholder": "Sürüm, özellik, kılavuz, versiyon…",
+  "disabledPlaceholder": "Arama şu anda devre dışı",
+  "resultsCount": "{count, plural, =0 {Sonuç yok} one {“{query}” için # sonucu} other {“{query}” için # sonuçları}}",
+  "noResults": "Bu ifadeyle eşleşen herkese açık kayıt yok.",
+  "shortQuery": "En az iki karakterle başlayın. Siz yazdıkça sonuçlar güncellenir; gezinmek için ok tuşlarını kullanın.",
+  "disabled": "Genel arama bir yönetici tarafından devre dışı bırakıldı.",
+  "errors": {
+    "tooShort": "Arama sorgusu çok kısa.",
+    "tooLong": "Arama sorgusu çok uzun.",
+    "rateLimited": "Arama geçici olarak hız sınırına takıldı. Lütfen kısa süre sonra tekrar deneyin.",
+    "disabled": "Arama şu anda devre dışı.",
+    "unavailable": "Arama geçici olarak kullanılamıyor."
+  },
+  "metadata": {
+    "title": "Ara",
+    "description": "MyInsta sürümlerini, günlük yazılarını ve yayınlanmış sayfaları arayın."
+  }
+}

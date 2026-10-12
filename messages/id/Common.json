@@ -1,0 +1,85 @@
+{
+  "navigation": {
+    "features": "Fitur",
+    "releases": "Rilis",
+    "journal": "Jurnal",
+    "support": "Dukungan",
+    "product": "Produk",
+    "menu": "Menu"
+  },
+  "status": {
+    "latest": "Terbaru",
+    "unavailable": "Tidak tersedia"
+  },
+  "actions": {
+    "downloadVersionPrefix": "Unduh v",
+    "viewReleases": "Lihat rilis"
+  },
+  "aria": {
+    "primaryNavigation": "Navigasi utama",
+    "home": "Beranda {siteName}",
+    "openMenu": "Buka menu navigasi",
+    "closeMenu": "Tutup menu navigasi",
+    "socialLinks": "Tautan sosial",
+    "legal": "Hukum"
+  },
+  "language": {
+    "label": "Bahasa",
+    "en": "English",
+    "hi": "Hindi",
+    "pt-BR": "Português (Brasil)",
+    "es": "Español",
+    "id": "Bahasa Indonesia",
+    "tr": "Türkçe",
+    "fil": "Filipino",
+    "de": "Deutsch",
+    "fr": "Français",
+    "ar": "العربية",
+    "ru": "Русский",
+    "bn": "বাংলা",
+    "ja": "日本語",
+    "ko": "한국어"
+  },
+  "newsletter": {
+    "emailAddress": "Alamat email",
+    "emailPlaceholder": "you@example.com",
+    "join": "Ikuti catatan rilis",
+    "joining": "Sedang berlangganan…",
+    "checkInbox": "Periksa kotak masuk Anda",
+    "subscriptionStarted": "Langganan dimulai. Periksa kotak masuk Anda untuk mengonfirmasi.",
+    "subscriptionUnavailable": "Langganan saat ini tidak tersedia karena pengiriman email dinonaktifkan atau belum dikonfigurasi.",
+    "subscriptionFailed": "Langganan gagal. Silakan coba lagi.",
+    "unavailable": "Notifikasi rilis saat ini tidak tersedia.",
+    "paused": "Notifikasi rilis saat ini dijeda."
+  },
+  "footer": {
+    "description": "Pembaruan, rilis, dan sumber dukungan {siteName} di satu tempat.",
+    "us": "Kami",
+    "reachOutLine1": "Hubungi",
+    "reachOutLine2": "Kami",
+    "unaffiliated": "myinsta.dev adalah situs resmi MyInsta. myinsta.app tidak berafiliasi dengan MyInsta."
+  },
+  "legal": {
+    "privacy": "Privasi",
+    "terms": "Ketentuan"
+  },
+  "community": {
+    "ariaLabel": "Bergabung dengan komunitas MyInsta",
+    "join": "Bergabung di {platform} kami"
+  },
+  "theme": {
+    "colorTheme": "Tema warna",
+    "change": "Ubah tema warna",
+    "systemTheme": "Tema sistem ({resolved})",
+    "current": "Tema {theme}",
+    "switch": "Beralih ke tema {theme}",
+    "light": "Terang",
+    "dark": "Gelap",
+    "system": "Sistem"
+  },
+  "metadata": {
+    "skipToContent": "Lewati ke konten",
+    "privacyTitle": "Kebijakan privasi",
+    "privacyDescription": "Cara MyInsta menangani analitik situs web, permintaan aplikasi, dan keaslian rilis."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Find the record",
+  "title": "Search",
+  "titleAccent": "everything public.",
+  "inputLabel": "Search published content",
+  "placeholder": "Release, feature, guide, version…",
+  "disabledPlaceholder": "Search is currently disabled",
+  "resultsCount": "{count, plural, =0 {No results} one {# result for “{query}”} other {# results for “{query}”}}",
+  "noResults": "No public records matched that phrase.",
+  "shortQuery": "Start with at least two characters. Results update as you type; use arrow keys to move.",
+  "disabled": "Public search has been disabled by an administrator.",
+  "errors": {
+    "tooShort": "Search query is too short.",
+    "tooLong": "Search query is too long.",
+    "rateLimited": "Search is temporarily rate limited. Please try again shortly.",
+    "disabled": "Search is currently disabled.",
+    "unavailable": "Search is temporarily unavailable."
+  },
+  "metadata": {
+    "title": "Search",
+    "description": "Search MyInsta releases, journal posts, and published pages."
+  }
+}

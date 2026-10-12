@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "approvalPolicy": "unapproved",
+  "generatedBy": "scripts/seed-ui-drafts.mjs",
+  "sourceFiles": [
+    "translations/source/ui.json"
+  ],
+  "locales": {
+    "hi": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review"
+    },
+    "pt-BR": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review"
+    },
+    "es": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review"
+    },
+    "id": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review"
+    },
+    "tr": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review"
+    },
+    "fil": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review"
+    },
+    "de": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review"
+    },
+    "fr": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review"
+    },
+    "ar": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review"
+    },
+    "ru": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review"
+    },
+    "bn": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review"
+    },
+    "ja": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review"
+    },
+    "ko": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review"
+    }
+  }
+}

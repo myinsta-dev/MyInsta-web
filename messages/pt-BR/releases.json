@@ -1,0 +1,132 @@
+{
+  "dateUnavailable": "Data indisponível",
+  "releaseDateUnavailable": "Data da versão indisponível",
+  "channels": {
+    "ALL": "Todas",
+    "STABLE": "Estável",
+    "BETA": "Beta",
+    "ALPHA": "Alpha",
+    "LEGACY": "Legada"
+  },
+  "breadcrumbs": {
+    "home": "Início",
+    "releases": "Versões"
+  },
+  "facts": {
+    "build": "Compilação",
+    "channel": "Canal",
+    "base": "Base",
+    "androidRequirement": "Requisito do Android",
+    "buildTarget": "Alvo da compilação",
+    "primaryArchitecture": "Arquitetura principal do APK"
+  },
+  "index": {
+    "closeChanges": "Fechar alterações",
+    "seeChanges": "Ver alterações",
+    "latestDownloadHelp": "Escolha um APK da versão mais recente.",
+    "noBuild": "Ainda não há uma compilação pública.",
+    "noBuildDescription": "Uma versão aparecerá aqui quando seu recurso principal estiver pronto para distribuição pública.",
+    "searchLabel": "Pesquisar versões",
+    "searchPlaceholder": "Pesquise versão, changelog ou problema conhecido…",
+    "channelGroup": "Canal da versão",
+    "noMatches": "Nenhuma versão publicada corresponde a esses filtros."
+  },
+  "detail": {
+    "allReleases": "Todas as versões",
+    "current": "Atual",
+    "latest": "Mais recente",
+    "versionBuild": "Versão {version} · compilação {build}",
+    "chooseApk": "Escolha seu APK",
+    "cloneDescription": "usa um pacote separado para poder coexistir com o Instagram.",
+    "uncloneDescription": "usa o pacote original; verifique conflitos e faça backup dos dados locais antes de substituir um app instalado.",
+    "abiDescription": "Escolha o ABI do seu dispositivo: ARM64 para ARM de 64 bits, ARM32 para ARM de 32 bits ou x86/x86_64 para dispositivos Intel e emuladores compatíveis. Use Universal apenas quando esta versão o listar. O alvo da compilação é separado do requisito mínimo do Android.",
+    "installationHelp": "Ajuda de instalação e conflitos de pacote",
+    "noPrimaryAsset": "Nenhum recurso principal para download está disponível no momento.",
+    "coverAlt": "Capa da versão {title}",
+    "experimentalChannel": "Canal experimental",
+    "alphaWarning": "As compilações Alpha podem estar incompletas e destinam-se a testes planejados.",
+    "betaWarning": "As compilações Beta podem conter regressões ausentes no canal estável.",
+    "buildRecord": "Registro da compilação",
+    "whatChanged": "O que mudou",
+    "fixedInBuild": "Corrigido nesta compilação",
+    "knownIssues": "Problemas conhecidos",
+    "installation": "Instalação",
+    "upgrade": "Atualizar",
+    "rollbackNotes": "Notas de reversão",
+    "screenshots": "Capturas de tela",
+    "compatibility": "Compatibilidade",
+    "securityNote": "Nota de segurança",
+    "readRelated": "Ler: {title}",
+    "previous": "Anterior v{version}"
+  },
+  "download": {
+    "download": "Baixar",
+    "downloadAdFree": "Baixar (sem anúncios)",
+    "openExternal": "Abrir APK externo",
+    "downloadSize": "Baixar {size}",
+    "unavailable": "Não foi possível preparar o link de download. Confirme se a compilação ainda está disponível e tente novamente; um novo link assinado é criado a cada clique.",
+    "apkDownloads": "Downloads de APK",
+    "unspecifiedAbi": "ABI não especificado",
+    "ariaLabel": "{variant} {abi} {type}",
+    "assetAriaLabel": "Download de {label}",
+    "external": "download externo",
+    "apk": "Download do APK",
+    "recommended": "Recomendado para este dispositivo",
+    "browserAbi": "O navegador informa {abi}. Verifique se o dispositivo é compatível com este ABI.",
+    "browserUnknownAbi": "Seu navegador não informa um ABI. Escolha Universal quando disponível ou verifique a arquitetura do dispositivo.",
+    "otherDownloads": "Outros downloads",
+    "options": "Opções de download",
+    "externalDownload": "Download externo",
+    "errors": {
+      "notFound": "Download não encontrado",
+      "rateLimited": "Tentativas de download demais",
+      "unavailable": "O download está temporariamente indisponível.",
+      "verifying": "A verificação do download ainda está em andamento.",
+      "sourceUnavailable": "Esta fonte de download não está mais disponível.",
+      "unsafeSource": "Não é seguro abrir esta fonte de download.",
+      "prepareFailed": "Não foi possível preparar o download. Tente novamente.",
+      "rangeNotSatisfiable": "O intervalo solicitado não pode ser atendido."
+    }
+  },
+  "verification": {
+    "details": "Detalhes da verificação",
+    "externalWithChecksum": "Host externo: compare o arquivo recebido com o checksum publicado. Este site não verifica a resposta externa.",
+    "externalWithoutChecksum": "Host externo: nenhum checksum foi publicado. Este site não verifica a resposta externa.",
+    "verified": "O APK armazenado tem um checksum registrado e uma verificação do certificado de assinatura. Isso não garante o comportamento do app nem a segurança da conta.",
+    "unverified": "Não há registro de verificação concluída para este arquivo.",
+    "noChecksum": "Nenhum checksum foi publicado para este arquivo.",
+    "certificateSha256": "SHA-256 do certificado de assinatura",
+    "copyChecksum": "Copiar checksum",
+    "copied": "Copiado",
+    "primaryVerified": "APK principal verificado",
+    "primaryApk": "APK principal",
+    "internalRecord": "Registro de verificação interna",
+    "externalDelivery": "Entrega externa",
+    "releaseAssetRecord": "Registro do recurso da versão",
+    "verifiedShort": "SHA-256 verificado",
+    "availableShort": "SHA-256 disponível",
+    "signingCertificate": "Certificado de assinatura"
+  },
+  "notes": {
+    "title": "Notas de versão",
+    "empty": "Nenhuma nota de versão foi publicada.",
+    "emptyChangelog": "Nenhum item de changelog foi publicado.",
+    "showLess": "Mostrar menos",
+    "readMore": "Ler mais"
+  },
+  "timeline": {
+    "base": "Base {version}",
+    "notSpecified": "não especificado",
+    "assets": "{count, plural, =0 {Nenhum recurso} one {# recurso} other {# recursos}}",
+    "hideChangelog": "Ocultar changelog",
+    "showChangelog": "Mostrar changelog",
+    "emptyChangelog": "Nenhum item de changelog foi publicado para esta versão."
+  },
+  "metadata": {
+    "title": "Versões do MyInsta — Downloads oficiais de APK",
+    "description": "Downloads oficiais de APK do MyInsta para Android, com notas de versão, detalhes de compatibilidade, checksums e changelogs.",
+    "latestTitle": "Versão mais recente",
+    "latestDescription": "Encontre a versão mais recente publicada do MyInsta e escolha o download do seu APK.",
+    "detailTitle": "{title} · v{version} — Download oficial do APK"
+  }
+}

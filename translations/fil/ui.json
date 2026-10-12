@@ -1,0 +1,437 @@
+{
+  "Common": {
+    "navigation": {
+      "features": "Mga feature",
+      "releases": "Mga release",
+      "journal": "Talaarawan",
+      "support": "Suporta",
+      "product": "Produkto",
+      "menu": "Menu ng nabigasyon"
+    },
+    "status": {
+      "latest": "Pinakabago",
+      "unavailable": "Hindi available"
+    },
+    "actions": {
+      "downloadVersionPrefix": "I-download ang v",
+      "viewReleases": "Tingnan ang mga release"
+    },
+    "aria": {
+      "primaryNavigation": "Pangunahing nabigasyon",
+      "home": "Home ng {siteName}",
+      "openMenu": "Buksan ang navigation menu",
+      "closeMenu": "Isara ang navigation menu",
+      "socialLinks": "Mga social link",
+      "legal": "Mga legal na pahina"
+    },
+    "language": {
+      "label": "Wika",
+      "en": "Ingles",
+      "hi": "Wikang Hindi",
+      "pt-BR": "Portuges (Brazil)",
+      "es": "Espanyol",
+      "id": "Indones",
+      "tr": "Turko",
+      "fil": "Filipino",
+      "de": "Aleman",
+      "fr": "Pranses",
+      "ar": "Arabe",
+      "ru": "Ruso",
+      "bn": "Bengali",
+      "ja": "Hapones",
+      "ko": "Koreano"
+    },
+    "newsletter": {
+      "emailAddress": "Address ng email",
+      "emailPlaceholder": "you@example.com",
+      "join": "Sumali sa release notes",
+      "joining": "Sumasali…",
+      "checkInbox": "Tingnan ang iyong inbox",
+      "subscriptionStarted": "Nagsimula na ang subscription. Tingnan ang iyong inbox para kumpirmahin.",
+      "subscriptionUnavailable": "Hindi available ang mga subscription dahil naka-disable o hindi naka-configure ang paghahatid ng email.",
+      "subscriptionFailed": "Hindi nagtagumpay ang subscription. Subukan muli.",
+      "unavailable": "Hindi available sa ngayon ang mga notification ng release.",
+      "paused": "Naka-pause sa ngayon ang mga notification ng release."
+    },
+    "footer": {
+      "description": "Mga update, release, at support resource ng {siteName} sa isang lugar.",
+      "us": "Kami",
+      "reachOutLine1": "Makipag-ugnayan",
+      "reachOutLine2": "sa amin",
+      "unaffiliated": "Ang myinsta.dev ang opisyal na site ng MyInsta. Walang kaugnayan ang myinsta.app sa MyInsta."
+    },
+    "legal": {
+      "privacy": "Pagkapribado",
+      "terms": "Mga tuntunin"
+    },
+    "community": {
+      "ariaLabel": "Sumali sa komunidad ng MyInsta",
+      "join": "Sumali sa aming {platform}"
+    },
+    "theme": {
+      "colorTheme": "Tema ng kulay",
+      "change": "Baguhin ang tema ng kulay",
+      "systemTheme": "Theme ng system ({resolved})",
+      "current": "Theme na {theme}",
+      "switch": "Lumipat sa theme na {theme}",
+      "light": "Maliwanag",
+      "dark": "Madilim",
+      "system": "Systema"
+    },
+    "metadata": {
+      "skipToContent": "Lumaktaw sa content",
+      "privacyTitle": "Patakaran sa privacy",
+      "privacyDescription": "Kung paano pinangangasiwaan ng MyInsta ang website analytics, mga kahilingan ng app, at pagiging tunay ng release."
+    }
+  },
+  "Home": {
+    "hero": {
+      "subheadline": "Gamitin ang Ghost Mode, mag-download ng suportadong media, at piliin kung paano magmumukha ang Instagram.",
+      "intro": "Itago ang read receipt gamit ang Ghost Mode, mag-save ng mga larawan at Stories, at i-customize ang Instagram sa Android.",
+      "headline": "Instagram, ayon sa iyo.",
+      "controls": "Iyong mga control",
+      "publicBuilds": "Mga pampublikong build",
+      "independentDescription": "Ang {applicationName} ay isang independent na Instagram mod para sa Android.",
+      "yourWay": "{applicationName}, sa paraan mo.",
+      "yourWayHighlight": "sa paraan mo."
+    },
+    "actions": {
+      "downloadMyInsta": "I-download ang MyInsta",
+      "browseReleases": "Mag-browse ng mga release",
+      "installationGuide": "Gabay sa pag-install",
+      "seeHowItWorks": "Tingnan kung paano ito gumagana",
+      "viewAppScreen": "Tingnan ang screen ng app",
+      "releaseNotes": "Mga tala ng release"
+    },
+    "sections": {
+      "getStarted": "Magsimula",
+      "makeInstagramWork": "Gawing angkop sa iyo ang Instagram.",
+      "makeInstagramDescription": "Itago ang read receipt, mag-save ng mga larawan at Stories, at piliin kung paano magmumukha ang Instagram.",
+      "commonQuestions": "Mga karaniwang tanong"
+    },
+    "fallbackFeatures": {
+      "privacy": {
+        "title": "Mga kontrol sa privacy",
+        "detail": "Piliin kung ano ang lumalabas sa iyong device",
+        "description": "Mas kontrolin ang read receipt, typing indicator, pagtingin sa Story, at mga senyales ng presensya kung sinusuportahan ito ng kasalukuyang build."
+      },
+      "media": {
+        "title": "Mga media tool",
+        "detail": "Itago ang mahalaga",
+        "description": "Mag-save ng mga suportadong larawan, video, at Stories gamit ang mga control na nakatuon sa content."
+      },
+      "interface": {
+        "title": "Mga pagpipilian sa interface",
+        "detail": "Gawing pamilyar ang app",
+        "description": "Ayusin ang piling layout at detalye ng interaction habang pinananatiling pamilyar ang pangunahing karanasan."
+      }
+    },
+    "features": {
+      "fallbackDescription": "Tingnan ang opsyong ito sa mga setting ng MyInsta. Maaaring mag-iba ang mga available na opsyon ayon sa release."
+    },
+    "steps": {
+      "download": {
+        "title": "I-download ang MyInsta",
+        "withAsset": "Piliin ang v{version}, basahin ang mga tala ng release, at buksan ang link ng APK download nito.",
+        "withoutAsset": "Buksan ang v{version} para basahin ang mga tala ng release at available na opsyon sa download.",
+        "noRelease": "Pumili ng na-publish na release, basahin ang mga tala ng release, at buksan ang mga opsyon sa download nito."
+      },
+      "controls": {
+        "title": "Piliin ang iyong mga control",
+        "description": "Buksan ang mga setting ng MyInsta at piliin ang privacy, download, at appearance na opsyong gusto mong gamitin."
+      },
+      "keepUsing": {
+        "title": "Ipagpatuloy ang paggamit ng Instagram",
+        "description": "Mag-browse sa feed, manood ng Stories, at mag-message sa mga kaibigan gamit ang napili mong setting."
+      }
+    },
+    "facts": {
+      "latestRelease": "Pinakabagong release",
+      "released": "Na-release noong {date}.",
+      "readReleaseNotes": "Basahin ang mga tala ng release para sa build na ito.",
+      "download": "I-download",
+      "externalDownload": "External na pahina ng download",
+      "apkDownload": "Download ng APK",
+      "releaseDetails": "Mga detalye ng release",
+      "openFileHost": "Buksan ang file host na naka-link sa release na ito para makuha ang APK.",
+      "getApk": "Kunin ang APK gamit ang download link ng release na ito.",
+      "availableFiles": "Basahin ang mga tala ng release para sa mga available na file at requirement.",
+      "compatibility": "Pagkakatugma",
+      "deviceRequirements": "Tingnan ang mga tala ng release para sa requirement ng device."
+    },
+    "proofs": {
+      "latestTitle": "I-download ang pinakabagong MyInsta.",
+      "releasesTitle": "Hanapin ang mga release ng MyInsta.",
+      "description": "Basahin ang mga tala ng release at requirement ng Android bago pumili ng download.",
+      "noRelease": "Lilitaw ang mga bagong build sa pahina ng mga release kapag available na ang mga ito.",
+      "chooseDownload": "Piliin ang iyong APK at opsyon sa download sa pahina ng release."
+    },
+    "faq": {
+      "fallbackAnswer": "Tingnan ang kaugnay na record ng release o makipag-ugnayan sa suporta para sa kasalukuyang sagot.",
+      "moreQuestions": "May mga tanong ka pa? Narito kami para tumulong."
+    },
+    "journal": {
+      "eyebrow": "Mula sa journal",
+      "title": "Mga tala na sulit itago.",
+      "category": "Talaarawan",
+      "readingTime": "{minutes} minutong pagbasa"
+    },
+    "cta": {
+      "stable": "Stable na v{version}",
+      "appForAndroid": "{applicationName} para sa Android",
+      "title": "Handa ka bang gawing iyo ang Instagram?",
+      "latestPublished": "Na-publish ang pinakabagong stable release noong {date}"
+    },
+    "aria": {
+      "featureIllustrations": "Mga illustration ng feature ng MyInsta",
+      "featureScreenshot": "Tingnan nang fullscreen ang screenshot ng {feature}",
+      "appScreenshots": "Mga screenshot ng MyInsta app",
+      "screenshotFullscreen": "Tingnan nang fullscreen ang screenshot ng {label}"
+    },
+    "screenshots": {
+      "title": "Silipin ang loob.",
+      "description": "Mga aktuwal na screen mula sa MyInsta. Mag-swipe para mag-explore, o mag-tap ng screen para mas makita ito.",
+      "carousel": "carousel",
+      "viewFullscreen": "Tingnan nang fullscreen",
+      "previous": "Nakaraang screenshot",
+      "resume": "Ipatuloy ang awtomatikong mga screenshot",
+      "pause": "I-pause ang awtomatikong mga screenshot",
+      "next": "Susunod na screenshot",
+      "interval": "Nagbabago bawat 8 segundo",
+      "choose": "Pumili ng screenshot",
+      "viewerDescription": "Buong screenshot. Gamitin ang mga zoom control para sa detalye, mag-swipe o gamitin ang mga arrow button para magpalit ng screen, at pindutin ang Escape para magsara.",
+      "zoomOut": "Mag-zoom out",
+      "zoomIn": "Mag-zoom in",
+      "fit": "I-fit ang screenshot sa screen",
+      "fitShort": "I-fit",
+      "openOriginal": "Buksan ang orihinal",
+      "items": {
+        "overview": {
+          "label": "Pangkalahatang-ideya ng mga setting",
+          "alt": "Pangkalahatang-ideya ng mga setting ng MyInsta na may control para sa feed, interface, at messaging"
+        },
+        "appearance": {
+          "label": "Hitsura",
+          "alt": "Mga appearance control ng MyInsta para sa theme, font, navigation, suggestion, at messaging"
+        },
+        "download-story": {
+          "label": "I-download ang Story",
+          "alt": "MyInsta Download Story sheet na may mga pagpipilian sa video, larawan, unang frame, audio, at kalidad"
+        },
+        "ghost-mode": {
+          "label": "Ghost Mode",
+          "alt": "Mga setting ng MyInsta Ghost Mode para sa messages, Stories, Live, screenshot, at view-once media"
+        },
+        "unsent-messages": {
+          "label": "Mga unsent message",
+          "alt": "Mga setting ng MyInsta para panatilihin ang mga mensaheng in-unsend ng ibang tao"
+        },
+        "stories": {
+          "label": "Stories",
+          "alt": "Mga control ng MyInsta Stories para tingnan at pamahalaan ang content ng Story"
+        },
+        "instants": {
+          "label": "Instants",
+          "alt": "Mga setting ng MyInsta Instants para sa mas nakatuong karanasan sa pagbabahagi"
+        },
+        "hide-save": {
+          "label": "Hide Save",
+          "alt": "Mga control ng MyInsta Hide Save para hindi mapasama ang piling media sa mga saved view"
+        }
+      }
+    },
+    "metadata": {
+      "title": "{siteName} — Opisyal na site at APK download para sa Android",
+      "description": "I-download ang {siteName} para sa Android, ikumpara ang mga variant ng APK, at basahin ang mga tala ng release at tulong sa pag-install."
+    }
+  },
+  "Blog": {
+    "grid": {
+      "empty": "Wala pang na-publish na kuwento.",
+      "team": "Team ng MyInsta",
+      "unscheduled": "Hindi nakaiskedyul"
+    },
+    "article": {
+      "share": "Ibahagi",
+      "copied": "Nakopya",
+      "copyLink": "Kopyahin ang link"
+    },
+    "metadata": {
+      "title": "Talaarawan",
+      "pageTitle": "Journal · Pahina {page}",
+      "description": "Konteksto ng release ng MyInsta, mga tala ng produkto, paliwanag sa seguridad, at mga praktikal na gabay."
+    },
+    "index": {
+      "eyebrow": "Journal",
+      "title": "Ang kaisipan",
+      "titleAccent": "sa likod ng pagbuo.",
+      "description": "Konteksto ng release, mga desisyon sa produkto, tala sa compatibility, at malinaw na gabay mula sa editorial desk.",
+      "search": "Maghanap sa archive",
+      "categories": "Mga kategorya ng journal",
+      "published": "Mga nailathalang tala",
+      "count": "{total} lahat · pahina {page} sa {pages}",
+      "sort": "Ayusin",
+      "latest": "Pinakabago muna",
+      "oldest": "Pinakaluma muna",
+      "apply": "Ilapat",
+      "pagination": "Pagination ng journal",
+      "previous": "Nakaraan",
+      "next": "Susunod"
+    }
+  },
+  "Releases": {
+    "dateUnavailable": "Hindi available ang petsa",
+    "releaseDateUnavailable": "Hindi available ang petsa ng release",
+    "channels": {
+      "ALL": "Lahat",
+      "STABLE": "Matatag",
+      "BETA": "Beta",
+      "ALPHA": "Alpha",
+      "LEGACY": "Luma"
+    },
+    "breadcrumbs": {
+      "home": "Pangunahing pahina",
+      "releases": "Mga release"
+    },
+    "facts": {
+      "build": "Build",
+      "channel": "Channel",
+      "base": "Base",
+      "androidRequirement": "Kinakailangan sa Android",
+      "buildTarget": "Target ng build",
+      "primaryArchitecture": "Pangunahing arkitektura ng APK"
+    },
+    "index": {
+      "closeChanges": "Isara ang mga pagbabago",
+      "seeChanges": "Tingnan ang mga pagbabago",
+      "latestDownloadHelp": "Pumili ng APK mula sa pinakabagong release.",
+      "noBuild": "Wala pang pampublikong build.",
+      "noBuildDescription": "Lilitaw dito ang release kapag handa na para sa pampublikong pamamahagi ang pangunahing asset nito.",
+      "searchLabel": "Maghanap ng mga release",
+      "searchPlaceholder": "Maghanap ng bersyon, changelog, kilalang problema…",
+      "channelGroup": "Channel ng release",
+      "noMatches": "Walang nailathalang release ang tumutugma sa mga filter na iyon."
+    },
+    "detail": {
+      "allReleases": "Lahat ng release",
+      "current": "Kasalukuyan",
+      "latest": "Pinakabago",
+      "versionBuild": "Bersyon {version} · build {build}",
+      "chooseApk": "Piliin ang iyong APK",
+      "cloneDescription": "gumagamit ng hiwalay na package upang makasabay sa Instagram.",
+      "uncloneDescription": "gumagamit ng orihinal na package; tingnan ang mga conflict at i-back up ang lokal na data bago palitan ang naka-install na app.",
+      "abiDescription": "Itugma sa ABI ng iyong device: ARM64 para sa 64-bit ARM, ARM32 para sa 32-bit ARM, o x86/x86_64 para sa mga katugmang Intel device at emulator. Gamitin ang Universal kapag nakalista ito sa release na ito. Hiwalay ang target ng build sa minimum na kinakailangan ng Android.",
+      "installationHelp": "Tulong sa pag-install at conflict ng package",
+      "noPrimaryAsset": "Walang mada-download na pangunahing asset sa ngayon.",
+      "coverAlt": "Cover ng release na {title}",
+      "experimentalChannel": "Experimental na channel",
+      "alphaWarning": "Maaaring hindi kumpleto ang mga alpha build at inilaan ang mga ito para sa maingat na testing.",
+      "betaWarning": "Maaaring may regression ang mga beta build na wala sa stable channel.",
+      "buildRecord": "Record ng build",
+      "whatChanged": "Ano ang nagbago",
+      "fixedInBuild": "Inayos sa build na ito",
+      "knownIssues": "Mga kilalang problema",
+      "installation": "Pag-install",
+      "upgrade": "Pag-upgrade",
+      "rollbackNotes": "Mga tala sa rollback",
+      "screenshots": "Mga screenshot",
+      "compatibility": "Pagkakatugma",
+      "securityNote": "Tala sa seguridad",
+      "readRelated": "Basahin: {title}",
+      "previous": "Nakaraan v{version}"
+    },
+    "download": {
+      "download": "I-download",
+      "downloadAdFree": "I-download (walang ads)",
+      "openExternal": "Buksan ang external na APK",
+      "downloadSize": "I-download ang {size}",
+      "unavailable": "Hindi maihanda ang download link. Tiyaking available pa ang build at subukan ulit; gumagawa ng bagong signed link sa bawat pag-click.",
+      "apkDownloads": "Mga download ng APK",
+      "unspecifiedAbi": "Hindi tinukoy na ABI",
+      "ariaLabel": "Download: {variant} {abi} {type}",
+      "assetAriaLabel": "Download ng {label}",
+      "external": "external na download",
+      "apk": "download ng APK",
+      "recommended": "Inirerekomenda para sa device na ito",
+      "browserAbi": "Iniulat ng browser ang {abi}. Tingnan kung sinusuportahan ng iyong device ang ABI na ito.",
+      "browserUnknownAbi": "Hindi nag-uulat ng ABI ang iyong browser. Piliin ang Universal kung available o tingnan ang arkitektura ng iyong device.",
+      "otherDownloads": "Iba pang download",
+      "options": "Mga opsyon sa download",
+      "externalDownload": "External na download",
+      "errors": {
+        "notFound": "Hindi nakita ang download",
+        "rateLimited": "Napakaraming pagtatangka sa pag-download",
+        "unavailable": "Pansamantalang hindi available ang download.",
+        "verifying": "Isinasagawa pa ang pag-verify ng download.",
+        "sourceUnavailable": "Hindi na available ang source ng download na ito.",
+        "unsafeSource": "Hindi ligtas buksan ang source ng download na ito.",
+        "prepareFailed": "Hindi maihanda ang download. Subukan muli.",
+        "rangeNotSatisfiable": "Hindi maaaring gamitin ang hiniling na range."
+      }
+    },
+    "verification": {
+      "details": "Mga detalye ng verification",
+      "externalWithChecksum": "External host: ikumpara ang natanggap na file sa inilathalang checksum. Hindi bini-verify ng site na ito ang external na tugon.",
+      "externalWithoutChecksum": "External host: walang inilathalang checksum. Hindi bini-verify ng site na ito ang external na tugon.",
+      "verified": "May nakatalang checksum at pagsusuri ng signing certificate ang nakaimbak na APK. Hindi nito ginagarantiya ang kilos ng app o kaligtasan ng account.",
+      "unverified": "Walang kumpletong record ng pag-verify para sa file na ito.",
+      "noChecksum": "Walang inilathalang checksum para sa file na ito.",
+      "certificateSha256": "SHA-256 ng signing certificate",
+      "copyChecksum": "Kopyahin ang checksum",
+      "copied": "Nakopya",
+      "primaryVerified": "Na-verify ang pangunahing APK",
+      "primaryApk": "Pangunahing APK",
+      "internalRecord": "Internal na record ng pag-verify",
+      "externalDelivery": "External na delivery",
+      "releaseAssetRecord": "Record ng asset ng release",
+      "verifiedShort": "Na-verify ang SHA-256",
+      "availableShort": "Available ang SHA-256",
+      "signingCertificate": "Certificate ng pag-sign"
+    },
+    "notes": {
+      "title": "Mga tala ng release",
+      "empty": "Walang nailathalang tala ng release.",
+      "emptyChangelog": "Walang nailathalang item sa changelog.",
+      "showLess": "Magpakita nang kaunti",
+      "readMore": "Magbasa pa"
+    },
+    "timeline": {
+      "base": "Base {version}",
+      "notSpecified": "hindi tinukoy",
+      "assets": "{count, plural, =0 {Walang asset} one {# asset} other {# asset}}",
+      "hideChangelog": "Itago ang changelog",
+      "showChangelog": "Ipakita ang changelog",
+      "emptyChangelog": "Walang nailathalang item sa changelog para sa release na ito."
+    },
+    "metadata": {
+      "title": "Mga release ng MyInsta — Opisyal na APK download",
+      "description": "Mga opisyal na APK download ng MyInsta para sa Android, na may mga tala ng release, detalye ng compatibility, checksum, at changelog.",
+      "latestTitle": "Pinakabagong release",
+      "latestDescription": "Hanapin ang pinakabagong na-publish na release ng MyInsta at piliin ang iyong APK download.",
+      "detailTitle": "{title} · v{version} — Opisyal na APK download"
+    }
+  },
+  "Search": {
+    "eyebrow": "Hanapin ang record",
+    "title": "Maghanap",
+    "titleAccent": "lahat ng pampubliko.",
+    "inputLabel": "Maghanap ng na-publish na content",
+    "placeholder": "Release, feature, gabay, bersyon…",
+    "disabledPlaceholder": "Kasalukuyang naka-disable ang paghahanap",
+    "resultsCount": "{count, plural, =0 {Walang resulta} one {# resulta para sa “{query}”} other {# resulta para sa “{query}”}}",
+    "noResults": "Walang pampublikong rekord na tumugma sa pariralang iyon.",
+    "shortQuery": "Magsimula gamit ang hindi bababa sa dalawang character. Nag-a-update ang mga resulta habang nagta-type ka; gamitin ang mga arrow key para gumalaw.",
+    "disabled": "Hindi pinagana ng administrator ang pampublikong paghahanap.",
+    "errors": {
+      "tooShort": "Masyadong maikli ang search query.",
+      "tooLong": "Masyadong mahaba ang search query.",
+      "rateLimited": "Pansamantalang nilimitahan ang paghahanap. Subukan muli pagkalipas ng ilang sandali.",
+      "disabled": "Kasalukuyang naka-disable ang paghahanap.",
+      "unavailable": "Pansamantalang hindi available ang paghahanap."
+    },
+    "metadata": {
+      "title": "Maghanap",
+      "description": "Maghanap sa mga release ng MyInsta, post sa journal, at na-publish na pahina."
+    }
+  }
+}

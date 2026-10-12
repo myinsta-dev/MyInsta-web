@@ -1,0 +1,161 @@
+{
+  "hero": {
+    "subheadline": "Gamitin ang Ghost Mode, mag-download ng suportadong media, at piliin kung paano magmumukha ang Instagram.",
+    "intro": "Itago ang read receipt gamit ang Ghost Mode, mag-save ng mga larawan at Stories, at i-customize ang Instagram sa Android.",
+    "headline": "Instagram, ayon sa iyo.",
+    "controls": "Iyong mga control",
+    "publicBuilds": "Mga pampublikong build",
+    "independentDescription": "Ang {applicationName} ay isang independent na Instagram mod para sa Android.",
+    "yourWay": "{applicationName}, sa paraan mo.",
+    "yourWayHighlight": "sa paraan mo."
+  },
+  "actions": {
+    "downloadMyInsta": "I-download ang MyInsta",
+    "browseReleases": "Mag-browse ng mga release",
+    "installationGuide": "Gabay sa pag-install",
+    "seeHowItWorks": "Tingnan kung paano ito gumagana",
+    "viewAppScreen": "Tingnan ang screen ng app",
+    "releaseNotes": "Mga tala ng release"
+  },
+  "sections": {
+    "getStarted": "Magsimula",
+    "makeInstagramWork": "Gawing angkop sa iyo ang Instagram.",
+    "makeInstagramDescription": "Itago ang read receipt, mag-save ng mga larawan at Stories, at piliin kung paano magmumukha ang Instagram.",
+    "commonQuestions": "Mga karaniwang tanong"
+  },
+  "fallbackFeatures": {
+    "privacy": {
+      "title": "Mga kontrol sa privacy",
+      "detail": "Piliin kung ano ang lumalabas sa iyong device",
+      "description": "Mas kontrolin ang read receipt, typing indicator, pagtingin sa Story, at mga senyales ng presensya kung sinusuportahan ito ng kasalukuyang build."
+    },
+    "media": {
+      "title": "Mga media tool",
+      "detail": "Itago ang mahalaga",
+      "description": "Mag-save ng mga suportadong larawan, video, at Stories gamit ang mga control na nakatuon sa content."
+    },
+    "interface": {
+      "title": "Mga pagpipilian sa interface",
+      "detail": "Gawing pamilyar ang app",
+      "description": "Ayusin ang piling layout at detalye ng interaction habang pinananatiling pamilyar ang pangunahing karanasan."
+    }
+  },
+  "features": {
+    "fallbackDescription": "Tingnan ang opsyong ito sa mga setting ng MyInsta. Maaaring mag-iba ang mga available na opsyon ayon sa release."
+  },
+  "steps": {
+    "download": {
+      "title": "I-download ang MyInsta",
+      "withAsset": "Piliin ang v{version}, basahin ang mga tala ng release, at buksan ang link ng APK download nito.",
+      "withoutAsset": "Buksan ang v{version} para basahin ang mga tala ng release at available na opsyon sa download.",
+      "noRelease": "Pumili ng na-publish na release, basahin ang mga tala ng release, at buksan ang mga opsyon sa download nito."
+    },
+    "controls": {
+      "title": "Piliin ang iyong mga control",
+      "description": "Buksan ang mga setting ng MyInsta at piliin ang privacy, download, at appearance na opsyong gusto mong gamitin."
+    },
+    "keepUsing": {
+      "title": "Ipagpatuloy ang paggamit ng Instagram",
+      "description": "Mag-browse sa feed, manood ng Stories, at mag-message sa mga kaibigan gamit ang napili mong setting."
+    }
+  },
+  "facts": {
+    "latestRelease": "Pinakabagong release",
+    "released": "Na-release noong {date}.",
+    "readReleaseNotes": "Basahin ang mga tala ng release para sa build na ito.",
+    "download": "I-download",
+    "externalDownload": "External na pahina ng download",
+    "apkDownload": "Download ng APK",
+    "releaseDetails": "Mga detalye ng release",
+    "openFileHost": "Buksan ang file host na naka-link sa release na ito para makuha ang APK.",
+    "getApk": "Kunin ang APK gamit ang download link ng release na ito.",
+    "availableFiles": "Basahin ang mga tala ng release para sa mga available na file at requirement.",
+    "compatibility": "Pagkakatugma",
+    "deviceRequirements": "Tingnan ang mga tala ng release para sa requirement ng device."
+  },
+  "proofs": {
+    "latestTitle": "I-download ang pinakabagong MyInsta.",
+    "releasesTitle": "Hanapin ang mga release ng MyInsta.",
+    "description": "Basahin ang mga tala ng release at requirement ng Android bago pumili ng download.",
+    "noRelease": "Lilitaw ang mga bagong build sa pahina ng mga release kapag available na ang mga ito.",
+    "chooseDownload": "Piliin ang iyong APK at opsyon sa download sa pahina ng release."
+  },
+  "faq": {
+    "fallbackAnswer": "Tingnan ang kaugnay na record ng release o makipag-ugnayan sa suporta para sa kasalukuyang sagot.",
+    "moreQuestions": "May mga tanong ka pa? Narito kami para tumulong."
+  },
+  "journal": {
+    "eyebrow": "Mula sa journal",
+    "title": "Mga tala na sulit itago.",
+    "category": "Talaarawan",
+    "readingTime": "{minutes} minutong pagbasa"
+  },
+  "cta": {
+    "stable": "Stable na v{version}",
+    "appForAndroid": "{applicationName} para sa Android",
+    "title": "Handa ka bang gawing iyo ang Instagram?",
+    "latestPublished": "Na-publish ang pinakabagong stable release noong {date}"
+  },
+  "aria": {
+    "featureIllustrations": "Mga illustration ng feature ng MyInsta",
+    "featureScreenshot": "Tingnan nang fullscreen ang screenshot ng {feature}",
+    "appScreenshots": "Mga screenshot ng MyInsta app",
+    "screenshotFullscreen": "Tingnan nang fullscreen ang screenshot ng {label}"
+  },
+  "screenshots": {
+    "title": "Silipin ang loob.",
+    "description": "Mga aktuwal na screen mula sa MyInsta. Mag-swipe para mag-explore, o mag-tap ng screen para mas makita ito.",
+    "carousel": "carousel",
+    "viewFullscreen": "Tingnan nang fullscreen",
+    "previous": "Nakaraang screenshot",
+    "resume": "Ipatuloy ang awtomatikong mga screenshot",
+    "pause": "I-pause ang awtomatikong mga screenshot",
+    "next": "Susunod na screenshot",
+    "interval": "Nagbabago bawat 8 segundo",
+    "choose": "Pumili ng screenshot",
+    "viewerDescription": "Buong screenshot. Gamitin ang mga zoom control para sa detalye, mag-swipe o gamitin ang mga arrow button para magpalit ng screen, at pindutin ang Escape para magsara.",
+    "zoomOut": "Mag-zoom out",
+    "zoomIn": "Mag-zoom in",
+    "fit": "I-fit ang screenshot sa screen",
+    "fitShort": "I-fit",
+    "openOriginal": "Buksan ang orihinal",
+    "items": {
+      "overview": {
+        "label": "Pangkalahatang-ideya ng mga setting",
+        "alt": "Pangkalahatang-ideya ng mga setting ng MyInsta na may control para sa feed, interface, at messaging"
+      },
+      "appearance": {
+        "label": "Hitsura",
+        "alt": "Mga appearance control ng MyInsta para sa theme, font, navigation, suggestion, at messaging"
+      },
+      "download-story": {
+        "label": "I-download ang Story",
+        "alt": "MyInsta Download Story sheet na may mga pagpipilian sa video, larawan, unang frame, audio, at kalidad"
+      },
+      "ghost-mode": {
+        "label": "Ghost Mode",
+        "alt": "Mga setting ng MyInsta Ghost Mode para sa messages, Stories, Live, screenshot, at view-once media"
+      },
+      "unsent-messages": {
+        "label": "Mga unsent message",
+        "alt": "Mga setting ng MyInsta para panatilihin ang mga mensaheng in-unsend ng ibang tao"
+      },
+      "stories": {
+        "label": "Stories",
+        "alt": "Mga control ng MyInsta Stories para tingnan at pamahalaan ang content ng Story"
+      },
+      "instants": {
+        "label": "Instants",
+        "alt": "Mga setting ng MyInsta Instants para sa mas nakatuong karanasan sa pagbabahagi"
+      },
+      "hide-save": {
+        "label": "Hide Save",
+        "alt": "Mga control ng MyInsta Hide Save para hindi mapasama ang piling media sa mga saved view"
+      }
+    }
+  },
+  "metadata": {
+    "title": "{siteName} — Opisyal na site at APK download para sa Android",
+    "description": "I-download ang {siteName} para sa Android, ikumpara ang mga variant ng APK, at basahin ang mga tala ng release at tulong sa pag-install."
+  }
+}

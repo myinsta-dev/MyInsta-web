@@ -1,0 +1,437 @@
+{
+  "Common": {
+    "navigation": {
+      "features": "Fitur",
+      "releases": "Rilis",
+      "journal": "Jurnal",
+      "support": "Dukungan",
+      "product": "Produk",
+      "menu": "Menu"
+    },
+    "status": {
+      "latest": "Terbaru",
+      "unavailable": "Tidak tersedia"
+    },
+    "actions": {
+      "downloadVersionPrefix": "Unduh v",
+      "viewReleases": "Lihat rilis"
+    },
+    "aria": {
+      "primaryNavigation": "Navigasi utama",
+      "home": "Beranda {siteName}",
+      "openMenu": "Buka menu navigasi",
+      "closeMenu": "Tutup menu navigasi",
+      "socialLinks": "Tautan sosial",
+      "legal": "Hukum"
+    },
+    "language": {
+      "label": "Bahasa",
+      "en": "English",
+      "hi": "Hindi",
+      "pt-BR": "Português (Brasil)",
+      "es": "Español",
+      "id": "Bahasa Indonesia",
+      "tr": "Türkçe",
+      "fil": "Filipino",
+      "de": "Deutsch",
+      "fr": "Français",
+      "ar": "العربية",
+      "ru": "Русский",
+      "bn": "বাংলা",
+      "ja": "日本語",
+      "ko": "한국어"
+    },
+    "newsletter": {
+      "emailAddress": "Alamat email",
+      "emailPlaceholder": "you@example.com",
+      "join": "Ikuti catatan rilis",
+      "joining": "Sedang berlangganan…",
+      "checkInbox": "Periksa kotak masuk Anda",
+      "subscriptionStarted": "Langganan dimulai. Periksa kotak masuk Anda untuk mengonfirmasi.",
+      "subscriptionUnavailable": "Langganan saat ini tidak tersedia karena pengiriman email dinonaktifkan atau belum dikonfigurasi.",
+      "subscriptionFailed": "Langganan gagal. Silakan coba lagi.",
+      "unavailable": "Notifikasi rilis saat ini tidak tersedia.",
+      "paused": "Notifikasi rilis saat ini dijeda."
+    },
+    "footer": {
+      "description": "Pembaruan, rilis, dan sumber dukungan {siteName} di satu tempat.",
+      "us": "Kami",
+      "reachOutLine1": "Hubungi",
+      "reachOutLine2": "Kami",
+      "unaffiliated": "myinsta.dev adalah situs resmi MyInsta. myinsta.app tidak berafiliasi dengan MyInsta."
+    },
+    "legal": {
+      "privacy": "Privasi",
+      "terms": "Ketentuan"
+    },
+    "community": {
+      "ariaLabel": "Bergabung dengan komunitas MyInsta",
+      "join": "Bergabung di {platform} kami"
+    },
+    "theme": {
+      "colorTheme": "Tema warna",
+      "change": "Ubah tema warna",
+      "systemTheme": "Tema sistem ({resolved})",
+      "current": "Tema {theme}",
+      "switch": "Beralih ke tema {theme}",
+      "light": "Terang",
+      "dark": "Gelap",
+      "system": "Sistem"
+    },
+    "metadata": {
+      "skipToContent": "Lewati ke konten",
+      "privacyTitle": "Kebijakan privasi",
+      "privacyDescription": "Cara MyInsta menangani analitik situs web, permintaan aplikasi, dan keaslian rilis."
+    }
+  },
+  "Home": {
+    "hero": {
+      "subheadline": "Gunakan Ghost Mode, unduh media yang didukung, dan pilih tampilan Instagram.",
+      "intro": "Sembunyikan tanda sudah dibaca dengan Ghost Mode, simpan foto dan Stories, lalu sesuaikan Instagram di Android.",
+      "headline": "Instagram, sesuai gaya Anda.",
+      "controls": "Kontrol Anda",
+      "publicBuilds": "Build publik",
+      "independentDescription": "{applicationName} adalah mod Instagram independen untuk Android.",
+      "yourWay": "{applicationName}, sesuai cara Anda.",
+      "yourWayHighlight": "sesuai cara Anda."
+    },
+    "actions": {
+      "downloadMyInsta": "Unduh MyInsta",
+      "browseReleases": "Jelajahi rilis",
+      "installationGuide": "Panduan instalasi",
+      "seeHowItWorks": "Lihat cara kerjanya",
+      "viewAppScreen": "Lihat layar aplikasi",
+      "releaseNotes": "Catatan rilis"
+    },
+    "sections": {
+      "getStarted": "Mulai",
+      "makeInstagramWork": "Jadikan Instagram sesuai kebutuhan Anda.",
+      "makeInstagramDescription": "Sembunyikan tanda sudah dibaca, simpan foto dan Stories, lalu pilih tampilan Instagram.",
+      "commonQuestions": "Pertanyaan umum"
+    },
+    "fallbackFeatures": {
+      "privacy": {
+        "title": "Kontrol privasi",
+        "detail": "Pilih apa yang keluar dari perangkat Anda",
+        "description": "Kendalikan tanda sudah dibaca, indikator mengetik, tampilan Story, dan sinyal kehadiran dengan lebih baik jika build saat ini mendukungnya."
+      },
+      "media": {
+        "title": "Alat media",
+        "detail": "Simpan hal yang penting",
+        "description": "Simpan foto, video, dan Stories yang didukung melalui kontrol yang dirancang agar tetap dekat dengan konten."
+      },
+      "interface": {
+        "title": "Pilihan antarmuka",
+        "detail": "Buat aplikasi terasa familier",
+        "description": "Sesuaikan detail tata letak dan interaksi tertentu tanpa mengubah pengalaman utama yang sudah dikenal."
+      }
+    },
+    "features": {
+      "fallbackDescription": "Jelajahi opsi ini di pengaturan MyInsta. Opsi yang tersedia dapat berbeda pada setiap rilis."
+    },
+    "steps": {
+      "download": {
+        "title": "Unduh MyInsta",
+        "withAsset": "Pilih v{version}, baca catatan rilis, lalu buka tautan unduhan APK-nya.",
+        "withoutAsset": "Buka v{version} untuk membaca catatan rilis dan opsi unduhan yang tersedia.",
+        "noRelease": "Pilih rilis yang dipublikasikan, baca catatan rilis, lalu buka opsi unduhannya."
+      },
+      "controls": {
+        "title": "Pilih kontrol Anda",
+        "description": "Buka pengaturan MyInsta, lalu pilih opsi privasi, unduhan, dan tampilan yang ingin Anda gunakan."
+      },
+      "keepUsing": {
+        "title": "Terus gunakan Instagram",
+        "description": "Jelajahi feed, tonton Stories, dan kirim pesan kepada teman dengan pengaturan yang Anda pilih."
+      }
+    },
+    "facts": {
+      "latestRelease": "Rilis terbaru",
+      "released": "Dirilis {date}.",
+      "readReleaseNotes": "Baca catatan rilis untuk build ini.",
+      "download": "Unduh",
+      "externalDownload": "Halaman unduhan eksternal",
+      "apkDownload": "Unduhan APK",
+      "releaseDetails": "Detail rilis",
+      "openFileHost": "Buka host file yang ditautkan ke rilis ini untuk mendapatkan APK.",
+      "getApk": "Dapatkan APK menggunakan tautan unduhan rilis ini.",
+      "availableFiles": "Baca catatan rilis untuk melihat file dan persyaratan yang tersedia.",
+      "compatibility": "Kompatibilitas",
+      "deviceRequirements": "Periksa catatan rilis untuk mengetahui persyaratan perangkat."
+    },
+    "proofs": {
+      "latestTitle": "Unduh MyInsta terbaru.",
+      "releasesTitle": "Temukan rilis MyInsta.",
+      "description": "Periksa catatan rilis dan persyaratan Android sebelum memilih unduhan.",
+      "noRelease": "Build baru akan muncul di halaman rilis saat tersedia.",
+      "chooseDownload": "Pilih APK dan opsi unduhan Anda di halaman rilis."
+    },
+    "faq": {
+      "fallbackAnswer": "Lihat catatan rilis yang relevan atau hubungi dukungan untuk mendapatkan jawaban terbaru.",
+      "moreQuestions": "Masih punya pertanyaan? Kami siap membantu."
+    },
+    "journal": {
+      "eyebrow": "Dari jurnal",
+      "title": "Catatan yang layak disimpan.",
+      "category": "Jurnal",
+      "readingTime": "Waktu baca {minutes} menit"
+    },
+    "cta": {
+      "stable": "Stabil v{version}",
+      "appForAndroid": "{applicationName} untuk Android",
+      "title": "Siap membuat Instagram terasa seperti milik Anda?",
+      "latestPublished": "Rilis stabil terbaru dipublikasikan pada {date}"
+    },
+    "aria": {
+      "featureIllustrations": "Ilustrasi fitur MyInsta",
+      "featureScreenshot": "Lihat tangkapan layar {feature} dalam layar penuh",
+      "appScreenshots": "Tangkapan layar aplikasi MyInsta",
+      "screenshotFullscreen": "Lihat tangkapan layar {label} dalam layar penuh"
+    },
+    "screenshots": {
+      "title": "Lihat bagian dalamnya.",
+      "description": "Tampilan nyata dari MyInsta. Geser untuk menjelajah atau ketuk layar untuk melihat lebih dekat.",
+      "carousel": "karusel",
+      "viewFullscreen": "Lihat layar penuh",
+      "previous": "Tangkapan layar sebelumnya",
+      "resume": "Lanjutkan tangkapan layar otomatis",
+      "pause": "Jeda tangkapan layar otomatis",
+      "next": "Tangkapan layar berikutnya",
+      "interval": "Berubah setiap 8 detik",
+      "choose": "Pilih tangkapan layar",
+      "viewerDescription": "Tangkapan layar penuh. Gunakan kontrol zoom untuk melihat detail, geser atau gunakan tombol panah untuk mengganti layar, lalu tekan Escape untuk menutup.",
+      "zoomOut": "Perkecil",
+      "zoomIn": "Perbesar",
+      "fit": "Sesuaikan tangkapan layar dengan layar",
+      "fitShort": "Sesuaikan",
+      "openOriginal": "Buka versi asli",
+      "items": {
+        "overview": {
+          "label": "Ringkasan pengaturan",
+          "alt": "Ringkasan pengaturan MyInsta dengan kontrol untuk feed, antarmuka, dan pesan"
+        },
+        "appearance": {
+          "label": "Tampilan",
+          "alt": "Kontrol tampilan MyInsta untuk tema, font, navigasi, saran, dan pesan"
+        },
+        "download-story": {
+          "label": "Unduh Story",
+          "alt": "Lembar Download Story MyInsta dengan pilihan video, foto, frame pertama, audio, dan kualitas"
+        },
+        "ghost-mode": {
+          "label": "Ghost Mode",
+          "alt": "Pengaturan Ghost Mode MyInsta untuk pesan, Stories, Live, tangkapan layar, dan media sekali lihat"
+        },
+        "unsent-messages": {
+          "label": "Pesan yang Dibatalkan Pengirimannya",
+          "alt": "Pengaturan MyInsta untuk menyimpan pesan yang dibatalkan pengirimannya oleh orang lain"
+        },
+        "stories": {
+          "label": "Stories",
+          "alt": "Kontrol Stories MyInsta untuk melihat dan mengelola konten Story"
+        },
+        "instants": {
+          "label": "Instants",
+          "alt": "Pengaturan Instants MyInsta untuk pengalaman berbagi yang fokus"
+        },
+        "hide-save": {
+          "label": "Hide Save",
+          "alt": "Kontrol Hide Save MyInsta untuk menyembunyikan media tertentu dari tampilan tersimpan"
+        }
+      }
+    },
+    "metadata": {
+      "title": "{siteName} — Situs Resmi & Unduhan APK untuk Android",
+      "description": "Unduh {siteName} untuk Android, bandingkan varian APK, lalu baca catatan rilis dan bantuan instalasi."
+    }
+  },
+  "Blog": {
+    "grid": {
+      "empty": "Belum ada cerita yang diterbitkan.",
+      "team": "Tim MyInsta",
+      "unscheduled": "Belum dijadwalkan"
+    },
+    "article": {
+      "share": "Bagikan",
+      "copied": "Disalin",
+      "copyLink": "Salin tautan"
+    },
+    "metadata": {
+      "title": "Jurnal",
+      "pageTitle": "Jurnal · Halaman {page}",
+      "description": "Konteks rilis MyInsta, catatan produk, penjelasan keamanan, dan panduan praktis."
+    },
+    "index": {
+      "eyebrow": "Jurnal",
+      "title": "Pemikiran",
+      "titleAccent": "di balik pembuatannya.",
+      "description": "Konteks rilis, keputusan produk, catatan kompatibilitas, dan panduan langsung dari meja editorial.",
+      "search": "Cari di arsip",
+      "categories": "Kategori jurnal",
+      "published": "Catatan terbitan",
+      "count": "{total} total · halaman {page} dari {pages}",
+      "sort": "Urutkan",
+      "latest": "Terbaru dulu",
+      "oldest": "Terlama dulu",
+      "apply": "Terapkan",
+      "pagination": "Paginasi jurnal",
+      "previous": "Sebelumnya",
+      "next": "Berikutnya"
+    }
+  },
+  "Releases": {
+    "dateUnavailable": "Tanggal tidak tersedia",
+    "releaseDateUnavailable": "Tanggal rilis tidak tersedia",
+    "channels": {
+      "ALL": "Semua",
+      "STABLE": "Stabil",
+      "BETA": "Beta",
+      "ALPHA": "Alfa",
+      "LEGACY": "Lama"
+    },
+    "breadcrumbs": {
+      "home": "Beranda",
+      "releases": "Rilis"
+    },
+    "facts": {
+      "build": "Build",
+      "channel": "Saluran",
+      "base": "Basis",
+      "androidRequirement": "Persyaratan Android",
+      "buildTarget": "Target build",
+      "primaryArchitecture": "Arsitektur APK utama"
+    },
+    "index": {
+      "closeChanges": "Tutup perubahan",
+      "seeChanges": "Lihat perubahan",
+      "latestDownloadHelp": "Pilih APK dari rilis terbaru.",
+      "noBuild": "Belum ada build publik.",
+      "noBuildDescription": "Rilis akan muncul di sini saat aset utamanya siap didistribusikan secara publik.",
+      "searchLabel": "Cari rilis",
+      "searchPlaceholder": "Cari versi, changelog, atau masalah yang diketahui…",
+      "channelGroup": "Saluran rilis",
+      "noMatches": "Tidak ada rilis yang dipublikasikan dan cocok dengan filter tersebut."
+    },
+    "detail": {
+      "allReleases": "Semua rilis",
+      "current": "Saat ini",
+      "latest": "Terbaru",
+      "versionBuild": "Versi {version} · build {build}",
+      "chooseApk": "Pilih APK Anda",
+      "cloneDescription": "menggunakan paket terpisah agar dapat berjalan berdampingan dengan Instagram.",
+      "uncloneDescription": "menggunakan paket asli; periksa konflik dan cadangkan data lokal sebelum mengganti aplikasi yang terpasang.",
+      "abiDescription": "Cocokkan ABI perangkat Anda: ARM64 untuk ARM 64-bit, ARM32 untuk ARM 32-bit, atau x86/x86_64 untuk perangkat Intel dan emulator yang kompatibel. Gunakan Universal hanya jika tercantum pada rilis ini. Target build terpisah dari persyaratan minimum Android.",
+      "installationHelp": "Bantuan instalasi dan konflik paket",
+      "noPrimaryAsset": "Aset utama yang dapat diunduh saat ini tidak tersedia.",
+      "coverAlt": "Sampul rilis {title}",
+      "experimentalChannel": "Saluran eksperimental",
+      "alphaWarning": "Build alpha mungkin belum lengkap dan ditujukan untuk pengujian yang disengaja.",
+      "betaWarning": "Build beta mungkin memiliki regresi yang tidak ada di saluran stabil.",
+      "buildRecord": "Catatan build",
+      "whatChanged": "Yang berubah",
+      "fixedInBuild": "Diperbaiki di build ini",
+      "knownIssues": "Masalah yang diketahui",
+      "installation": "Instalasi",
+      "upgrade": "Pembaruan",
+      "rollbackNotes": "Catatan rollback",
+      "screenshots": "Tangkapan layar",
+      "compatibility": "Kompatibilitas",
+      "securityNote": "Catatan keamanan",
+      "readRelated": "Baca: {title}",
+      "previous": "Sebelumnya v{version}"
+    },
+    "download": {
+      "download": "Unduh",
+      "downloadAdFree": "Unduh (tanpa iklan)",
+      "openExternal": "Buka APK eksternal",
+      "downloadSize": "Unduh {size}",
+      "unavailable": "Tautan unduhan tidak dapat disiapkan. Pastikan build masih tersedia, lalu coba lagi; tautan bertanda tangan baru dibuat setiap kali Anda mengeklik.",
+      "apkDownloads": "Unduhan APK",
+      "unspecifiedAbi": "ABI tidak ditentukan",
+      "ariaLabel": "{variant} {abi} {type}",
+      "assetAriaLabel": "Unduhan {label}",
+      "external": "unduhan eksternal",
+      "apk": "Unduhan APK",
+      "recommended": "Direkomendasikan untuk perangkat ini",
+      "browserAbi": "Browser melaporkan {abi}. Pastikan perangkat Anda mendukung ABI ini.",
+      "browserUnknownAbi": "Browser Anda tidak melaporkan ABI. Pilih Universal jika tersedia, atau periksa arsitektur perangkat Anda.",
+      "otherDownloads": "Unduhan lainnya",
+      "options": "Opsi unduhan",
+      "externalDownload": "Unduhan eksternal",
+      "errors": {
+        "notFound": "Unduhan tidak ditemukan",
+        "rateLimited": "Terlalu banyak percobaan unduhan",
+        "unavailable": "Unduhan sedang tidak tersedia untuk sementara.",
+        "verifying": "Verifikasi unduhan masih berlangsung.",
+        "sourceUnavailable": "Sumber unduhan ini tidak lagi tersedia.",
+        "unsafeSource": "Sumber unduhan ini tidak aman untuk dibuka.",
+        "prepareFailed": "Unduhan tidak dapat disiapkan. Silakan coba lagi.",
+        "rangeNotSatisfiable": "Rentang yang diminta tidak dapat dipenuhi."
+      }
+    },
+    "verification": {
+      "details": "Detail verifikasi",
+      "externalWithChecksum": "Host eksternal: bandingkan file yang Anda terima dengan checksum yang dipublikasikan. Situs ini tidak memverifikasi respons eksternal.",
+      "externalWithoutChecksum": "Host eksternal: tidak ada checksum yang dipublikasikan. Situs ini tidak memverifikasi respons eksternal.",
+      "verified": "APK yang tersimpan memiliki checksum tercatat dan pemeriksaan sertifikat penandatanganan. Ini tidak menjamin perilaku aplikasi atau keamanan akun.",
+      "unverified": "Tidak ada catatan verifikasi lengkap untuk file ini.",
+      "noChecksum": "Tidak ada checksum yang dipublikasikan untuk file ini.",
+      "certificateSha256": "SHA-256 sertifikat penandatanganan",
+      "copyChecksum": "Salin checksum",
+      "copied": "Disalin",
+      "primaryVerified": "APK utama terverifikasi",
+      "primaryApk": "APK utama",
+      "internalRecord": "Catatan verifikasi internal",
+      "externalDelivery": "Pengiriman eksternal",
+      "releaseAssetRecord": "Catatan aset rilis",
+      "verifiedShort": "SHA-256 terverifikasi",
+      "availableShort": "SHA-256 tersedia",
+      "signingCertificate": "Sertifikat penandatanganan"
+    },
+    "notes": {
+      "title": "Catatan rilis",
+      "empty": "Tidak ada catatan rilis yang dipublikasikan.",
+      "emptyChangelog": "Tidak ada item changelog yang dipublikasikan.",
+      "showLess": "Tampilkan lebih sedikit",
+      "readMore": "Baca selengkapnya"
+    },
+    "timeline": {
+      "base": "Basis {version}",
+      "notSpecified": "tidak ditentukan",
+      "assets": "{count, plural, =0 {Tidak ada aset} one {# aset} other {# aset}}",
+      "hideChangelog": "Sembunyikan changelog",
+      "showChangelog": "Tampilkan changelog",
+      "emptyChangelog": "Tidak ada item changelog yang dipublikasikan untuk rilis ini."
+    },
+    "metadata": {
+      "title": "Rilis MyInsta — Unduhan APK Resmi",
+      "description": "Unduhan APK MyInsta resmi untuk Android, dengan catatan rilis, detail kompatibilitas, checksum, dan changelog.",
+      "latestTitle": "Rilis terbaru",
+      "latestDescription": "Temukan rilis MyInsta terbaru yang dipublikasikan dan pilih unduhan APK Anda.",
+      "detailTitle": "{title} · v{version} — Unduhan APK Resmi"
+    }
+  },
+  "Search": {
+    "eyebrow": "Temukan catatan",
+    "title": "Cari",
+    "titleAccent": "semua yang publik.",
+    "inputLabel": "Cari konten yang diterbitkan",
+    "placeholder": "Rilis, fitur, panduan, versi…",
+    "disabledPlaceholder": "Pencarian saat ini dinonaktifkan",
+    "resultsCount": "{count, plural, =0 {Tidak ada hasil} one {# hasil untuk “{query}”} other {# hasil untuk “{query}”}}",
+    "noResults": "Tidak ada catatan publik yang cocok dengan frasa itu.",
+    "shortQuery": "Mulai dengan setidaknya dua karakter. Hasil diperbarui saat Anda mengetik; gunakan tombol panah untuk berpindah.",
+    "disabled": "Pencarian publik telah dinonaktifkan oleh administrator.",
+    "errors": {
+      "tooShort": "Kueri pencarian terlalu pendek.",
+      "tooLong": "Kueri pencarian terlalu panjang.",
+      "rateLimited": "Pencarian dibatasi sementara karena terlalu banyak permintaan. Silakan coba lagi sebentar.",
+      "disabled": "Pencarian saat ini dinonaktifkan.",
+      "unavailable": "Pencarian sedang tidak tersedia untuk sementara."
+    },
+    "metadata": {
+      "title": "Cari",
+      "description": "Cari rilis MyInsta, posting jurnal, dan halaman yang dipublikasikan."
+    }
+  }
+}

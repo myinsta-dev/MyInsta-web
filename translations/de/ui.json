@@ -1,0 +1,437 @@
+{
+  "Common": {
+    "navigation": {
+      "features": "Funktionen",
+      "releases": "Veröffentlichungen",
+      "journal": "Journal",
+      "support": "Support",
+      "product": "Produkt",
+      "menu": "Menü"
+    },
+    "status": {
+      "latest": "Neueste",
+      "unavailable": "Nicht verfügbar"
+    },
+    "actions": {
+      "downloadVersionPrefix": "v herunterladen",
+      "viewReleases": "Veröffentlichungen ansehen"
+    },
+    "aria": {
+      "primaryNavigation": "Primäre Navigation",
+      "home": "{siteName}-Startseite",
+      "openMenu": "Navigationsmenü öffnen",
+      "closeMenu": "Navigationsmenü schließen",
+      "socialLinks": "Soziale Links",
+      "legal": "Rechtliches"
+    },
+    "language": {
+      "label": "Sprache",
+      "en": "Englisch",
+      "hi": "Hindi",
+      "pt-BR": "Português (Brasilien)",
+      "es": "Spanisch",
+      "id": "Bahasa Indonesien",
+      "tr": "Türkçe",
+      "fil": "Philippinisch",
+      "de": "Deutsch",
+      "fr": "Französisch",
+      "ar": "العربية",
+      "ru": "Russisch",
+      "bn": "বাংলা",
+      "ja": "日本語",
+      "ko": "한국어"
+    },
+    "newsletter": {
+      "emailAddress": "E-Mail-Adresse",
+      "emailPlaceholder": "you@example.com",
+      "join": "Release-Notizen abonnieren",
+      "joining": "Beitritt…",
+      "checkInbox": "Überprüfen Sie Ihren Posteingang",
+      "subscriptionStarted": "Das Abonnement wurde gestartet. Überprüfen Sie zur Bestätigung Ihren Posteingang.",
+      "subscriptionUnavailable": "Abonnements sind derzeit nicht verfügbar, da die E-Mail-Zustellung deaktiviert oder nicht konfiguriert ist.",
+      "subscriptionFailed": "Das Abonnement ist fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "unavailable": "Veröffentlichungsbenachrichtigungen sind derzeit nicht verfügbar.",
+      "paused": "Veröffentlichungsbenachrichtigungen sind derzeit pausiert."
+    },
+    "footer": {
+      "description": "{siteName} Updates, Releases und Support-Ressourcen an einem Ort.",
+      "us": "Wir",
+      "reachOutLine1": "Kontakt",
+      "reachOutLine2": "zu uns",
+      "unaffiliated": "myinsta.dev ist die offizielle MyInsta-Seite. myinsta.app ist nicht mit MyInsta verbunden."
+    },
+    "legal": {
+      "privacy": "Datenschutz",
+      "terms": "Bedingungen"
+    },
+    "community": {
+      "ariaLabel": "Der MyInsta-Community beitreten",
+      "join": "Treten Sie unserem {platform} bei"
+    },
+    "theme": {
+      "colorTheme": "Farbthema",
+      "change": "Farbthema ändern",
+      "systemTheme": "Systemthema ({resolved})",
+      "current": "{theme}-Design",
+      "switch": "Zu {theme}-Design wechseln",
+      "light": "Hell",
+      "dark": "Dunkel",
+      "system": "System"
+    },
+    "metadata": {
+      "skipToContent": "Zum Inhalt springen",
+      "privacyTitle": "Datenschutzrichtlinie",
+      "privacyDescription": "Wie MyInsta mit Website-Analysen, App-Anfragen und Release-Authentizität umgeht."
+    }
+  },
+  "Home": {
+    "hero": {
+      "subheadline": "Verwenden Sie Ghost Mode, laden Sie unterstützte Medien herunter und wählen Sie aus, wie Instagram aussehen soll.",
+      "intro": "Verstecken Sie Lesebestätigungen mit Ghost Mode, speichern Sie Fotos und Stories und passen Sie Instagram auf Android an.",
+      "headline": "Instagram, ganz nach deinen Vorstellungen.",
+      "controls": "Deine Einstellungen",
+      "publicBuilds": "Öffentliche Builds",
+      "independentDescription": "{applicationName} ist ein unabhängiger Instagram-Mod für Android.",
+      "yourWay": "{applicationName}, ganz nach deinem Geschmack.",
+      "yourWayHighlight": "ganz nach deinem Geschmack."
+    },
+    "actions": {
+      "downloadMyInsta": "Laden Sie MyInsta herunter",
+      "browseReleases": "Veröffentlichungen durchsuchen",
+      "installationGuide": "Installationsanleitung",
+      "seeHowItWorks": "Sehen Sie, wie es funktioniert",
+      "viewAppScreen": "App-Bildschirm anzeigen",
+      "releaseNotes": "Versionshinweise"
+    },
+    "sections": {
+      "getStarted": "Erste Schritte",
+      "makeInstagramWork": "Lassen Sie Instagram für sich arbeiten.",
+      "makeInstagramDescription": "Lesebestätigungen ausblenden, Fotos und Stories speichern und auswählen, wie Instagram aussehen soll.",
+      "commonQuestions": "Häufige Fragen"
+    },
+    "fallbackFeatures": {
+      "privacy": {
+        "title": "Datenschutzeinstellungen",
+        "detail": "Wählen Sie, was Ihr Gerät verlässt",
+        "description": "Behalten Sie Lesebestätigungen, Tippanzeigen, Story-Ansichten und Anwesenheitssignale unter genauerer Kontrolle, sofern der aktuelle Build sie unterstützt."
+      },
+      "media": {
+        "title": "Medienwerkzeuge",
+        "detail": "Behalten Sie, was wichtig ist",
+        "description": "Speichern Sie unterstützte Fotos, Videos und Stories über Steuerelemente, die darauf ausgelegt sind, nah am Inhalt zu bleiben."
+      },
+      "interface": {
+        "title": "Oberflächenoptionen",
+        "detail": "Machen Sie die App vertraut",
+        "description": "Passen Sie ausgewählte Layout- und Interaktionsdetails an und sorgen Sie dabei dafür, dass das Kernerlebnis erkennbar bleibt."
+      }
+    },
+    "features": {
+      "fallbackDescription": "Entdecken Sie diese Option in den MyInsta-Einstellungen. Die verfügbaren Optionen können je nach Version variieren."
+    },
+    "steps": {
+      "download": {
+        "title": "Laden Sie MyInsta herunter",
+        "withAsset": "Wählen Sie v{version}, lesen Sie die Release-Notizen und öffnen Sie den APK-Download-Link.",
+        "withoutAsset": "Öffnen Sie v{version}, um die Release-Notizen und verfügbaren Download-Optionen zu lesen.",
+        "noRelease": "Wählen Sie eine veröffentlichte Version, lesen Sie die Release-Notizen und öffnen Sie die Download-Optionen."
+      },
+      "controls": {
+        "title": "Wählen Sie Ihre Einstellungen",
+        "description": "Öffnen Sie die MyInsta-Einstellungen und wählen Sie die Datenschutz-, Download- und Darstellungsoptionen aus, die Sie verwenden möchten."
+      },
+      "keepUsing": {
+        "title": "Verwenden Sie weiterhin Instagram",
+        "description": "Durchsuchen Sie Ihren Feed, schauen Sie sich Stories an und senden Sie mit den von Ihnen gewählten Einstellungen Nachrichten an Freunde."
+      }
+    },
+    "facts": {
+      "latestRelease": "Neueste Veröffentlichung",
+      "released": "Veröffentlicht am {date}.",
+      "readReleaseNotes": "Lesen Sie die Release-Notizen für diesen Build.",
+      "download": "Herunterladen",
+      "externalDownload": "Externe Downloadseite",
+      "apkDownload": "APK herunterladen",
+      "releaseDetails": "Veröffentlichungsdetails",
+      "openFileHost": "Öffnen Sie den mit dieser Veröffentlichung verknüpften Dateihost, um die APK abzurufen.",
+      "getApk": "Laden Sie die APK über den Download-Link dieser Veröffentlichung herunter.",
+      "availableFiles": "Lesen Sie die Versionshinweise zu den verfügbaren Dateien und Anforderungen.",
+      "compatibility": "Kompatibilität",
+      "deviceRequirements": "Die Geräteanforderungen finden Sie in den Versionshinweisen."
+    },
+    "proofs": {
+      "latestTitle": "Laden Sie die neueste MyInsta herunter.",
+      "releasesTitle": "Finden Sie MyInsta-Versionen.",
+      "description": "Überprüfen Sie die Versionshinweise und Android-Anforderungen, bevor Sie einen Download auswählen.",
+      "noRelease": "Neue Builds erscheinen auf der Veröffentlichungsseite, sobald sie verfügbar sind.",
+      "chooseDownload": "Wählen Sie auf der Veröffentlichungsseite Ihre APK und Download-Option."
+    },
+    "faq": {
+      "fallbackAnswer": "Die aktuelle Antwort finden Sie im entsprechenden Release-Datensatz oder wenden Sie sich an den Support.",
+      "moreQuestions": "Sie haben noch Fragen? Wir sind hier, um zu helfen."
+    },
+    "journal": {
+      "eyebrow": "Aus dem Journal",
+      "title": "Notizen, die es wert sind, aufbewahrt zu werden.",
+      "category": "Journal",
+      "readingTime": "{minutes} Min. gelesen"
+    },
+    "cta": {
+      "stable": "Stabil v{version}",
+      "appForAndroid": "{applicationName} für Android",
+      "title": "Sind Sie bereit, Instagram das Gefühl zu geben, dass es Ihnen gehört?",
+      "latestPublished": "Neueste stabile Version veröffentlicht am {date}"
+    },
+    "aria": {
+      "featureIllustrations": "MyInsta Feature-Illustrationen",
+      "featureScreenshot": "{feature}-Screenshot im Vollbildmodus ansehen",
+      "appScreenshots": "Screenshots der MyInsta-App",
+      "screenshotFullscreen": "{label}-Screenshot im Vollbildmodus ansehen"
+    },
+    "screenshots": {
+      "title": "Werfen Sie einen Blick hinein.",
+      "description": "Echte Bildschirme von MyInsta. Wischen Sie zum Erkunden oder tippen Sie auf einen Bildschirm, um einen genaueren Blick darauf zu werfen.",
+      "carousel": "Karussell",
+      "viewFullscreen": "Vollbild anzeigen",
+      "previous": "Vorheriger Screenshot",
+      "resume": "Automatische Screenshots fortsetzen",
+      "pause": "Automatische Screenshots anhalten",
+      "next": "Nächster Screenshot",
+      "interval": "Wechselt alle 8 Sekunden",
+      "choose": "Wählen Sie einen Screenshot",
+      "viewerDescription": "Vollständiger Screenshot. Verwenden Sie die Zoomsteuerung für Details, wischen Sie oder verwenden Sie die Pfeiltasten, um zwischen den Bildschirmen zu wechseln, und drücken Sie zum Schließen die Esc-Taste.",
+      "zoomOut": "Herauszoomen",
+      "zoomIn": "Vergrößern",
+      "fit": "Screenshot an Bildschirm anpassen",
+      "fitShort": "Anpassen",
+      "openOriginal": "Original öffnen",
+      "items": {
+        "overview": {
+          "label": "Übersicht über die Einstellungen",
+          "alt": "MyInsta-Einstellungsübersicht mit Steuerelementen für Feed, Schnittstelle und Nachrichten"
+        },
+        "appearance": {
+          "label": "Aussehen",
+          "alt": "MyInsta-Darstellungssteuerelemente für Themen, Schriftarten, Navigation, Vorschläge und Nachrichten"
+        },
+        "download-story": {
+          "label": "Download Story",
+          "alt": "MyInsta Download Story-Blatt mit Video, Foto, erstem Bild, Audio und Qualitätsoptionen"
+        },
+        "ghost-mode": {
+          "label": "Ghost Mode",
+          "alt": "MyInsta Ghost Mode Einstellungen für Nachrichten, Stories, Live, Screenshots und einmal anzusehende Medien"
+        },
+        "unsent-messages": {
+          "label": "Unsent Messages",
+          "alt": "MyInsta-Einstellungen zum Aufbewahren von Nachrichten, die andere Personen nicht senden"
+        },
+        "stories": {
+          "label": "Stories",
+          "alt": "MyInsta Stories-Steuerelemente zum Anzeigen und Verwalten von Story-Inhalten"
+        },
+        "instants": {
+          "label": "Instants",
+          "alt": "MyInsta Instants Einstellungen für ein fokussiertes Sharing-Erlebnis"
+        },
+        "hide-save": {
+          "label": "Hide Save",
+          "alt": "MyInsta Hide Save-Steuerelemente, um ausgewählte Medien aus gespeicherten Ansichten fernzuhalten"
+        }
+      }
+    },
+    "metadata": {
+      "title": "{siteName} – Offizielle Website und APK-Download für Android",
+      "description": "Laden Sie {siteName} für Android herunter, vergleichen Sie APK-Varianten und lesen Sie Versionshinweise und Installationshilfe."
+    }
+  },
+  "Blog": {
+    "grid": {
+      "empty": "Noch keine Geschichten veröffentlicht.",
+      "team": "MyInsta-Team",
+      "unscheduled": "Nicht geplant"
+    },
+    "article": {
+      "share": "Teilen",
+      "copied": "Kopiert",
+      "copyLink": "Link kopieren"
+    },
+    "metadata": {
+      "title": "Journal",
+      "pageTitle": "Journal · Seite {page}",
+      "description": "MyInsta-Versionskontext, Produkthinweise, Sicherheitserklärungen und praktische Leitfäden."
+    },
+    "index": {
+      "eyebrow": "Journal",
+      "title": "Die Gedanken",
+      "titleAccent": "hinter dem Aufbau.",
+      "description": "Versionskontext, Produktentscheidungen, Kompatibilitätshinweise und klare Anleitungen aus dem laufenden Redaktionsteam.",
+      "search": "Archiv durchsuchen",
+      "categories": "Journal-Kategorien",
+      "published": "Veröffentlichte Notizen",
+      "count": "{total} insgesamt · Seite {page} von {pages}",
+      "sort": "Sortieren",
+      "latest": "Neueste zuerst",
+      "oldest": "Älteste zuerst",
+      "apply": "Anwenden",
+      "pagination": "Journal-Seitennavigation",
+      "previous": "Zurück",
+      "next": "Weiter"
+    }
+  },
+  "Releases": {
+    "dateUnavailable": "Datum nicht verfügbar",
+    "releaseDateUnavailable": "Veröffentlichungsdatum nicht verfügbar",
+    "channels": {
+      "ALL": "Alle",
+      "STABLE": "Stabil",
+      "BETA": "Beta",
+      "ALPHA": "Alpha",
+      "LEGACY": "Vermächtnis"
+    },
+    "breadcrumbs": {
+      "home": "Startseite",
+      "releases": "Veröffentlichungen"
+    },
+    "facts": {
+      "build": "Build",
+      "channel": "Kanal",
+      "base": "Basis",
+      "androidRequirement": "Android-Anforderung",
+      "buildTarget": "Build-Ziel",
+      "primaryArchitecture": "Primäre APK-Architektur"
+    },
+    "index": {
+      "closeChanges": "Änderungen schließen",
+      "seeChanges": "Siehe Änderungen",
+      "latestDownloadHelp": "Wählen Sie einen APK aus der neuesten Veröffentlichung.",
+      "noBuild": "Noch kein öffentlicher Build.",
+      "noBuildDescription": "Eine Veröffentlichung erscheint hier, sobald ihr primäres Asset zur öffentlichen Verteilung bereit ist.",
+      "searchLabel": "Veröffentlichungen durchsuchen",
+      "searchPlaceholder": "Suchversion, Änderungsprotokoll, bekanntes Problem ...",
+      "channelGroup": "Release-Kanal",
+      "noMatches": "Keine veröffentlichte Version entspricht diesen Filtern."
+    },
+    "detail": {
+      "allReleases": "Alle Veröffentlichungen",
+      "current": "Aktuell",
+      "latest": "Neueste",
+      "versionBuild": "Version {version} · Build {build}",
+      "chooseApk": "APK auswählen",
+      "cloneDescription": "verwendet ein separates Paket, damit es parallel zu Instagram installiert werden kann.",
+      "uncloneDescription": "verwendet das Originalpaket; prüfen Sie vor dem Ersetzen einer installierten App auf Konflikte und sichern Sie lokale Daten.",
+      "abiDescription": "Passen Sie die ABI Ihres Geräts an: ARM64 für 64-Bit-ARM, ARM32 für 32-Bit-ARM oder x86/x86_64 für kompatible Intel-Geräte und Emulatoren. Verwenden Sie Universal nur, wenn diese Veröffentlichung es aufführt. Das Build-Ziel ist unabhängig von der Mindestanforderung von Android.",
+      "installationHelp": "Hilfe zu Installation und Paketkonflikten",
+      "noPrimaryAsset": "Derzeit ist kein herunterladbares primäres Asset verfügbar.",
+      "coverAlt": "Cover der Veröffentlichung „{title}“",
+      "experimentalChannel": "Experimenteller Kanal",
+      "alphaWarning": "Alpha-Builds sind möglicherweise unvollständig und dienen dem bewussten Testen.",
+      "betaWarning": "Beta-Builds können Regressionen enthalten, die im stabilen Kanal nicht vorhanden sind.",
+      "buildRecord": "Build-Datensatz",
+      "whatChanged": "Was hat sich geändert?",
+      "fixedInBuild": "In diesem Build behoben",
+      "knownIssues": "Bekannte Probleme",
+      "installation": "Installation",
+      "upgrade": "Upgrade",
+      "rollbackNotes": "Rollback-Notizen",
+      "screenshots": "Screenshots",
+      "compatibility": "Kompatibilität",
+      "securityNote": "Sicherheitshinweis",
+      "readRelated": "Lesen: {title}",
+      "previous": "Vorheriger v{version}"
+    },
+    "download": {
+      "download": "Herunterladen",
+      "downloadAdFree": "Herunterladen (werbefrei)",
+      "openExternal": "Externes APK öffnen",
+      "downloadSize": "{size} herunterladen",
+      "unavailable": "Der Download-Link konnte nicht vorbereitet werden. Bestätigen Sie, dass der Build noch verfügbar ist, und versuchen Sie es dann erneut. Bei jedem Klick wird ein neuer signierter Link erstellt.",
+      "apkDownloads": "APK-Downloads",
+      "unspecifiedAbi": "Nicht angegebene ABI",
+      "ariaLabel": "{variant} {abi} {type}",
+      "assetAriaLabel": "{label} herunterladen",
+      "external": "externer Download",
+      "apk": "APK-Download",
+      "recommended": "Empfohlen für dieses Gerät",
+      "browserAbi": "Der Browser meldet {abi}. Prüfen Sie, ob Ihr Gerät diese ABI unterstützt.",
+      "browserUnknownAbi": "Ihr Browser meldet keine ABI. Wählen Sie, sofern verfügbar, Universal oder prüfen Sie die Gerätearchitektur.",
+      "otherDownloads": "Andere Downloads",
+      "options": "Download-Optionen",
+      "externalDownload": "Externer Download",
+      "errors": {
+        "notFound": "Download nicht gefunden",
+        "rateLimited": "Zu viele Download-Versuche",
+        "unavailable": "Der Download ist vorübergehend nicht verfügbar.",
+        "verifying": "Die Download-Überprüfung ist noch im Gange.",
+        "sourceUnavailable": "Diese Downloadquelle ist nicht mehr verfügbar.",
+        "unsafeSource": "Das Öffnen dieser Download-Quelle ist nicht sicher.",
+        "prepareFailed": "Der Download konnte nicht vorbereitet werden. Bitte versuchen Sie es erneut.",
+        "rangeNotSatisfiable": "Der angeforderte Bereich kann nicht erfüllt werden."
+      }
+    },
+    "verification": {
+      "details": "Verifizierungsdetails",
+      "externalWithChecksum": "Externer Host: Vergleichen Sie die Datei, die Sie erhalten, mit der veröffentlichten Prüfsumme. Diese Site überprüft die externe Antwort nicht.",
+      "externalWithoutChecksum": "Externer Host: Es wird keine Prüfsumme veröffentlicht. Diese Site überprüft die externe Antwort nicht.",
+      "verified": "Der gespeicherte APK verfügt über eine aufgezeichnete Prüfsumme und eine Signaturzertifikatsprüfung. Dies garantiert weder das App-Verhalten noch die Kontosicherheit.",
+      "unverified": "Für diese Datei ist kein vollständiger Verifizierungsdatensatz verfügbar.",
+      "noChecksum": "Für diese Datei wird keine Prüfsumme veröffentlicht.",
+      "certificateSha256": "Signaturzertifikat SHA-256",
+      "copyChecksum": "Prüfsumme kopieren",
+      "copied": "Kopiert",
+      "primaryVerified": "Primäre APK verifiziert",
+      "primaryApk": "Primäre APK",
+      "internalRecord": "Interner Verifizierungsdatensatz",
+      "externalDelivery": "Externe Lieferung",
+      "releaseAssetRecord": "Release-Asset-Datensatz",
+      "verifiedShort": "SHA-256 verifiziert",
+      "availableShort": "SHA-256 verfügbar",
+      "signingCertificate": "Signaturzertifikat"
+    },
+    "notes": {
+      "title": "Release-Notizen",
+      "empty": "Es wurden keine Versionshinweise veröffentlicht.",
+      "emptyChangelog": "Es wurden keine Änderungsprotokolleinträge veröffentlicht.",
+      "showLess": "Weniger anzeigen",
+      "readMore": "Mehr lesen"
+    },
+    "timeline": {
+      "base": "Basis {version}",
+      "notSpecified": "nicht angegeben",
+      "assets": "{count, plural, =0 {Keine Assets} one {# Asset} other {# Assets}}",
+      "hideChangelog": "Änderungsprotokoll ausblenden",
+      "showChangelog": "Änderungsprotokoll anzeigen",
+      "emptyChangelog": "Für diese Version wurden keine Änderungsprotokolleinträge veröffentlicht."
+    },
+    "metadata": {
+      "title": "MyInsta-Veröffentlichungen – Offizielle APK-Downloads",
+      "description": "Offizielle MyInsta APK-Downloads für Android, mit Versionshinweisen, Kompatibilitätsdetails, Prüfsummen und Änderungsprotokollen.",
+      "latestTitle": "Neueste Veröffentlichung",
+      "latestDescription": "Finden Sie die neueste veröffentlichte MyInsta-Version und wählen Sie Ihren APK-Download.",
+      "detailTitle": "{title} · v{version} – Offizieller APK-Download"
+    }
+  },
+  "Search": {
+    "eyebrow": "Eintrag finden",
+    "title": "Suche",
+    "titleAccent": "alles öffentlich.",
+    "inputLabel": "Veröffentlichte Inhalte durchsuchen",
+    "placeholder": "Release, Feature, Anleitung, Version…",
+    "disabledPlaceholder": "Die Suche ist derzeit deaktiviert",
+    "resultsCount": "{count, plural, =0 {Keine Ergebnisse} one {# Ergebnis für „{query}“} other {# Ergebnisse für „{query}“}}",
+    "noResults": "Keine öffentlichen Einträge passen zu diesem Ausdruck.",
+    "shortQuery": "Beginnen Sie mit mindestens zwei Zeichen. Die Ergebnisse werden während der Eingabe aktualisiert; verwenden Sie die Pfeiltasten zum Navigieren.",
+    "disabled": "Die öffentliche Suche wurde von einem Administrator deaktiviert.",
+    "errors": {
+      "tooShort": "Die Suchanfrage ist zu kurz.",
+      "tooLong": "Die Suchanfrage ist zu lang.",
+      "rateLimited": "Die Suche ist vorübergehend begrenzt. Bitte versuchen Sie es in Kürze erneut.",
+      "disabled": "Die Suche ist derzeit deaktiviert.",
+      "unavailable": "Die Suche ist vorübergehend nicht verfügbar."
+    },
+    "metadata": {
+      "title": "Suche",
+      "description": "MyInsta-Veröffentlichungen, Journalbeiträge und veröffentlichte Seiten durchsuchen."
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "navigation": {
+    "features": "Özellikler",
+    "releases": "Sürümler",
+    "journal": "Günlük",
+    "support": "Destek",
+    "product": "Ürün",
+    "menu": "Menü"
+  },
+  "status": {
+    "latest": "En yeni",
+    "unavailable": "Kullanılamıyor"
+  },
+  "actions": {
+    "downloadVersionPrefix": "v indir",
+    "viewReleases": "Sürümleri görüntüle"
+  },
+  "aria": {
+    "primaryNavigation": "Birincil gezinme",
+    "home": "{siteName} ana sayfası",
+    "openMenu": "Gezinme menüsünü aç",
+    "closeMenu": "Gezinme menüsünü kapat",
+    "socialLinks": "Sosyal bağlantılar",
+    "legal": "Yasal bilgiler"
+  },
+  "language": {
+    "label": "Dil",
+    "en": "English",
+    "hi": "Hindi",
+    "pt-BR": "Português (Brasil)",
+    "es": "Español",
+    "id": "Bahasa Indonesia",
+    "tr": "Türkçe",
+    "fil": "Filipino",
+    "de": "Deutsch",
+    "fr": "Français",
+    "ar": "العربية",
+    "ru": "Русский",
+    "bn": "বাংলা",
+    "ja": "日本語",
+    "ko": "한국어"
+  },
+  "newsletter": {
+    "emailAddress": "E-posta adresi",
+    "emailPlaceholder": "you@example.com",
+    "join": "Sürüm notlarına katıl",
+    "joining": "Katılıyor…",
+    "checkInbox": "Gelen kutunuzu kontrol edin",
+    "subscriptionStarted": "Abonelik başladı. Onaylamak için gelen kutunuzu kontrol edin.",
+    "subscriptionUnavailable": "E-posta dağıtımı devre dışı olduğundan veya yapılandırılmadığından abonelikler şu anda kullanılamıyor.",
+    "subscriptionFailed": "Abonelik başarısız oldu. Lütfen tekrar deneyin.",
+    "unavailable": "Sürüm bildirimleri şu anda kullanılamıyor.",
+    "paused": "Sürüm bildirimleri şu anda duraklatıldı."
+  },
+  "footer": {
+    "description": "{siteName} güncellemeleri, sürümler ve destek kaynakları tek bir yerde.",
+    "us": "Biz",
+    "reachOutLine1": "Bize",
+    "reachOutLine2": "ulaşın",
+    "unaffiliated": "myinsta.dev, MyInsta'nin resmi sitesidir. myinsta.app'nin MyInsta ile bağlantısı yoktur."
+  },
+  "legal": {
+    "privacy": "Gizlilik",
+    "terms": "Şartlar"
+  },
+  "community": {
+    "ariaLabel": "MyInsta topluluğuna katıl",
+    "join": "{platform}'mize katılın"
+  },
+  "theme": {
+    "colorTheme": "Renk teması",
+    "change": "Renk temasını değiştir",
+    "systemTheme": "Sistem teması ({resolved})",
+    "current": "{theme} teması",
+    "switch": "{theme} temasına geç",
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Sistem"
+  },
+  "metadata": {
+    "skipToContent": "İçeriğe atla",
+    "privacyTitle": "Gizlilik politikası",
+    "privacyDescription": "MyInsta'nin web sitesi analizlerini, uygulama isteklerini ve yayın orijinalliğini nasıl ele aldığı."
+  }
+}

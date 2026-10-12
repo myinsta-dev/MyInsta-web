@@ -1,0 +1,43 @@
+name: Upload Crowdin sources
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "translations/source/**"
+      - "translations/manifest.json"
+      - "translations/ui-manifest.json"
+      - "scripts/prepare-crowdin-sources.mjs"
+      - ".github/workflows/crowdin-sources.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: crowdin-source-upload
+  cancel-in-progress: false
+
+jobs:
+  upload-sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out public source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+
+      - name: Prepare active source groups
+        run: node scripts/prepare-crowdin-sources.mjs --output "$RUNNER_TEMP/crowdin-sources.json"
+
+      - name: Upload source files to Crowdin
+        uses: crowdin/github-action@8f01d54f70f1713ee3f09d82c2bbb2daeac28689
+        with:
+          token: ${{ secrets.CROWDIN_SOURCE_TOKEN }}
+          project_id: 937181
+          config: ${{ runner.temp }}/crowdin-sources.json
+          upload_sources: true
+          upload_translations: false
+          auto_approve_imported: false
+          download_translations: false
+          create_pull_request: false

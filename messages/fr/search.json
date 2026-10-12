@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Trouvez la fiche",
+  "title": "Rechercher",
+  "titleAccent": "tout ce qui est public.",
+  "inputLabel": "Rechercher du contenu publié",
+  "placeholder": "Version, fonctionnalité, guide, numéro de version…",
+  "disabledPlaceholder": "La recherche est désactivée",
+  "resultsCount": "{count, plural, =0 {Aucun résultat} one {# résultat pour « {query} »} other {# résultats pour « {query} »}}",
+  "noResults": "Aucune fiche publique ne correspond à cette expression.",
+  "shortQuery": "Commencez par au moins deux caractères. Les résultats se mettent à jour pendant la saisie ; utilisez les flèches pour vous déplacer.",
+  "disabled": "La recherche publique a été désactivée par un administrateur.",
+  "errors": {
+    "tooShort": "La requête est trop courte.",
+    "tooLong": "La requête est trop longue.",
+    "rateLimited": "La recherche est temporairement limitée. Réessayez dans quelques instants.",
+    "disabled": "La recherche est désactivée.",
+    "unavailable": "La recherche est temporairement indisponible."
+  },
+  "metadata": {
+    "title": "Rechercher",
+    "description": "Recherchez les versions de MyInsta, les articles du journal et les pages publiées."
+  }
+}

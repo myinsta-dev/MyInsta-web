@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "sourceLocale": "en",
+  "locales": [
+    "en",
+    "hi",
+    "pt-BR",
+    "es",
+    "id",
+    "tr",
+    "fil",
+    "de",
+    "fr",
+    "ar",
+    "ru",
+    "bn",
+    "ja",
+    "ko"
+  ],
+  "sourceFile": "translations/source/en.json",
+  "sourceContentHash": "e9e93010c39ee56cbbdc5184e3be01129291093c8245ae6532ad2c2fbab9f42c",
+  "entries": [
+    {
+      "key": "page.privacy.body",
+      "slug": "privacy",
+      "kind": "page",
+      "format": "html",
+      "sourceHash": "4acee2805320e5cc430faca5e4618935456270a40f56b7d041b1240029e08d84",
+      "indexable": true,
+      "sourcePath": "translations/source/html/page.privacy.body.html"
+    },
+    {
+      "key": "page.privacy.seodescription",
+      "slug": "privacy",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "394e82d36ed7e5234fc7f9a2c520944ca2c8022a2858de9ab543a2ae68399d80",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.privacy.seotitle",
+      "slug": "privacy",
+      "kind": "page",
+      "format": "icu",
+      "sourceHash": "ff4dc63bcd9a9acc29fb658aaec74ebb37e8b2c6ad144eb26259b5cacb93907f",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.privacy.title",
+      "slug": "privacy",
+      "kind": "page",
+      "format": "icu",
+      "sourceHash": "ff4dc63bcd9a9acc29fb658aaec74ebb37e8b2c6ad144eb26259b5cacb93907f",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    }
+  ]
+}

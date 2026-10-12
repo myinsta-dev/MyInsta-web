@@ -1,0 +1,34 @@
+{
+  "grid": {
+    "empty": "公開された記事はまだありません。",
+    "team": "MyInstaチーム",
+    "unscheduled": "未スケジュール"
+  },
+  "article": {
+    "share": "共有",
+    "copied": "コピーしました",
+    "copyLink": "リンクをコピー"
+  },
+  "metadata": {
+    "title": "ジャーナル",
+    "pageTitle": "ジャーナル · {page}ページ",
+    "description": "MyInstaのリリース情報、製品メモ、セキュリティの解説、実用的なガイド。"
+  },
+  "index": {
+    "eyebrow": "ジャーナル",
+    "title": "開発の",
+    "titleAccent": "背景にある思い。",
+    "description": "リリースの背景、プロダクトの判断、互換性に関するメモ、編集部による分かりやすいガイドを紹介します。",
+    "search": "アーカイブを検索",
+    "categories": "ジャーナルのカテゴリ",
+    "published": "公開済みのノート",
+    "count": "全 {total} 件 · {pages} ページ中 {page} ページ",
+    "sort": "並べ替え",
+    "latest": "新しい順",
+    "oldest": "古い順",
+    "apply": "適用",
+    "pagination": "ジャーナルのページ送り",
+    "previous": "前へ",
+    "next": "次へ"
+  }
+}

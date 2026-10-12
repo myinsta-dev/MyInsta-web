@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Temukan catatan",
+  "title": "Cari",
+  "titleAccent": "semua yang publik.",
+  "inputLabel": "Cari konten yang diterbitkan",
+  "placeholder": "Rilis, fitur, panduan, versi…",
+  "disabledPlaceholder": "Pencarian saat ini dinonaktifkan",
+  "resultsCount": "{count, plural, =0 {Tidak ada hasil} one {# hasil untuk “{query}”} other {# hasil untuk “{query}”}}",
+  "noResults": "Tidak ada catatan publik yang cocok dengan frasa itu.",
+  "shortQuery": "Mulai dengan setidaknya dua karakter. Hasil diperbarui saat Anda mengetik; gunakan tombol panah untuk berpindah.",
+  "disabled": "Pencarian publik telah dinonaktifkan oleh administrator.",
+  "errors": {
+    "tooShort": "Kueri pencarian terlalu pendek.",
+    "tooLong": "Kueri pencarian terlalu panjang.",
+    "rateLimited": "Pencarian dibatasi sementara karena terlalu banyak permintaan. Silakan coba lagi sebentar.",
+    "disabled": "Pencarian saat ini dinonaktifkan.",
+    "unavailable": "Pencarian sedang tidak tersedia untuk sementara."
+  },
+  "metadata": {
+    "title": "Cari",
+    "description": "Cari rilis MyInsta, posting jurnal, dan halaman yang dipublikasikan."
+  }
+}

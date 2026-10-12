@@ -1,0 +1,437 @@
+{
+  "Common": {
+    "navigation": {
+      "features": "Özellikler",
+      "releases": "Sürümler",
+      "journal": "Günlük",
+      "support": "Destek",
+      "product": "Ürün",
+      "menu": "Menü"
+    },
+    "status": {
+      "latest": "En yeni",
+      "unavailable": "Kullanılamıyor"
+    },
+    "actions": {
+      "downloadVersionPrefix": "v indir",
+      "viewReleases": "Sürümleri görüntüle"
+    },
+    "aria": {
+      "primaryNavigation": "Birincil gezinme",
+      "home": "{siteName} ana sayfası",
+      "openMenu": "Gezinme menüsünü aç",
+      "closeMenu": "Gezinme menüsünü kapat",
+      "socialLinks": "Sosyal bağlantılar",
+      "legal": "Yasal bilgiler"
+    },
+    "language": {
+      "label": "Dil",
+      "en": "English",
+      "hi": "Hindi",
+      "pt-BR": "Português (Brasil)",
+      "es": "Español",
+      "id": "Bahasa Indonesia",
+      "tr": "Türkçe",
+      "fil": "Filipino",
+      "de": "Deutsch",
+      "fr": "Français",
+      "ar": "العربية",
+      "ru": "Русский",
+      "bn": "বাংলা",
+      "ja": "日本語",
+      "ko": "한국어"
+    },
+    "newsletter": {
+      "emailAddress": "E-posta adresi",
+      "emailPlaceholder": "you@example.com",
+      "join": "Sürüm notlarına katıl",
+      "joining": "Katılıyor…",
+      "checkInbox": "Gelen kutunuzu kontrol edin",
+      "subscriptionStarted": "Abonelik başladı. Onaylamak için gelen kutunuzu kontrol edin.",
+      "subscriptionUnavailable": "E-posta dağıtımı devre dışı olduğundan veya yapılandırılmadığından abonelikler şu anda kullanılamıyor.",
+      "subscriptionFailed": "Abonelik başarısız oldu. Lütfen tekrar deneyin.",
+      "unavailable": "Sürüm bildirimleri şu anda kullanılamıyor.",
+      "paused": "Sürüm bildirimleri şu anda duraklatıldı."
+    },
+    "footer": {
+      "description": "{siteName} güncellemeleri, sürümler ve destek kaynakları tek bir yerde.",
+      "us": "Biz",
+      "reachOutLine1": "Bize",
+      "reachOutLine2": "ulaşın",
+      "unaffiliated": "myinsta.dev, MyInsta'nin resmi sitesidir. myinsta.app'nin MyInsta ile bağlantısı yoktur."
+    },
+    "legal": {
+      "privacy": "Gizlilik",
+      "terms": "Şartlar"
+    },
+    "community": {
+      "ariaLabel": "MyInsta topluluğuna katıl",
+      "join": "{platform}'mize katılın"
+    },
+    "theme": {
+      "colorTheme": "Renk teması",
+      "change": "Renk temasını değiştir",
+      "systemTheme": "Sistem teması ({resolved})",
+      "current": "{theme} teması",
+      "switch": "{theme} temasına geç",
+      "light": "Açık",
+      "dark": "Koyu",
+      "system": "Sistem"
+    },
+    "metadata": {
+      "skipToContent": "İçeriğe atla",
+      "privacyTitle": "Gizlilik politikası",
+      "privacyDescription": "MyInsta'nin web sitesi analizlerini, uygulama isteklerini ve yayın orijinalliğini nasıl ele aldığı."
+    }
+  },
+  "Home": {
+    "hero": {
+      "subheadline": "Ghost Mode'yi kullanın, desteklenen medyayı indirin ve Instagram'ın görünümünü seçin.",
+      "intro": "Ghost Mode ile okundu bilgilerini gizleyin, fotoğrafları ve Stories'i kaydedin ve Instagram'ı Android'de özelleştirin.",
+      "headline": "Instagram, size göre şekillensin.",
+      "controls": "Kontrolleriniz",
+      "publicBuilds": "Herkese açık derlemeler",
+      "independentDescription": "{applicationName}, Android için bağımsız bir Instagram modudur.",
+      "yourWay": "{applicationName}, sizin tarzınız.",
+      "yourWayHighlight": "sizin tarzınız."
+    },
+    "actions": {
+      "downloadMyInsta": "MyInsta'yı indirin",
+      "browseReleases": "Sürümlere göz atın",
+      "installationGuide": "Kurulum kılavuzu",
+      "seeHowItWorks": "Nasıl çalıştığını görün",
+      "viewAppScreen": "Uygulama ekranını görüntüle",
+      "releaseNotes": "Sürüm notları"
+    },
+    "sections": {
+      "getStarted": "Başlayın",
+      "makeInstagramWork": "Instagram sizin için çalışsın.",
+      "makeInstagramDescription": "Okundu bilgilerini gizleyin, fotoğrafları ve Stories'i kaydedin ve Instagram'ın görünümünü seçin.",
+      "commonQuestions": "Sık Sorulan Sorular"
+    },
+    "fallbackFeatures": {
+      "privacy": {
+        "title": "Gizlilik kontrolleri",
+        "detail": "Cihazınızdan ne çıkacağını seçin",
+        "description": "Geçerli derlemenin desteklediği yerlerde okundu bilgilerini, yazma göstergelerini, Story görüntülemelerini ve çevrimiçi durum sinyallerini daha yakından kontrol edin."
+      },
+      "media": {
+        "title": "Medya araçları",
+        "detail": "Önemli olanı koruyun",
+        "description": "İçeriğe yakın kalacak şekilde tasarlanmış kontrollerle desteklenen fotoğrafları, videoları ve Stories'i kaydedin."
+      },
+      "interface": {
+        "title": "Arayüz seçenekleri",
+        "detail": "Uygulamanın tanıdık gelmesini sağlayın",
+        "description": "Temel deneyimi tanınabilir tutarken seçilen düzeni ve etkileşim ayrıntılarını ayarlayın."
+      }
+    },
+    "features": {
+      "fallbackDescription": "Bu seçeneği MyInsta ayarlarında keşfedin. Kullanılabilir seçenekler sürüme göre değişebilir."
+    },
+    "steps": {
+      "download": {
+        "title": "MyInsta'yı indirin",
+        "withAsset": "v{version} sürümünü seçin, sürüm notlarını okuyun ve APK indirme bağlantısını açın.",
+        "withoutAsset": "Sürüm notlarını ve kullanılabilir indirme seçeneklerini okumak için v{version} sürümünü açın.",
+        "noRelease": "Yayınlanmış bir sürüm seçin, sürüm notlarını okuyun ve indirme seçeneklerini açın."
+      },
+      "controls": {
+        "title": "Kontrollerinizi seçin",
+        "description": "MyInsta ayarlarını açın ve kullanmak istediğiniz gizlilik, indirme ve görünüm seçeneklerini seçin."
+      },
+      "keepUsing": {
+        "title": "Instagram'ı kullanmaya devam edin",
+        "description": "Akışınıza göz atın, Stories'i izleyin ve seçtiğiniz ayarlarla arkadaşlarınıza mesaj gönderin."
+      }
+    },
+    "facts": {
+      "latestRelease": "En yeni sürüm",
+      "released": "{date} tarihinde yayınlandı.",
+      "readReleaseNotes": "Bu yapıya ilişkin sürüm notlarını okuyun.",
+      "download": "İndir",
+      "externalDownload": "Harici indirme sayfası",
+      "apkDownload": "APK indir",
+      "releaseDetails": "Sürüm ayrıntıları",
+      "openFileHost": "APK'yi almak için bu sürüme bağlı dosya barındırıcısını açın.",
+      "getApk": "Bu sürümün indirme bağlantısını kullanarak APK'yi alın.",
+      "availableFiles": "Mevcut dosyalar ve gereksinimler için sürüm notlarını okuyun.",
+      "compatibility": "Uyumluluk",
+      "deviceRequirements": "Cihaz gereksinimleri için sürüm notlarına bakın."
+    },
+    "proofs": {
+      "latestTitle": "En yeni MyInsta'yı indirin.",
+      "releasesTitle": "MyInsta sürümlerini bulun.",
+      "description": "Bir indirmeyi seçmeden önce sürüm notlarını ve Android gereksinimlerini kontrol edin.",
+      "noRelease": "Yeni derlemeler kullanıma sunulduğunda sürümler sayfasında görünür.",
+      "chooseDownload": "Sürüm sayfasında APK ve indirme seçeneğinizi belirleyin."
+    },
+    "faq": {
+      "fallbackAnswer": "Mevcut yanıt için ilgili sürüm kaydına bakın veya destek ekibiyle iletişime geçin.",
+      "moreQuestions": "Hala sorularınız mı var? Yardım etmek için buradayız."
+    },
+    "journal": {
+      "eyebrow": "Günlükten",
+      "title": "Saklamaya değer notlar.",
+      "category": "Günlük",
+      "readingTime": "{minutes} dk okuma"
+    },
+    "cta": {
+      "stable": "Kararlı v{version}",
+      "appForAndroid": "Android için {applicationName}",
+      "title": "Instagram'ı kendinize göre şekillendirmeye hazır mısınız?",
+      "latestPublished": "Son kararlı sürüm {date} tarihinde yayınlandı"
+    },
+    "aria": {
+      "featureIllustrations": "MyInsta özellik çizimleri",
+      "featureScreenshot": "{feature} ekran görüntüsünü tam ekran görüntüle",
+      "appScreenshots": "MyInsta uygulaması ekran görüntüleri",
+      "screenshotFullscreen": "{label} ekran görüntüsünü tam ekran görüntüle"
+    },
+    "screenshots": {
+      "title": "İçine bir göz atın.",
+      "description": "MyInsta'den gerçek ekranlar. Keşfetmek için kaydırın veya daha yakından bakmak için bir ekrana dokunun.",
+      "carousel": "karusel",
+      "viewFullscreen": "Tam ekranı görüntüle",
+      "previous": "Önceki ekran görüntüsü",
+      "resume": "Otomatik ekran görüntülerini devam ettir",
+      "pause": "Otomatik ekran görüntülerini duraklat",
+      "next": "Sonraki ekran görüntüsü",
+      "interval": "Her 8 saniyede bir değişir",
+      "choose": "Bir ekran görüntüsü seçin",
+      "viewerDescription": "Tam ekran görüntüsü. Ayrıntılar için yakınlaştırma kontrollerini kullanın, ekranları değiştirmek için kaydırın veya ok düğmelerini kullanın ve kapatmak için Escape tuşuna basın.",
+      "zoomOut": "Uzaklaştır",
+      "zoomIn": "Yakınlaştır",
+      "fit": "Ekran görüntüsünü ekrana sığdır",
+      "fitShort": "Sığdır",
+      "openOriginal": "Orijinali aç",
+      "items": {
+        "overview": {
+          "label": "Ayarlara genel bakış",
+          "alt": "Akış, arayüz ve mesajlaşma kontrolleriyle MyInsta ayarlarına genel bakış"
+        },
+        "appearance": {
+          "label": "Görünüm",
+          "alt": "Temalar, yazı tipleri, gezinme, öneriler ve mesajlaşma için MyInsta görünüm kontrolleri"
+        },
+        "download-story": {
+          "label": "Download Story",
+          "alt": "Video, fotoğraf, ilk kare, ses ve kalite seçeneklerini içeren MyInsta Download Story sayfası"
+        },
+        "ghost-mode": {
+          "label": "Ghost Mode",
+          "alt": "Mesajlar, Stories, Live, ekran görüntüleri ve bir kez görüntülenen medya için MyInsta Ghost Mode ayarları"
+        },
+        "unsent-messages": {
+          "label": "Unsent Messages",
+          "alt": "Başkalarının göndermediği mesajları saklamak için MyInsta ayarları"
+        },
+        "stories": {
+          "label": "Stories",
+          "alt": "MyInsta Stories, Story içeriğini görüntülemek ve yönetmek için kontroller"
+        },
+        "instants": {
+          "label": "Instants",
+          "alt": "Odaklanmış bir paylaşım deneyimi için MyInsta Instants ayarları"
+        },
+        "hide-save": {
+          "label": "Hide Save",
+          "alt": "Seçilen medyayı kayıtlı görünümlerin dışında tutmak için MyInsta Hide Save kontrolleri"
+        }
+      }
+    },
+    "metadata": {
+      "title": "{siteName} — Android için resmî site ve APK indirme",
+      "description": "Android için {siteName}'yi indirin, APK çeşitlerini karşılaştırın ve sürüm notlarını ve kurulum yardımını okuyun."
+    }
+  },
+  "Blog": {
+    "grid": {
+      "empty": "Henüz yayınlanmış hikâye yok.",
+      "team": "MyInsta ekibi",
+      "unscheduled": "Planlanmadı"
+    },
+    "article": {
+      "share": "Paylaş",
+      "copied": "Kopyalandı",
+      "copyLink": "Bağlantıyı kopyala"
+    },
+    "metadata": {
+      "title": "Günlük",
+      "pageTitle": "Günlük · Sayfa {page}",
+      "description": "MyInsta sürüm içeriği, ürün notları, güvenlik açıklamaları ve pratik kılavuzlar."
+    },
+    "index": {
+      "eyebrow": "Günlük",
+      "title": "Ürünün arkasındaki",
+      "titleAccent": "düşünce.",
+      "description": "Canlı editoryal ekipten sürüm bağlamı, ürün kararları, uyumluluk notları ve doğrudan anlatımlı rehberler.",
+      "search": "Arşivde ara",
+      "categories": "Günlük kategorileri",
+      "published": "Yayınlanan notlar",
+      "count": "{total} toplam · {page} / {pages}. sayfa",
+      "sort": "Sırala",
+      "latest": "Yeniler önce",
+      "oldest": "Eskiler önce",
+      "apply": "Uygula",
+      "pagination": "Günlük sayfalandırması",
+      "previous": "Önceki",
+      "next": "Sonraki"
+    }
+  },
+  "Releases": {
+    "dateUnavailable": "Tarih mevcut değil",
+    "releaseDateUnavailable": "Yayın tarihi mevcut değil",
+    "channels": {
+      "ALL": "Tümü",
+      "STABLE": "Kararlı",
+      "BETA": "Beta",
+      "ALPHA": "Alfa",
+      "LEGACY": "Legacy"
+    },
+    "breadcrumbs": {
+      "home": "Ana sayfa",
+      "releases": "Sürümler"
+    },
+    "facts": {
+      "build": "Derleme",
+      "channel": "Kanal",
+      "base": "Temel",
+      "androidRequirement": "Android gereksinimi",
+      "buildTarget": "Derleme hedefi",
+      "primaryArchitecture": "Birincil APK mimarisi"
+    },
+    "index": {
+      "closeChanges": "Değişiklikleri kapat",
+      "seeChanges": "Değişiklikleri görün",
+      "latestDownloadHelp": "En yeni sürümden bir APK seçin.",
+      "noBuild": "Henüz herkese açık derleme yok.",
+      "noBuildDescription": "Bir sürümün birincil dosyası herkese açık dağıtıma hazır olduğunda burada görünür.",
+      "searchLabel": "Sürümleri ara",
+      "searchPlaceholder": "Arama sürümü, değişiklik günlüğü, bilinen sorun…",
+      "channelGroup": "Sürüm kanalı",
+      "noMatches": "Bu filtrelerle eşleşen yayınlanmış sürüm yok."
+    },
+    "detail": {
+      "allReleases": "Tüm sürümler",
+      "current": "Geçerli",
+      "latest": "En yeni",
+      "versionBuild": "Sürüm {version} · derleme {build}",
+      "chooseApk": "APK'nizi seçin",
+      "cloneDescription": "Instagram ile bir arada bulunabilmesi için ayrı bir paket kullanır.",
+      "uncloneDescription": "orijinal paketi kullanır; yüklü bir uygulamayı değiştirmeden önce çakışmaları kontrol edin ve yerel verileri yedekleyin.",
+      "abiDescription": "Cihazınızın ABI'sini eşleştirin: 64 bit ARM için ARM64, 32 bit ARM için ARM32 veya uyumlu Intel cihazları ve emülatörler için x86/x86_64. Universal yalnızca bu sürümde listeleniyorsa kullanın. Derleme hedefi, minimum Android gereksiniminden ayrıdır.",
+      "installationHelp": "Kurulum ve paket çakışması yardımı",
+      "noPrimaryAsset": "Şu anda indirilebilir birincil dosya yok.",
+      "coverAlt": "{title} sürüm kapağı",
+      "experimentalChannel": "Deneysel kanal",
+      "alphaWarning": "Alfa yapıları eksik olabilir ve kasıtlı test amaçlıdır.",
+      "betaWarning": "Beta yapıları, kararlı kanalda bulunmayan regresyonlar içerebilir.",
+      "buildRecord": "Derleme kaydı",
+      "whatChanged": "Ne değişti",
+      "fixedInBuild": "Bu yapıda düzeltildi",
+      "knownIssues": "Bilinen sorunlar",
+      "installation": "Kurulum",
+      "upgrade": "Güncelleme",
+      "rollbackNotes": "Geri alma notları",
+      "screenshots": "Ekran görüntüleri",
+      "compatibility": "Uyumluluk",
+      "securityNote": "Güvenlik notu",
+      "readRelated": "Oku: {title}",
+      "previous": "Önceki v{version}"
+    },
+    "download": {
+      "download": "İndir",
+      "downloadAdFree": "İndir (reklamsız)",
+      "openExternal": "Harici APK'yi açın",
+      "downloadSize": "{size} indir",
+      "unavailable": "İndirme bağlantısı hazırlanamadı. Derlemenin hâlâ kullanılabilir olduğunu doğrulayın ve tekrar deneyin; Her tıklamada yeni imzalı bir bağlantı oluşturulur.",
+      "apkDownloads": "APK indirmeleri",
+      "unspecifiedAbi": "Belirtilmemiş ABI",
+      "ariaLabel": "{variant} {abi} {type}",
+      "assetAriaLabel": "{label} indir",
+      "external": "harici indirme",
+      "apk": "APK indir",
+      "recommended": "Bu cihaz için önerilir",
+      "browserAbi": "Tarayıcı {abi} bildiriyor. Cihazınızın bu ABI'yi desteklediğini kontrol edin.",
+      "browserUnknownAbi": "Tarayıcınız ABI bildirmiyor. Kullanılabiliyorsa Universal seçeneğini seçin veya cihaz mimarisini kontrol edin.",
+      "otherDownloads": "Diğer indirmeler",
+      "options": "İndirme seçenekleri",
+      "externalDownload": "Harici indirme",
+      "errors": {
+        "notFound": "İndirme bulunamadı",
+        "rateLimited": "Çok fazla indirme denemesi",
+        "unavailable": "İndirme geçici olarak kullanılamıyor.",
+        "verifying": "İndirme doğrulaması hâlâ devam ediyor.",
+        "sourceUnavailable": "Bu indirme kaynağı artık mevcut değil.",
+        "unsafeSource": "Bu indirme kaynağının açılması güvenli değil.",
+        "prepareFailed": "İndirme hazırlanamadı. Lütfen tekrar deneyin.",
+        "rangeNotSatisfiable": "İstenilen aralık karşılanmıyor."
+      }
+    },
+    "verification": {
+      "details": "Doğrulama ayrıntıları",
+      "externalWithChecksum": "Harici ana bilgisayar: Aldığınız dosyayı yayınlanan sağlama toplamıyla karşılaştırın. Bu site harici yanıtı doğrulamaz.",
+      "externalWithoutChecksum": "Harici ana bilgisayar: sağlama toplamı yayınlanmaz. Bu site harici yanıtı doğrulamaz.",
+      "verified": "Saklanan APK'nin kayıtlı bir sağlama toplamı ve imzalama sertifikası kontrolü vardır. Bu, uygulama davranışını veya hesap güvenliğini garanti etmez.",
+      "unverified": "Bu dosya için tamamlanmış doğrulama kaydı mevcut değil.",
+      "noChecksum": "Bu dosya için hiçbir sağlama toplamı yayınlanmadı.",
+      "certificateSha256": "İmza sertifikası SHA-256",
+      "copyChecksum": "Sağlama toplamını kopyala",
+      "copied": "Kopyalandı",
+      "primaryVerified": "Birincil APK doğrulandı",
+      "primaryApk": "Birincil APK",
+      "internalRecord": "Dahili doğrulama kaydı",
+      "externalDelivery": "Harici dağıtım",
+      "releaseAssetRecord": "Sürüm dosyası kaydı",
+      "verifiedShort": "SHA-256 doğrulandı",
+      "availableShort": "SHA-256 mevcut",
+      "signingCertificate": "İmza sertifikası"
+    },
+    "notes": {
+      "title": "Sürüm notları",
+      "empty": "Hiçbir sürüm notu yayınlanmadı.",
+      "emptyChangelog": "Hiçbir değişiklik günlüğü öğesi yayınlanmadı.",
+      "showLess": "Daha az göster",
+      "readMore": "Devamını oku"
+    },
+    "timeline": {
+      "base": "Baz {version}",
+      "notSpecified": "belirtilmedi",
+      "assets": "{count, plural, =0 {Dosya yok} one {# dosya} other {# dosya}}",
+      "hideChangelog": "Değişiklik günlüğünü gizle",
+      "showChangelog": "Değişiklik günlüğünü göster",
+      "emptyChangelog": "Bu sürüm için hiçbir değişiklik günlüğü öğesi yayınlanmadı."
+    },
+    "metadata": {
+      "title": "MyInsta Sürümleri — Resmi APK İndirmeleri",
+      "description": "Android için sürüm notları, uyumluluk ayrıntıları, sağlama toplamları ve değişiklik günlükleriyle birlikte resmi MyInsta APK indirmeleri.",
+      "latestTitle": "En yeni sürüm",
+      "latestDescription": "En yeni yayınlanan MyInsta sürümünü bulun ve APK indirme seçeneğinizi belirleyin.",
+      "detailTitle": "{title} · v{version} — Resmî APK indirme"
+    }
+  },
+  "Search": {
+    "eyebrow": "Kaydı bul",
+    "title": "Ara",
+    "titleAccent": "her şey herkese açık.",
+    "inputLabel": "Yayınlanmış içeriği ara",
+    "placeholder": "Sürüm, özellik, kılavuz, versiyon…",
+    "disabledPlaceholder": "Arama şu anda devre dışı",
+    "resultsCount": "{count, plural, =0 {Sonuç yok} one {“{query}” için # sonucu} other {“{query}” için # sonuçları}}",
+    "noResults": "Bu ifadeyle eşleşen herkese açık kayıt yok.",
+    "shortQuery": "En az iki karakterle başlayın. Siz yazdıkça sonuçlar güncellenir; gezinmek için ok tuşlarını kullanın.",
+    "disabled": "Genel arama bir yönetici tarafından devre dışı bırakıldı.",
+    "errors": {
+      "tooShort": "Arama sorgusu çok kısa.",
+      "tooLong": "Arama sorgusu çok uzun.",
+      "rateLimited": "Arama geçici olarak hız sınırına takıldı. Lütfen kısa süre sonra tekrar deneyin.",
+      "disabled": "Arama şu anda devre dışı.",
+      "unavailable": "Arama geçici olarak kullanılamıyor."
+    },
+    "metadata": {
+      "title": "Ara",
+      "description": "MyInsta sürümlerini, günlük yazılarını ve yayınlanmış sayfaları arayın."
+    }
+  }
+}

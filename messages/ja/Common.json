@@ -1,0 +1,85 @@
+{
+  "navigation": {
+    "features": "機能",
+    "releases": "リリース",
+    "journal": "ジャーナル",
+    "support": "サポート",
+    "product": "製品",
+    "menu": "メニュー"
+  },
+  "status": {
+    "latest": "最新",
+    "unavailable": "利用できません"
+  },
+  "actions": {
+    "downloadVersionPrefix": "vをダウンロード",
+    "viewReleases": "リリースを見る"
+  },
+  "aria": {
+    "primaryNavigation": "メインナビゲーション",
+    "home": "{siteName}のホーム",
+    "openMenu": "ナビゲーションメニューを開く",
+    "closeMenu": "ナビゲーションメニューを閉じる",
+    "socialLinks": "ソーシャルリンク",
+    "legal": "法的情報"
+  },
+  "language": {
+    "label": "言語",
+    "en": "English",
+    "hi": "Hindi",
+    "pt-BR": "Português (Brasil)",
+    "es": "Español",
+    "id": "Bahasa Indonesia",
+    "tr": "Türkçe",
+    "fil": "Filipino",
+    "de": "Deutsch",
+    "fr": "Français",
+    "ar": "العربية",
+    "ru": "Русский",
+    "bn": "বাংলা",
+    "ja": "日本語",
+    "ko": "한국어"
+  },
+  "newsletter": {
+    "emailAddress": "メールアドレス",
+    "emailPlaceholder": "you@example.com",
+    "join": "リリースノートを購読",
+    "joining": "登録中…",
+    "checkInbox": "受信トレイを確認",
+    "subscriptionStarted": "購読を開始しました。受信トレイを確認して確定してください。",
+    "subscriptionUnavailable": "メール配信が無効または未設定のため、現在購読を利用できません。",
+    "subscriptionFailed": "購読に失敗しました。もう一度お試しください。",
+    "unavailable": "リリース通知は現在利用できません。",
+    "paused": "リリース通知は現在一時停止中です。"
+  },
+  "footer": {
+    "description": "{siteName}の更新、リリース、サポート情報を1か所に。",
+    "us": "私たち",
+    "reachOutLine1": "お問い合わせ",
+    "reachOutLine2": "はこちら",
+    "unaffiliated": "myinsta.devはMyInstaの公式サイトです。myinsta.appはMyInstaとは無関係です。"
+  },
+  "legal": {
+    "privacy": "プライバシー",
+    "terms": "利用規約"
+  },
+  "community": {
+    "ariaLabel": "MyInstaコミュニティに参加",
+    "join": "{platform}のコミュニティに参加"
+  },
+  "theme": {
+    "colorTheme": "カラーテーマ",
+    "change": "カラーテーマを変更",
+    "systemTheme": "システムテーマ（{resolved}）",
+    "current": "{theme}テーマ",
+    "switch": "{theme}テーマに切り替え",
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム"
+  },
+  "metadata": {
+    "skipToContent": "コンテンツへスキップ",
+    "privacyTitle": "プライバシーポリシー",
+    "privacyDescription": "MyInstaによるウェブサイト分析、アプリのリクエスト、リリースの真正性の扱いについて説明します。"
+  }
+}

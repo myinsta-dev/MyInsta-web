@@ -1,0 +1,85 @@
+{
+  "navigation": {
+    "features": "Funciones",
+    "releases": "Versiones",
+    "journal": "Diario",
+    "support": "Soporte",
+    "product": "Producto",
+    "menu": "Menú"
+  },
+  "status": {
+    "latest": "Más reciente",
+    "unavailable": "No disponible"
+  },
+  "actions": {
+    "downloadVersionPrefix": "Descargar v",
+    "viewReleases": "Ver versiones"
+  },
+  "aria": {
+    "primaryNavigation": "Navegación principal",
+    "home": "Inicio de {siteName}",
+    "openMenu": "Abrir el menú de navegación",
+    "closeMenu": "Cerrar el menú de navegación",
+    "socialLinks": "Enlaces sociales",
+    "legal": "Información legal"
+  },
+  "language": {
+    "label": "Idioma",
+    "en": "English",
+    "hi": "Hindi",
+    "pt-BR": "Português (Brasil)",
+    "es": "Español",
+    "id": "Bahasa Indonesia",
+    "tr": "Türkçe",
+    "fil": "Filipino",
+    "de": "Deutsch",
+    "fr": "Français",
+    "ar": "العربية",
+    "ru": "Русский",
+    "bn": "বাংলা",
+    "ja": "日本語",
+    "ko": "한국어"
+  },
+  "newsletter": {
+    "emailAddress": "Dirección de correo electrónico",
+    "emailPlaceholder": "you@example.com",
+    "join": "Recibir notas de versión",
+    "joining": "Suscribiendo…",
+    "checkInbox": "Revisa tu bandeja de entrada",
+    "subscriptionStarted": "Suscripción iniciada. Revisa tu bandeja de entrada para confirmarla.",
+    "subscriptionUnavailable": "Las suscripciones no están disponibles porque el envío de correo está desactivado o no configurado.",
+    "subscriptionFailed": "La suscripción ha fallado. Inténtalo de nuevo.",
+    "unavailable": "Las notificaciones de versiones no están disponibles.",
+    "paused": "Las notificaciones de versiones están pausadas."
+  },
+  "footer": {
+    "description": "Actualizaciones, versiones y recursos de soporte de {siteName} en un solo lugar.",
+    "us": "Nosotros",
+    "reachOutLine1": "Ponte",
+    "reachOutLine2": "en contacto",
+    "unaffiliated": "myinsta.dev es el sitio oficial de MyInsta. myinsta.app no está afiliado a MyInsta."
+  },
+  "legal": {
+    "privacy": "Privacidad",
+    "terms": "Términos"
+  },
+  "community": {
+    "ariaLabel": "Únete a la comunidad de MyInsta",
+    "join": "Únete a nuestro {platform}"
+  },
+  "theme": {
+    "colorTheme": "Tema de color",
+    "change": "Cambiar el tema de color",
+    "systemTheme": "Tema del sistema ({resolved})",
+    "current": "Tema {theme}",
+    "switch": "Cambiar al tema {theme}",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "metadata": {
+    "skipToContent": "Saltar al contenido",
+    "privacyTitle": "Política de privacidad",
+    "privacyDescription": "Cómo gestiona MyInsta las analíticas del sitio web, las solicitudes de la aplicación y la autenticidad de las versiones."
+  }
+}

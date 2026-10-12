@@ -1,0 +1,33 @@
+name: Validate translation catalogs
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  catalogs:
+    name: Catalog structure and draft checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate JSON catalogs and translation invariants
+        run: node scripts/validate-catalogs.mjs
+
+      - name: Test Crowdin source configuration
+        run: node --test scripts/prepare-crowdin-sources.test.mjs
+
+      - name: Test UI draft seeder boundaries
+        run: node --test scripts/seed-ui-drafts.test.mjs

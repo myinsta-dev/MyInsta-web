@@ -1,0 +1,34 @@
+{
+  "grid": {
+    "empty": "Henüz yayınlanmış hikâye yok.",
+    "team": "MyInsta ekibi",
+    "unscheduled": "Planlanmadı"
+  },
+  "article": {
+    "share": "Paylaş",
+    "copied": "Kopyalandı",
+    "copyLink": "Bağlantıyı kopyala"
+  },
+  "metadata": {
+    "title": "Günlük",
+    "pageTitle": "Günlük · Sayfa {page}",
+    "description": "MyInsta sürüm içeriği, ürün notları, güvenlik açıklamaları ve pratik kılavuzlar."
+  },
+  "index": {
+    "eyebrow": "Günlük",
+    "title": "Ürünün arkasındaki",
+    "titleAccent": "düşünce.",
+    "description": "Canlı editoryal ekipten sürüm bağlamı, ürün kararları, uyumluluk notları ve doğrudan anlatımlı rehberler.",
+    "search": "Arşivde ara",
+    "categories": "Günlük kategorileri",
+    "published": "Yayınlanan notlar",
+    "count": "{total} toplam · {page} / {pages}. sayfa",
+    "sort": "Sırala",
+    "latest": "Yeniler önce",
+    "oldest": "Eskiler önce",
+    "apply": "Uygula",
+    "pagination": "Günlük sayfalandırması",
+    "previous": "Önceki",
+    "next": "Sonraki"
+  }
+}
