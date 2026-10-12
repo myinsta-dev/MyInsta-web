@@ -14,6 +14,12 @@
     "pageTitle": "ジャーナル · {page}ページ",
     "description": "MyInstaのリリース情報、製品メモ、セキュリティの解説、実用的なガイド。"
   },
+  "taxonomy": {
+    "categoryLabel": "ジャーナルカテゴリ",
+    "tagLabel": "ジャーナルタグ",
+    "categoryDescription": "MyInstaジャーナルで{name}に分類された投稿。",
+    "tagDescription": "タグ{name}が付いた公開済みのMyInstaジャーナル投稿。"
+  },
   "index": {
     "eyebrow": "ジャーナル",
     "title": "開発の",

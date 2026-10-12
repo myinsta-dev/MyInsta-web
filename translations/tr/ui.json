@@ -261,6 +261,12 @@
       "pageTitle": "Günlük · Sayfa {page}",
       "description": "MyInsta sürüm içeriği, ürün notları, güvenlik açıklamaları ve pratik kılavuzlar."
     },
+    "taxonomy": {
+      "categoryLabel": "Günlük kategorisi",
+      "tagLabel": "Günlük etiketi",
+      "categoryDescription": "MyInsta günlüğündeki {name} altında sınıflandırılan gönderiler.",
+      "tagDescription": "{name} etiketiyle işaretlenen yayınlanmış MyInsta günlük gönderileri."
+    },
     "index": {
       "eyebrow": "Günlük",
       "title": "Ürünün arkasındaki",

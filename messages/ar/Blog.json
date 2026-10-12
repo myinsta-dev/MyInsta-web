@@ -14,6 +14,12 @@
     "pageTitle": "المجلة · الصفحة {page}",
     "description": "سياق إصدارات MyInsta وملاحظات المنتج وشروحات الأمان والأدلة العملية."
   },
+  "taxonomy": {
+    "categoryLabel": "تصنيف المجلة",
+    "tagLabel": "وسم المجلة",
+    "categoryDescription": "منشورات مجلة MyInsta المصنّفة ضمن {name}.",
+    "tagDescription": "منشورات مجلة MyInsta المنشورة والموسومة بـ {name}."
+  },
   "index": {
     "eyebrow": "المجلة",
     "title": "الفكرة",

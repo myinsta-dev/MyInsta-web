@@ -261,6 +261,12 @@
       "pageTitle": "জার্নাল · পৃষ্ঠা {page}",
       "description": "MyInsta-এর রিলিজ প্রসঙ্গ, পণ্যের নোট, নিরাপত্তা ব্যাখ্যা এবং ব্যবহারিক গাইড।"
     },
+    "taxonomy": {
+      "categoryLabel": "জার্নাল বিভাগ",
+      "tagLabel": "জার্নাল ট্যাগ",
+      "categoryDescription": "MyInsta জার্নালের {name} বিভাগের অধীনে রাখা পোস্ট।",
+      "tagDescription": "প্রকাশিত MyInsta জার্নাল পোস্ট, যেগুলোতে {name} ট্যাগ রয়েছে।"
+    },
     "index": {
       "eyebrow": "জার্নাল",
       "title": "নির্মাণের পেছনের",

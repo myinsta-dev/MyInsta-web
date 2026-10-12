@@ -14,6 +14,12 @@
     "pageTitle": "Journal · Page {page}",
     "description": "MyInsta release context, product notes, security explanations, and practical guides."
   },
+  "taxonomy": {
+    "categoryLabel": "Journal category",
+    "tagLabel": "Journal tag",
+    "categoryDescription": "MyInsta journal posts filed under {name}.",
+    "tagDescription": "Published MyInsta journal posts tagged {name}."
+  },
   "index": {
     "eyebrow": "Journal",
     "title": "The thinking",

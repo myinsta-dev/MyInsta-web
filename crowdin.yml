@@ -31,8 +31,8 @@ files:
   # Published CMS HTML is exported as one file per stable public key. Keeping
   # HTML separate lets the private importer validate tags, code/pre literals,
   # and approved text segments before reconstructing the document.
-  - source: "/translations/source/html/*.html"
-    translation: "/translations/%two_letters_code%/html/%original_file_name%"
+  - source: "/translations/source/html/**/*.html"
+    translation: "/translations/%two_letters_code%/html/**/%original_file_name%"
     type: "html"
     translate_content: true
     update_option: "update_as_unapproved"

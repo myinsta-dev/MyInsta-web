@@ -14,6 +14,12 @@
     "pageTitle": "Diario · Página {page}",
     "description": "Contexto de las versiones de MyInsta, notas de producto, explicaciones de seguridad y guías prácticas."
   },
+  "taxonomy": {
+    "categoryLabel": "Categoría del diario",
+    "tagLabel": "Etiqueta del diario",
+    "categoryDescription": "Publicaciones del diario de MyInsta archivadas en {name}.",
+    "tagDescription": "Publicaciones del diario de MyInsta etiquetadas con {name}."
+  },
   "index": {
     "eyebrow": "Diario",
     "title": "El pensamiento",

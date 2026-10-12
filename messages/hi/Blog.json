@@ -14,6 +14,12 @@
     "pageTitle": "जर्नल · पृष्ठ {page}",
     "description": "MyInsta के रिलीज़ संदर्भ, उत्पाद नोट्स, सुरक्षा संबंधी व्याख्याएँ और व्यावहारिक गाइड।"
   },
+  "taxonomy": {
+    "categoryLabel": "जर्नल श्रेणी",
+    "tagLabel": "जर्नल टैग",
+    "categoryDescription": "MyInsta जर्नल की वे पोस्ट जिन्हें {name} के अंतर्गत रखा गया है।",
+    "tagDescription": "प्रकाशित MyInsta जर्नल पोस्ट जिन पर {name} टैग लगा है।"
+  },
   "index": {
     "eyebrow": "जर्नल",
     "title": "निर्माण के पीछे",

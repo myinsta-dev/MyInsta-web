@@ -261,6 +261,12 @@
       "pageTitle": "Journal · Pahina {page}",
       "description": "Konteksto ng release ng MyInsta, mga tala ng produkto, paliwanag sa seguridad, at mga praktikal na gabay."
     },
+    "taxonomy": {
+      "categoryLabel": "Kategorya ng journal",
+      "tagLabel": "Tag ng journal",
+      "categoryDescription": "Mga post sa journal ng MyInsta na nasa ilalim ng {name}.",
+      "tagDescription": "Mga nailathalang post sa journal ng MyInsta na may tag na {name}."
+    },
     "index": {
       "eyebrow": "Journal",
       "title": "Ang kaisipan",

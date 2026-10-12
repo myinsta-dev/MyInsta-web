@@ -261,6 +261,12 @@
       "pageTitle": "Journal · Seite {page}",
       "description": "MyInsta-Versionskontext, Produkthinweise, Sicherheitserklärungen und praktische Leitfäden."
     },
+    "taxonomy": {
+      "categoryLabel": "Journal-Kategorie",
+      "tagLabel": "Journal-Tag",
+      "categoryDescription": "MyInsta-Journalbeiträge unter {name}.",
+      "tagDescription": "Veröffentlichte MyInsta-Journalbeiträge mit dem Tag {name}."
+    },
     "index": {
       "eyebrow": "Journal",
       "title": "Die Gedanken",

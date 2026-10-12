@@ -18,7 +18,7 @@ credentials.
 - `translations/source/en.json` and `translations/manifest.json` contain the
   reviewed static privacy source/catalog. The published CMS export is still
   pending; no private CMS content is copied into this repository.
-- `translations/source/html/*.html` contains the static privacy policy body and
+- `translations/source/html/**/*.html` contains the static privacy policy body and
   is reserved for future published rich-content exports. HTML translations
   live under each locale's `html/` directory and are checked for markup and
   protected `code`/`pre` literals by the private importer.
@@ -73,7 +73,7 @@ and only reads this repository's English files for newly missing UI keys:
 node scripts/seed-ui-drafts.mjs
 ```
 
-All 13 configured locale catalogs contain complete draft trees for the 311 UI
+All 13 configured locale catalogs contain complete draft trees for the 315 UI
 strings. Some draft values remain in English while contributors refine wording;
 the validator reports those as expected unchanged-value warnings. Every locale
 remains explicitly unapproved and requires native review before launch.

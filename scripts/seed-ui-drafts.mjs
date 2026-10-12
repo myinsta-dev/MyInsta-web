@@ -180,19 +180,29 @@ async function main() {
     sourceContentHash: sha256(stableJson(english)),
     namespaces: Object.keys(english).sort(),
   }, null, 2)}\n`);
+  let existingStatus;
+  try {
+    existingStatus = JSON.parse(await readFile(join(root, "translations", "draft-status.json"), "utf8"));
+  } catch {
+    existingStatus = undefined;
+  }
   await writeFile(join(root, "translations", "draft-status.json"), `${JSON.stringify({
     schemaVersion: 1,
     approvalPolicy: "unapproved",
     generatedBy: "scripts/seed-ui-drafts.mjs",
     sourceFiles: ["translations/source/ui.json"],
-    locales: Object.fromEntries(locales.map((locale) => [locale, {
-      status: "DRAFT",
-      approved: false,
-      nativeReviewRequired: true,
-      keyCoverage: "complete",
-      translation: "needs-review",
-      nativeReview: "needs-review",
-    }])),
+    locales: Object.fromEntries(locales.map((locale) => {
+      const existingCms = existingStatus?.locales?.[locale]?.cms;
+      return [locale, {
+        status: "DRAFT",
+        approved: false,
+        nativeReviewRequired: true,
+        keyCoverage: "complete",
+        translation: "needs-review",
+        nativeReview: "needs-review",
+        ...(existingCms === undefined ? {} : { cms: existingCms }),
+      }];
+    })),
   }, null, 2)}\n`);
 }
 

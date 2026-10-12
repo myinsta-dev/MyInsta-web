@@ -98,7 +98,7 @@ function icuShape(value) {
   return { placeholders, branches, tags, pounds: (value.match(/#/g) ?? []).length };
 }
 
-function compareValues(source, target, locale, file, path) {
+function compareValues(source, target, locale, file, path, allowKeyDrift = false) {
   if (valueType(source) !== valueType(target)) {
     error(`${locale}/${file}:${path}: type differs (${valueType(source)} vs ${valueType(target)})`);
     return;
@@ -116,7 +116,9 @@ function compareValues(source, target, locale, file, path) {
     if (expected.pounds !== actual.pounds) error(`${locale}/${file}:${path}: # marker count differs`);
     if (multiset(expected.tags) !== multiset(actual.tags)) error(`${locale}/${file}:${path}: markup tags differ`);
     for (const term of protectedTerms) {
-      if (source.includes(term) && !target.includes(term)) error(`${locale}/${file}:${path}: protected term missing: ${term}`);
+      const sourceCount = source.split(term).length - 1;
+      const targetCount = target.split(term).length - 1;
+      if (targetCount < sourceCount) error(`${locale}/${file}:${path}: protected term missing: ${term}`);
     }
     if (source === target) warning(`${locale}/${file}:${path}: unchanged English draft`);
     return;
@@ -125,10 +127,24 @@ function compareValues(source, target, locale, file, path) {
     const sourceKeys = Object.keys(source).sort();
     const targetKeys = Object.keys(target).sort();
     if (stableJson(sourceKeys) !== stableJson(targetKeys)) {
-      error(`${locale}/${file}:${path || "(root)"}: keys differ`);
-      return;
+      if (!allowKeyDrift) {
+        error(`${locale}/${file}:${path || "(root)"}: keys differ`);
+        return;
+      }
+      const sourceKeySet = new Set(sourceKeys);
+      const targetKeySet = new Set(targetKeys);
+      for (const key of sourceKeys) {
+        if (!targetKeySet.has(key)) warning(`${locale}/${file}:${path || "(root)"}: missing key in stale CMS draft: ${key}`);
+      }
+      for (const key of targetKeys) {
+        if (!sourceKeySet.has(key)) warning(`${locale}/${file}:${path || "(root)"}: obsolete key in stale CMS draft: ${key}`);
+      }
     }
-    for (const key of sourceKeys) compareValues(source[key], target[key], locale, file, path ? `${path}.${key}` : key);
+    for (const key of sourceKeys) {
+      if (Object.prototype.hasOwnProperty.call(target, key)) {
+        compareValues(source[key], target[key], locale, file, path ? `${path}.${key}` : key, allowKeyDrift);
+      }
+    }
   }
 }
 
@@ -136,8 +152,28 @@ function htmlTags(value) {
   return [...value.matchAll(/<\/?\s*([A-Za-z][A-Za-z0-9-]*)\b[^>]*>/g)].map((match) => match[1].toLowerCase());
 }
 
+function htmlAttributes(value) {
+  return [...value.matchAll(/<\s*([A-Za-z][A-Za-z0-9-]*)\b([^<>]*?)>/g)].map((match) => {
+    const attributes = [];
+    const source = match[2].replace(/\s+\/\s*$/, "");
+    const pattern = /([A-Za-z_:][A-Za-z0-9:._-]*)(?:\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s"'=<>`]+)))?/g;
+    for (const attribute of source.matchAll(pattern)) {
+      attributes.push([attribute[1].toLowerCase(), attribute[2] ?? attribute[3] ?? attribute[4] ?? null]);
+    }
+    return { tag: match[1].toLowerCase(), attributes };
+  });
+}
+
 function protectedHtmlLiterals(value) {
   return [...value.matchAll(/<(code|pre)\b[^>]*>([\s\S]*?)<\/\1>/gi)].map((match) => match[2]);
+}
+
+function protectedHtmlTerms(value) {
+  const text = value.replace(/<[^>]*>/g, " ");
+  return protectedTerms.flatMap((term) => {
+    const count = text.split(term).length - 1;
+    return Array.from({ length: count }, () => term);
+  });
 }
 
 async function validateHtmlSources() {
@@ -152,7 +188,15 @@ async function validateHtmlSources() {
       try {
         const target = await readFile(targetPath, "utf8");
         if (stableJson(htmlTags(source)) !== stableJson(htmlTags(target))) error(`${locale}/html/${relative}: markup tags differ`);
+        if (stableJson(htmlAttributes(source)) !== stableJson(htmlAttributes(target))) error(`${locale}/html/${relative}: HTML attributes differ`);
         if (stableJson(protectedHtmlLiterals(source)) !== stableJson(protectedHtmlLiterals(target))) error(`${locale}/html/${relative}: code/pre literal changed`);
+        const sourceTerms = protectedHtmlTerms(source);
+        const targetTerms = protectedHtmlTerms(target);
+        for (const term of new Set(sourceTerms)) {
+          if (targetTerms.filter((item) => item === term).length < sourceTerms.filter((item) => item === term).length) {
+            error(`${locale}/html/${relative}: protected product literal changed: ${term}`);
+          }
+        }
       } catch {
         warning(`${locale}/html/${relative}: draft is missing until CMS content is reviewed`);
       }
@@ -172,10 +216,17 @@ async function main() {
   const sourceUi = await readJson(join(root, "translations", "source", "ui.json"));
   if (sourceUi && stableJson(sourceUi) !== stableJson(english)) error("translations/source/ui.json does not match messages/en");
 
+  const manifest = await readJson(join(root, "translations", "manifest.json"));
+  const status = await readJson(join(root, "translations", "draft-status.json"));
   const sourceContent = await readJson(join(root, "translations", "source", "en.json"));
   if (sourceContent && Object.keys(sourceContent).length === 0) warning("translations/source/en.json is empty until the private published CMS export is reviewed");
+  const hasSourceContent = sourceContent && typeof sourceContent === "object" && !Array.isArray(sourceContent) && Object.keys(sourceContent).length > 0;
 
   for (const locale of locales) {
+    const targetContent = await readJson(join(root, "translations", locale, "en.json"));
+    const cmsMarker = status?.locales?.[locale]?.cms;
+    const cmsIsCurrent = cmsMarker?.sourceContentHash === manifest?.sourceContentHash && cmsMarker?.keyCoverage === "complete";
+    if (hasSourceContent && targetContent !== undefined) compareValues(sourceContent, targetContent, locale, "en.json", "", !cmsIsCurrent);
     const target = await loadCatalog(join("messages", locale));
     for (const file of files) {
       compareValues(
@@ -190,7 +241,6 @@ async function main() {
     if (targetUi && stableJson(targetUi) !== stableJson(target)) error(`translations/${locale}/ui.json does not match messages/${locale}`);
   }
 
-  const manifest = await readJson(join(root, "translations", "manifest.json"));
   if (manifest) {
     if (manifest.sourceFile !== "translations/source/en.json" || manifest.sourceLocale !== "en" || manifest.schemaVersion !== 1) error("translations/manifest.json has an invalid source contract");
     if (stableJson(manifest.locales) !== stableJson(["en", ...locales])) error("translations/manifest.json locale list is out of date");
@@ -202,7 +252,6 @@ async function main() {
     if (stableJson(uiManifest.namespaces) !== stableJson(namespaces.slice().sort())) error("translations/ui-manifest.json namespace list is out of date");
     if (uiManifest.sourceContentHash !== hash(sourceUi ?? {})) error("translations/ui-manifest.json source hash is stale");
   }
-  const status = await readJson(join(root, "translations", "draft-status.json"));
   if (!status || status.approvalPolicy !== "unapproved") error("translations/draft-status.json must keep all seeded files unapproved");
   for (const locale of locales) {
     if (status?.locales?.[locale]?.approved !== false || status?.locales?.[locale]?.status !== "DRAFT") error(`draft status for ${locale} is not explicitly unapproved`);

@@ -55,6 +55,14 @@ test("UI seeder preserves exported CMS files and existing target drafts", async 
   target.footer.description = sentinel;
   await writeFile(targetPath, `${JSON.stringify(target, null, 2)}\n`);
 
+  const statusPath = join(root, "translations", "draft-status.json");
+  const existingStatus = JSON.parse(await readFile(statusPath, "utf8"));
+  existingStatus.locales.es.cms = {
+    sourceContentHash: "cms-export-sentinel",
+    keyCoverage: "complete",
+  };
+  await writeFile(statusPath, `${JSON.stringify(existingStatus, null, 2)}\n`);
+
   await runSeeder(root);
 
   assert.equal(await readFile(sourcePath, "utf8"), sourceText);
@@ -71,5 +79,9 @@ test("UI seeder preserves exported CMS files and existing target drafts", async 
     keyCoverage: "complete",
     translation: "needs-review",
     nativeReview: "needs-review",
+    cms: {
+      sourceContentHash: "cms-export-sentinel",
+      keyCoverage: "complete",
+    },
   });
 });

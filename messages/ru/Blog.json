@@ -14,6 +14,12 @@
     "pageTitle": "Журнал · Страница {page}",
     "description": "Контекст выпуска MyInsta, примечания к продукту, пояснения по безопасности и практические руководства."
   },
+  "taxonomy": {
+    "categoryLabel": "Категория журнала",
+    "tagLabel": "Тег журнала",
+    "categoryDescription": "Публикации журнала MyInsta, отнесённые к категории «{name}».",
+    "tagDescription": "Опубликованные публикации журнала MyInsta с тегом «{name}»."
+  },
   "index": {
     "eyebrow": "Журнал",
     "title": "Мысли",

@@ -14,6 +14,12 @@
     "pageTitle": "Journal · Page {page}",
     "description": "Contexte des versions de MyInsta, notes produit, explications de sécurité et guides pratiques."
   },
+  "taxonomy": {
+    "categoryLabel": "Catégorie du journal",
+    "tagLabel": "Étiquette du journal",
+    "categoryDescription": "Articles du journal MyInsta classés sous {name}.",
+    "tagDescription": "Articles publiés du journal MyInsta associés à l’étiquette {name}."
+  },
   "index": {
     "eyebrow": "Journal",
     "title": "La réflexion",
