@@ -173,3 +173,12 @@ test("rejects changed HTML protected product literals", async (t) => {
   assert.notEqual(result.code, 0);
   assert.match(result.output, /ERROR bn\/html\/page\.privacy\.body\.html: protected product literal changed: MyInsta/);
 });
+
+test("rejects a missing HTML source declared by the content manifest", async (t) => {
+  const root = await fixture(t);
+  await rm(join(root, "translations/source/html/page.privacy.body.html"));
+
+  const result = await runValidator(root);
+  assert.notEqual(result.code, 0);
+  assert.match(result.output, /ERROR translations\/manifest\.json entry source is missing: translations\/source\/html\/page\.privacy\.body\.html/);
+});

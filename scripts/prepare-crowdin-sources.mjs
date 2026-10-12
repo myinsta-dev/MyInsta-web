@@ -78,6 +78,18 @@ async function listHtmlFiles(directory) {
   }
 }
 
+async function validateManifestEntries(root, manifest) {
+  if (!Array.isArray(manifest.entries)) return;
+  for (const entry of manifest.entries) {
+    const sourceFile = entry?.sourcePath;
+    if (typeof sourceFile !== "string") {
+      fail("manifest entries must include a sourcePath");
+    }
+    const sourcePath = repositoryPath(root, sourceFile);
+    await regularFile(sourcePath, `manifest entry ${entry.key ?? sourceFile}`);
+  }
+}
+
 function jsonSourceEntry(sourceFile, targetFile) {
   return {
     source: `/${sourceFile}`,
@@ -104,6 +116,7 @@ export async function prepareCrowdinSources({ root = REPOSITORY_ROOT } = {}) {
   const contentSourcePath = repositoryPath(root, contentSourceFile);
   await regularFile(contentSourcePath, contentSourceFile);
   const contentSource = await readJson(contentSourcePath);
+  await validateManifestEntries(root, contentManifest);
   if (contentSource && typeof contentSource === "object" && !Array.isArray(contentSource) && Object.keys(contentSource).length > 0) {
     files.unshift(jsonSourceEntry(contentSourceFile, "en.json"));
   }

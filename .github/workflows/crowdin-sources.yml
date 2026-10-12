@@ -22,11 +22,17 @@ concurrency:
 
 jobs:
   upload-sources:
+    # Manual dispatch must use the reviewed public main workflow and source.
+    # A contributor-controlled ref would receive the Crowdin source token.
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - name: Check out public source
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+          persist-credentials: false
 
       - name: Prepare active source groups
         run: node scripts/prepare-crowdin-sources.mjs --output crowdin-sources.json

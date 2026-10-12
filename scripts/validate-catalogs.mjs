@@ -204,6 +204,41 @@ async function validateHtmlSources() {
   }
 }
 
+async function validateContentManifest(manifest, sourceContent) {
+  if (!Array.isArray(manifest?.entries)) {
+    error("translations/manifest.json is missing its entries list");
+    return;
+  }
+  for (const entry of manifest.entries) {
+    const sourcePath = entry?.sourcePath;
+    if (
+      typeof sourcePath !== "string" ||
+      !sourcePath.startsWith("translations/source/") ||
+      sourcePath.includes("\\") ||
+      sourcePath.includes("..")
+    ) {
+      error(`translations/manifest.json has an unsafe entry source path: ${String(sourcePath)}`);
+      continue;
+    }
+    let content;
+    try {
+      content = await readFile(join(root, sourcePath), "utf8");
+    } catch (cause) {
+      error(`translations/manifest.json entry source is missing: ${sourcePath}`);
+      continue;
+    }
+    if (entry.format !== "html" && (!sourceContent || Object.keys(sourceContent).length === 0)) continue;
+    const value = entry.format === "html" ? content : sourceContent?.[entry.key];
+    if (value === undefined) {
+      error(`translations/manifest.json entry is missing source content: ${entry.key}`);
+      continue;
+    }
+    if (entry.sourceHash !== hash(value)) {
+      error(`translations/manifest.json entry source hash is stale: ${entry.key}`);
+    }
+  }
+}
+
 function combineCatalogMessages(catalog) {
   return Object.fromEntries(namespaces.map((namespace) => [namespace, catalog[namespace]]));
 }
@@ -221,11 +256,13 @@ async function main() {
   const sourceContent = await readJson(join(root, "translations", "source", "en.json"));
   if (sourceContent && Object.keys(sourceContent).length === 0) warning("translations/source/en.json is empty until the private published CMS export is reviewed");
   const hasSourceContent = sourceContent && typeof sourceContent === "object" && !Array.isArray(sourceContent) && Object.keys(sourceContent).length > 0;
+  await validateContentManifest(manifest, sourceContent);
 
   for (const locale of locales) {
     const targetContent = await readJson(join(root, "translations", locale, "en.json"));
     const cmsMarker = status?.locales?.[locale]?.cms;
     const cmsIsCurrent = cmsMarker?.sourceContentHash === manifest?.sourceContentHash && cmsMarker?.keyCoverage === "complete";
+    if (hasSourceContent && !cmsIsCurrent) warning(`${locale}/en.json: CMS draft marker is stale or missing`);
     if (hasSourceContent && targetContent !== undefined) compareValues(sourceContent, targetContent, locale, "en.json", "", !cmsIsCurrent);
     const target = await loadCatalog(join("messages", locale));
     for (const file of files) {
@@ -253,8 +290,17 @@ async function main() {
     if (uiManifest.sourceContentHash !== hash(sourceUi ?? {})) error("translations/ui-manifest.json source hash is stale");
   }
   if (!status || status.approvalPolicy !== "unapproved") error("translations/draft-status.json must keep all seeded files unapproved");
+  if (status && stableJson(Object.keys(status.locales ?? {}).sort()) !== stableJson(locales.slice().sort())) error("translations/draft-status.json locale list is out of date");
   for (const locale of locales) {
-    if (status?.locales?.[locale]?.approved !== false || status?.locales?.[locale]?.status !== "DRAFT") error(`draft status for ${locale} is not explicitly unapproved`);
+    const marker = status?.locales?.[locale];
+    if (
+      marker?.approved !== false ||
+      marker?.status !== "DRAFT" ||
+      marker?.nativeReviewRequired !== true ||
+      marker?.keyCoverage !== "complete" ||
+      marker?.translation !== "needs-review" ||
+      marker?.nativeReview !== "needs-review"
+    ) error(`draft status for ${locale} is not explicitly unapproved`);
   }
   await validateHtmlSources();
 

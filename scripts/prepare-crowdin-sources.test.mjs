@@ -75,3 +75,20 @@ test("does not modify the repository while preparing the config", async () => {
     await rm(root, { recursive: true, force: true });
   }
 });
+
+test("fails closed when a manifest HTML source is missing", async () => {
+  const root = await fixture();
+  try {
+    await writeFile(join(root, "translations/source/en.json"), "{}\n");
+    await writeFile(join(root, "translations/manifest.json"), JSON.stringify({
+      sourceFile: "translations/source/en.json",
+      entries: [{ key: "page.privacy.body", sourcePath: "translations/source/html/missing.html" }],
+    }));
+    await assert.rejects(
+      prepareCrowdinSources({ root }),
+      /manifest entry page\.privacy\.body is missing/,
+    );
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});

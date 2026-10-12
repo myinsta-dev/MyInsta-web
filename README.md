@@ -52,6 +52,8 @@ the repository secret `CROWDIN_SOURCE_TOKEN`. Scope that token to Crowdin
 project `937181` for source uploads. The workflow never downloads translations,
 approves translations, or creates a translation pull request; keep this token
 separate from private publisher, importer, and draft credentials.
+Manual dispatch is accepted only from the reviewed `main` ref, and the checkout
+does not persist a GitHub token in the repository configuration.
 
 The public source refresh is reviewed on a branch such as
 `sync/translations/public-source`. Do not merge a generated source refresh or
