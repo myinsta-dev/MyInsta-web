@@ -1,0 +1,443 @@
+{
+  "Common": {
+    "navigation": {
+      "features": "기능",
+      "releases": "릴리스",
+      "journal": "저널",
+      "support": "지원",
+      "product": "제품",
+      "menu": "메뉴"
+    },
+    "status": {
+      "latest": "최신",
+      "unavailable": "사용할 수 없음"
+    },
+    "actions": {
+      "downloadVersionPrefix": "v 다운로드",
+      "viewReleases": "릴리스 보기"
+    },
+    "aria": {
+      "primaryNavigation": "기본 탐색",
+      "home": "{siteName} 홈",
+      "openMenu": "탐색 메뉴 열기",
+      "closeMenu": "탐색 메뉴 닫기",
+      "socialLinks": "소셜 링크",
+      "legal": "법률"
+    },
+    "language": {
+      "label": "언어",
+      "en": "English",
+      "hi": "Hindi",
+      "pt-BR": "Português (Brasil)",
+      "es": "Español",
+      "id": "Bahasa Indonesia",
+      "tr": "Türkçe",
+      "fil": "Filipino",
+      "de": "Deutsch",
+      "fr": "Français",
+      "ar": "العربية",
+      "ru": "Русский",
+      "bn": "বাংলা",
+      "ja": "日本語",
+      "ko": "한국어"
+    },
+    "newsletter": {
+      "emailAddress": "이메일 주소",
+      "emailPlaceholder": "you@example.com",
+      "join": "릴리스 노트 받기",
+      "joining": "구독 중…",
+      "checkInbox": "받은 편지를 확인하세요",
+      "subscriptionStarted": "구독이 시작되었습니다. 받은편지함을 확인하여 인증하세요.",
+      "subscriptionUnavailable": "이메일 전송이 비활성화되었거나 설정되지 않아 현재 구독을 이용할 수 없습니다.",
+      "subscriptionFailed": "구독에 실패했습니다. 다시 시도해 주세요.",
+      "unavailable": "릴리스 알림을 현재 이용할 수 없습니다.",
+      "paused": "릴리스 알림이 현재 일시 중지되었습니다."
+    },
+    "footer": {
+      "description": "{siteName} 업데이트, 릴리스 및 지원 리소스를 한곳에서 확인하세요.",
+      "us": "우리",
+      "reachOutLine1": "문의",
+      "reachOutLine2": "해주세요",
+      "unaffiliated": "myinsta.dev는 MyInsta 공식 사이트입니다. myinsta.app은 MyInsta와 관련이 없습니다."
+    },
+    "legal": {
+      "privacy": "개인정보 보호",
+      "terms": "약관"
+    },
+    "community": {
+      "ariaLabel": "MyInsta 커뮤니티에 참여",
+      "join": "{platform}에서 참여하기"
+    },
+    "theme": {
+      "colorTheme": "색상 테마",
+      "change": "색상 테마 변경",
+      "systemTheme": "시스템 테마({resolved})",
+      "current": "{theme} 테마",
+      "switch": "{theme} 테마로 전환",
+      "light": "라이트",
+      "dark": "다크",
+      "system": "시스템"
+    },
+    "metadata": {
+      "skipToContent": "콘텐츠로 건너뛰기",
+      "privacyTitle": "개인정보 처리방침",
+      "privacyDescription": "MyInsta가 웹사이트 분석, 앱 요청 및 릴리스 진위 여부를 처리하는 방법입니다."
+    }
+  },
+  "Home": {
+    "hero": {
+      "subheadline": "Ghost Mode를 사용하고 지원되는 미디어를 다운로드하며 Instagram의 모습을 선택하세요.",
+      "intro": "Ghost Mode로 읽음 표시를 숨기고 사진과 Stories를 저장하며 Android에서 Instagram을 맞춤 설정하세요.",
+      "headline": "나에게 맞춘 Instagram.",
+      "controls": "내 설정",
+      "publicBuilds": "공개 빌드",
+      "independentDescription": "{applicationName}은(는) Android용 독립 Instagram 모드입니다.",
+      "yourWay": "내 방식의 {applicationName}.",
+      "yourWayHighlight": "내 방식으로."
+    },
+    "actions": {
+      "downloadMyInsta": "MyInsta 다운로드",
+      "browseReleases": "릴리스 찾아보기",
+      "installationGuide": "설치 가이드",
+      "seeHowItWorks": "작동 방식 보기",
+      "viewAppScreen": "앱 화면 보기",
+      "releaseNotes": "릴리스 노트"
+    },
+    "sections": {
+      "getStarted": "시작하기",
+      "makeInstagramWork": "Instagram을 나에게 맞게 사용하세요.",
+      "makeInstagramDescription": "읽음 표시를 숨기고 사진과 Stories를 저장하며 Instagram의 모습을 선택하세요.",
+      "commonQuestions": "자주 묻는 질문"
+    },
+    "fallbackFeatures": {
+      "privacy": {
+        "title": "개인정보 보호 설정",
+        "detail": "기기에서 나가는 항목 선택",
+        "description": "현재 빌드에서 지원하는 경우 읽음 표시, 입력 중 표시, Story 조회 및 활동 상태 신호를 더욱 세밀하게 관리하세요."
+      },
+      "media": {
+        "title": "미디어 도구",
+        "detail": "중요한 항목 보관",
+        "description": "콘텐츠에서 바로 사용할 수 있도록 설계된 설정으로 지원되는 사진, 동영상 및 Stories를 저장하세요."
+      },
+      "interface": {
+        "title": "인터페이스 선택",
+        "detail": "익숙한 앱으로 만들기",
+        "description": "핵심 경험은 유지하면서 일부 레이아웃과 상호작용 세부사항을 조정하세요."
+      }
+    },
+    "features": {
+      "fallbackDescription": "MyInsta 설정에서 이 옵션을 확인하세요. 사용할 수 있는 옵션은 릴리스마다 다를 수 있습니다."
+    },
+    "steps": {
+      "download": {
+        "title": "MyInsta 다운로드",
+        "withAsset": "v{version}을(를) 선택하고 릴리스 노트를 읽은 다음 APK 다운로드 링크를 여세요.",
+        "withoutAsset": "v{version}을(를) 열어 릴리스 노트와 사용 가능한 다운로드 옵션을 확인하세요.",
+        "noRelease": "게시된 릴리스를 선택하고 릴리스 노트를 읽은 다음 다운로드 옵션을 여세요."
+      },
+      "controls": {
+        "title": "설정 선택",
+        "description": "MyInsta 설정을 열고 사용할 개인정보 보호, 다운로드 및 화면 표시 옵션을 선택하세요."
+      },
+      "keepUsing": {
+        "title": "Instagram 계속 사용하기",
+        "description": "선택한 설정으로 피드를 둘러보고 Stories를 시청하며 친구에게 메시지를 보내세요."
+      }
+    },
+    "facts": {
+      "latestRelease": "최신 릴리스",
+      "released": "{date}에 릴리스되었습니다.",
+      "readReleaseNotes": "이 빌드의 릴리스 노트를 읽으세요.",
+      "download": "다운로드",
+      "externalDownload": "외부 다운로드 페이지",
+      "apkDownload": "APK 다운로드",
+      "releaseDetails": "릴리스 세부정보",
+      "openFileHost": "이 릴리스에 연결된 파일 호스트를 열어 APK를 받으세요.",
+      "getApk": "이 릴리스의 다운로드 링크로 APK를 받으세요.",
+      "availableFiles": "릴리스 노트에서 사용 가능한 파일과 요구사항을 확인하세요.",
+      "compatibility": "호환성",
+      "deviceRequirements": "릴리스 노트에서 기기 요구사항을 확인하세요."
+    },
+    "proofs": {
+      "latestTitle": "최신 MyInsta 다운로드",
+      "releasesTitle": "MyInsta 릴리스 찾기",
+      "description": "다운로드를 선택하기 전에 릴리스 노트와 Android 요구사항을 확인하세요.",
+      "noRelease": "새 빌드는 이용 가능해지면 릴리스 페이지에 표시됩니다.",
+      "chooseDownload": "릴리스 페이지에서 APK와 다운로드 옵션을 선택하세요."
+    },
+    "faq": {
+      "fallbackAnswer": "관련 릴리스 기록을 확인하거나 지원팀에 문의하여 최신 답변을 확인하세요.",
+      "moreQuestions": "아직 궁금한 점이 있나요? 도와드리겠습니다."
+    },
+    "journal": {
+      "eyebrow": "저널에서",
+      "title": "간직할 만한 노트.",
+      "category": "저널",
+      "readingTime": "읽는 데 {minutes}분"
+    },
+    "cta": {
+      "stable": "안정 버전 v{version}",
+      "appForAndroid": "Android용 {applicationName}",
+      "title": "Instagram을 나만의 방식으로 바꿔볼까요?",
+      "latestPublished": "최신 안정 릴리스 게시일: {date}"
+    },
+    "aria": {
+      "featureIllustrations": "MyInsta 기능 일러스트",
+      "featureScreenshot": "{feature} 스크린샷을 전체 화면으로 보기",
+      "appScreenshots": "MyInsta 앱 스크린샷",
+      "screenshotFullscreen": "{label} 스크린샷을 전체 화면으로 보기"
+    },
+    "screenshots": {
+      "title": "내부를 살펴보세요.",
+      "description": "MyInsta의 실제 화면입니다. 스와이프하여 살펴보거나 화면을 탭해 자세히 보세요.",
+      "carousel": "캐러셀",
+      "viewFullscreen": "전체 화면으로 보기",
+      "previous": "이전 스크린샷",
+      "resume": "자동 스크린샷 다시 시작",
+      "pause": "자동 스크린샷 일시 중지",
+      "next": "다음 스크린샷",
+      "interval": "8초마다 변경",
+      "choose": "스크린샷 선택",
+      "viewerDescription": "전체 스크린샷입니다. 확대/축소 설정으로 세부정보를 확인하고, 스와이프하거나 화살표 버튼으로 화면을 바꾸고, Escape를 눌러 닫으세요.",
+      "zoomOut": "축소",
+      "zoomIn": "확대",
+      "fit": "스크린샷을 화면에 맞추기",
+      "fitShort": "맞추기",
+      "openOriginal": "원본 열기",
+      "items": {
+        "overview": {
+          "label": "설정 개요",
+          "alt": "피드, 인터페이스 및 메시지 설정을 제어하는 MyInsta 설정 개요"
+        },
+        "appearance": {
+          "label": "화면 표시",
+          "alt": "테마, 글꼴, 탐색, 추천 및 메시지를 위한 MyInsta 화면 표시 설정"
+        },
+        "download-story": {
+          "label": "Story 다운로드",
+          "alt": "동영상, 사진, 첫 프레임, 오디오 및 화질을 선택하는 MyInsta Download Story 시트"
+        },
+        "ghost-mode": {
+          "label": "Ghost Mode",
+          "alt": "메시지, Stories, Live, 스크린샷 및 한 번만 보기 미디어를 위한 MyInsta Ghost Mode 설정"
+        },
+        "unsent-messages": {
+          "label": "전송 취소된 메시지",
+          "alt": "다른 사람이 전송을 취소한 메시지를 보관하는 MyInsta 설정"
+        },
+        "stories": {
+          "label": "Stories",
+          "alt": "Story 콘텐츠를 보고 관리하는 MyInsta Stories 설정"
+        },
+        "instants": {
+          "label": "Instants",
+          "alt": "집중적인 공유 경험을 위한 MyInsta Instants 설정"
+        },
+        "hide-save": {
+          "label": "Hide Save",
+          "alt": "선택한 미디어를 저장된 보기에서 제외하는 MyInsta Hide Save 설정"
+        }
+      }
+    },
+    "metadata": {
+      "title": "{siteName} — Android 공식 사이트 및 APK 다운로드",
+      "description": "Android용 {siteName}을(를) 다운로드하고 APK 변형을 비교하며 릴리스 노트와 설치 도움말을 확인하세요."
+    }
+  },
+  "Blog": {
+    "grid": {
+      "empty": "아직 게시된 이야기가 없습니다.",
+      "team": "MyInsta 팀",
+      "unscheduled": "예약되지 않음"
+    },
+    "article": {
+      "share": "공유",
+      "copied": "복사됨",
+      "copyLink": "링크 복사"
+    },
+    "metadata": {
+      "title": "저널",
+      "pageTitle": "저널 · {page}페이지",
+      "description": "MyInsta 릴리스 정보, 제품 노트, 보안 설명과 실용적인 가이드입니다."
+    },
+    "taxonomy": {
+      "categoryLabel": "저널 카테고리",
+      "tagLabel": "저널 태그",
+      "categoryDescription": "MyInsta 저널에서 {name}에 분류된 게시물입니다.",
+      "tagDescription": "{name} 태그가 지정된 MyInsta 저널 게시물입니다."
+    },
+    "index": {
+      "eyebrow": "저널",
+      "title": "만들게 된",
+      "titleAccent": "생각.",
+      "description": "라이브 편집팀이 전하는 릴리스 배경, 제품 결정, 호환성 메모와 이해하기 쉬운 가이드입니다.",
+      "search": "아카이브 검색",
+      "categories": "저널 카테고리",
+      "published": "게시된 노트",
+      "count": "총 {total}개 · {pages}페이지 중 {page}페이지",
+      "sort": "정렬",
+      "latest": "최신순",
+      "oldest": "오래된 순",
+      "apply": "적용",
+      "pagination": "저널 페이지 이동",
+      "previous": "이전",
+      "next": "다음"
+    }
+  },
+  "Releases": {
+    "dateUnavailable": "날짜 없음",
+    "releaseDateUnavailable": "릴리스 날짜 없음",
+    "channels": {
+      "ALL": "전체",
+      "STABLE": "안정",
+      "BETA": "베타",
+      "ALPHA": "알파",
+      "LEGACY": "레거시"
+    },
+    "breadcrumbs": {
+      "home": "홈",
+      "releases": "릴리스"
+    },
+    "facts": {
+      "build": "빌드",
+      "channel": "채널",
+      "base": "기반",
+      "androidRequirement": "Android 요구사항",
+      "buildTarget": "빌드 대상",
+      "primaryArchitecture": "기본 APK 아키텍처"
+    },
+    "index": {
+      "closeChanges": "변경사항 닫기",
+      "seeChanges": "변경사항 보기",
+      "latestDownloadHelp": "최신 릴리스에서 APK를 선택하세요.",
+      "noBuild": "아직 공개 빌드가 없습니다.",
+      "noBuildDescription": "기본 에셋이 공개 배포 준비를 마치면 이곳에 릴리스가 표시됩니다.",
+      "searchLabel": "릴리스 검색",
+      "searchPlaceholder": "버전, 변경 로그, 알려진 문제 검색…",
+      "channelGroup": "릴리스 채널",
+      "noMatches": "해당 필터와 일치하는 게시된 릴리스가 없습니다."
+    },
+    "detail": {
+      "allReleases": "모든 릴리스",
+      "current": "현재",
+      "latest": "최신",
+      "versionBuild": "버전 {version} · 빌드 {build}",
+      "chooseApk": "APK 선택",
+      "cloneDescription": "Instagram과 함께 사용할 수 있도록 별도 패키지를 사용합니다.",
+      "uncloneDescription": "원래 패키지를 사용합니다. 충돌을 확인하고 설치된 앱을 교체하기 전에 로컬 데이터를 백업하세요.",
+      "abiDescription": "기기의 ABI를 맞추세요. ARM64는 64비트 ARM, ARM32는 32비트 ARM, x86/x86_64는 호환되는 Intel 기기와 에뮬레이터용입니다. 이 릴리스에 표시된 경우에만 Universal을 사용하세요. 빌드 대상은 Android 최소 요구사항과 별개입니다.",
+      "installationHelp": "설치 및 패키지 충돌 도움말",
+      "noPrimaryAsset": "현재 다운로드할 수 있는 기본 에셋이 없습니다.",
+      "coverAlt": "{title} 릴리스 커버",
+      "experimentalChannel": "실험 채널",
+      "alphaWarning": "알파 빌드는 완전하지 않을 수 있으며 신중한 테스트를 위한 것입니다.",
+      "betaWarning": "베타 빌드에는 안정 채널에 없는 회귀 문제가 포함될 수 있습니다.",
+      "buildRecord": "빌드 기록",
+      "whatChanged": "변경사항",
+      "fixedInBuild": "이 빌드에서 수정됨",
+      "knownIssues": "알려진 문제",
+      "installation": "설치",
+      "upgrade": "업그레이드",
+      "rollbackNotes": "롤백 메모",
+      "screenshots": "스크린샷",
+      "compatibility": "호환성",
+      "securityNote": "보안 메모",
+      "readRelated": "읽기: {title}",
+      "previous": "이전 버전 v{version}"
+    },
+    "download": {
+      "download": "다운로드",
+      "downloadAdFree": "다운로드(광고 없음)",
+      "openExternal": "외부 APK 열기",
+      "downloadSize": "{size} 다운로드",
+      "unavailable": "다운로드 링크를 준비하지 못했습니다. 빌드를 계속 이용할 수 있는지 확인한 후 다시 시도하세요. 클릭할 때마다 새 서명 링크가 생성됩니다.",
+      "apkDownloads": "APK 다운로드",
+      "unspecifiedAbi": "ABI 지정되지 않음",
+      "ariaLabel": "{variant} {abi} {type}",
+      "assetAriaLabel": "{label} 다운로드",
+      "external": "외부 다운로드",
+      "apk": "APK 다운로드",
+      "recommended": "이 기기에 권장",
+      "browserAbi": "브라우저에서 {abi}를 보고했습니다. 기기가 이 ABI를 지원하는지 확인하세요.",
+      "browserUnknownAbi": "브라우저에서 ABI를 보고하지 않습니다. 사용 가능한 경우 Universal을 선택하거나 기기 아키텍처를 확인하세요.",
+      "otherDownloads": "기타 다운로드",
+      "options": "다운로드 옵션",
+      "externalDownload": "외부 다운로드",
+      "errors": {
+        "notFound": "다운로드를 찾을 수 없음",
+        "rateLimited": "다운로드 시도가 너무 많습니다",
+        "unavailable": "다운로드를 일시적으로 이용할 수 없습니다.",
+        "verifying": "다운로드 확인이 아직 진행 중입니다.",
+        "sourceUnavailable": "이 다운로드 소스는 더 이상 이용할 수 없습니다.",
+        "unsafeSource": "이 다운로드 소스는 안전하게 열 수 없습니다.",
+        "prepareFailed": "다운로드를 준비하지 못했습니다. 다시 시도해 주세요.",
+        "rangeNotSatisfiable": "요청한 범위를 처리할 수 없습니다."
+      }
+    },
+    "verification": {
+      "details": "검증 세부 정보",
+      "externalWithChecksum": "외부 호스트: 받은 파일을 공개된 체크섬과 비교하세요. 이 사이트는 외부 응답을 확인하지 않습니다.",
+      "externalWithoutChecksum": "외부 호스트: 공개된 체크섬이 없습니다. 이 사이트는 외부 응답을 확인하지 않습니다.",
+      "verified": "저장된 APK에는 기록된 체크섬과 서명 인증서 확인 결과가 있습니다. 이는 앱 동작이나 계정 안전을 보장하지 않습니다.",
+      "unverified": "이 파일에 대한 완료된 확인 기록이 없습니다.",
+      "noChecksum": "이 파일의 체크섬이 공개되지 않았습니다.",
+      "certificateSha256": "서명 인증서 SHA-256",
+      "copyChecksum": "체크섬 복사",
+      "copied": "복사됨",
+      "primaryVerified": "기본 APK 확인됨",
+      "primaryApk": "기본 APK",
+      "internalRecord": "내부 확인 기록",
+      "externalDelivery": "외부 제공",
+      "releaseAssetRecord": "릴리스 에셋 기록",
+      "verifiedShort": "SHA-256 확인됨",
+      "availableShort": "SHA-256 제공됨",
+      "signingCertificate": "서명 인증서"
+    },
+    "notes": {
+      "title": "릴리스 노트",
+      "empty": "게시된 릴리스 노트가 없습니다.",
+      "emptyChangelog": "게시된 변경 로그 항목이 없습니다.",
+      "showLess": "간략히 보기",
+      "readMore": "더 읽기"
+    },
+    "timeline": {
+      "base": "기반 {version}",
+      "notSpecified": "지정되지 않음",
+      "assets": "{count, plural, =0 {에셋 없음} one {에셋 #개} other {에셋 #개}}",
+      "hideChangelog": "변경 로그 숨기기",
+      "showChangelog": "변경 로그 표시",
+      "emptyChangelog": "이 릴리스에 게시된 변경 로그 항목이 없습니다."
+    },
+    "metadata": {
+      "title": "MyInsta 릴리스 — 공식 APK 다운로드",
+      "description": "릴리스 노트, 호환성 세부정보, 체크섬 및 변경 로그가 포함된 Android용 공식 MyInsta APK 다운로드입니다.",
+      "latestTitle": "최신 릴리스",
+      "latestDescription": "최신 게시 MyInsta 릴리스를 찾아 APK 다운로드를 선택하세요.",
+      "detailTitle": "{title} · v{version} — 공식 APK 다운로드"
+    }
+  },
+  "Search": {
+    "eyebrow": "기록 찾기",
+    "title": "검색",
+    "titleAccent": "모든 공개 정보.",
+    "inputLabel": "게시된 콘텐츠 검색",
+    "placeholder": "릴리스, 기능, 가이드, 버전…",
+    "disabledPlaceholder": "검색이 현재 비활성화됨",
+    "resultsCount": "{count, plural, =0 {결과 없음} one {“{query}” 결과 #개} other {“{query}” 결과 #개}}",
+    "noResults": "해당 문구와 일치하는 공개 기록이 없습니다.",
+    "shortQuery": "두 글자 이상 입력하세요. 입력하는 동안 결과가 업데이트되며 화살표 키로 이동할 수 있습니다.",
+    "disabled": "관리자가 공개 검색을 비활성화했습니다.",
+    "errors": {
+      "tooShort": "검색어가 너무 짧습니다.",
+      "tooLong": "검색어가 너무 깁니다.",
+      "rateLimited": "검색이 일시적으로 요청 제한되었습니다. 잠시 후 다시 시도해 주세요.",
+      "disabled": "검색이 현재 비활성화되었습니다.",
+      "unavailable": "검색을 일시적으로 이용할 수 없습니다."
+    },
+    "metadata": {
+      "title": "검색",
+      "description": "MyInsta 릴리스, 저널 게시물 및 게시된 페이지를 검색하세요."
+    }
+  }
+}

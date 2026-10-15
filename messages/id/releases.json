@@ -1,0 +1,132 @@
+{
+  "dateUnavailable": "Tanggal tidak tersedia",
+  "releaseDateUnavailable": "Tanggal rilis tidak tersedia",
+  "channels": {
+    "ALL": "Semua",
+    "STABLE": "Stabil",
+    "BETA": "Beta",
+    "ALPHA": "Alfa",
+    "LEGACY": "Lama"
+  },
+  "breadcrumbs": {
+    "home": "Beranda",
+    "releases": "Rilis"
+  },
+  "facts": {
+    "build": "Build",
+    "channel": "Saluran",
+    "base": "Basis",
+    "androidRequirement": "Persyaratan Android",
+    "buildTarget": "Target build",
+    "primaryArchitecture": "Arsitektur APK utama"
+  },
+  "index": {
+    "closeChanges": "Tutup perubahan",
+    "seeChanges": "Lihat perubahan",
+    "latestDownloadHelp": "Pilih APK dari rilis terbaru.",
+    "noBuild": "Belum ada build publik.",
+    "noBuildDescription": "Rilis akan muncul di sini saat aset utamanya siap didistribusikan secara publik.",
+    "searchLabel": "Cari rilis",
+    "searchPlaceholder": "Cari versi, changelog, atau masalah yang diketahui…",
+    "channelGroup": "Saluran rilis",
+    "noMatches": "Tidak ada rilis yang dipublikasikan dan cocok dengan filter tersebut."
+  },
+  "detail": {
+    "allReleases": "Semua rilis",
+    "current": "Saat ini",
+    "latest": "Terbaru",
+    "versionBuild": "Versi {version} · build {build}",
+    "chooseApk": "Pilih APK Anda",
+    "cloneDescription": "menggunakan paket terpisah agar dapat berjalan berdampingan dengan Instagram.",
+    "uncloneDescription": "menggunakan paket asli; periksa konflik dan cadangkan data lokal sebelum mengganti aplikasi yang terpasang.",
+    "abiDescription": "Cocokkan ABI perangkat Anda: ARM64 untuk ARM 64-bit, ARM32 untuk ARM 32-bit, atau x86/x86_64 untuk perangkat Intel dan emulator yang kompatibel. Gunakan Universal hanya jika tercantum pada rilis ini. Target build terpisah dari persyaratan minimum Android.",
+    "installationHelp": "Bantuan instalasi dan konflik paket",
+    "noPrimaryAsset": "Aset utama yang dapat diunduh saat ini tidak tersedia.",
+    "coverAlt": "Sampul rilis {title}",
+    "experimentalChannel": "Saluran eksperimental",
+    "alphaWarning": "Build alpha mungkin belum lengkap dan ditujukan untuk pengujian yang disengaja.",
+    "betaWarning": "Build beta mungkin memiliki regresi yang tidak ada di saluran stabil.",
+    "buildRecord": "Catatan build",
+    "whatChanged": "Yang berubah",
+    "fixedInBuild": "Diperbaiki di build ini",
+    "knownIssues": "Masalah yang diketahui",
+    "installation": "Instalasi",
+    "upgrade": "Pembaruan",
+    "rollbackNotes": "Catatan rollback",
+    "screenshots": "Tangkapan layar",
+    "compatibility": "Kompatibilitas",
+    "securityNote": "Catatan keamanan",
+    "readRelated": "Baca: {title}",
+    "previous": "Sebelumnya v{version}"
+  },
+  "download": {
+    "download": "Unduh",
+    "downloadAdFree": "Unduh (tanpa iklan)",
+    "openExternal": "Buka APK eksternal",
+    "downloadSize": "Unduh {size}",
+    "unavailable": "Tautan unduhan tidak dapat disiapkan. Pastikan build masih tersedia, lalu coba lagi; tautan bertanda tangan baru dibuat setiap kali Anda mengeklik.",
+    "apkDownloads": "Unduhan APK",
+    "unspecifiedAbi": "ABI tidak ditentukan",
+    "ariaLabel": "{variant} {abi} {type}",
+    "assetAriaLabel": "Unduhan {label}",
+    "external": "unduhan eksternal",
+    "apk": "Unduhan APK",
+    "recommended": "Direkomendasikan untuk perangkat ini",
+    "browserAbi": "Browser melaporkan {abi}. Pastikan perangkat Anda mendukung ABI ini.",
+    "browserUnknownAbi": "Browser Anda tidak melaporkan ABI. Pilih Universal jika tersedia, atau periksa arsitektur perangkat Anda.",
+    "otherDownloads": "Unduhan lainnya",
+    "options": "Opsi unduhan",
+    "externalDownload": "Unduhan eksternal",
+    "errors": {
+      "notFound": "Unduhan tidak ditemukan",
+      "rateLimited": "Terlalu banyak percobaan unduhan",
+      "unavailable": "Unduhan sedang tidak tersedia untuk sementara.",
+      "verifying": "Verifikasi unduhan masih berlangsung.",
+      "sourceUnavailable": "Sumber unduhan ini tidak lagi tersedia.",
+      "unsafeSource": "Sumber unduhan ini tidak aman untuk dibuka.",
+      "prepareFailed": "Unduhan tidak dapat disiapkan. Silakan coba lagi.",
+      "rangeNotSatisfiable": "Rentang yang diminta tidak dapat dipenuhi."
+    }
+  },
+  "verification": {
+    "details": "Detail verifikasi",
+    "externalWithChecksum": "Host eksternal: bandingkan file yang Anda terima dengan checksum yang dipublikasikan. Situs ini tidak memverifikasi respons eksternal.",
+    "externalWithoutChecksum": "Host eksternal: tidak ada checksum yang dipublikasikan. Situs ini tidak memverifikasi respons eksternal.",
+    "verified": "APK yang tersimpan memiliki checksum tercatat dan pemeriksaan sertifikat penandatanganan. Ini tidak menjamin perilaku aplikasi atau keamanan akun.",
+    "unverified": "Tidak ada catatan verifikasi lengkap untuk file ini.",
+    "noChecksum": "Tidak ada checksum yang dipublikasikan untuk file ini.",
+    "certificateSha256": "SHA-256 sertifikat penandatanganan",
+    "copyChecksum": "Salin checksum",
+    "copied": "Disalin",
+    "primaryVerified": "APK utama terverifikasi",
+    "primaryApk": "APK utama",
+    "internalRecord": "Catatan verifikasi internal",
+    "externalDelivery": "Pengiriman eksternal",
+    "releaseAssetRecord": "Catatan aset rilis",
+    "verifiedShort": "SHA-256 terverifikasi",
+    "availableShort": "SHA-256 tersedia",
+    "signingCertificate": "Sertifikat penandatanganan"
+  },
+  "notes": {
+    "title": "Catatan rilis",
+    "empty": "Tidak ada catatan rilis yang dipublikasikan.",
+    "emptyChangelog": "Tidak ada item changelog yang dipublikasikan.",
+    "showLess": "Tampilkan lebih sedikit",
+    "readMore": "Baca selengkapnya"
+  },
+  "timeline": {
+    "base": "Basis {version}",
+    "notSpecified": "tidak ditentukan",
+    "assets": "{count, plural, =0 {Tidak ada aset} one {# aset} other {# aset}}",
+    "hideChangelog": "Sembunyikan changelog",
+    "showChangelog": "Tampilkan changelog",
+    "emptyChangelog": "Tidak ada item changelog yang dipublikasikan untuk rilis ini."
+  },
+  "metadata": {
+    "title": "Rilis MyInsta — Unduhan APK Resmi",
+    "description": "Unduhan APK MyInsta resmi untuk Android, dengan catatan rilis, detail kompatibilitas, checksum, dan changelog.",
+    "latestTitle": "Rilis terbaru",
+    "latestDescription": "Temukan rilis MyInsta terbaru yang dipublikasikan dan pilih unduhan APK Anda.",
+    "detailTitle": "{title} · v{version} — Unduhan APK Resmi"
+  }
+}

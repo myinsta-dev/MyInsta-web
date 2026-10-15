@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Encuentra el registro",
+  "title": "Buscar",
+  "titleAccent": "todo lo público.",
+  "inputLabel": "Buscar contenido publicado",
+  "placeholder": "Versión, función, guía, número de versión…",
+  "disabledPlaceholder": "La búsqueda está desactivada",
+  "resultsCount": "{count, plural, =0 {Sin resultados} one {# resultado para «{query}»} other {# resultados para «{query}»}}",
+  "noResults": "Ningún registro público coincide con esa frase.",
+  "shortQuery": "Empieza con al menos dos caracteres. Los resultados se actualizan mientras escribes; usa las flechas para moverte.",
+  "disabled": "Un administrador ha desactivado la búsqueda pública.",
+  "errors": {
+    "tooShort": "La consulta de búsqueda es demasiado corta.",
+    "tooLong": "La consulta de búsqueda es demasiado larga.",
+    "rateLimited": "La búsqueda está limitada temporalmente. Inténtalo de nuevo en unos instantes.",
+    "disabled": "La búsqueda está desactivada.",
+    "unavailable": "La búsqueda no está disponible temporalmente."
+  },
+  "metadata": {
+    "title": "Buscar",
+    "description": "Busca versiones de MyInsta, publicaciones del diario y páginas publicadas."
+  }
+}

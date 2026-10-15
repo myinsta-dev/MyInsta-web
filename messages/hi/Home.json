@@ -1,0 +1,161 @@
+{
+  "hero": {
+    "subheadline": "Ghost Mode का उपयोग करें, समर्थित मीडिया डाउनलोड करें और Instagram का रूप चुनें।",
+    "intro": "Ghost Mode से पढ़े जाने की रसीदें छिपाएँ, फ़ोटो और Stories सहेजें और Android पर Instagram को अपनी पसंद के अनुसार बनाएँ।",
+    "headline": "Instagram, आपके अनुसार।",
+    "controls": "आपके नियंत्रण",
+    "publicBuilds": "सार्वजनिक बिल्ड",
+    "independentDescription": "{applicationName} Android के लिए स्वतंत्र Instagram मॉड है।",
+    "yourWay": "{applicationName}, आपके तरीके से।",
+    "yourWayHighlight": "आपके तरीके से।"
+  },
+  "actions": {
+    "downloadMyInsta": "MyInsta डाउनलोड करें",
+    "browseReleases": "रिलीज़ ब्राउज़ करें",
+    "installationGuide": "इंस्टॉलेशन गाइड",
+    "seeHowItWorks": "यह कैसे काम करता है देखें",
+    "viewAppScreen": "ऐप स्क्रीन देखें",
+    "releaseNotes": "रिलीज़ नोट्स"
+  },
+  "sections": {
+    "getStarted": "शुरू करें",
+    "makeInstagramWork": "Instagram को अपने लिए बेहतर बनाएँ।",
+    "makeInstagramDescription": "पढ़े जाने की रसीदें छिपाएँ, फ़ोटो और Stories सहेजें और Instagram का रूप चुनें।",
+    "commonQuestions": "सामान्य प्रश्न"
+  },
+  "fallbackFeatures": {
+    "privacy": {
+      "title": "गोपनीयता नियंत्रण",
+      "detail": "अपने डिवाइस से बाहर जाने वाली चीज़ें चुनें",
+      "description": "जहाँ मौजूदा बिल्ड समर्थन करता है, वहाँ पढ़े जाने की रसीदों, टाइपिंग संकेतों, Story व्यू और मौजूदगी के संकेतों पर अधिक नियंत्रण रखें।"
+    },
+    "media": {
+      "title": "मीडिया टूल",
+      "detail": "ज़रूरी चीज़ें सँभालकर रखें",
+      "description": "सामग्री के करीब बने नियंत्रणों के ज़रिए समर्थित फ़ोटो, वीडियो और Stories सहेजें।"
+    },
+    "interface": {
+      "title": "इंटरफ़ेस विकल्प",
+      "detail": "ऐप को परिचित जैसा बनाएँ",
+      "description": "मुख्य अनुभव की पहचान बनाए रखते हुए चुने हुए लेआउट और इंटरैक्शन विवरणों को समायोजित करें।"
+    }
+  },
+  "features": {
+    "fallbackDescription": "MyInsta सेटिंग्स में इस विकल्प को देखें। उपलब्ध विकल्प रिलीज़ के अनुसार बदल सकते हैं।"
+  },
+  "steps": {
+    "download": {
+      "title": "MyInsta डाउनलोड करें",
+      "withAsset": "v{version} चुनें, रिलीज़ नोट्स पढ़ें और उसका APK डाउनलोड लिंक खोलें।",
+      "withoutAsset": "रिलीज़ नोट्स और उपलब्ध डाउनलोड विकल्प पढ़ने के लिए v{version} खोलें।",
+      "noRelease": "प्रकाशित रिलीज़ चुनें, रिलीज़ नोट्स पढ़ें और उसके डाउनलोड विकल्प खोलें।"
+    },
+    "controls": {
+      "title": "अपने नियंत्रण चुनें",
+      "description": "MyInsta सेटिंग्स खोलें और अपनी पसंद के गोपनीयता, डाउनलोड और रूप-रंग विकल्प चुनें।"
+    },
+    "keepUsing": {
+      "title": "Instagram का उपयोग जारी रखें",
+      "description": "अपनी फ़ीड देखें, Stories देखें और चुनी हुई सेटिंग्स के साथ मित्रों को संदेश भेजें।"
+    }
+  },
+  "facts": {
+    "latestRelease": "नवीनतम रिलीज़",
+    "released": "{date} को जारी किया गया।",
+    "readReleaseNotes": "इस बिल्ड के रिलीज़ नोट्स पढ़ें।",
+    "download": "डाउनलोड",
+    "externalDownload": "बाहरी डाउनलोड पृष्ठ",
+    "apkDownload": "APK डाउनलोड",
+    "releaseDetails": "रिलीज़ विवरण",
+    "openFileHost": "APK पाने के लिए इस रिलीज़ से जुड़े फ़ाइल होस्ट को खोलें।",
+    "getApk": "इस रिलीज़ के डाउनलोड लिंक से APK प्राप्त करें।",
+    "availableFiles": "उपलब्ध फ़ाइलों और आवश्यकताओं के लिए रिलीज़ नोट्स पढ़ें।",
+    "compatibility": "अनुकूलता",
+    "deviceRequirements": "डिवाइस की आवश्यकताओं के लिए रिलीज़ नोट्स देखें।"
+  },
+  "proofs": {
+    "latestTitle": "नवीनतम MyInsta डाउनलोड करें।",
+    "releasesTitle": "MyInsta रिलीज़ खोजें।",
+    "description": "डाउनलोड चुनने से पहले रिलीज़ नोट्स और Android आवश्यकताएँ देखें।",
+    "noRelease": "उपलब्ध होने पर नए बिल्ड रिलीज़ पृष्ठ पर दिखाई देंगे।",
+    "chooseDownload": "रिलीज़ पृष्ठ पर अपना APK और डाउनलोड विकल्प चुनें।"
+  },
+  "faq": {
+    "fallbackAnswer": "वर्तमान उत्तर के लिए संबंधित रिलीज़ रिकॉर्ड देखें या सहायता से संपर्क करें।",
+    "moreQuestions": "अभी भी सवाल हैं? हम मदद के लिए यहाँ हैं।"
+  },
+  "journal": {
+    "eyebrow": "जर्नल से",
+    "title": "संभाल कर रखने लायक नोट्स।",
+    "category": "जर्नल",
+    "readingTime": "{minutes} मिनट पढ़ने का समय"
+  },
+  "cta": {
+    "stable": "स्थिर v{version}",
+    "appForAndroid": "Android के लिए {applicationName}",
+    "title": "Instagram को अपने जैसा बनाने के लिए तैयार हैं?",
+    "latestPublished": "{date} को नवीनतम स्थिर रिलीज़ प्रकाशित हुई"
+  },
+  "aria": {
+    "featureIllustrations": "MyInsta फ़ीचर चित्रण",
+    "featureScreenshot": "{feature} का स्क्रीनशॉट फ़ुलस्क्रीन में देखें",
+    "appScreenshots": "MyInsta ऐप के स्क्रीनशॉट",
+    "screenshotFullscreen": "{label} का स्क्रीनशॉट फ़ुलस्क्रीन में देखें"
+  },
+  "screenshots": {
+    "title": "अंदर से एक नज़र देखें।",
+    "description": "MyInsta की वास्तविक स्क्रीन। देखने के लिए स्वाइप करें या पास से देखने के लिए किसी स्क्रीन पर टैप करें।",
+    "carousel": "कैरोसेल",
+    "viewFullscreen": "फ़ुलस्क्रीन देखें",
+    "previous": "पिछला स्क्रीनशॉट",
+    "resume": "स्वचालित स्क्रीनशॉट फिर शुरू करें",
+    "pause": "स्वचालित स्क्रीनशॉट रोकें",
+    "next": "अगला स्क्रीनशॉट",
+    "interval": "हर 8 सेकंड में बदलता है",
+    "choose": "स्क्रीनशॉट चुनें",
+    "viewerDescription": "पूरा स्क्रीनशॉट। विवरण के लिए ज़ूम नियंत्रणों का उपयोग करें, स्क्रीन बदलने के लिए स्वाइप करें या तीर बटन उपयोग करें और बंद करने के लिए Escape दबाएँ।",
+    "zoomOut": "ज़ूम आउट",
+    "zoomIn": "ज़ूम इन",
+    "fit": "स्क्रीनशॉट को स्क्रीन पर फ़िट करें",
+    "fitShort": "फ़िट",
+    "openOriginal": "मूल खोलें",
+    "items": {
+      "overview": {
+        "label": "सेटिंग्स का अवलोकन",
+        "alt": "फ़ीड, इंटरफ़ेस और मैसेजिंग के नियंत्रणों वाला MyInsta सेटिंग्स अवलोकन"
+      },
+      "appearance": {
+        "label": "रूप-रंग",
+        "alt": "थीम, फ़ॉन्ट, नेविगेशन, सुझावों और मैसेजिंग के लिए MyInsta रूप-रंग नियंत्रण"
+      },
+      "download-story": {
+        "label": "Story डाउनलोड करें",
+        "alt": "वीडियो, फ़ोटो, पहला फ़्रेम, ऑडियो और गुणवत्ता विकल्पों वाला MyInsta Download Story शीट"
+      },
+      "ghost-mode": {
+        "label": "Ghost Mode",
+        "alt": "संदेशों, Stories, Live, स्क्रीनशॉट और एक बार देखे जाने वाले मीडिया के लिए MyInsta Ghost Mode सेटिंग्स"
+      },
+      "unsent-messages": {
+        "label": "भेजे न गए संदेश",
+        "alt": "अन्य लोगों द्वारा वापस लिए गए संदेशों को सुरक्षित रखने के लिए MyInsta सेटिंग्स"
+      },
+      "stories": {
+        "label": "Stories",
+        "alt": "Story सामग्री देखने और प्रबंधित करने के लिए MyInsta Stories नियंत्रण"
+      },
+      "instants": {
+        "label": "Instants",
+        "alt": "केंद्रित शेयरिंग अनुभव के लिए MyInsta Instants सेटिंग्स"
+      },
+      "hide-save": {
+        "label": "Hide Save",
+        "alt": "चयनित मीडिया को सेव की गई दृश्यों से बाहर रखने के लिए MyInsta Hide Save नियंत्रण"
+      }
+    }
+  },
+  "metadata": {
+    "title": "{siteName} — Android के लिए आधिकारिक साइट और APK डाउनलोड",
+    "description": "Android के लिए {siteName} डाउनलोड करें, APK वेरिएंट की तुलना करें और रिलीज़ नोट्स व इंस्टॉलेशन सहायता पढ़ें।"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "hero": {
+    "subheadline": "Usa Ghost Mode, descarga contenido compatible y elige el aspecto de Instagram.",
+    "intro": "Oculta las confirmaciones de lectura con Ghost Mode, guarda fotos y Stories y personaliza Instagram en Android.",
+    "headline": "Instagram, a tu medida.",
+    "controls": "Tus controles",
+    "publicBuilds": "Versiones públicas",
+    "independentDescription": "{applicationName} es un mod independiente de Instagram para Android.",
+    "yourWay": "{applicationName}, a tu manera.",
+    "yourWayHighlight": "a tu manera."
+  },
+  "actions": {
+    "downloadMyInsta": "Descargar MyInsta",
+    "browseReleases": "Explorar versiones",
+    "installationGuide": "Guía de instalación",
+    "seeHowItWorks": "Descubre cómo funciona",
+    "viewAppScreen": "Ver pantalla de la aplicación",
+    "releaseNotes": "Notas de versión"
+  },
+  "sections": {
+    "getStarted": "Primeros pasos",
+    "makeInstagramWork": "Haz que Instagram funcione para ti.",
+    "makeInstagramDescription": "Oculta las confirmaciones de lectura, guarda fotos y Stories y elige el aspecto de Instagram.",
+    "commonQuestions": "Preguntas frecuentes"
+  },
+  "fallbackFeatures": {
+    "privacy": {
+      "title": "Controles de privacidad",
+      "detail": "Elige qué sale de tu dispositivo",
+      "description": "Mantén bajo control las confirmaciones de lectura, los indicadores de escritura, las visualizaciones de Stories y las señales de presencia cuando la versión actual lo permita."
+    },
+    "media": {
+      "title": "Herramientas multimedia",
+      "detail": "Conserva lo que importa",
+      "description": "Guarda fotos, vídeos y Stories compatibles con controles diseñados para mantener el contenido a mano."
+    },
+    "interface": {
+      "title": "Opciones de interfaz",
+      "detail": "Haz que la aplicación te resulte familiar",
+      "description": "Ajusta algunos detalles del diseño y la interacción sin perder la esencia de la experiencia."
+    }
+  },
+  "features": {
+    "fallbackDescription": "Explora esta opción en los ajustes de MyInsta. Las opciones disponibles pueden variar según la versión."
+  },
+  "steps": {
+    "download": {
+      "title": "Descargar MyInsta",
+      "withAsset": "Elige v{version}, lee las notas de versión y abre su enlace de descarga del APK.",
+      "withoutAsset": "Abre v{version} para leer sus notas de versión y las opciones de descarga disponibles.",
+      "noRelease": "Elige una versión publicada, lee las notas de versión y abre sus opciones de descarga."
+    },
+    "controls": {
+      "title": "Elige tus controles",
+      "description": "Abre los ajustes de MyInsta y elige las opciones de privacidad, descarga y apariencia que quieras usar."
+    },
+    "keepUsing": {
+      "title": "Sigue usando Instagram",
+      "description": "Explora tu feed, mira Stories y escribe a tus amigos con los ajustes que hayas elegido."
+    }
+  },
+  "facts": {
+    "latestRelease": "Última versión",
+    "released": "Publicada el {date}.",
+    "readReleaseNotes": "Lee las notas de versión de esta compilación.",
+    "download": "Descargar",
+    "externalDownload": "Página de descarga externa",
+    "apkDownload": "Descarga del APK",
+    "releaseDetails": "Detalles de la versión",
+    "openFileHost": "Abre el servidor de archivos enlazado a esta versión para obtener el APK.",
+    "getApk": "Obtén el APK mediante el enlace de descarga de esta versión.",
+    "availableFiles": "Lee las notas de versión para consultar los archivos y requisitos disponibles.",
+    "compatibility": "Compatibilidad",
+    "deviceRequirements": "Consulta las notas de versión para conocer los requisitos del dispositivo."
+  },
+  "proofs": {
+    "latestTitle": "Descarga la versión más reciente de MyInsta.",
+    "releasesTitle": "Encuentra las versiones de MyInsta.",
+    "description": "Consulta las notas de versión y los requisitos de Android antes de elegir una descarga.",
+    "noRelease": "Las nuevas compilaciones aparecerán en la página de versiones cuando estén disponibles.",
+    "chooseDownload": "Elige tu APK y la opción de descarga en la página de la versión."
+  },
+  "faq": {
+    "fallbackAnswer": "Consulta el registro de la versión correspondiente o contacta con soporte para obtener la respuesta actual.",
+    "moreQuestions": "¿Todavía tienes preguntas? Estamos aquí para ayudarte."
+  },
+  "journal": {
+    "eyebrow": "Del diario",
+    "title": "Notas que vale la pena conservar.",
+    "category": "Diario",
+    "readingTime": "{minutes} min de lectura"
+  },
+  "cta": {
+    "stable": "Estable v{version}",
+    "appForAndroid": "{applicationName} para Android",
+    "title": "¿Listo para hacer que Instagram sea más tuyo?",
+    "latestPublished": "Última versión estable publicada el {date}"
+  },
+  "aria": {
+    "featureIllustrations": "Ilustraciones de funciones de MyInsta",
+    "featureScreenshot": "Ver la captura de {feature} a pantalla completa",
+    "appScreenshots": "Capturas de pantalla de la aplicación MyInsta",
+    "screenshotFullscreen": "Ver la captura de {label} a pantalla completa"
+  },
+  "screenshots": {
+    "title": "Mira lo que hay dentro.",
+    "description": "Pantallas reales de MyInsta. Desliza para explorar o toca una pantalla para verla más de cerca.",
+    "carousel": "carrusel",
+    "viewFullscreen": "Ver a pantalla completa",
+    "previous": "Captura anterior",
+    "resume": "Reanudar capturas automáticas",
+    "pause": "Pausar capturas automáticas",
+    "next": "Siguiente captura",
+    "interval": "Cambia cada 8 segundos",
+    "choose": "Elige una captura",
+    "viewerDescription": "Captura completa. Usa los controles de zoom para ver los detalles, desliza o usa las flechas para cambiar de pantalla y pulsa Escape para cerrar.",
+    "zoomOut": "Alejar",
+    "zoomIn": "Acercar",
+    "fit": "Ajustar la captura a la pantalla",
+    "fitShort": "Ajustar",
+    "openOriginal": "Abrir original",
+    "items": {
+      "overview": {
+        "label": "Resumen de ajustes",
+        "alt": "Resumen de los ajustes de MyInsta con controles para el feed, la interfaz y la mensajería"
+      },
+      "appearance": {
+        "label": "Apariencia",
+        "alt": "Controles de apariencia de MyInsta para temas, fuentes, navegación, sugerencias y mensajería"
+      },
+      "download-story": {
+        "label": "Descargar Story",
+        "alt": "Panel Descargar Story de MyInsta con opciones de vídeo, foto, primer fotograma, audio y calidad"
+      },
+      "ghost-mode": {
+        "label": "Ghost Mode",
+        "alt": "Ajustes de Ghost Mode de MyInsta para mensajes, Stories, Live, capturas y contenido de un solo vistazo"
+      },
+      "unsent-messages": {
+        "label": "Mensajes no enviados",
+        "alt": "Ajustes de MyInsta para conservar los mensajes que otras personas retiran"
+      },
+      "stories": {
+        "label": "Stories",
+        "alt": "Controles de Stories de MyInsta para ver y gestionar contenido de Story"
+      },
+      "instants": {
+        "label": "Instants",
+        "alt": "Ajustes de Instants de MyInsta para una experiencia de uso compartido centrada"
+      },
+      "hide-save": {
+        "label": "Hide Save",
+        "alt": "Controles Hide Save de MyInsta para ocultar contenido seleccionado de las vistas guardadas"
+      }
+    }
+  },
+  "metadata": {
+    "title": "{siteName} — Sitio oficial y descarga del APK para Android",
+    "description": "Descarga {siteName} para Android, compara variantes del APK y consulta las notas de versión y la ayuda de instalación."
+  }
+}

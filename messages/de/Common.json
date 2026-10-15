@@ -1,0 +1,85 @@
+{
+  "navigation": {
+    "features": "Funktionen",
+    "releases": "Veröffentlichungen",
+    "journal": "Journal",
+    "support": "Support",
+    "product": "Produkt",
+    "menu": "Menü"
+  },
+  "status": {
+    "latest": "Neueste",
+    "unavailable": "Nicht verfügbar"
+  },
+  "actions": {
+    "downloadVersionPrefix": "v herunterladen",
+    "viewReleases": "Veröffentlichungen ansehen"
+  },
+  "aria": {
+    "primaryNavigation": "Primäre Navigation",
+    "home": "{siteName}-Startseite",
+    "openMenu": "Navigationsmenü öffnen",
+    "closeMenu": "Navigationsmenü schließen",
+    "socialLinks": "Soziale Links",
+    "legal": "Rechtliches"
+  },
+  "language": {
+    "label": "Sprache",
+    "en": "Englisch",
+    "hi": "Hindi",
+    "pt-BR": "Português (Brasilien)",
+    "es": "Spanisch",
+    "id": "Bahasa Indonesien",
+    "tr": "Türkçe",
+    "fil": "Philippinisch",
+    "de": "Deutsch",
+    "fr": "Französisch",
+    "ar": "العربية",
+    "ru": "Russisch",
+    "bn": "বাংলা",
+    "ja": "日本語",
+    "ko": "한국어"
+  },
+  "newsletter": {
+    "emailAddress": "E-Mail-Adresse",
+    "emailPlaceholder": "you@example.com",
+    "join": "Release-Notizen abonnieren",
+    "joining": "Beitritt…",
+    "checkInbox": "Überprüfen Sie Ihren Posteingang",
+    "subscriptionStarted": "Das Abonnement wurde gestartet. Überprüfen Sie zur Bestätigung Ihren Posteingang.",
+    "subscriptionUnavailable": "Abonnements sind derzeit nicht verfügbar, da die E-Mail-Zustellung deaktiviert oder nicht konfiguriert ist.",
+    "subscriptionFailed": "Das Abonnement ist fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "unavailable": "Veröffentlichungsbenachrichtigungen sind derzeit nicht verfügbar.",
+    "paused": "Veröffentlichungsbenachrichtigungen sind derzeit pausiert."
+  },
+  "footer": {
+    "description": "{siteName} Updates, Releases und Support-Ressourcen an einem Ort.",
+    "us": "Wir",
+    "reachOutLine1": "Kontakt",
+    "reachOutLine2": "zu uns",
+    "unaffiliated": "myinsta.dev ist die offizielle MyInsta-Seite. myinsta.app ist nicht mit MyInsta verbunden."
+  },
+  "legal": {
+    "privacy": "Datenschutz",
+    "terms": "Bedingungen"
+  },
+  "community": {
+    "ariaLabel": "Der MyInsta-Community beitreten",
+    "join": "Treten Sie unserem {platform} bei"
+  },
+  "theme": {
+    "colorTheme": "Farbthema",
+    "change": "Farbthema ändern",
+    "systemTheme": "Systemthema ({resolved})",
+    "current": "{theme}-Design",
+    "switch": "Zu {theme}-Design wechseln",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "metadata": {
+    "skipToContent": "Zum Inhalt springen",
+    "privacyTitle": "Datenschutzrichtlinie",
+    "privacyDescription": "Wie MyInsta mit Website-Analysen, App-Anfragen und Release-Authentizität umgeht."
+  }
+}

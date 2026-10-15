@@ -1,0 +1,40 @@
+{
+  "grid": {
+    "empty": "Noch keine Geschichten veröffentlicht.",
+    "team": "MyInsta-Team",
+    "unscheduled": "Nicht geplant"
+  },
+  "article": {
+    "share": "Teilen",
+    "copied": "Kopiert",
+    "copyLink": "Link kopieren"
+  },
+  "metadata": {
+    "title": "Journal",
+    "pageTitle": "Journal · Seite {page}",
+    "description": "MyInsta-Versionskontext, Produkthinweise, Sicherheitserklärungen und praktische Leitfäden."
+  },
+  "taxonomy": {
+    "categoryLabel": "Journal-Kategorie",
+    "tagLabel": "Journal-Tag",
+    "categoryDescription": "MyInsta-Journalbeiträge unter {name}.",
+    "tagDescription": "Veröffentlichte MyInsta-Journalbeiträge mit dem Tag {name}."
+  },
+  "index": {
+    "eyebrow": "Journal",
+    "title": "Die Gedanken",
+    "titleAccent": "hinter dem Aufbau.",
+    "description": "Versionskontext, Produktentscheidungen, Kompatibilitätshinweise und klare Anleitungen aus dem laufenden Redaktionsteam.",
+    "search": "Archiv durchsuchen",
+    "categories": "Journal-Kategorien",
+    "published": "Veröffentlichte Notizen",
+    "count": "{total} insgesamt · Seite {page} von {pages}",
+    "sort": "Sortieren",
+    "latest": "Neueste zuerst",
+    "oldest": "Älteste zuerst",
+    "apply": "Anwenden",
+    "pagination": "Journal-Seitennavigation",
+    "previous": "Zurück",
+    "next": "Weiter"
+  }
+}

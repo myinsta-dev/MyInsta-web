@@ -1,0 +1,85 @@
+{
+  "navigation": {
+    "features": "Mga feature",
+    "releases": "Mga release",
+    "journal": "Talaarawan",
+    "support": "Suporta",
+    "product": "Produkto",
+    "menu": "Menu ng nabigasyon"
+  },
+  "status": {
+    "latest": "Pinakabago",
+    "unavailable": "Hindi available"
+  },
+  "actions": {
+    "downloadVersionPrefix": "I-download ang v",
+    "viewReleases": "Tingnan ang mga release"
+  },
+  "aria": {
+    "primaryNavigation": "Pangunahing nabigasyon",
+    "home": "Home ng {siteName}",
+    "openMenu": "Buksan ang navigation menu",
+    "closeMenu": "Isara ang navigation menu",
+    "socialLinks": "Mga social link",
+    "legal": "Mga legal na pahina"
+  },
+  "language": {
+    "label": "Wika",
+    "en": "Ingles",
+    "hi": "Wikang Hindi",
+    "pt-BR": "Portuges (Brazil)",
+    "es": "Espanyol",
+    "id": "Indones",
+    "tr": "Turko",
+    "fil": "Filipino",
+    "de": "Aleman",
+    "fr": "Pranses",
+    "ar": "Arabe",
+    "ru": "Ruso",
+    "bn": "Bengali",
+    "ja": "Hapones",
+    "ko": "Koreano"
+  },
+  "newsletter": {
+    "emailAddress": "Address ng email",
+    "emailPlaceholder": "you@example.com",
+    "join": "Sumali sa release notes",
+    "joining": "Sumasali…",
+    "checkInbox": "Tingnan ang iyong inbox",
+    "subscriptionStarted": "Nagsimula na ang subscription. Tingnan ang iyong inbox para kumpirmahin.",
+    "subscriptionUnavailable": "Hindi available ang mga subscription dahil naka-disable o hindi naka-configure ang paghahatid ng email.",
+    "subscriptionFailed": "Hindi nagtagumpay ang subscription. Subukan muli.",
+    "unavailable": "Hindi available sa ngayon ang mga notification ng release.",
+    "paused": "Naka-pause sa ngayon ang mga notification ng release."
+  },
+  "footer": {
+    "description": "Mga update, release, at support resource ng {siteName} sa isang lugar.",
+    "us": "Kami",
+    "reachOutLine1": "Makipag-ugnayan",
+    "reachOutLine2": "sa amin",
+    "unaffiliated": "Ang myinsta.dev ang opisyal na site ng MyInsta. Walang kaugnayan ang myinsta.app sa MyInsta."
+  },
+  "legal": {
+    "privacy": "Pagkapribado",
+    "terms": "Mga tuntunin"
+  },
+  "community": {
+    "ariaLabel": "Sumali sa komunidad ng MyInsta",
+    "join": "Sumali sa aming {platform}"
+  },
+  "theme": {
+    "colorTheme": "Tema ng kulay",
+    "change": "Baguhin ang tema ng kulay",
+    "systemTheme": "Theme ng system ({resolved})",
+    "current": "Theme na {theme}",
+    "switch": "Lumipat sa theme na {theme}",
+    "light": "Maliwanag",
+    "dark": "Madilim",
+    "system": "Systema"
+  },
+  "metadata": {
+    "skipToContent": "Lumaktaw sa content",
+    "privacyTitle": "Patakaran sa privacy",
+    "privacyDescription": "Kung paano pinangangasiwaan ng MyInsta ang website analytics, mga kahilingan ng app, at pagiging tunay ng release."
+  }
+}

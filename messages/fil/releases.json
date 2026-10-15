@@ -1,0 +1,132 @@
+{
+  "dateUnavailable": "Hindi available ang petsa",
+  "releaseDateUnavailable": "Hindi available ang petsa ng release",
+  "channels": {
+    "ALL": "Lahat",
+    "STABLE": "Matatag",
+    "BETA": "Beta",
+    "ALPHA": "Alpha",
+    "LEGACY": "Luma"
+  },
+  "breadcrumbs": {
+    "home": "Pangunahing pahina",
+    "releases": "Mga release"
+  },
+  "facts": {
+    "build": "Build",
+    "channel": "Channel",
+    "base": "Base",
+    "androidRequirement": "Kinakailangan sa Android",
+    "buildTarget": "Target ng build",
+    "primaryArchitecture": "Pangunahing arkitektura ng APK"
+  },
+  "index": {
+    "closeChanges": "Isara ang mga pagbabago",
+    "seeChanges": "Tingnan ang mga pagbabago",
+    "latestDownloadHelp": "Pumili ng APK mula sa pinakabagong release.",
+    "noBuild": "Wala pang pampublikong build.",
+    "noBuildDescription": "Lilitaw dito ang release kapag handa na para sa pampublikong pamamahagi ang pangunahing asset nito.",
+    "searchLabel": "Maghanap ng mga release",
+    "searchPlaceholder": "Maghanap ng bersyon, changelog, kilalang problema…",
+    "channelGroup": "Channel ng release",
+    "noMatches": "Walang nailathalang release ang tumutugma sa mga filter na iyon."
+  },
+  "detail": {
+    "allReleases": "Lahat ng release",
+    "current": "Kasalukuyan",
+    "latest": "Pinakabago",
+    "versionBuild": "Bersyon {version} · build {build}",
+    "chooseApk": "Piliin ang iyong APK",
+    "cloneDescription": "gumagamit ng hiwalay na package upang makasabay sa Instagram.",
+    "uncloneDescription": "gumagamit ng orihinal na package; tingnan ang mga conflict at i-back up ang lokal na data bago palitan ang naka-install na app.",
+    "abiDescription": "Itugma sa ABI ng iyong device: ARM64 para sa 64-bit ARM, ARM32 para sa 32-bit ARM, o x86/x86_64 para sa mga katugmang Intel device at emulator. Gamitin ang Universal kapag nakalista ito sa release na ito. Hiwalay ang target ng build sa minimum na kinakailangan ng Android.",
+    "installationHelp": "Tulong sa pag-install at conflict ng package",
+    "noPrimaryAsset": "Walang mada-download na pangunahing asset sa ngayon.",
+    "coverAlt": "Cover ng release na {title}",
+    "experimentalChannel": "Experimental na channel",
+    "alphaWarning": "Maaaring hindi kumpleto ang mga alpha build at inilaan ang mga ito para sa maingat na testing.",
+    "betaWarning": "Maaaring may regression ang mga beta build na wala sa stable channel.",
+    "buildRecord": "Record ng build",
+    "whatChanged": "Ano ang nagbago",
+    "fixedInBuild": "Inayos sa build na ito",
+    "knownIssues": "Mga kilalang problema",
+    "installation": "Pag-install",
+    "upgrade": "Pag-upgrade",
+    "rollbackNotes": "Mga tala sa rollback",
+    "screenshots": "Mga screenshot",
+    "compatibility": "Pagkakatugma",
+    "securityNote": "Tala sa seguridad",
+    "readRelated": "Basahin: {title}",
+    "previous": "Nakaraan v{version}"
+  },
+  "download": {
+    "download": "I-download",
+    "downloadAdFree": "I-download (walang ads)",
+    "openExternal": "Buksan ang external na APK",
+    "downloadSize": "I-download ang {size}",
+    "unavailable": "Hindi maihanda ang download link. Tiyaking available pa ang build at subukan ulit; gumagawa ng bagong signed link sa bawat pag-click.",
+    "apkDownloads": "Mga download ng APK",
+    "unspecifiedAbi": "Hindi tinukoy na ABI",
+    "ariaLabel": "Download: {variant} {abi} {type}",
+    "assetAriaLabel": "Download ng {label}",
+    "external": "external na download",
+    "apk": "download ng APK",
+    "recommended": "Inirerekomenda para sa device na ito",
+    "browserAbi": "Iniulat ng browser ang {abi}. Tingnan kung sinusuportahan ng iyong device ang ABI na ito.",
+    "browserUnknownAbi": "Hindi nag-uulat ng ABI ang iyong browser. Piliin ang Universal kung available o tingnan ang arkitektura ng iyong device.",
+    "otherDownloads": "Iba pang download",
+    "options": "Mga opsyon sa download",
+    "externalDownload": "External na download",
+    "errors": {
+      "notFound": "Hindi nakita ang download",
+      "rateLimited": "Napakaraming pagtatangka sa pag-download",
+      "unavailable": "Pansamantalang hindi available ang download.",
+      "verifying": "Isinasagawa pa ang pag-verify ng download.",
+      "sourceUnavailable": "Hindi na available ang source ng download na ito.",
+      "unsafeSource": "Hindi ligtas buksan ang source ng download na ito.",
+      "prepareFailed": "Hindi maihanda ang download. Subukan muli.",
+      "rangeNotSatisfiable": "Hindi maaaring gamitin ang hiniling na range."
+    }
+  },
+  "verification": {
+    "details": "Mga detalye ng verification",
+    "externalWithChecksum": "External host: ikumpara ang natanggap na file sa inilathalang checksum. Hindi bini-verify ng site na ito ang external na tugon.",
+    "externalWithoutChecksum": "External host: walang inilathalang checksum. Hindi bini-verify ng site na ito ang external na tugon.",
+    "verified": "May nakatalang checksum at pagsusuri ng signing certificate ang nakaimbak na APK. Hindi nito ginagarantiya ang kilos ng app o kaligtasan ng account.",
+    "unverified": "Walang kumpletong record ng pag-verify para sa file na ito.",
+    "noChecksum": "Walang inilathalang checksum para sa file na ito.",
+    "certificateSha256": "SHA-256 ng signing certificate",
+    "copyChecksum": "Kopyahin ang checksum",
+    "copied": "Nakopya",
+    "primaryVerified": "Na-verify ang pangunahing APK",
+    "primaryApk": "Pangunahing APK",
+    "internalRecord": "Internal na record ng pag-verify",
+    "externalDelivery": "External na delivery",
+    "releaseAssetRecord": "Record ng asset ng release",
+    "verifiedShort": "Na-verify ang SHA-256",
+    "availableShort": "Available ang SHA-256",
+    "signingCertificate": "Certificate ng pag-sign"
+  },
+  "notes": {
+    "title": "Mga tala ng release",
+    "empty": "Walang nailathalang tala ng release.",
+    "emptyChangelog": "Walang nailathalang item sa changelog.",
+    "showLess": "Magpakita nang kaunti",
+    "readMore": "Magbasa pa"
+  },
+  "timeline": {
+    "base": "Base {version}",
+    "notSpecified": "hindi tinukoy",
+    "assets": "{count, plural, =0 {Walang asset} one {# asset} other {# asset}}",
+    "hideChangelog": "Itago ang changelog",
+    "showChangelog": "Ipakita ang changelog",
+    "emptyChangelog": "Walang nailathalang item sa changelog para sa release na ito."
+  },
+  "metadata": {
+    "title": "Mga release ng MyInsta — Opisyal na APK download",
+    "description": "Mga opisyal na APK download ng MyInsta para sa Android, na may mga tala ng release, detalye ng compatibility, checksum, at changelog.",
+    "latestTitle": "Pinakabagong release",
+    "latestDescription": "Hanapin ang pinakabagong na-publish na release ng MyInsta at piliin ang iyong APK download.",
+    "detailTitle": "{title} · v{version} — Opisyal na APK download"
+  }
+}

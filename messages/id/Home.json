@@ -1,0 +1,161 @@
+{
+  "hero": {
+    "subheadline": "Gunakan Ghost Mode, unduh media yang didukung, dan pilih tampilan Instagram.",
+    "intro": "Sembunyikan tanda sudah dibaca dengan Ghost Mode, simpan foto dan Stories, lalu sesuaikan Instagram di Android.",
+    "headline": "Instagram, sesuai gaya Anda.",
+    "controls": "Kontrol Anda",
+    "publicBuilds": "Build publik",
+    "independentDescription": "{applicationName} adalah mod Instagram independen untuk Android.",
+    "yourWay": "{applicationName}, sesuai cara Anda.",
+    "yourWayHighlight": "sesuai cara Anda."
+  },
+  "actions": {
+    "downloadMyInsta": "Unduh MyInsta",
+    "browseReleases": "Jelajahi rilis",
+    "installationGuide": "Panduan instalasi",
+    "seeHowItWorks": "Lihat cara kerjanya",
+    "viewAppScreen": "Lihat layar aplikasi",
+    "releaseNotes": "Catatan rilis"
+  },
+  "sections": {
+    "getStarted": "Mulai",
+    "makeInstagramWork": "Jadikan Instagram sesuai kebutuhan Anda.",
+    "makeInstagramDescription": "Sembunyikan tanda sudah dibaca, simpan foto dan Stories, lalu pilih tampilan Instagram.",
+    "commonQuestions": "Pertanyaan umum"
+  },
+  "fallbackFeatures": {
+    "privacy": {
+      "title": "Kontrol privasi",
+      "detail": "Pilih apa yang keluar dari perangkat Anda",
+      "description": "Kendalikan tanda sudah dibaca, indikator mengetik, tampilan Story, dan sinyal kehadiran dengan lebih baik jika build saat ini mendukungnya."
+    },
+    "media": {
+      "title": "Alat media",
+      "detail": "Simpan hal yang penting",
+      "description": "Simpan foto, video, dan Stories yang didukung melalui kontrol yang dirancang agar tetap dekat dengan konten."
+    },
+    "interface": {
+      "title": "Pilihan antarmuka",
+      "detail": "Buat aplikasi terasa familier",
+      "description": "Sesuaikan detail tata letak dan interaksi tertentu tanpa mengubah pengalaman utama yang sudah dikenal."
+    }
+  },
+  "features": {
+    "fallbackDescription": "Jelajahi opsi ini di pengaturan MyInsta. Opsi yang tersedia dapat berbeda pada setiap rilis."
+  },
+  "steps": {
+    "download": {
+      "title": "Unduh MyInsta",
+      "withAsset": "Pilih v{version}, baca catatan rilis, lalu buka tautan unduhan APK-nya.",
+      "withoutAsset": "Buka v{version} untuk membaca catatan rilis dan opsi unduhan yang tersedia.",
+      "noRelease": "Pilih rilis yang dipublikasikan, baca catatan rilis, lalu buka opsi unduhannya."
+    },
+    "controls": {
+      "title": "Pilih kontrol Anda",
+      "description": "Buka pengaturan MyInsta, lalu pilih opsi privasi, unduhan, dan tampilan yang ingin Anda gunakan."
+    },
+    "keepUsing": {
+      "title": "Terus gunakan Instagram",
+      "description": "Jelajahi feed, tonton Stories, dan kirim pesan kepada teman dengan pengaturan yang Anda pilih."
+    }
+  },
+  "facts": {
+    "latestRelease": "Rilis terbaru",
+    "released": "Dirilis {date}.",
+    "readReleaseNotes": "Baca catatan rilis untuk build ini.",
+    "download": "Unduh",
+    "externalDownload": "Halaman unduhan eksternal",
+    "apkDownload": "Unduhan APK",
+    "releaseDetails": "Detail rilis",
+    "openFileHost": "Buka host file yang ditautkan ke rilis ini untuk mendapatkan APK.",
+    "getApk": "Dapatkan APK menggunakan tautan unduhan rilis ini.",
+    "availableFiles": "Baca catatan rilis untuk melihat file dan persyaratan yang tersedia.",
+    "compatibility": "Kompatibilitas",
+    "deviceRequirements": "Periksa catatan rilis untuk mengetahui persyaratan perangkat."
+  },
+  "proofs": {
+    "latestTitle": "Unduh MyInsta terbaru.",
+    "releasesTitle": "Temukan rilis MyInsta.",
+    "description": "Periksa catatan rilis dan persyaratan Android sebelum memilih unduhan.",
+    "noRelease": "Build baru akan muncul di halaman rilis saat tersedia.",
+    "chooseDownload": "Pilih APK dan opsi unduhan Anda di halaman rilis."
+  },
+  "faq": {
+    "fallbackAnswer": "Lihat catatan rilis yang relevan atau hubungi dukungan untuk mendapatkan jawaban terbaru.",
+    "moreQuestions": "Masih punya pertanyaan? Kami siap membantu."
+  },
+  "journal": {
+    "eyebrow": "Dari jurnal",
+    "title": "Catatan yang layak disimpan.",
+    "category": "Jurnal",
+    "readingTime": "Waktu baca {minutes} menit"
+  },
+  "cta": {
+    "stable": "Stabil v{version}",
+    "appForAndroid": "{applicationName} untuk Android",
+    "title": "Siap membuat Instagram terasa seperti milik Anda?",
+    "latestPublished": "Rilis stabil terbaru dipublikasikan pada {date}"
+  },
+  "aria": {
+    "featureIllustrations": "Ilustrasi fitur MyInsta",
+    "featureScreenshot": "Lihat tangkapan layar {feature} dalam layar penuh",
+    "appScreenshots": "Tangkapan layar aplikasi MyInsta",
+    "screenshotFullscreen": "Lihat tangkapan layar {label} dalam layar penuh"
+  },
+  "screenshots": {
+    "title": "Lihat bagian dalamnya.",
+    "description": "Tampilan nyata dari MyInsta. Geser untuk menjelajah atau ketuk layar untuk melihat lebih dekat.",
+    "carousel": "karusel",
+    "viewFullscreen": "Lihat layar penuh",
+    "previous": "Tangkapan layar sebelumnya",
+    "resume": "Lanjutkan tangkapan layar otomatis",
+    "pause": "Jeda tangkapan layar otomatis",
+    "next": "Tangkapan layar berikutnya",
+    "interval": "Berubah setiap 8 detik",
+    "choose": "Pilih tangkapan layar",
+    "viewerDescription": "Tangkapan layar penuh. Gunakan kontrol zoom untuk melihat detail, geser atau gunakan tombol panah untuk mengganti layar, lalu tekan Escape untuk menutup.",
+    "zoomOut": "Perkecil",
+    "zoomIn": "Perbesar",
+    "fit": "Sesuaikan tangkapan layar dengan layar",
+    "fitShort": "Sesuaikan",
+    "openOriginal": "Buka versi asli",
+    "items": {
+      "overview": {
+        "label": "Ringkasan pengaturan",
+        "alt": "Ringkasan pengaturan MyInsta dengan kontrol untuk feed, antarmuka, dan pesan"
+      },
+      "appearance": {
+        "label": "Tampilan",
+        "alt": "Kontrol tampilan MyInsta untuk tema, font, navigasi, saran, dan pesan"
+      },
+      "download-story": {
+        "label": "Unduh Story",
+        "alt": "Lembar Download Story MyInsta dengan pilihan video, foto, frame pertama, audio, dan kualitas"
+      },
+      "ghost-mode": {
+        "label": "Ghost Mode",
+        "alt": "Pengaturan Ghost Mode MyInsta untuk pesan, Stories, Live, tangkapan layar, dan media sekali lihat"
+      },
+      "unsent-messages": {
+        "label": "Pesan yang Dibatalkan Pengirimannya",
+        "alt": "Pengaturan MyInsta untuk menyimpan pesan yang dibatalkan pengirimannya oleh orang lain"
+      },
+      "stories": {
+        "label": "Stories",
+        "alt": "Kontrol Stories MyInsta untuk melihat dan mengelola konten Story"
+      },
+      "instants": {
+        "label": "Instants",
+        "alt": "Pengaturan Instants MyInsta untuk pengalaman berbagi yang fokus"
+      },
+      "hide-save": {
+        "label": "Hide Save",
+        "alt": "Kontrol Hide Save MyInsta untuk menyembunyikan media tertentu dari tampilan tersimpan"
+      }
+    }
+  },
+  "metadata": {
+    "title": "{siteName} — Situs Resmi & Unduhan APK untuk Android",
+    "description": "Unduh {siteName} untuk Android, bandingkan varian APK, lalu baca catatan rilis dan bantuan instalasi."
+  }
+}

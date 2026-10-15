@@ -1,0 +1,85 @@
+{
+  "navigation": {
+    "features": "Возможности",
+    "releases": "Релизы",
+    "journal": "Журнал",
+    "support": "Поддержка",
+    "product": "Продукт",
+    "menu": "Меню"
+  },
+  "status": {
+    "latest": "Последний",
+    "unavailable": "Недоступно"
+  },
+  "actions": {
+    "downloadVersionPrefix": "Скачать v",
+    "viewReleases": "Смотреть релизы"
+  },
+  "aria": {
+    "primaryNavigation": "Основная навигация",
+    "home": "Главная {siteName}",
+    "openMenu": "Открыть меню навигации",
+    "closeMenu": "Закрыть меню навигации",
+    "socialLinks": "Социальные ссылки",
+    "legal": "Правовая информация"
+  },
+  "language": {
+    "label": "Язык",
+    "en": "English",
+    "hi": "Hindi",
+    "pt-BR": "Português (Brasil)",
+    "es": "Español",
+    "id": "Bahasa Indonesia",
+    "tr": "Türkçe",
+    "fil": "Filipino",
+    "de": "Deutsch",
+    "fr": "Français",
+    "ar": "عربية",
+    "ru": "Русский",
+    "bn": "বাংলা",
+    "ja": "日本語",
+    "ko": "한국어"
+  },
+  "newsletter": {
+    "emailAddress": "Адрес электронной почты",
+    "emailPlaceholder": "you@example.com",
+    "join": "Подписаться на примечания к релизам",
+    "joining": "Присоединяюсь…",
+    "checkInbox": "Проверьте свой почтовый ящик",
+    "subscriptionStarted": "Подписка началась. Проверьте свой почтовый ящик для подтверждения.",
+    "subscriptionUnavailable": "Подписки в настоящее время недоступны, поскольку доставка электронной почты отключена или не настроена.",
+    "subscriptionFailed": "Подписка не удалась. Пожалуйста, попробуйте еще раз.",
+    "unavailable": "Уведомления о выпуске в настоящее время недоступны.",
+    "paused": "Уведомления о выпуске в настоящее время приостановлены."
+  },
+  "footer": {
+    "description": "{siteName} обновления, выпуски и ресурсы поддержки в одном месте.",
+    "us": "Мы",
+    "reachOutLine1": "Свяжитесь",
+    "reachOutLine2": "с нами",
+    "unaffiliated": "myinsta.dev — официальный сайт MyInsta. myinsta.app не связан с MyInsta."
+  },
+  "legal": {
+    "privacy": "Конфиденциальность",
+    "terms": "Условия"
+  },
+  "community": {
+    "ariaLabel": "Присоединиться к сообществу MyInsta",
+    "join": "Присоединяйтесь к нашему {platform}"
+  },
+  "theme": {
+    "colorTheme": "Цветовая тема",
+    "change": "Изменить цветовую тему",
+    "systemTheme": "Системная тема ({resolved})",
+    "current": "Тема: {theme}",
+    "switch": "Переключить на тему {theme}",
+    "light": "Свет",
+    "dark": "Тёмная",
+    "system": "Система"
+  },
+  "metadata": {
+    "skipToContent": "Перейти к содержимому",
+    "privacyTitle": "Политика конфиденциальности",
+    "privacyDescription": "Как MyInsta обрабатывает аналитику веб-сайтов, запросы приложений и подлинность выпусков."
+  }
+}

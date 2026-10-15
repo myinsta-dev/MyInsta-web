@@ -1,0 +1,161 @@
+{
+  "hero": {
+    "subheadline": "Ghost Mode'yi kullanın, desteklenen medyayı indirin ve Instagram'ın görünümünü seçin.",
+    "intro": "Ghost Mode ile okundu bilgilerini gizleyin, fotoğrafları ve Stories'i kaydedin ve Instagram'ı Android'de özelleştirin.",
+    "headline": "Instagram, size göre şekillensin.",
+    "controls": "Kontrolleriniz",
+    "publicBuilds": "Herkese açık derlemeler",
+    "independentDescription": "{applicationName}, Android için bağımsız bir Instagram modudur.",
+    "yourWay": "{applicationName}, sizin tarzınız.",
+    "yourWayHighlight": "sizin tarzınız."
+  },
+  "actions": {
+    "downloadMyInsta": "MyInsta'yı indirin",
+    "browseReleases": "Sürümlere göz atın",
+    "installationGuide": "Kurulum kılavuzu",
+    "seeHowItWorks": "Nasıl çalıştığını görün",
+    "viewAppScreen": "Uygulama ekranını görüntüle",
+    "releaseNotes": "Sürüm notları"
+  },
+  "sections": {
+    "getStarted": "Başlayın",
+    "makeInstagramWork": "Instagram sizin için çalışsın.",
+    "makeInstagramDescription": "Okundu bilgilerini gizleyin, fotoğrafları ve Stories'i kaydedin ve Instagram'ın görünümünü seçin.",
+    "commonQuestions": "Sık Sorulan Sorular"
+  },
+  "fallbackFeatures": {
+    "privacy": {
+      "title": "Gizlilik kontrolleri",
+      "detail": "Cihazınızdan ne çıkacağını seçin",
+      "description": "Geçerli derlemenin desteklediği yerlerde okundu bilgilerini, yazma göstergelerini, Story görüntülemelerini ve çevrimiçi durum sinyallerini daha yakından kontrol edin."
+    },
+    "media": {
+      "title": "Medya araçları",
+      "detail": "Önemli olanı koruyun",
+      "description": "İçeriğe yakın kalacak şekilde tasarlanmış kontrollerle desteklenen fotoğrafları, videoları ve Stories'i kaydedin."
+    },
+    "interface": {
+      "title": "Arayüz seçenekleri",
+      "detail": "Uygulamanın tanıdık gelmesini sağlayın",
+      "description": "Temel deneyimi tanınabilir tutarken seçilen düzeni ve etkileşim ayrıntılarını ayarlayın."
+    }
+  },
+  "features": {
+    "fallbackDescription": "Bu seçeneği MyInsta ayarlarında keşfedin. Kullanılabilir seçenekler sürüme göre değişebilir."
+  },
+  "steps": {
+    "download": {
+      "title": "MyInsta'yı indirin",
+      "withAsset": "v{version} sürümünü seçin, sürüm notlarını okuyun ve APK indirme bağlantısını açın.",
+      "withoutAsset": "Sürüm notlarını ve kullanılabilir indirme seçeneklerini okumak için v{version} sürümünü açın.",
+      "noRelease": "Yayınlanmış bir sürüm seçin, sürüm notlarını okuyun ve indirme seçeneklerini açın."
+    },
+    "controls": {
+      "title": "Kontrollerinizi seçin",
+      "description": "MyInsta ayarlarını açın ve kullanmak istediğiniz gizlilik, indirme ve görünüm seçeneklerini seçin."
+    },
+    "keepUsing": {
+      "title": "Instagram'ı kullanmaya devam edin",
+      "description": "Akışınıza göz atın, Stories'i izleyin ve seçtiğiniz ayarlarla arkadaşlarınıza mesaj gönderin."
+    }
+  },
+  "facts": {
+    "latestRelease": "En yeni sürüm",
+    "released": "{date} tarihinde yayınlandı.",
+    "readReleaseNotes": "Bu yapıya ilişkin sürüm notlarını okuyun.",
+    "download": "İndir",
+    "externalDownload": "Harici indirme sayfası",
+    "apkDownload": "APK indir",
+    "releaseDetails": "Sürüm ayrıntıları",
+    "openFileHost": "APK'yi almak için bu sürüme bağlı dosya barındırıcısını açın.",
+    "getApk": "Bu sürümün indirme bağlantısını kullanarak APK'yi alın.",
+    "availableFiles": "Mevcut dosyalar ve gereksinimler için sürüm notlarını okuyun.",
+    "compatibility": "Uyumluluk",
+    "deviceRequirements": "Cihaz gereksinimleri için sürüm notlarına bakın."
+  },
+  "proofs": {
+    "latestTitle": "En yeni MyInsta'yı indirin.",
+    "releasesTitle": "MyInsta sürümlerini bulun.",
+    "description": "Bir indirmeyi seçmeden önce sürüm notlarını ve Android gereksinimlerini kontrol edin.",
+    "noRelease": "Yeni derlemeler kullanıma sunulduğunda sürümler sayfasında görünür.",
+    "chooseDownload": "Sürüm sayfasında APK ve indirme seçeneğinizi belirleyin."
+  },
+  "faq": {
+    "fallbackAnswer": "Mevcut yanıt için ilgili sürüm kaydına bakın veya destek ekibiyle iletişime geçin.",
+    "moreQuestions": "Hala sorularınız mı var? Yardım etmek için buradayız."
+  },
+  "journal": {
+    "eyebrow": "Günlükten",
+    "title": "Saklamaya değer notlar.",
+    "category": "Günlük",
+    "readingTime": "{minutes} dk okuma"
+  },
+  "cta": {
+    "stable": "Kararlı v{version}",
+    "appForAndroid": "Android için {applicationName}",
+    "title": "Instagram'ı kendinize göre şekillendirmeye hazır mısınız?",
+    "latestPublished": "Son kararlı sürüm {date} tarihinde yayınlandı"
+  },
+  "aria": {
+    "featureIllustrations": "MyInsta özellik çizimleri",
+    "featureScreenshot": "{feature} ekran görüntüsünü tam ekran görüntüle",
+    "appScreenshots": "MyInsta uygulaması ekran görüntüleri",
+    "screenshotFullscreen": "{label} ekran görüntüsünü tam ekran görüntüle"
+  },
+  "screenshots": {
+    "title": "İçine bir göz atın.",
+    "description": "MyInsta'den gerçek ekranlar. Keşfetmek için kaydırın veya daha yakından bakmak için bir ekrana dokunun.",
+    "carousel": "karusel",
+    "viewFullscreen": "Tam ekranı görüntüle",
+    "previous": "Önceki ekran görüntüsü",
+    "resume": "Otomatik ekran görüntülerini devam ettir",
+    "pause": "Otomatik ekran görüntülerini duraklat",
+    "next": "Sonraki ekran görüntüsü",
+    "interval": "Her 8 saniyede bir değişir",
+    "choose": "Bir ekran görüntüsü seçin",
+    "viewerDescription": "Tam ekran görüntüsü. Ayrıntılar için yakınlaştırma kontrollerini kullanın, ekranları değiştirmek için kaydırın veya ok düğmelerini kullanın ve kapatmak için Escape tuşuna basın.",
+    "zoomOut": "Uzaklaştır",
+    "zoomIn": "Yakınlaştır",
+    "fit": "Ekran görüntüsünü ekrana sığdır",
+    "fitShort": "Sığdır",
+    "openOriginal": "Orijinali aç",
+    "items": {
+      "overview": {
+        "label": "Ayarlara genel bakış",
+        "alt": "Akış, arayüz ve mesajlaşma kontrolleriyle MyInsta ayarlarına genel bakış"
+      },
+      "appearance": {
+        "label": "Görünüm",
+        "alt": "Temalar, yazı tipleri, gezinme, öneriler ve mesajlaşma için MyInsta görünüm kontrolleri"
+      },
+      "download-story": {
+        "label": "Download Story",
+        "alt": "Video, fotoğraf, ilk kare, ses ve kalite seçeneklerini içeren MyInsta Download Story sayfası"
+      },
+      "ghost-mode": {
+        "label": "Ghost Mode",
+        "alt": "Mesajlar, Stories, Live, ekran görüntüleri ve bir kez görüntülenen medya için MyInsta Ghost Mode ayarları"
+      },
+      "unsent-messages": {
+        "label": "Unsent Messages",
+        "alt": "Başkalarının göndermediği mesajları saklamak için MyInsta ayarları"
+      },
+      "stories": {
+        "label": "Stories",
+        "alt": "MyInsta Stories, Story içeriğini görüntülemek ve yönetmek için kontroller"
+      },
+      "instants": {
+        "label": "Instants",
+        "alt": "Odaklanmış bir paylaşım deneyimi için MyInsta Instants ayarları"
+      },
+      "hide-save": {
+        "label": "Hide Save",
+        "alt": "Seçilen medyayı kayıtlı görünümlerin dışında tutmak için MyInsta Hide Save kontrolleri"
+      }
+    }
+  },
+  "metadata": {
+    "title": "{siteName} — Android için resmî site ve APK indirme",
+    "description": "Android için {siteName}'yi indirin, APK çeşitlerini karşılaştırın ve sürüm notlarını ve kurulum yardımını okuyun."
+  }
+}

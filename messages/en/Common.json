@@ -1,0 +1,85 @@
+{
+  "navigation": {
+    "features": "Features",
+    "releases": "Releases",
+    "journal": "Journal",
+    "support": "Support",
+    "product": "Product",
+    "menu": "Menu"
+  },
+  "status": {
+    "latest": "Latest",
+    "unavailable": "Unavailable"
+  },
+  "actions": {
+    "downloadVersionPrefix": "Download v",
+    "viewReleases": "View releases"
+  },
+  "aria": {
+    "primaryNavigation": "Primary navigation",
+    "home": "{siteName} home",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "socialLinks": "Social links",
+    "legal": "Legal"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "hi": "Hindi",
+    "pt-BR": "Português (Brasil)",
+    "es": "Español",
+    "id": "Bahasa Indonesia",
+    "tr": "Türkçe",
+    "fil": "Filipino",
+    "de": "Deutsch",
+    "fr": "Français",
+    "ar": "العربية",
+    "ru": "Русский",
+    "bn": "বাংলা",
+    "ja": "日本語",
+    "ko": "한국어"
+  },
+  "newsletter": {
+    "emailAddress": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "join": "Join release notes",
+    "joining": "Joining…",
+    "checkInbox": "Check your inbox",
+    "subscriptionStarted": "Subscription started. Check your inbox to confirm.",
+    "subscriptionUnavailable": "Subscriptions are currently unavailable because email delivery is disabled or not configured.",
+    "subscriptionFailed": "Subscription failed. Please try again.",
+    "unavailable": "Release notifications are currently unavailable.",
+    "paused": "Release notifications are currently paused."
+  },
+  "footer": {
+    "description": "{siteName} updates, releases, and support resources in one place.",
+    "us": "Us",
+    "reachOutLine1": "Reach",
+    "reachOutLine2": "Out To Us",
+    "unaffiliated": "myinsta.dev is the official MyInsta site. myinsta.app is unaffiliated with MyInsta."
+  },
+  "legal": {
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "community": {
+    "ariaLabel": "Join the MyInsta community",
+    "join": "Join our {platform}"
+  },
+  "theme": {
+    "colorTheme": "Color theme",
+    "change": "Change color theme",
+    "systemTheme": "System theme ({resolved})",
+    "current": "{theme} theme",
+    "switch": "Switch to {theme} theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "metadata": {
+    "skipToContent": "Skip to content",
+    "privacyTitle": "Privacy policy",
+    "privacyDescription": "How MyInsta handles website analytics, app requests, and release authenticity."
+  }
+}

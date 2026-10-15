@@ -1,0 +1,161 @@
+{
+  "hero": {
+    "subheadline": "Verwenden Sie Ghost Mode, laden Sie unterstützte Medien herunter und wählen Sie aus, wie Instagram aussehen soll.",
+    "intro": "Verstecken Sie Lesebestätigungen mit Ghost Mode, speichern Sie Fotos und Stories und passen Sie Instagram auf Android an.",
+    "headline": "Instagram, ganz nach deinen Vorstellungen.",
+    "controls": "Deine Einstellungen",
+    "publicBuilds": "Öffentliche Builds",
+    "independentDescription": "{applicationName} ist ein unabhängiger Instagram-Mod für Android.",
+    "yourWay": "{applicationName}, ganz nach deinem Geschmack.",
+    "yourWayHighlight": "ganz nach deinem Geschmack."
+  },
+  "actions": {
+    "downloadMyInsta": "Laden Sie MyInsta herunter",
+    "browseReleases": "Veröffentlichungen durchsuchen",
+    "installationGuide": "Installationsanleitung",
+    "seeHowItWorks": "Sehen Sie, wie es funktioniert",
+    "viewAppScreen": "App-Bildschirm anzeigen",
+    "releaseNotes": "Versionshinweise"
+  },
+  "sections": {
+    "getStarted": "Erste Schritte",
+    "makeInstagramWork": "Lassen Sie Instagram für sich arbeiten.",
+    "makeInstagramDescription": "Lesebestätigungen ausblenden, Fotos und Stories speichern und auswählen, wie Instagram aussehen soll.",
+    "commonQuestions": "Häufige Fragen"
+  },
+  "fallbackFeatures": {
+    "privacy": {
+      "title": "Datenschutzeinstellungen",
+      "detail": "Wählen Sie, was Ihr Gerät verlässt",
+      "description": "Behalten Sie Lesebestätigungen, Tippanzeigen, Story-Ansichten und Anwesenheitssignale unter genauerer Kontrolle, sofern der aktuelle Build sie unterstützt."
+    },
+    "media": {
+      "title": "Medienwerkzeuge",
+      "detail": "Behalten Sie, was wichtig ist",
+      "description": "Speichern Sie unterstützte Fotos, Videos und Stories über Steuerelemente, die darauf ausgelegt sind, nah am Inhalt zu bleiben."
+    },
+    "interface": {
+      "title": "Oberflächenoptionen",
+      "detail": "Machen Sie die App vertraut",
+      "description": "Passen Sie ausgewählte Layout- und Interaktionsdetails an und sorgen Sie dabei dafür, dass das Kernerlebnis erkennbar bleibt."
+    }
+  },
+  "features": {
+    "fallbackDescription": "Entdecken Sie diese Option in den MyInsta-Einstellungen. Die verfügbaren Optionen können je nach Version variieren."
+  },
+  "steps": {
+    "download": {
+      "title": "Laden Sie MyInsta herunter",
+      "withAsset": "Wählen Sie v{version}, lesen Sie die Release-Notizen und öffnen Sie den APK-Download-Link.",
+      "withoutAsset": "Öffnen Sie v{version}, um die Release-Notizen und verfügbaren Download-Optionen zu lesen.",
+      "noRelease": "Wählen Sie eine veröffentlichte Version, lesen Sie die Release-Notizen und öffnen Sie die Download-Optionen."
+    },
+    "controls": {
+      "title": "Wählen Sie Ihre Einstellungen",
+      "description": "Öffnen Sie die MyInsta-Einstellungen und wählen Sie die Datenschutz-, Download- und Darstellungsoptionen aus, die Sie verwenden möchten."
+    },
+    "keepUsing": {
+      "title": "Verwenden Sie weiterhin Instagram",
+      "description": "Durchsuchen Sie Ihren Feed, schauen Sie sich Stories an und senden Sie mit den von Ihnen gewählten Einstellungen Nachrichten an Freunde."
+    }
+  },
+  "facts": {
+    "latestRelease": "Neueste Veröffentlichung",
+    "released": "Veröffentlicht am {date}.",
+    "readReleaseNotes": "Lesen Sie die Release-Notizen für diesen Build.",
+    "download": "Herunterladen",
+    "externalDownload": "Externe Downloadseite",
+    "apkDownload": "APK herunterladen",
+    "releaseDetails": "Veröffentlichungsdetails",
+    "openFileHost": "Öffnen Sie den mit dieser Veröffentlichung verknüpften Dateihost, um die APK abzurufen.",
+    "getApk": "Laden Sie die APK über den Download-Link dieser Veröffentlichung herunter.",
+    "availableFiles": "Lesen Sie die Versionshinweise zu den verfügbaren Dateien und Anforderungen.",
+    "compatibility": "Kompatibilität",
+    "deviceRequirements": "Die Geräteanforderungen finden Sie in den Versionshinweisen."
+  },
+  "proofs": {
+    "latestTitle": "Laden Sie die neueste MyInsta herunter.",
+    "releasesTitle": "Finden Sie MyInsta-Versionen.",
+    "description": "Überprüfen Sie die Versionshinweise und Android-Anforderungen, bevor Sie einen Download auswählen.",
+    "noRelease": "Neue Builds erscheinen auf der Veröffentlichungsseite, sobald sie verfügbar sind.",
+    "chooseDownload": "Wählen Sie auf der Veröffentlichungsseite Ihre APK und Download-Option."
+  },
+  "faq": {
+    "fallbackAnswer": "Die aktuelle Antwort finden Sie im entsprechenden Release-Datensatz oder wenden Sie sich an den Support.",
+    "moreQuestions": "Sie haben noch Fragen? Wir sind hier, um zu helfen."
+  },
+  "journal": {
+    "eyebrow": "Aus dem Journal",
+    "title": "Notizen, die es wert sind, aufbewahrt zu werden.",
+    "category": "Journal",
+    "readingTime": "{minutes} Min. gelesen"
+  },
+  "cta": {
+    "stable": "Stabil v{version}",
+    "appForAndroid": "{applicationName} für Android",
+    "title": "Sind Sie bereit, Instagram das Gefühl zu geben, dass es Ihnen gehört?",
+    "latestPublished": "Neueste stabile Version veröffentlicht am {date}"
+  },
+  "aria": {
+    "featureIllustrations": "MyInsta Feature-Illustrationen",
+    "featureScreenshot": "{feature}-Screenshot im Vollbildmodus ansehen",
+    "appScreenshots": "Screenshots der MyInsta-App",
+    "screenshotFullscreen": "{label}-Screenshot im Vollbildmodus ansehen"
+  },
+  "screenshots": {
+    "title": "Werfen Sie einen Blick hinein.",
+    "description": "Echte Bildschirme von MyInsta. Wischen Sie zum Erkunden oder tippen Sie auf einen Bildschirm, um einen genaueren Blick darauf zu werfen.",
+    "carousel": "Karussell",
+    "viewFullscreen": "Vollbild anzeigen",
+    "previous": "Vorheriger Screenshot",
+    "resume": "Automatische Screenshots fortsetzen",
+    "pause": "Automatische Screenshots anhalten",
+    "next": "Nächster Screenshot",
+    "interval": "Wechselt alle 8 Sekunden",
+    "choose": "Wählen Sie einen Screenshot",
+    "viewerDescription": "Vollständiger Screenshot. Verwenden Sie die Zoomsteuerung für Details, wischen Sie oder verwenden Sie die Pfeiltasten, um zwischen den Bildschirmen zu wechseln, und drücken Sie zum Schließen die Esc-Taste.",
+    "zoomOut": "Herauszoomen",
+    "zoomIn": "Vergrößern",
+    "fit": "Screenshot an Bildschirm anpassen",
+    "fitShort": "Anpassen",
+    "openOriginal": "Original öffnen",
+    "items": {
+      "overview": {
+        "label": "Übersicht über die Einstellungen",
+        "alt": "MyInsta-Einstellungsübersicht mit Steuerelementen für Feed, Schnittstelle und Nachrichten"
+      },
+      "appearance": {
+        "label": "Aussehen",
+        "alt": "MyInsta-Darstellungssteuerelemente für Themen, Schriftarten, Navigation, Vorschläge und Nachrichten"
+      },
+      "download-story": {
+        "label": "Download Story",
+        "alt": "MyInsta Download Story-Blatt mit Video, Foto, erstem Bild, Audio und Qualitätsoptionen"
+      },
+      "ghost-mode": {
+        "label": "Ghost Mode",
+        "alt": "MyInsta Ghost Mode Einstellungen für Nachrichten, Stories, Live, Screenshots und einmal anzusehende Medien"
+      },
+      "unsent-messages": {
+        "label": "Unsent Messages",
+        "alt": "MyInsta-Einstellungen zum Aufbewahren von Nachrichten, die andere Personen nicht senden"
+      },
+      "stories": {
+        "label": "Stories",
+        "alt": "MyInsta Stories-Steuerelemente zum Anzeigen und Verwalten von Story-Inhalten"
+      },
+      "instants": {
+        "label": "Instants",
+        "alt": "MyInsta Instants Einstellungen für ein fokussiertes Sharing-Erlebnis"
+      },
+      "hide-save": {
+        "label": "Hide Save",
+        "alt": "MyInsta Hide Save-Steuerelemente, um ausgewählte Medien aus gespeicherten Ansichten fernzuhalten"
+      }
+    }
+  },
+  "metadata": {
+    "title": "{siteName} – Offizielle Website und APK-Download für Android",
+    "description": "Laden Sie {siteName} für Android herunter, vergleichen Sie APK-Varianten und lesen Sie Versionshinweise und Installationshilfe."
+  }
+}

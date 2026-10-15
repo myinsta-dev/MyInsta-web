@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Hanapin ang record",
+  "title": "Maghanap",
+  "titleAccent": "lahat ng pampubliko.",
+  "inputLabel": "Maghanap ng na-publish na content",
+  "placeholder": "Release, feature, gabay, bersyon…",
+  "disabledPlaceholder": "Kasalukuyang naka-disable ang paghahanap",
+  "resultsCount": "{count, plural, =0 {Walang resulta} one {# resulta para sa “{query}”} other {# resulta para sa “{query}”}}",
+  "noResults": "Walang pampublikong rekord na tumugma sa pariralang iyon.",
+  "shortQuery": "Magsimula gamit ang hindi bababa sa dalawang character. Nag-a-update ang mga resulta habang nagta-type ka; gamitin ang mga arrow key para gumalaw.",
+  "disabled": "Hindi pinagana ng administrator ang pampublikong paghahanap.",
+  "errors": {
+    "tooShort": "Masyadong maikli ang search query.",
+    "tooLong": "Masyadong mahaba ang search query.",
+    "rateLimited": "Pansamantalang nilimitahan ang paghahanap. Subukan muli pagkalipas ng ilang sandali.",
+    "disabled": "Kasalukuyang naka-disable ang paghahanap.",
+    "unavailable": "Pansamantalang hindi available ang paghahanap."
+  },
+  "metadata": {
+    "title": "Maghanap",
+    "description": "Maghanap sa mga release ng MyInsta, post sa journal, at na-publish na pahina."
+  }
+}

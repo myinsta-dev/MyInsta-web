@@ -1,0 +1,23 @@
+{
+  "eyebrow": "記録を探す",
+  "title": "検索",
+  "titleAccent": "公開情報をすべて。",
+  "inputLabel": "公開コンテンツを検索",
+  "placeholder": "リリース、機能、ガイド、バージョン…",
+  "disabledPlaceholder": "検索は現在無効です",
+  "resultsCount": "{count, plural, =0 {結果なし} one {“{query}”の結果は#件} other {“{query}”の結果は#件}}",
+  "noResults": "その語句に一致する公開記録はありません。",
+  "shortQuery": "2文字以上入力してください。入力中に結果が更新されます。矢印キーで移動できます。",
+  "disabled": "公開検索は管理者によって無効にされています。",
+  "errors": {
+    "tooShort": "検索クエリが短すぎます。",
+    "tooLong": "検索クエリが長すぎます。",
+    "rateLimited": "検索は一時的にレート制限されています。しばらくしてからもう一度お試しください。",
+    "disabled": "検索は現在無効です。",
+    "unavailable": "検索は一時的に利用できません。"
+  },
+  "metadata": {
+    "title": "検索",
+    "description": "MyInstaのリリース、ジャーナル記事、公開ページを検索します。"
+  }
+}

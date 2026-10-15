@@ -1,0 +1,40 @@
+{
+  "grid": {
+    "empty": "لا توجد قصص منشورة بعد.",
+    "team": "فريق MyInsta",
+    "unscheduled": "غير مجدول"
+  },
+  "article": {
+    "share": "مشاركة",
+    "copied": "تم النسخ",
+    "copyLink": "نسخ الرابط"
+  },
+  "metadata": {
+    "title": "المجلة",
+    "pageTitle": "المجلة · الصفحة {page}",
+    "description": "سياق إصدارات MyInsta وملاحظات المنتج وشروحات الأمان والأدلة العملية."
+  },
+  "taxonomy": {
+    "categoryLabel": "تصنيف المجلة",
+    "tagLabel": "وسم المجلة",
+    "categoryDescription": "منشورات مجلة MyInsta المصنّفة ضمن {name}.",
+    "tagDescription": "منشورات مجلة MyInsta المنشورة والموسومة بـ {name}."
+  },
+  "index": {
+    "eyebrow": "المجلة",
+    "title": "الفكرة",
+    "titleAccent": "وراء البناء.",
+    "description": "سياق الإصدارات وقرارات المنتج وملاحظات التوافق والأدلة الواضحة من هيئة التحرير المباشرة.",
+    "search": "ابحث في الأرشيف",
+    "categories": "تصنيفات المجلة",
+    "published": "ملاحظات منشورة",
+    "count": "{total} إجمالًا · الصفحة {page} من {pages}",
+    "sort": "ترتيب",
+    "latest": "الأحدث أولًا",
+    "oldest": "الأقدم أولًا",
+    "apply": "تطبيق",
+    "pagination": "ترقيم صفحات المجلة",
+    "previous": "السابق",
+    "next": "التالي"
+  }
+}

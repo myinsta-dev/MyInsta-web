@@ -1,0 +1,44 @@
+project_id: 937181
+base_path: "."
+preserve_hierarchy: true
+
+# No token is stored in this repository. Supply it through the Crowdin CLI or
+# the private sync job. Target paths intentionally match the locale IDs used
+# by the private runtime.
+files:
+  - source: "/translations/source/en.json"
+    translation: "/translations/%two_letters_code%/en.json"
+    type: "json"
+    update_option: "update_as_unapproved"
+    skip_untranslated_strings: true
+    export_only_approved: true
+    languages_mapping:
+      two_letters_code:
+        pt-BR: "pt-BR"
+        fil: "fil"
+
+  - source: "/translations/source/ui.json"
+    translation: "/translations/%two_letters_code%/ui.json"
+    type: "json"
+    update_option: "update_as_unapproved"
+    skip_untranslated_strings: true
+    export_only_approved: true
+    languages_mapping:
+      two_letters_code:
+        pt-BR: "pt-BR"
+        fil: "fil"
+
+  # Published CMS HTML is exported as one file per stable public key. Keeping
+  # HTML separate lets the private importer validate tags, code/pre literals,
+  # and approved text segments before reconstructing the document.
+  - source: "/translations/source/html/**/*.html"
+    translation: "/translations/%two_letters_code%/html/**/%original_file_name%"
+    type: "html"
+    translate_content: true
+    update_option: "update_as_unapproved"
+    skip_untranslated_strings: true
+    export_only_approved: true
+    languages_mapping:
+      two_letters_code:
+        pt-BR: "pt-BR"
+        fil: "fil"

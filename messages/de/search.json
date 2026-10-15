@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Eintrag finden",
+  "title": "Suche",
+  "titleAccent": "alles öffentlich.",
+  "inputLabel": "Veröffentlichte Inhalte durchsuchen",
+  "placeholder": "Release, Feature, Anleitung, Version…",
+  "disabledPlaceholder": "Die Suche ist derzeit deaktiviert",
+  "resultsCount": "{count, plural, =0 {Keine Ergebnisse} one {# Ergebnis für „{query}“} other {# Ergebnisse für „{query}“}}",
+  "noResults": "Keine öffentlichen Einträge passen zu diesem Ausdruck.",
+  "shortQuery": "Beginnen Sie mit mindestens zwei Zeichen. Die Ergebnisse werden während der Eingabe aktualisiert; verwenden Sie die Pfeiltasten zum Navigieren.",
+  "disabled": "Die öffentliche Suche wurde von einem Administrator deaktiviert.",
+  "errors": {
+    "tooShort": "Die Suchanfrage ist zu kurz.",
+    "tooLong": "Die Suchanfrage ist zu lang.",
+    "rateLimited": "Die Suche ist vorübergehend begrenzt. Bitte versuchen Sie es in Kürze erneut.",
+    "disabled": "Die Suche ist derzeit deaktiviert.",
+    "unavailable": "Die Suche ist vorübergehend nicht verfügbar."
+  },
+  "metadata": {
+    "title": "Suche",
+    "description": "MyInsta-Veröffentlichungen, Journalbeiträge und veröffentlichte Seiten durchsuchen."
+  }
+}

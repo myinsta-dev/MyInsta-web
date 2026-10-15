@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "approvalPolicy": "unapproved",
+  "generatedBy": "scripts/seed-ui-drafts.mjs",
+  "sourceFiles": [
+    "translations/source/ui.json"
+  ],
+  "locales": {
+    "hi": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review",
+      "cms": {
+        "sourceContentHash": "e9e93010c39ee56cbbdc5184e3be01129291093c8245ae6532ad2c2fbab9f42c",
+        "keyCoverage": "complete"
+      }
+    },
+    "pt-BR": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review",
+      "cms": {
+        "sourceContentHash": "e9e93010c39ee56cbbdc5184e3be01129291093c8245ae6532ad2c2fbab9f42c",
+        "keyCoverage": "complete"
+      }
+    },
+    "es": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review",
+      "cms": {
+        "sourceContentHash": "e9e93010c39ee56cbbdc5184e3be01129291093c8245ae6532ad2c2fbab9f42c",
+        "keyCoverage": "complete"
+      }
+    },
+    "id": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review",
+      "cms": {
+        "sourceContentHash": "e9e93010c39ee56cbbdc5184e3be01129291093c8245ae6532ad2c2fbab9f42c",
+        "keyCoverage": "complete"
+      }
+    },
+    "tr": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review",
+      "cms": {
+        "sourceContentHash": "e9e93010c39ee56cbbdc5184e3be01129291093c8245ae6532ad2c2fbab9f42c",
+        "keyCoverage": "complete"
+      }
+    },
+    "fil": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review",
+      "cms": {
+        "sourceContentHash": "e9e93010c39ee56cbbdc5184e3be01129291093c8245ae6532ad2c2fbab9f42c",
+        "keyCoverage": "complete"
+      }
+    },
+    "de": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review",
+      "cms": {
+        "sourceContentHash": "e9e93010c39ee56cbbdc5184e3be01129291093c8245ae6532ad2c2fbab9f42c",
+        "keyCoverage": "complete"
+      }
+    },
+    "fr": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review",
+      "cms": {
+        "sourceContentHash": "e9e93010c39ee56cbbdc5184e3be01129291093c8245ae6532ad2c2fbab9f42c",
+        "keyCoverage": "complete"
+      }
+    },
+    "ar": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review",
+      "cms": {
+        "sourceContentHash": "e9e93010c39ee56cbbdc5184e3be01129291093c8245ae6532ad2c2fbab9f42c",
+        "keyCoverage": "complete"
+      }
+    },
+    "ru": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review",
+      "cms": {
+        "sourceContentHash": "e9e93010c39ee56cbbdc5184e3be01129291093c8245ae6532ad2c2fbab9f42c",
+        "keyCoverage": "complete"
+      }
+    },
+    "bn": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review",
+      "cms": {
+        "sourceContentHash": "e9e93010c39ee56cbbdc5184e3be01129291093c8245ae6532ad2c2fbab9f42c",
+        "keyCoverage": "complete"
+      }
+    },
+    "ja": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review",
+      "cms": {
+        "sourceContentHash": "e9e93010c39ee56cbbdc5184e3be01129291093c8245ae6532ad2c2fbab9f42c",
+        "keyCoverage": "complete"
+      }
+    },
+    "ko": {
+      "status": "DRAFT",
+      "approved": false,
+      "nativeReviewRequired": true,
+      "keyCoverage": "complete",
+      "translation": "needs-review",
+      "nativeReview": "needs-review",
+      "cms": {
+        "sourceContentHash": "e9e93010c39ee56cbbdc5184e3be01129291093c8245ae6532ad2c2fbab9f42c",
+        "keyCoverage": "complete"
+      }
+    }
+  }
+}

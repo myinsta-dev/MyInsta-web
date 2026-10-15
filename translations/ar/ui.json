@@ -1,0 +1,443 @@
+{
+  "Common": {
+    "navigation": {
+      "features": "الميزات",
+      "releases": "الإصدارات",
+      "journal": "المجلة",
+      "support": "الدعم",
+      "product": "المنتج",
+      "menu": "القائمة"
+    },
+    "status": {
+      "latest": "الأحدث",
+      "unavailable": "غير متاح"
+    },
+    "actions": {
+      "downloadVersionPrefix": "تنزيل v",
+      "viewReleases": "عرض الإصدارات"
+    },
+    "aria": {
+      "primaryNavigation": "التنقل الرئيسي",
+      "home": "الصفحة الرئيسية لـ {siteName}",
+      "openMenu": "فتح قائمة التنقل",
+      "closeMenu": "إغلاق قائمة التنقل",
+      "socialLinks": "الروابط الاجتماعية",
+      "legal": "قانوني"
+    },
+    "language": {
+      "label": "اللغة",
+      "en": "English",
+      "hi": "Hindi",
+      "pt-BR": "Português (Brasil)",
+      "es": "Español",
+      "id": "Bahasa Indonesia",
+      "tr": "Türkçe",
+      "fil": "Filipino",
+      "de": "Deutsch",
+      "fr": "Français",
+      "ar": "العربية",
+      "ru": "Русский",
+      "bn": "বাংলা",
+      "ja": "日本語",
+      "ko": "한국어"
+    },
+    "newsletter": {
+      "emailAddress": "عنوان البريد الإلكتروني",
+      "emailPlaceholder": "you@example.com",
+      "join": "الاشتراك في ملاحظات الإصدار",
+      "joining": "جارٍ الاشتراك…",
+      "checkInbox": "تحقق من صندوق الوارد",
+      "subscriptionStarted": "بدأ الاشتراك. تحقّق من صندوق الوارد للتأكيد.",
+      "subscriptionUnavailable": "الاشتراكات غير متاحة حاليًا لأن إرسال البريد الإلكتروني معطّل أو غير مُهيّأ.",
+      "subscriptionFailed": "فشل الاشتراك. يُرجى المحاولة مرة أخرى.",
+      "unavailable": "إشعارات الإصدارات غير متاحة حاليًا.",
+      "paused": "إشعارات الإصدارات متوقفة مؤقتًا حاليًا."
+    },
+    "footer": {
+      "description": "تحديثات {siteName} وإصداراته وموارد الدعم في مكان واحد.",
+      "us": "نحن",
+      "reachOutLine1": "تواصل",
+      "reachOutLine2": "معنا",
+      "unaffiliated": "myinsta.dev هو الموقع الرسمي لـ MyInsta. لا علاقة لـ myinsta.app بـ MyInsta."
+    },
+    "legal": {
+      "privacy": "الخصوصية",
+      "terms": "الشروط"
+    },
+    "community": {
+      "ariaLabel": "انضم إلى مجتمع MyInsta",
+      "join": "انضم إلى {platform} الخاص بنا"
+    },
+    "theme": {
+      "colorTheme": "نمط الألوان",
+      "change": "تغيير نمط الألوان",
+      "systemTheme": "نسق النظام ({resolved})",
+      "current": "نسق {theme}",
+      "switch": "التبديل إلى نسق {theme}",
+      "light": "فاتح",
+      "dark": "داكن",
+      "system": "النظام"
+    },
+    "metadata": {
+      "skipToContent": "تخطَّ إلى المحتوى",
+      "privacyTitle": "سياسة الخصوصية",
+      "privacyDescription": "كيف يتعامل MyInsta مع تحليلات الموقع وطلبات التطبيق وأصالة الإصدارات."
+    }
+  },
+  "Home": {
+    "hero": {
+      "subheadline": "استخدم Ghost Mode، ونزّل الوسائط المدعومة، واختر مظهر Instagram.",
+      "intro": "أخفِ إيصالات القراءة باستخدام Ghost Mode، واحفظ الصور وStories، وخصّص Instagram على Android.",
+      "headline": "Instagram بالطريقة التي تناسبك.",
+      "controls": "عناصر التحكم لديك",
+      "publicBuilds": "البنيات العامة",
+      "independentDescription": "‏{applicationName} هو تعديل مستقل لـ Instagram لنظام Android.",
+      "yourWay": "‏{applicationName} بطريقتك.",
+      "yourWayHighlight": "بطريقتك."
+    },
+    "actions": {
+      "downloadMyInsta": "تنزيل MyInsta",
+      "browseReleases": "تصفح الإصدارات",
+      "installationGuide": "دليل التثبيت",
+      "seeHowItWorks": "شاهد كيف يعمل",
+      "viewAppScreen": "عرض شاشة التطبيق",
+      "releaseNotes": "ملاحظات الإصدار"
+    },
+    "sections": {
+      "getStarted": "ابدأ الآن",
+      "makeInstagramWork": "اجعل Instagram يعمل بالطريقة التي تناسبك.",
+      "makeInstagramDescription": "أخفِ إيصالات القراءة، واحفظ الصور وStories، واختر مظهر Instagram.",
+      "commonQuestions": "الأسئلة الشائعة"
+    },
+    "fallbackFeatures": {
+      "privacy": {
+        "title": "عناصر التحكم بالخصوصية",
+        "detail": "اختر ما يغادر جهازك",
+        "description": "أبقِ إيصالات القراءة ومؤشرات الكتابة ومشاهدات Stories وإشارات الحضور تحت تحكم أدق حيث يدعمها الإصدار الحالي."
+      },
+      "media": {
+        "title": "أدوات الوسائط",
+        "detail": "احتفظ بما يهمك",
+        "description": "احفظ الصور ومقاطع الفيديو وStories المدعومة عبر عناصر تحكم تبقيها قريبة من المحتوى."
+      },
+      "interface": {
+        "title": "خيارات الواجهة",
+        "detail": "اجعل التطبيق مألوفًا",
+        "description": "اضبط تفاصيل محددة في التخطيط والتفاعل مع الحفاظ على وضوح التجربة الأساسية."
+      }
+    },
+    "features": {
+      "fallbackDescription": "استكشف هذا الخيار في إعدادات MyInsta. قد تختلف الخيارات المتاحة حسب الإصدار."
+    },
+    "steps": {
+      "download": {
+        "title": "تنزيل MyInsta",
+        "withAsset": "اختر v{version}، واقرأ ملاحظات الإصدار، وافتح رابط تنزيل APK الخاص به.",
+        "withoutAsset": "افتح v{version} لقراءة ملاحظات الإصدار وخيارات التنزيل المتاحة.",
+        "noRelease": "اختر إصدارًا منشورًا، واقرأ ملاحظات الإصدار، وافتح خيارات تنزيله."
+      },
+      "controls": {
+        "title": "اختر عناصر التحكم لديك",
+        "description": "افتح إعدادات MyInsta واختر خيارات الخصوصية والتنزيل والمظهر التي تريد استخدامها."
+      },
+      "keepUsing": {
+        "title": "واصل استخدام Instagram",
+        "description": "تصفّح خلاصتك، وشاهد Stories، وتراسل مع أصدقائك باستخدام الإعدادات التي اخترتها."
+      }
+    },
+    "facts": {
+      "latestRelease": "أحدث إصدار",
+      "released": "نُشر في {date}.",
+      "readReleaseNotes": "اقرأ ملاحظات الإصدار لهذه البنية.",
+      "download": "تنزيل",
+      "externalDownload": "صفحة تنزيل خارجية",
+      "apkDownload": "تنزيل APK",
+      "releaseDetails": "تفاصيل الإصدار",
+      "openFileHost": "افتح مضيف الملفات المرتبط بهذا الإصدار للحصول على APK.",
+      "getApk": "احصل على APK باستخدام رابط تنزيل هذا الإصدار.",
+      "availableFiles": "اقرأ ملاحظات الإصدار لمعرفة الملفات والمتطلبات المتاحة.",
+      "compatibility": "التوافق",
+      "deviceRequirements": "تحقّق من ملاحظات الإصدار لمعرفة متطلبات الجهاز."
+    },
+    "proofs": {
+      "latestTitle": "نزّل أحدث إصدار من MyInsta.",
+      "releasesTitle": "اعثر على إصدارات MyInsta.",
+      "description": "تحقّق من ملاحظات الإصدار ومتطلبات Android قبل اختيار التنزيل.",
+      "noRelease": "ستظهر البنيات الجديدة في صفحة الإصدارات عند توفرها.",
+      "chooseDownload": "اختر APK وخيار التنزيل من صفحة الإصدار."
+    },
+    "faq": {
+      "fallbackAnswer": "راجع سجل الإصدار ذي الصلة أو تواصل مع الدعم لمعرفة الإجابة الحالية.",
+      "moreQuestions": "ما زالت لديك أسئلة؟ نحن هنا للمساعدة."
+    },
+    "journal": {
+      "eyebrow": "من المجلة",
+      "title": "ملاحظات تستحق الاحتفاظ بها.",
+      "category": "المجلة",
+      "readingTime": "مدة القراءة {minutes} دقائق"
+    },
+    "cta": {
+      "stable": "مستقر v{version}",
+      "appForAndroid": "{applicationName} لنظام Android",
+      "title": "هل أنت مستعد لجعل Instagram على ذوقك؟",
+      "latestPublished": "نُشر أحدث إصدار مستقر في {date}"
+    },
+    "aria": {
+      "featureIllustrations": "رسومات ميزات MyInsta",
+      "featureScreenshot": "عرض لقطة شاشة {feature} بملء الشاشة",
+      "appScreenshots": "لقطات شاشة تطبيق MyInsta",
+      "screenshotFullscreen": "عرض لقطة شاشة {label} بملء الشاشة"
+    },
+    "screenshots": {
+      "title": "ألقِ نظرة من الداخل.",
+      "description": "شاشات حقيقية من MyInsta. مرّر للاستكشاف أو اضغط على شاشة لإلقاء نظرة أقرب.",
+      "carousel": "شريط التمرير",
+      "viewFullscreen": "عرض بملء الشاشة",
+      "previous": "لقطة الشاشة السابقة",
+      "resume": "استئناف لقطات الشاشة التلقائية",
+      "pause": "إيقاف لقطات الشاشة التلقائية مؤقتًا",
+      "next": "لقطة الشاشة التالية",
+      "interval": "تتغير كل 8 ثوانٍ",
+      "choose": "اختر لقطة شاشة",
+      "viewerDescription": "لقطة شاشة كاملة. استخدم عناصر التحكم بالتكبير للتفاصيل، ومرّر أو استخدم أزرار الأسهم لتغيير الشاشات، واضغط Escape للإغلاق.",
+      "zoomOut": "تصغير",
+      "zoomIn": "تكبير",
+      "fit": "ملاءمة لقطة الشاشة للشاشة",
+      "fitShort": "ملاءمة",
+      "openOriginal": "فتح الأصل",
+      "items": {
+        "overview": {
+          "label": "نظرة عامة على الإعدادات",
+          "alt": "نظرة عامة على إعدادات MyInsta، مع عناصر تحكم للخلاصة والواجهة والمراسلة"
+        },
+        "appearance": {
+          "label": "المظهر",
+          "alt": "عناصر تحكم مظهر MyInsta للسمات والخطوط والتنقل والاقتراحات والمراسلة"
+        },
+        "download-story": {
+          "label": "تنزيل Story",
+          "alt": "لوحة Download Story في MyInsta، مع خيارات الفيديو والصورة والإطار الأول والصوت والجودة"
+        },
+        "ghost-mode": {
+          "label": "Ghost Mode",
+          "alt": "إعدادات Ghost Mode في MyInsta للرسائل وStories وLive ولقطات الشاشة والوسائط ذات العرض الواحد"
+        },
+        "unsent-messages": {
+          "label": "الرسائل التي لم تُرسل",
+          "alt": "إعدادات MyInsta للاحتفاظ بالرسائل التي يلغي الآخرون إرسالها"
+        },
+        "stories": {
+          "label": "Stories",
+          "alt": "عناصر تحكم Stories في MyInsta لعرض محتوى Story وإدارته"
+        },
+        "instants": {
+          "label": "Instants",
+          "alt": "إعدادات Instants في MyInsta لتجربة مشاركة مركزة"
+        },
+        "hide-save": {
+          "label": "Hide Save",
+          "alt": "عناصر تحكم Hide Save في MyInsta لإبقاء الوسائط المحددة خارج طرق العرض المحفوظة"
+        }
+      }
+    },
+    "metadata": {
+      "title": "‏{siteName} — الموقع الرسمي وتنزيل APK لنظام Android",
+      "description": "نزّل {siteName} لنظام Android، وقارن بين إصدارات APK، واقرأ ملاحظات الإصدار وتعليمات التثبيت."
+    }
+  },
+  "Blog": {
+    "grid": {
+      "empty": "لا توجد قصص منشورة بعد.",
+      "team": "فريق MyInsta",
+      "unscheduled": "غير مجدول"
+    },
+    "article": {
+      "share": "مشاركة",
+      "copied": "تم النسخ",
+      "copyLink": "نسخ الرابط"
+    },
+    "metadata": {
+      "title": "المجلة",
+      "pageTitle": "المجلة · الصفحة {page}",
+      "description": "سياق إصدارات MyInsta وملاحظات المنتج وشروحات الأمان والأدلة العملية."
+    },
+    "taxonomy": {
+      "categoryLabel": "تصنيف المجلة",
+      "tagLabel": "وسم المجلة",
+      "categoryDescription": "منشورات مجلة MyInsta المصنّفة ضمن {name}.",
+      "tagDescription": "منشورات مجلة MyInsta المنشورة والموسومة بـ {name}."
+    },
+    "index": {
+      "eyebrow": "المجلة",
+      "title": "الفكرة",
+      "titleAccent": "وراء البناء.",
+      "description": "سياق الإصدارات وقرارات المنتج وملاحظات التوافق والأدلة الواضحة من هيئة التحرير المباشرة.",
+      "search": "ابحث في الأرشيف",
+      "categories": "تصنيفات المجلة",
+      "published": "ملاحظات منشورة",
+      "count": "{total} إجمالًا · الصفحة {page} من {pages}",
+      "sort": "ترتيب",
+      "latest": "الأحدث أولًا",
+      "oldest": "الأقدم أولًا",
+      "apply": "تطبيق",
+      "pagination": "ترقيم صفحات المجلة",
+      "previous": "السابق",
+      "next": "التالي"
+    }
+  },
+  "Releases": {
+    "dateUnavailable": "التاريخ غير متاح",
+    "releaseDateUnavailable": "تاريخ الإصدار غير متاح",
+    "channels": {
+      "ALL": "الكل",
+      "STABLE": "مستقر",
+      "BETA": "بيتا",
+      "ALPHA": "ألفا",
+      "LEGACY": "قديم"
+    },
+    "breadcrumbs": {
+      "home": "الرئيسية",
+      "releases": "الإصدارات"
+    },
+    "facts": {
+      "build": "البنية",
+      "channel": "القناة",
+      "base": "الأساس",
+      "androidRequirement": "متطلبات Android",
+      "buildTarget": "هدف البنية",
+      "primaryArchitecture": "معمارية APK الأساسية"
+    },
+    "index": {
+      "closeChanges": "إغلاق التغييرات",
+      "seeChanges": "عرض التغييرات",
+      "latestDownloadHelp": "اختر APK من أحدث إصدار.",
+      "noBuild": "لا توجد بنية عامة بعد.",
+      "noBuildDescription": "سيظهر الإصدار هنا عندما يصبح أصله الأساسي جاهزًا للتوزيع العام.",
+      "searchLabel": "البحث في الإصدارات",
+      "searchPlaceholder": "ابحث عن إصدار أو سجل تغييرات أو مشكلة معروفة…",
+      "channelGroup": "قناة الإصدار",
+      "noMatches": "لا يطابق هذه المرشحات أي إصدار منشور."
+    },
+    "detail": {
+      "allReleases": "كل الإصدارات",
+      "current": "الحالي",
+      "latest": "الأحدث",
+      "versionBuild": "الإصدار {version} · البنية {build}",
+      "chooseApk": "اختر APK الخاص بك",
+      "cloneDescription": "يستخدم حزمة منفصلة ليتمكن من التعايش مع Instagram.",
+      "uncloneDescription": "يستخدم الحزمة الأصلية؛ تحقّق من التعارضات وانسخ بياناتك المحلية احتياطيًا قبل استبدال تطبيق مثبّت.",
+      "abiDescription": "طابق ABI لجهازك: ARM64 لمعالجات ARM ذات 64 بت، وARM32 لمعالجات ARM ذات 32 بت، أو x86/x86_64 لأجهزة Intel المتوافقة والمحاكيات. استخدم Universal فقط عندما يدرجه هذا الإصدار. هدف البنية منفصل عن الحد الأدنى لمتطلبات Android.",
+      "installationHelp": "مساعدة التثبيت وتعارض الحزم",
+      "noPrimaryAsset": "لا يتوفر حاليًا أصل أساسي قابل للتنزيل.",
+      "coverAlt": "غلاف إصدار {title}",
+      "experimentalChannel": "قناة تجريبية",
+      "alphaWarning": "قد تكون بنيات ألفا غير مكتملة، وهي مخصصة للاختبار المتعمد.",
+      "betaWarning": "قد تحتوي بنيات بيتا على تراجعات غير موجودة في القناة المستقرة.",
+      "buildRecord": "سجل البنية",
+      "whatChanged": "ما الذي تغيّر",
+      "fixedInBuild": "تم إصلاحه في هذه البنية",
+      "knownIssues": "المشكلات المعروفة",
+      "installation": "التثبيت",
+      "upgrade": "الترقية",
+      "rollbackNotes": "ملاحظات التراجع",
+      "screenshots": "لقطات الشاشة",
+      "compatibility": "التوافق",
+      "securityNote": "ملاحظة أمنية",
+      "readRelated": "اقرأ: {title}",
+      "previous": "السابق v{version}"
+    },
+    "download": {
+      "download": "تنزيل",
+      "downloadAdFree": "تنزيل (من دون إعلانات)",
+      "openExternal": "فتح APK خارجي",
+      "downloadSize": "تنزيل {size}",
+      "unavailable": "تعذّر إعداد رابط التنزيل. تأكّد من أن البنية لا تزال متاحة، ثم حاول مرة أخرى؛ يُنشأ رابط موقّع جديد مع كل نقرة.",
+      "apkDownloads": "تنزيلات APK",
+      "unspecifiedAbi": "ABI غير محدد",
+      "ariaLabel": "{variant} {abi} {type}",
+      "assetAriaLabel": "تنزيل {label}",
+      "external": "تنزيل خارجي",
+      "apk": "تنزيل APK",
+      "recommended": "موصى به لهذا الجهاز",
+      "browserAbi": "يُبلغ المتصفح عن {abi}. تحقّق من أن جهازك يدعم ABI هذا.",
+      "browserUnknownAbi": "لا يُبلغ متصفحك عن ABI. اختر Universal عند توفره، أو تحقّق من معمارية جهازك.",
+      "otherDownloads": "تنزيلات أخرى",
+      "options": "خيارات التنزيل",
+      "externalDownload": "تنزيل خارجي",
+      "errors": {
+        "notFound": "التنزيل غير موجود",
+        "rateLimited": "محاولات تنزيل كثيرة جدًا",
+        "unavailable": "التنزيل غير متاح مؤقتًا.",
+        "verifying": "لا يزال التحقق من التنزيل جاريًا.",
+        "sourceUnavailable": "مصدر التنزيل هذا لم يعد متاحًا.",
+        "unsafeSource": "مصدر التنزيل هذا غير آمن للفتح.",
+        "prepareFailed": "تعذّر إعداد التنزيل. يُرجى إعادة المحاولة.",
+        "rangeNotSatisfiable": "النطاق المطلوب غير قابل للتلبية."
+      }
+    },
+    "verification": {
+      "details": "تفاصيل التحقق",
+      "externalWithChecksum": "مضيف خارجي: قارن الملف الذي تستلمه مع قيمة التحقق المنشورة. لا يتحقق هذا الموقع من الاستجابة الخارجية.",
+      "externalWithoutChecksum": "مضيف خارجي: لم تُنشر قيمة تحقق. لا يتحقق هذا الموقع من الاستجابة الخارجية.",
+      "verified": "يحتوي APK المخزّن على قيمة تحقق مسجلة وفحص لشهادة التوقيع. لا يضمن ذلك سلوك التطبيق أو أمان الحساب.",
+      "unverified": "لا يتوفر سجل تحقق مكتمل لهذا الملف.",
+      "noChecksum": "لم تُنشر قيمة تحقق لهذا الملف.",
+      "certificateSha256": "SHA-256 لشهادة التوقيع",
+      "copyChecksum": "نسخ قيمة التحقق",
+      "copied": "تم النسخ",
+      "primaryVerified": "تم التحقق من APK الأساسي",
+      "primaryApk": "APK الأساسي",
+      "internalRecord": "سجل التحقق الداخلي",
+      "externalDelivery": "تسليم خارجي",
+      "releaseAssetRecord": "سجل أصل الإصدار",
+      "verifiedShort": "تم التحقق من SHA-256",
+      "availableShort": "SHA-256 متاح",
+      "signingCertificate": "شهادة التوقيع"
+    },
+    "notes": {
+      "title": "ملاحظات الإصدار",
+      "empty": "لم تُنشر ملاحظات للإصدار.",
+      "emptyChangelog": "لم تُنشر عناصر في سجل التغييرات.",
+      "showLess": "عرض أقل",
+      "readMore": "اقرأ المزيد"
+    },
+    "timeline": {
+      "base": "الأساس {version}",
+      "notSpecified": "غير محدد",
+      "assets": "{count, plural, =0 {لا توجد أصول} one {# أصل} other {# أصول}}",
+      "hideChangelog": "إخفاء سجل التغييرات",
+      "showChangelog": "إظهار سجل التغييرات",
+      "emptyChangelog": "لم تُنشر عناصر في سجل تغييرات هذا الإصدار."
+    },
+    "metadata": {
+      "title": "إصدارات MyInsta — تنزيلات APK الرسمية",
+      "description": "تنزيلات APK الرسمية من MyInsta لنظام Android، مع ملاحظات الإصدار وتفاصيل التوافق وقيم التحقق وسجلات التغييرات.",
+      "latestTitle": "أحدث إصدار",
+      "latestDescription": "اعثر على أحدث إصدار منشور من MyInsta واختر تنزيل APK الخاص بك.",
+      "detailTitle": "{title} · v{version} — تنزيل APK الرسمي"
+    }
+  },
+  "Search": {
+    "eyebrow": "اعثر على السجل",
+    "title": "بحث",
+    "titleAccent": "كل ما هو عام.",
+    "inputLabel": "البحث في المحتوى المنشور",
+    "placeholder": "إصدار أو ميزة أو دليل أو رقم إصدار…",
+    "disabledPlaceholder": "البحث معطّل حاليًا",
+    "resultsCount": "{count, plural, =0 {لا توجد نتائج} one {# نتيجة لـ “{query}”} other {# نتائج لـ “{query}”}}",
+    "noResults": "لم يطابق هذه العبارة أي سجل عام.",
+    "shortQuery": "ابدأ بحرفين على الأقل. تتحدث النتائج أثناء الكتابة؛ استخدم مفاتيح الأسهم للتنقل.",
+    "disabled": "عطّل أحد المسؤولين البحث العام.",
+    "errors": {
+      "tooShort": "استعلام البحث قصير جدًا.",
+      "tooLong": "استعلام البحث طويل جدًا.",
+      "rateLimited": "البحث مقيّد مؤقتًا بسبب كثرة الطلبات. يُرجى المحاولة بعد قليل.",
+      "disabled": "البحث معطّل حاليًا.",
+      "unavailable": "البحث غير متاح مؤقتًا."
+    },
+    "metadata": {
+      "title": "بحث",
+      "description": "ابحث في إصدارات MyInsta ومنشورات المجلة والصفحات المنشورة."
+    }
+  }
+}

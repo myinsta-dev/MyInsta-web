@@ -1,0 +1,132 @@
+{
+  "dateUnavailable": "Date unavailable",
+  "releaseDateUnavailable": "Release date unavailable",
+  "channels": {
+    "ALL": "All",
+    "STABLE": "Stable",
+    "BETA": "Beta",
+    "ALPHA": "Alpha",
+    "LEGACY": "Legacy"
+  },
+  "breadcrumbs": {
+    "home": "Home",
+    "releases": "Releases"
+  },
+  "facts": {
+    "build": "Build",
+    "channel": "Channel",
+    "base": "Base",
+    "androidRequirement": "Android requirement",
+    "buildTarget": "Build target",
+    "primaryArchitecture": "Primary APK architecture"
+  },
+  "index": {
+    "closeChanges": "Close changes",
+    "seeChanges": "See changes",
+    "latestDownloadHelp": "Choose an APK from the latest release.",
+    "noBuild": "No public build yet.",
+    "noBuildDescription": "A release appears here when its primary asset is ready for public distribution.",
+    "searchLabel": "Search releases",
+    "searchPlaceholder": "Search version, changelog, known issue…",
+    "channelGroup": "Release channel",
+    "noMatches": "No published release matches those filters."
+  },
+  "detail": {
+    "allReleases": "All releases",
+    "current": "Current",
+    "latest": "Latest",
+    "versionBuild": "Version {version} · build {build}",
+    "chooseApk": "Choose your APK",
+    "cloneDescription": "uses a separate package so it can coexist with Instagram.",
+    "uncloneDescription": "uses the original package; check for conflicts and back up local data before replacing an installed app.",
+    "abiDescription": "Match your device's ABI: ARM64 for 64-bit ARM, ARM32 for 32-bit ARM, or x86/x86_64 for compatible Intel devices and emulators. Use Universal only when this release lists it. The build target is separate from the minimum Android requirement.",
+    "installationHelp": "Installation and package-conflict help",
+    "noPrimaryAsset": "No downloadable primary asset is currently available.",
+    "coverAlt": "{title} release cover",
+    "experimentalChannel": "Experimental channel",
+    "alphaWarning": "Alpha builds may be incomplete and are intended for deliberate testing.",
+    "betaWarning": "Beta builds may contain regressions not present in the stable channel.",
+    "buildRecord": "Build record",
+    "whatChanged": "What changed",
+    "fixedInBuild": "Fixed in this build",
+    "knownIssues": "Known issues",
+    "installation": "Installation",
+    "upgrade": "Upgrade",
+    "rollbackNotes": "Rollback notes",
+    "screenshots": "Screenshots",
+    "compatibility": "Compatibility",
+    "securityNote": "Security note",
+    "readRelated": "Read: {title}",
+    "previous": "Previous v{version}"
+  },
+  "download": {
+    "download": "Download",
+    "downloadAdFree": "Download (ad-free)",
+    "openExternal": "Open external APK",
+    "downloadSize": "Download {size}",
+    "unavailable": "The download link could not be prepared. Confirm the build is still available, then try again; a fresh signed link is created on every click.",
+    "apkDownloads": "APK downloads",
+    "unspecifiedAbi": "Unspecified ABI",
+    "ariaLabel": "{variant} {abi} {type}",
+    "assetAriaLabel": "{label} download",
+    "external": "external download",
+    "apk": "APK download",
+    "recommended": "Recommended for this device",
+    "browserAbi": "Browser reports {abi}. Check your device supports this ABI.",
+    "browserUnknownAbi": "Your browser does not report an ABI. Choose Universal when available, or check your device architecture.",
+    "otherDownloads": "Other downloads",
+    "options": "Download options",
+    "externalDownload": "External download",
+    "errors": {
+      "notFound": "Download not found",
+      "rateLimited": "Too many download attempts",
+      "unavailable": "Download is temporarily unavailable.",
+      "verifying": "Download verification is still in progress.",
+      "sourceUnavailable": "This download source is no longer available.",
+      "unsafeSource": "This download source is not safe to open.",
+      "prepareFailed": "The download could not be prepared. Please retry.",
+      "rangeNotSatisfiable": "Requested range is not satisfiable."
+    }
+  },
+  "verification": {
+    "details": "Verification details",
+    "externalWithChecksum": "External host: compare the file you receive with the published checksum. This site does not verify the external response.",
+    "externalWithoutChecksum": "External host: no checksum is published. This site does not verify the external response.",
+    "verified": "The stored APK has a recorded checksum and signing certificate check. This does not guarantee app behavior or account safety.",
+    "unverified": "No completed verification record is available for this file.",
+    "noChecksum": "No checksum is published for this file.",
+    "certificateSha256": "Signing certificate SHA-256",
+    "copyChecksum": "Copy checksum",
+    "copied": "Copied",
+    "primaryVerified": "Primary APK verified",
+    "primaryApk": "Primary APK",
+    "internalRecord": "Internal verification record",
+    "externalDelivery": "External delivery",
+    "releaseAssetRecord": "Release asset record",
+    "verifiedShort": "SHA-256 verified",
+    "availableShort": "SHA-256 available",
+    "signingCertificate": "Signing certificate"
+  },
+  "notes": {
+    "title": "Release notes",
+    "empty": "No release notes were published.",
+    "emptyChangelog": "No changelog items were published.",
+    "showLess": "Show less",
+    "readMore": "Read more"
+  },
+  "timeline": {
+    "base": "Base {version}",
+    "notSpecified": "not specified",
+    "assets": "{count, plural, =0 {No assets} one {# asset} other {# assets}}",
+    "hideChangelog": "Hide changelog",
+    "showChangelog": "Show changelog",
+    "emptyChangelog": "No changelog items were published for this release."
+  },
+  "metadata": {
+    "title": "MyInsta Releases — Official APK Downloads",
+    "description": "Official MyInsta APK downloads for Android, with release notes, compatibility details, checksums, and changelogs.",
+    "latestTitle": "Latest release",
+    "latestDescription": "Find the latest published MyInsta release and choose your APK download.",
+    "detailTitle": "{title} · v{version} — Official APK Download"
+  }
+}

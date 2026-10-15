@@ -1,0 +1,161 @@
+{
+  "hero": {
+    "subheadline": "Use Ghost Mode, download supported media, and choose how Instagram looks.",
+    "intro": "Hide read receipts with Ghost Mode, save photos and Stories, and customize Instagram on Android.",
+    "headline": "Instagram, shaped around you.",
+    "controls": "Your controls",
+    "publicBuilds": "Public builds",
+    "independentDescription": "{applicationName} is an independent Instagram mod for Android.",
+    "yourWay": "{applicationName}, your way.",
+    "yourWayHighlight": "your way."
+  },
+  "actions": {
+    "downloadMyInsta": "Download MyInsta",
+    "browseReleases": "Browse releases",
+    "installationGuide": "Installation guide",
+    "seeHowItWorks": "See how it works",
+    "viewAppScreen": "View app screen",
+    "releaseNotes": "Release notes"
+  },
+  "sections": {
+    "getStarted": "Get Started",
+    "makeInstagramWork": "Make Instagram work for you.",
+    "makeInstagramDescription": "Hide read receipts, save photos and Stories, and choose how Instagram looks.",
+    "commonQuestions": "Common Questions"
+  },
+  "fallbackFeatures": {
+    "privacy": {
+      "title": "Privacy controls",
+      "detail": "Choose what leaves your device",
+      "description": "Keep read receipts, typing indicators, Story views, and presence signals under closer control where the current build supports them."
+    },
+    "media": {
+      "title": "Media tools",
+      "detail": "Keep what matters",
+      "description": "Save supported photos, videos, and Stories through controls designed to stay close to the content."
+    },
+    "interface": {
+      "title": "Interface choices",
+      "detail": "Make the app feel familiar",
+      "description": "Adjust selected layout and interaction details while keeping the core experience recognizable."
+    }
+  },
+  "features": {
+    "fallbackDescription": "Explore this option in MyInsta settings. Available options can vary by release."
+  },
+  "steps": {
+    "download": {
+      "title": "Download MyInsta",
+      "withAsset": "Choose v{version}, read the release notes, and open its APK download link.",
+      "withoutAsset": "Open v{version} to read its release notes and available download options.",
+      "noRelease": "Choose a published release, read the release notes, and open its download options."
+    },
+    "controls": {
+      "title": "Choose your controls",
+      "description": "Open MyInsta settings and choose the privacy, download, and appearance options you want to use."
+    },
+    "keepUsing": {
+      "title": "Keep using Instagram",
+      "description": "Browse your feed, watch Stories, and message friends with your chosen settings."
+    }
+  },
+  "facts": {
+    "latestRelease": "Latest release",
+    "released": "Released {date}.",
+    "readReleaseNotes": "Read the release notes for this build.",
+    "download": "Download",
+    "externalDownload": "External download page",
+    "apkDownload": "APK download",
+    "releaseDetails": "Release details",
+    "openFileHost": "Open the file host linked to this release to get the APK.",
+    "getApk": "Get the APK using this release's download link.",
+    "availableFiles": "Read the release notes for the available files and requirements.",
+    "compatibility": "Compatibility",
+    "deviceRequirements": "Check the release notes for device requirements."
+  },
+  "proofs": {
+    "latestTitle": "Download the latest MyInsta.",
+    "releasesTitle": "Find MyInsta releases.",
+    "description": "Check the release notes and Android requirements before choosing a download.",
+    "noRelease": "New builds will appear on the releases page when they're available.",
+    "chooseDownload": "Choose your APK and download option on the release page."
+  },
+  "faq": {
+    "fallbackAnswer": "See the relevant release record or contact support for the current answer.",
+    "moreQuestions": "Still have questions? We're here to help."
+  },
+  "journal": {
+    "eyebrow": "From the journal",
+    "title": "Notes worth keeping.",
+    "category": "Journal",
+    "readingTime": "{minutes} min read"
+  },
+  "cta": {
+    "stable": "Stable v{version}",
+    "appForAndroid": "{applicationName} for Android",
+    "title": "Ready to make Instagram feel like yours?",
+    "latestPublished": "Latest stable release published {date}"
+  },
+  "aria": {
+    "featureIllustrations": "MyInsta feature illustrations",
+    "featureScreenshot": "View {feature} screenshot fullscreen",
+    "appScreenshots": "MyInsta app screenshots",
+    "screenshotFullscreen": "View {label} screenshot fullscreen"
+  },
+  "screenshots": {
+    "title": "Take a look inside.",
+    "description": "Real screens from MyInsta. Swipe to explore, or tap a screen for a closer look.",
+    "carousel": "carousel",
+    "viewFullscreen": "View fullscreen",
+    "previous": "Previous screenshot",
+    "resume": "Resume automatic screenshots",
+    "pause": "Pause automatic screenshots",
+    "next": "Next screenshot",
+    "interval": "Changes every 8 seconds",
+    "choose": "Choose a screenshot",
+    "viewerDescription": "Full screenshot. Use the zoom controls for detail, swipe or use the arrow buttons to change screens, and press Escape to close.",
+    "zoomOut": "Zoom out",
+    "zoomIn": "Zoom in",
+    "fit": "Fit screenshot to screen",
+    "fitShort": "Fit",
+    "openOriginal": "Open original",
+    "items": {
+      "overview": {
+        "label": "Settings overview",
+        "alt": "MyInsta settings overview with controls for the feed, interface, and messaging"
+      },
+      "appearance": {
+        "label": "Appearance",
+        "alt": "MyInsta appearance controls for themes, fonts, navigation, suggestions, and messaging"
+      },
+      "download-story": {
+        "label": "Download Story",
+        "alt": "MyInsta Download Story sheet with video, photo, first frame, audio, and quality choices"
+      },
+      "ghost-mode": {
+        "label": "Ghost Mode",
+        "alt": "MyInsta Ghost Mode settings for messages, Stories, Live, screenshots, and view-once media"
+      },
+      "unsent-messages": {
+        "label": "Unsent Messages",
+        "alt": "MyInsta settings for keeping messages that other people unsend"
+      },
+      "stories": {
+        "label": "Stories",
+        "alt": "MyInsta Stories controls for viewing and managing Story content"
+      },
+      "instants": {
+        "label": "Instants",
+        "alt": "MyInsta Instants settings for a focused sharing experience"
+      },
+      "hide-save": {
+        "label": "Hide Save",
+        "alt": "MyInsta Hide Save controls for keeping selected media out of saved views"
+      }
+    }
+  },
+  "metadata": {
+    "title": "{siteName} — Official Site & APK Download for Android",
+    "description": "Download {siteName} for Android, compare APK variants, and read release notes and installation help."
+  }
+}

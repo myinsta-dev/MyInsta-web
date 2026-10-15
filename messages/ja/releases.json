@@ -1,0 +1,132 @@
+{
+  "dateUnavailable": "日付なし",
+  "releaseDateUnavailable": "リリース日なし",
+  "channels": {
+    "ALL": "すべて",
+    "STABLE": "安定版",
+    "BETA": "ベータ",
+    "ALPHA": "アルファ",
+    "LEGACY": "レガシー"
+  },
+  "breadcrumbs": {
+    "home": "ホーム",
+    "releases": "リリース"
+  },
+  "facts": {
+    "build": "ビルド",
+    "channel": "チャンネル",
+    "base": "ベース",
+    "androidRequirement": "Androidの要件",
+    "buildTarget": "ビルド対象",
+    "primaryArchitecture": "主要APKアーキテクチャ"
+  },
+  "index": {
+    "closeChanges": "変更を閉じる",
+    "seeChanges": "変更を見る",
+    "latestDownloadHelp": "最新リリースからAPKを選択します。",
+    "noBuild": "公開ビルドはまだありません。",
+    "noBuildDescription": "主要アセットが一般公開の準備を終えると、ここにリリースが表示されます。",
+    "searchLabel": "リリースを検索",
+    "searchPlaceholder": "バージョン、変更履歴、既知の問題を検索…",
+    "channelGroup": "リリースチャンネル",
+    "noMatches": "条件に一致する公開リリースはありません。"
+  },
+  "detail": {
+    "allReleases": "すべてのリリース",
+    "current": "現在",
+    "latest": "最新",
+    "versionBuild": "バージョン {version} · ビルド {build}",
+    "chooseApk": "APKを選択",
+    "cloneDescription": "Instagramと共存できる別パッケージを使用します。",
+    "uncloneDescription": "元のパッケージを使用します。競合を確認し、インストール済みアプリを置き換える前にローカルデータをバックアップしてください。",
+    "abiDescription": "端末のABIに合わせてください。ARM64は64ビットARM、ARM32は32ビットARM、x86/x86_64は対応するIntel端末とエミュレーター向けです。このリリースに記載がある場合のみUniversalを使用してください。ビルド対象はAndroidの最低要件とは別です。",
+    "installationHelp": "インストールとパッケージ競合のヘルプ",
+    "noPrimaryAsset": "現在ダウンロードできる主要アセットはありません。",
+    "coverAlt": "{title}のリリースカバー",
+    "experimentalChannel": "実験チャンネル",
+    "alphaWarning": "アルファ版は不完全な場合があり、慎重なテストを目的としています。",
+    "betaWarning": "ベータ版には安定版にないリグレッションが含まれる場合があります。",
+    "buildRecord": "ビルド記録",
+    "whatChanged": "変更点",
+    "fixedInBuild": "このビルドで修正",
+    "knownIssues": "既知の問題",
+    "installation": "インストール",
+    "upgrade": "アップグレード",
+    "rollbackNotes": "ロールバックメモ",
+    "screenshots": "スクリーンショット",
+    "compatibility": "互換性",
+    "securityNote": "セキュリティメモ",
+    "readRelated": "読む: {title}",
+    "previous": "前のv{version}"
+  },
+  "download": {
+    "download": "ダウンロード",
+    "downloadAdFree": "ダウンロード（広告なし）",
+    "openExternal": "外部APKを開く",
+    "downloadSize": "{size}をダウンロード",
+    "unavailable": "ダウンロードリンクを準備できませんでした。ビルドがまだ利用可能か確認してから、もう一度お試しください。クリックごとに新しい署名付きリンクが作成されます。",
+    "apkDownloads": "APKダウンロード",
+    "unspecifiedAbi": "ABI未指定",
+    "ariaLabel": "{variant} {abi} {type}",
+    "assetAriaLabel": "{label}をダウンロード",
+    "external": "外部ダウンロード",
+    "apk": "APKダウンロード",
+    "recommended": "この端末におすすめ",
+    "browserAbi": "ブラウザーは{abi}を報告しています。端末がこのABIに対応しているか確認してください。",
+    "browserUnknownAbi": "ブラウザーからABIが報告されません。利用できる場合はUniversalを選ぶか、端末のアーキテクチャを確認してください。",
+    "otherDownloads": "その他のダウンロード",
+    "options": "ダウンロード方法",
+    "externalDownload": "外部ダウンロード",
+    "errors": {
+      "notFound": "ダウンロードが見つかりません",
+      "rateLimited": "ダウンロード試行が多すぎます",
+      "unavailable": "ダウンロードは一時的に利用できません。",
+      "verifying": "ダウンロードの検証がまだ進行中です。",
+      "sourceUnavailable": "このダウンロード元は利用できなくなりました。",
+      "unsafeSource": "このダウンロード元は安全に開けません。",
+      "prepareFailed": "ダウンロードを準備できませんでした。もう一度お試しください。",
+      "rangeNotSatisfiable": "要求された範囲を満たせません。"
+    }
+  },
+  "verification": {
+    "details": "検証の詳細",
+    "externalWithChecksum": "外部ホスト: 受け取ったファイルを公開されているチェックサムと比較してください。このサイトは外部からの応答を検証しません。",
+    "externalWithoutChecksum": "外部ホスト: チェックサムは公開されていません。このサイトは外部からの応答を検証しません。",
+    "verified": "保存されたAPKには記録済みのチェックサムと署名証明書の検査があります。これはアプリの動作やアカウントの安全を保証するものではありません。",
+    "unverified": "このファイルの完了した検証記録はありません。",
+    "noChecksum": "このファイルのチェックサムは公開されていません。",
+    "certificateSha256": "署名証明書のSHA-256",
+    "copyChecksum": "チェックサムをコピー",
+    "copied": "コピーしました",
+    "primaryVerified": "主要APKを検証済み",
+    "primaryApk": "主要APK",
+    "internalRecord": "内部検証記録",
+    "externalDelivery": "外部配信",
+    "releaseAssetRecord": "リリースアセット記録",
+    "verifiedShort": "SHA-256検証済み",
+    "availableShort": "SHA-256あり",
+    "signingCertificate": "署名証明書"
+  },
+  "notes": {
+    "title": "リリースノート",
+    "empty": "リリースノートは公開されていません。",
+    "emptyChangelog": "変更履歴は公開されていません。",
+    "showLess": "折りたたむ",
+    "readMore": "続きを読む"
+  },
+  "timeline": {
+    "base": "ベース {version}",
+    "notSpecified": "未指定",
+    "assets": "{count, plural, =0 {アセットなし} one {#件のアセット} other {#件のアセット}}",
+    "hideChangelog": "変更履歴を隠す",
+    "showChangelog": "変更履歴を表示",
+    "emptyChangelog": "このリリースの変更履歴は公開されていません。"
+  },
+  "metadata": {
+    "title": "MyInstaリリース — 公式APKダウンロード",
+    "description": "リリースノート、互換性の詳細、チェックサム、変更履歴を含むAndroid向け公式MyInsta APKダウンロード。",
+    "latestTitle": "最新リリース",
+    "latestDescription": "最新の公開MyInstaリリースを見つけて、APKのダウンロードを選びます。",
+    "detailTitle": "{title} · v{version} — 公式APKダウンロード"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "dateUnavailable": "তারিখ পাওয়া যাচ্ছে না",
+  "releaseDateUnavailable": "রিলিজের তারিখ পাওয়া যাচ্ছে না",
+  "channels": {
+    "ALL": "সব",
+    "STABLE": "স্থিতিশীল",
+    "BETA": "বিটা",
+    "ALPHA": "আলফা",
+    "LEGACY": "লিগ্যাসি"
+  },
+  "breadcrumbs": {
+    "home": "হোম",
+    "releases": "রিলিজ"
+  },
+  "facts": {
+    "build": "বিল্ড",
+    "channel": "চ্যানেল",
+    "base": "বেস",
+    "androidRequirement": "Android প্রয়োজনীয়তা",
+    "buildTarget": "বিল্ড লক্ষ্য",
+    "primaryArchitecture": "প্রধান APK আর্কিটেকচার"
+  },
+  "index": {
+    "closeChanges": "পরিবর্তন বন্ধ করুন",
+    "seeChanges": "পরিবর্তন দেখুন",
+    "latestDownloadHelp": "সর্বশেষ রিলিজ থেকে একটি APK বেছে নিন।",
+    "noBuild": "এখনও কোনও প্রকাশ্য বিল্ড নেই।",
+    "noBuildDescription": "প্রধান অ্যাসেট প্রকাশ্য বিতরণের জন্য প্রস্তুত হলে রিলিজটি এখানে দেখা যাবে।",
+    "searchLabel": "রিলিজ খুঁজুন",
+    "searchPlaceholder": "সংস্করণ, চেঞ্জলগ, জানা সমস্যা খুঁজুন…",
+    "channelGroup": "রিলিজ চ্যানেল",
+    "noMatches": "এই ফিল্টারগুলির সঙ্গে মেলে এমন কোনও প্রকাশিত রিলিজ নেই।"
+  },
+  "detail": {
+    "allReleases": "সব রিলিজ",
+    "current": "বর্তমান",
+    "latest": "সর্বশেষ",
+    "versionBuild": "সংস্করণ {version} · বিল্ড {build}",
+    "chooseApk": "আপনার APK বেছে নিন",
+    "cloneDescription": "Instagram-এর সঙ্গে একসঙ্গে চলার জন্য আলাদা প্যাকেজ ব্যবহার করে।",
+    "uncloneDescription": "মূল প্যাকেজ ব্যবহার করে; ইনস্টল করা অ্যাপ বদলানোর আগে দ্বন্দ্ব পরীক্ষা করুন এবং স্থানীয় ডেটার ব্যাকআপ নিন।",
+    "abiDescription": "আপনার ডিভাইসের ABI-এর সঙ্গে মিলিয়ে নিন: 64-বিট ARM-এর জন্য ARM64, 32-বিট ARM-এর জন্য ARM32, অথবা উপযুক্ত Intel ডিভাইস ও এমুলেটরের জন্য x86/x86_64। এই রিলিজে তালিকাভুক্ত থাকলেই Universal ব্যবহার করুন। বিল্ড লক্ষ্য ন্যূনতম Android প্রয়োজনীয়তা থেকে আলাদা।",
+    "installationHelp": "ইনস্টলেশন ও প্যাকেজ দ্বন্দ্বের সাহায্য",
+    "noPrimaryAsset": "এই মুহূর্তে ডাউনলোডযোগ্য প্রধান অ্যাসেট নেই।",
+    "coverAlt": "{title} রিলিজ কভার",
+    "experimentalChannel": "পরীক্ষামূলক চ্যানেল",
+    "alphaWarning": "আলফা বিল্ড অসম্পূর্ণ হতে পারে এবং পরিকল্পিত পরীক্ষার জন্য তৈরি।",
+    "betaWarning": "বিটা বিল্ডে এমন সমস্যা থাকতে পারে যা স্থিতিশীল চ্যানেলে নেই।",
+    "buildRecord": "বিল্ড রেকর্ড",
+    "whatChanged": "কী বদলেছে",
+    "fixedInBuild": "এই বিল্ডে ঠিক করা হয়েছে",
+    "knownIssues": "জানা সমস্যা",
+    "installation": "ইনস্টলেশন",
+    "upgrade": "আপগ্রেড",
+    "rollbackNotes": "রোলব্যাক নোট",
+    "screenshots": "স্ক্রিনশট",
+    "compatibility": "সামঞ্জস্য",
+    "securityNote": "নিরাপত্তা নোট",
+    "readRelated": "পড়ুন: {title}",
+    "previous": "আগের v{version}"
+  },
+  "download": {
+    "download": "ডাউনলোড",
+    "downloadAdFree": "ডাউনলোড (বিজ্ঞাপনমুক্ত)",
+    "openExternal": "বাহ্যিক APK খুলুন",
+    "downloadSize": "{size} ডাউনলোড করুন",
+    "unavailable": "ডাউনলোড লিঙ্ক তৈরি করা যায়নি। বিল্ডটি এখনও উপলব্ধ কি না নিশ্চিত করে আবার চেষ্টা করুন; প্রতিটি ক্লিকে নতুন স্বাক্ষরিত লিঙ্ক তৈরি হয়।",
+    "apkDownloads": "APK ডাউনলোড",
+    "unspecifiedAbi": "অনির্দিষ্ট ABI",
+    "ariaLabel": "ডাউনলোড: {variant} {abi} {type}",
+    "assetAriaLabel": "{label} ডাউনলোড",
+    "external": "বাহ্যিক ডাউনলোড",
+    "apk": "APK ডাউনলোড",
+    "recommended": "এই ডিভাইসের জন্য প্রস্তাবিত",
+    "browserAbi": "ব্রাউজার {abi} জানিয়েছে। আপনার ডিভাইস এই ABI সমর্থন করে কি না দেখুন।",
+    "browserUnknownAbi": "আপনার ব্রাউজার ABI জানায় না। উপলব্ধ হলে Universal বেছে নিন, অথবা ডিভাইসের আর্কিটেকচার পরীক্ষা করুন।",
+    "otherDownloads": "অন্যান্য ডাউনলোড",
+    "options": "ডাউনলোডের বিকল্প",
+    "externalDownload": "বাহ্যিক ডাউনলোড",
+    "errors": {
+      "notFound": "ডাউনলোড পাওয়া যায়নি",
+      "rateLimited": "অতিরিক্ত ডাউনলোড প্রচেষ্টা",
+      "unavailable": "ডাউনলোড সাময়িকভাবে উপলব্ধ নয়।",
+      "verifying": "ডাউনলোড যাচাই এখনও চলছে।",
+      "sourceUnavailable": "এই ডাউনলোড উৎস আর উপলব্ধ নয়।",
+      "unsafeSource": "এই ডাউনলোড উৎস খোলা নিরাপদ নয়।",
+      "prepareFailed": "ডাউনলোড প্রস্তুত করা যায়নি। আবার চেষ্টা করুন।",
+      "rangeNotSatisfiable": "অনুরোধ করা রেঞ্জ পূরণ করা যায় না।"
+    }
+  },
+  "verification": {
+    "details": "যাচাইয়ের বিবরণ",
+    "externalWithChecksum": "বাহ্যিক হোস্ট: পাওয়া ফাইলটি প্রকাশিত চেকসামের সঙ্গে মিলিয়ে দেখুন। এই সাইট বাহ্যিক প্রতিক্রিয়া যাচাই করে না।",
+    "externalWithoutChecksum": "বাহ্যিক হোস্ট: কোনও চেকসাম প্রকাশিত নেই। এই সাইট বাহ্যিক প্রতিক্রিয়া যাচাই করে না।",
+    "verified": "সংরক্ষিত APK-তে রেকর্ড করা চেকসাম ও স্বাক্ষর শংসাপত্র পরীক্ষা আছে। এটি অ্যাপের আচরণ বা অ্যাকাউন্টের নিরাপত্তার নিশ্চয়তা দেয় না।",
+    "unverified": "এই ফাইলের সম্পূর্ণ যাচাই রেকর্ড নেই।",
+    "noChecksum": "এই ফাইলের কোনও চেকসাম প্রকাশিত হয়নি।",
+    "certificateSha256": "স্বাক্ষর শংসাপত্র SHA-256",
+    "copyChecksum": "চেকসাম কপি করুন",
+    "copied": "কপি হয়েছে",
+    "primaryVerified": "প্রধান APK যাচাই করা হয়েছে",
+    "primaryApk": "প্রধান APK",
+    "internalRecord": "অভ্যন্তরীণ যাচাই রেকর্ড",
+    "externalDelivery": "বাহ্যিক ডেলিভারি",
+    "releaseAssetRecord": "রিলিজ অ্যাসেট রেকর্ড",
+    "verifiedShort": "SHA-256 যাচাই করা",
+    "availableShort": "SHA-256 উপলব্ধ",
+    "signingCertificate": "স্বাক্ষর শংসাপত্র"
+  },
+  "notes": {
+    "title": "রিলিজ নোট",
+    "empty": "কোনও রিলিজ নোট প্রকাশিত হয়নি।",
+    "emptyChangelog": "কোনও চেঞ্জলগ আইটেম প্রকাশিত হয়নি।",
+    "showLess": "কম দেখান",
+    "readMore": "আরও পড়ুন"
+  },
+  "timeline": {
+    "base": "বেস {version}",
+    "notSpecified": "উল্লেখ করা হয়নি",
+    "assets": "{count, plural, =0 {কোনও অ্যাসেট নেই} one {#টি অ্যাসেট} other {#টি অ্যাসেট}}",
+    "hideChangelog": "চেঞ্জলগ লুকান",
+    "showChangelog": "চেঞ্জলগ দেখান",
+    "emptyChangelog": "এই রিলিজের জন্য কোনও চেঞ্জলগ আইটেম প্রকাশিত হয়নি।"
+  },
+  "metadata": {
+    "title": "MyInsta রিলিজ — অফিসিয়াল APK ডাউনলোড",
+    "description": "Android-এর জন্য অফিসিয়াল MyInsta APK ডাউনলোড, সঙ্গে রিলিজ নোট, সামঞ্জস্যের বিবরণ, চেকসাম ও চেঞ্জলগ।",
+    "latestTitle": "সর্বশেষ রিলিজ",
+    "latestDescription": "সর্বশেষ প্রকাশিত MyInsta রিলিজ খুঁজে আপনার APK ডাউনলোড বেছে নিন।",
+    "detailTitle": "{title} · v{version} — অফিসিয়াল APK ডাউনলোড"
+  }
+}

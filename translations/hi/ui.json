@@ -1,0 +1,443 @@
+{
+  "Common": {
+    "navigation": {
+      "features": "विशेषताएँ",
+      "releases": "रिलीज़",
+      "journal": "जर्नल",
+      "support": "सहायता",
+      "product": "उत्पाद",
+      "menu": "मेन्यू"
+    },
+    "status": {
+      "latest": "नवीनतम",
+      "unavailable": "उपलब्ध नहीं"
+    },
+    "actions": {
+      "downloadVersionPrefix": "v डाउनलोड करें",
+      "viewReleases": "रिलीज़ देखें"
+    },
+    "aria": {
+      "primaryNavigation": "मुख्य नेविगेशन",
+      "home": "{siteName} होम",
+      "openMenu": "नेविगेशन मेन्यू खोलें",
+      "closeMenu": "नेविगेशन मेन्यू बंद करें",
+      "socialLinks": "सोशल लिंक",
+      "legal": "कानूनी"
+    },
+    "language": {
+      "label": "भाषा",
+      "en": "अंग्रेज़ी",
+      "hi": "हिंदी",
+      "pt-BR": "पुर्तगाली (ब्राज़ील)",
+      "es": "स्पेनी",
+      "id": "इंडोनेशियाई",
+      "tr": "तुर्की",
+      "fil": "फ़िलिपीनो",
+      "de": "जर्मन",
+      "fr": "फ़्रेंच",
+      "ar": "अरबी",
+      "ru": "रूसी",
+      "bn": "बंगाली",
+      "ja": "जापानी",
+      "ko": "कोरियाई"
+    },
+    "newsletter": {
+      "emailAddress": "ईमेल पता",
+      "emailPlaceholder": "you@example.com",
+      "join": "रिलीज़ नोट्स पाएँ",
+      "joining": "शामिल हो रहे हैं…",
+      "checkInbox": "अपना इनबॉक्स देखें",
+      "subscriptionStarted": "सदस्यता शुरू हो गई है। पुष्टि करने के लिए अपना इनबॉक्स देखें।",
+      "subscriptionUnavailable": "ईमेल डिलीवरी बंद है या कॉन्फ़िगर नहीं की गई है, इसलिए सदस्यताएँ फ़िलहाल उपलब्ध नहीं हैं।",
+      "subscriptionFailed": "सदस्यता विफल रही। कृपया फिर कोशिश करें।",
+      "unavailable": "रिलीज़ सूचनाएँ फ़िलहाल उपलब्ध नहीं हैं।",
+      "paused": "रिलीज़ सूचनाएँ फ़िलहाल रोक दी गई हैं।"
+    },
+    "footer": {
+      "description": "{siteName} के अपडेट, रिलीज़ और सहायता संसाधन एक ही जगह।",
+      "us": "हम",
+      "reachOutLine1": "हमसे",
+      "reachOutLine2": "संपर्क करें",
+      "unaffiliated": "myinsta.dev MyInsta की आधिकारिक साइट है। myinsta.app का MyInsta से कोई संबंध नहीं है।"
+    },
+    "legal": {
+      "privacy": "गोपनीयता",
+      "terms": "शर्तें"
+    },
+    "community": {
+      "ariaLabel": "MyInsta समुदाय से जुड़ें",
+      "join": "हमारे {platform} से जुड़ें"
+    },
+    "theme": {
+      "colorTheme": "रंग थीम",
+      "change": "रंग थीम बदलें",
+      "systemTheme": "सिस्टम थीम ({resolved})",
+      "current": "{theme} थीम",
+      "switch": "{theme} थीम पर स्विच करें",
+      "light": "हल्का",
+      "dark": "गहरा",
+      "system": "सिस्टम"
+    },
+    "metadata": {
+      "skipToContent": "सामग्री पर जाएँ",
+      "privacyTitle": "गोपनीयता नीति",
+      "privacyDescription": "MyInsta वेबसाइट एनालिटिक्स, ऐप अनुरोधों और रिलीज़ की प्रामाणिकता को कैसे संभालता है।"
+    }
+  },
+  "Home": {
+    "hero": {
+      "subheadline": "Ghost Mode का उपयोग करें, समर्थित मीडिया डाउनलोड करें और Instagram का रूप चुनें।",
+      "intro": "Ghost Mode से पढ़े जाने की रसीदें छिपाएँ, फ़ोटो और Stories सहेजें और Android पर Instagram को अपनी पसंद के अनुसार बनाएँ।",
+      "headline": "Instagram, आपके अनुसार।",
+      "controls": "आपके नियंत्रण",
+      "publicBuilds": "सार्वजनिक बिल्ड",
+      "independentDescription": "{applicationName} Android के लिए स्वतंत्र Instagram मॉड है।",
+      "yourWay": "{applicationName}, आपके तरीके से।",
+      "yourWayHighlight": "आपके तरीके से।"
+    },
+    "actions": {
+      "downloadMyInsta": "MyInsta डाउनलोड करें",
+      "browseReleases": "रिलीज़ ब्राउज़ करें",
+      "installationGuide": "इंस्टॉलेशन गाइड",
+      "seeHowItWorks": "यह कैसे काम करता है देखें",
+      "viewAppScreen": "ऐप स्क्रीन देखें",
+      "releaseNotes": "रिलीज़ नोट्स"
+    },
+    "sections": {
+      "getStarted": "शुरू करें",
+      "makeInstagramWork": "Instagram को अपने लिए बेहतर बनाएँ।",
+      "makeInstagramDescription": "पढ़े जाने की रसीदें छिपाएँ, फ़ोटो और Stories सहेजें और Instagram का रूप चुनें।",
+      "commonQuestions": "सामान्य प्रश्न"
+    },
+    "fallbackFeatures": {
+      "privacy": {
+        "title": "गोपनीयता नियंत्रण",
+        "detail": "अपने डिवाइस से बाहर जाने वाली चीज़ें चुनें",
+        "description": "जहाँ मौजूदा बिल्ड समर्थन करता है, वहाँ पढ़े जाने की रसीदों, टाइपिंग संकेतों, Story व्यू और मौजूदगी के संकेतों पर अधिक नियंत्रण रखें।"
+      },
+      "media": {
+        "title": "मीडिया टूल",
+        "detail": "ज़रूरी चीज़ें सँभालकर रखें",
+        "description": "सामग्री के करीब बने नियंत्रणों के ज़रिए समर्थित फ़ोटो, वीडियो और Stories सहेजें।"
+      },
+      "interface": {
+        "title": "इंटरफ़ेस विकल्प",
+        "detail": "ऐप को परिचित जैसा बनाएँ",
+        "description": "मुख्य अनुभव की पहचान बनाए रखते हुए चुने हुए लेआउट और इंटरैक्शन विवरणों को समायोजित करें।"
+      }
+    },
+    "features": {
+      "fallbackDescription": "MyInsta सेटिंग्स में इस विकल्प को देखें। उपलब्ध विकल्प रिलीज़ के अनुसार बदल सकते हैं।"
+    },
+    "steps": {
+      "download": {
+        "title": "MyInsta डाउनलोड करें",
+        "withAsset": "v{version} चुनें, रिलीज़ नोट्स पढ़ें और उसका APK डाउनलोड लिंक खोलें।",
+        "withoutAsset": "रिलीज़ नोट्स और उपलब्ध डाउनलोड विकल्प पढ़ने के लिए v{version} खोलें।",
+        "noRelease": "प्रकाशित रिलीज़ चुनें, रिलीज़ नोट्स पढ़ें और उसके डाउनलोड विकल्प खोलें।"
+      },
+      "controls": {
+        "title": "अपने नियंत्रण चुनें",
+        "description": "MyInsta सेटिंग्स खोलें और अपनी पसंद के गोपनीयता, डाउनलोड और रूप-रंग विकल्प चुनें।"
+      },
+      "keepUsing": {
+        "title": "Instagram का उपयोग जारी रखें",
+        "description": "अपनी फ़ीड देखें, Stories देखें और चुनी हुई सेटिंग्स के साथ मित्रों को संदेश भेजें।"
+      }
+    },
+    "facts": {
+      "latestRelease": "नवीनतम रिलीज़",
+      "released": "{date} को जारी किया गया।",
+      "readReleaseNotes": "इस बिल्ड के रिलीज़ नोट्स पढ़ें।",
+      "download": "डाउनलोड",
+      "externalDownload": "बाहरी डाउनलोड पृष्ठ",
+      "apkDownload": "APK डाउनलोड",
+      "releaseDetails": "रिलीज़ विवरण",
+      "openFileHost": "APK पाने के लिए इस रिलीज़ से जुड़े फ़ाइल होस्ट को खोलें।",
+      "getApk": "इस रिलीज़ के डाउनलोड लिंक से APK प्राप्त करें।",
+      "availableFiles": "उपलब्ध फ़ाइलों और आवश्यकताओं के लिए रिलीज़ नोट्स पढ़ें।",
+      "compatibility": "अनुकूलता",
+      "deviceRequirements": "डिवाइस की आवश्यकताओं के लिए रिलीज़ नोट्स देखें।"
+    },
+    "proofs": {
+      "latestTitle": "नवीनतम MyInsta डाउनलोड करें।",
+      "releasesTitle": "MyInsta रिलीज़ खोजें।",
+      "description": "डाउनलोड चुनने से पहले रिलीज़ नोट्स और Android आवश्यकताएँ देखें।",
+      "noRelease": "उपलब्ध होने पर नए बिल्ड रिलीज़ पृष्ठ पर दिखाई देंगे।",
+      "chooseDownload": "रिलीज़ पृष्ठ पर अपना APK और डाउनलोड विकल्प चुनें।"
+    },
+    "faq": {
+      "fallbackAnswer": "वर्तमान उत्तर के लिए संबंधित रिलीज़ रिकॉर्ड देखें या सहायता से संपर्क करें।",
+      "moreQuestions": "अभी भी सवाल हैं? हम मदद के लिए यहाँ हैं।"
+    },
+    "journal": {
+      "eyebrow": "जर्नल से",
+      "title": "संभाल कर रखने लायक नोट्स।",
+      "category": "जर्नल",
+      "readingTime": "{minutes} मिनट पढ़ने का समय"
+    },
+    "cta": {
+      "stable": "स्थिर v{version}",
+      "appForAndroid": "Android के लिए {applicationName}",
+      "title": "Instagram को अपने जैसा बनाने के लिए तैयार हैं?",
+      "latestPublished": "{date} को नवीनतम स्थिर रिलीज़ प्रकाशित हुई"
+    },
+    "aria": {
+      "featureIllustrations": "MyInsta फ़ीचर चित्रण",
+      "featureScreenshot": "{feature} का स्क्रीनशॉट फ़ुलस्क्रीन में देखें",
+      "appScreenshots": "MyInsta ऐप के स्क्रीनशॉट",
+      "screenshotFullscreen": "{label} का स्क्रीनशॉट फ़ुलस्क्रीन में देखें"
+    },
+    "screenshots": {
+      "title": "अंदर से एक नज़र देखें।",
+      "description": "MyInsta की वास्तविक स्क्रीन। देखने के लिए स्वाइप करें या पास से देखने के लिए किसी स्क्रीन पर टैप करें।",
+      "carousel": "कैरोसेल",
+      "viewFullscreen": "फ़ुलस्क्रीन देखें",
+      "previous": "पिछला स्क्रीनशॉट",
+      "resume": "स्वचालित स्क्रीनशॉट फिर शुरू करें",
+      "pause": "स्वचालित स्क्रीनशॉट रोकें",
+      "next": "अगला स्क्रीनशॉट",
+      "interval": "हर 8 सेकंड में बदलता है",
+      "choose": "स्क्रीनशॉट चुनें",
+      "viewerDescription": "पूरा स्क्रीनशॉट। विवरण के लिए ज़ूम नियंत्रणों का उपयोग करें, स्क्रीन बदलने के लिए स्वाइप करें या तीर बटन उपयोग करें और बंद करने के लिए Escape दबाएँ।",
+      "zoomOut": "ज़ूम आउट",
+      "zoomIn": "ज़ूम इन",
+      "fit": "स्क्रीनशॉट को स्क्रीन पर फ़िट करें",
+      "fitShort": "फ़िट",
+      "openOriginal": "मूल खोलें",
+      "items": {
+        "overview": {
+          "label": "सेटिंग्स का अवलोकन",
+          "alt": "फ़ीड, इंटरफ़ेस और मैसेजिंग के नियंत्रणों वाला MyInsta सेटिंग्स अवलोकन"
+        },
+        "appearance": {
+          "label": "रूप-रंग",
+          "alt": "थीम, फ़ॉन्ट, नेविगेशन, सुझावों और मैसेजिंग के लिए MyInsta रूप-रंग नियंत्रण"
+        },
+        "download-story": {
+          "label": "Story डाउनलोड करें",
+          "alt": "वीडियो, फ़ोटो, पहला फ़्रेम, ऑडियो और गुणवत्ता विकल्पों वाला MyInsta Download Story शीट"
+        },
+        "ghost-mode": {
+          "label": "Ghost Mode",
+          "alt": "संदेशों, Stories, Live, स्क्रीनशॉट और एक बार देखे जाने वाले मीडिया के लिए MyInsta Ghost Mode सेटिंग्स"
+        },
+        "unsent-messages": {
+          "label": "भेजे न गए संदेश",
+          "alt": "अन्य लोगों द्वारा वापस लिए गए संदेशों को सुरक्षित रखने के लिए MyInsta सेटिंग्स"
+        },
+        "stories": {
+          "label": "Stories",
+          "alt": "Story सामग्री देखने और प्रबंधित करने के लिए MyInsta Stories नियंत्रण"
+        },
+        "instants": {
+          "label": "Instants",
+          "alt": "केंद्रित शेयरिंग अनुभव के लिए MyInsta Instants सेटिंग्स"
+        },
+        "hide-save": {
+          "label": "Hide Save",
+          "alt": "चयनित मीडिया को सेव की गई दृश्यों से बाहर रखने के लिए MyInsta Hide Save नियंत्रण"
+        }
+      }
+    },
+    "metadata": {
+      "title": "{siteName} — Android के लिए आधिकारिक साइट और APK डाउनलोड",
+      "description": "Android के लिए {siteName} डाउनलोड करें, APK वेरिएंट की तुलना करें और रिलीज़ नोट्स व इंस्टॉलेशन सहायता पढ़ें।"
+    }
+  },
+  "Blog": {
+    "grid": {
+      "empty": "अभी तक कोई प्रकाशित कहानी नहीं है।",
+      "team": "MyInsta टीम",
+      "unscheduled": "अनिर्धारित"
+    },
+    "article": {
+      "share": "शेयर करें",
+      "copied": "कॉपी किया गया",
+      "copyLink": "लिंक कॉपी करें"
+    },
+    "metadata": {
+      "title": "जर्नल",
+      "pageTitle": "जर्नल · पृष्ठ {page}",
+      "description": "MyInsta के रिलीज़ संदर्भ, उत्पाद नोट्स, सुरक्षा संबंधी व्याख्याएँ और व्यावहारिक गाइड।"
+    },
+    "taxonomy": {
+      "categoryLabel": "जर्नल श्रेणी",
+      "tagLabel": "जर्नल टैग",
+      "categoryDescription": "MyInsta जर्नल की वे पोस्ट जिन्हें {name} के अंतर्गत रखा गया है।",
+      "tagDescription": "प्रकाशित MyInsta जर्नल पोस्ट जिन पर {name} टैग लगा है।"
+    },
+    "index": {
+      "eyebrow": "जर्नल",
+      "title": "निर्माण के पीछे",
+      "titleAccent": "की सोच।",
+      "description": "लाइव संपादकीय डेस्क से रिलीज़ संदर्भ, उत्पाद संबंधी निर्णय, संगतता नोट्स और सीधे-सादे गाइड।",
+      "search": "आर्काइव खोजें",
+      "categories": "जर्नल श्रेणियाँ",
+      "published": "प्रकाशित नोट्स",
+      "count": "{total} कुल · पृष्ठ {page} / {pages}",
+      "sort": "क्रम",
+      "latest": "नवीनतम पहले",
+      "oldest": "सबसे पुराने पहले",
+      "apply": "लागू करें",
+      "pagination": "जर्नल पृष्ठांकन",
+      "previous": "पिछला",
+      "next": "अगला"
+    }
+  },
+  "Releases": {
+    "dateUnavailable": "तारीख उपलब्ध नहीं",
+    "releaseDateUnavailable": "रिलीज़ की तारीख उपलब्ध नहीं",
+    "channels": {
+      "ALL": "सभी",
+      "STABLE": "स्थिर",
+      "BETA": "बीटा",
+      "ALPHA": "अल्फ़ा",
+      "LEGACY": "लेगेसी"
+    },
+    "breadcrumbs": {
+      "home": "होम",
+      "releases": "रिलीज़"
+    },
+    "facts": {
+      "build": "बिल्ड",
+      "channel": "चैनल",
+      "base": "बेस",
+      "androidRequirement": "Android आवश्यकता",
+      "buildTarget": "बिल्ड लक्ष्य",
+      "primaryArchitecture": "प्राथमिक APK आर्किटेक्चर"
+    },
+    "index": {
+      "closeChanges": "बदलाव बंद करें",
+      "seeChanges": "बदलाव देखें",
+      "latestDownloadHelp": "नवीनतम रिलीज़ से एक APK चुनें।",
+      "noBuild": "अभी कोई सार्वजनिक बिल्ड नहीं है।",
+      "noBuildDescription": "जब किसी रिलीज़ का प्राथमिक एसेट सार्वजनिक वितरण के लिए तैयार होगा, वह यहाँ दिखाई देगी।",
+      "searchLabel": "रिलीज़ खोजें",
+      "searchPlaceholder": "वर्ज़न, चेंजलॉग, ज्ञात समस्या खोजें…",
+      "channelGroup": "रिलीज़ चैनल",
+      "noMatches": "कोई प्रकाशित रिलीज़ इन फ़िल्टर से मेल नहीं खाती।"
+    },
+    "detail": {
+      "allReleases": "सभी रिलीज़",
+      "current": "वर्तमान",
+      "latest": "नवीनतम",
+      "versionBuild": "वर्ज़न {version} · बिल्ड {build}",
+      "chooseApk": "अपना APK चुनें",
+      "cloneDescription": "Instagram के साथ साथ चलने के लिए अलग पैकेज का उपयोग करता है।",
+      "uncloneDescription": "मूल पैकेज का उपयोग करता है; इंस्टॉल किए गए ऐप को बदलने से पहले विरोधाभास जाँचें और स्थानीय डेटा का बैकअप लें।",
+      "abiDescription": "अपने डिवाइस के ABI से मिलाएँ: 64-बिट ARM के लिए ARM64, 32-बिट ARM के लिए ARM32 या संगत Intel डिवाइस और एमुलेटर के लिए x86/x86_64। Universal का उपयोग तभी करें जब इस रिलीज़ में यह सूचीबद्ध हो। बिल्ड लक्ष्य न्यूनतम Android आवश्यकता से अलग है।",
+      "installationHelp": "इंस्टॉलेशन और पैकेज-विरोध सहायता",
+      "noPrimaryAsset": "इस समय डाउनलोड करने योग्य कोई प्राथमिक एसेट उपलब्ध नहीं है।",
+      "coverAlt": "{title} रिलीज़ कवर",
+      "experimentalChannel": "प्रायोगिक चैनल",
+      "alphaWarning": "अल्फ़ा बिल्ड अधूरे हो सकते हैं और सोच-समझकर परीक्षण के लिए होते हैं।",
+      "betaWarning": "बीटा बिल्ड में ऐसी रिग्रेशन हो सकती हैं जो स्थिर चैनल में नहीं हैं।",
+      "buildRecord": "बिल्ड रिकॉर्ड",
+      "whatChanged": "क्या बदला",
+      "fixedInBuild": "इस बिल्ड में ठीक किया गया",
+      "knownIssues": "ज्ञात समस्याएँ",
+      "installation": "इंस्टॉलेशन",
+      "upgrade": "अपग्रेड",
+      "rollbackNotes": "रोलबैक नोट्स",
+      "screenshots": "स्क्रीनशॉट",
+      "compatibility": "अनुकूलता",
+      "securityNote": "सुरक्षा नोट",
+      "readRelated": "पढ़ें: {title}",
+      "previous": "पिछला v{version}"
+    },
+    "download": {
+      "download": "डाउनलोड",
+      "downloadAdFree": "डाउनलोड (विज्ञापन-मुक्त)",
+      "openExternal": "बाहरी APK खोलें",
+      "downloadSize": "{size} डाउनलोड करें",
+      "unavailable": "डाउनलोड लिंक तैयार नहीं किया जा सका। पुष्टि करें कि बिल्ड अभी उपलब्ध है, फिर दोबारा कोशिश करें; हर क्लिक पर एक नया साइन किया हुआ लिंक बनाया जाता है।",
+      "apkDownloads": "APK डाउनलोड",
+      "unspecifiedAbi": "अनिर्दिष्ट ABI",
+      "ariaLabel": "डाउनलोड: {variant} {abi} {type}",
+      "assetAriaLabel": "{label} डाउनलोड",
+      "external": "बाहरी डाउनलोड",
+      "apk": "APK डाउनलोड",
+      "recommended": "इस डिवाइस के लिए अनुशंसित",
+      "browserAbi": "ब्राउज़र ने {abi} की रिपोर्ट दी है। जाँचें कि आपका डिवाइस इस ABI को सपोर्ट करता है।",
+      "browserUnknownAbi": "आपका ब्राउज़र ABI की रिपोर्ट नहीं देता। उपलब्ध होने पर Universal चुनें या अपने डिवाइस का आर्किटेक्चर जाँचें।",
+      "otherDownloads": "अन्य डाउनलोड",
+      "options": "डाउनलोड विकल्प",
+      "externalDownload": "बाहरी डाउनलोड",
+      "errors": {
+        "notFound": "डाउनलोड नहीं मिला",
+        "rateLimited": "डाउनलोड के बहुत अधिक प्रयास",
+        "unavailable": "डाउनलोड अस्थायी रूप से उपलब्ध नहीं है।",
+        "verifying": "डाउनलोड का सत्यापन अभी जारी है।",
+        "sourceUnavailable": "यह डाउनलोड स्रोत अब उपलब्ध नहीं है।",
+        "unsafeSource": "यह डाउनलोड स्रोत खोलना सुरक्षित नहीं है।",
+        "prepareFailed": "डाउनलोड तैयार नहीं किया जा सका। कृपया फिर कोशिश करें।",
+        "rangeNotSatisfiable": "अनुरोधित रेंज संतुष्ट नहीं की जा सकती।"
+      }
+    },
+    "verification": {
+      "details": "सत्यापन विवरण",
+      "externalWithChecksum": "बाहरी होस्ट: प्राप्त फ़ाइल की तुलना प्रकाशित चेकसम से करें। यह साइट बाहरी प्रतिक्रिया का सत्यापन नहीं करती।",
+      "externalWithoutChecksum": "बाहरी होस्ट: कोई चेकसम प्रकाशित नहीं है। यह साइट बाहरी प्रतिक्रिया का सत्यापन नहीं करती।",
+      "verified": "संग्रहीत APK में दर्ज चेकसम और साइनिंग प्रमाणपत्र जाँच है। यह ऐप के व्यवहार या खाते की सुरक्षा की गारंटी नहीं देता।",
+      "unverified": "इस फ़ाइल के लिए पूर्ण सत्यापन रिकॉर्ड उपलब्ध नहीं है।",
+      "noChecksum": "इस फ़ाइल के लिए कोई चेकसम प्रकाशित नहीं है।",
+      "certificateSha256": "साइनिंग प्रमाणपत्र SHA-256",
+      "copyChecksum": "चेकसम कॉपी करें",
+      "copied": "कॉपी किया गया",
+      "primaryVerified": "प्राथमिक APK सत्यापित",
+      "primaryApk": "प्राथमिक APK",
+      "internalRecord": "आंतरिक सत्यापन रिकॉर्ड",
+      "externalDelivery": "बाहरी डिलीवरी",
+      "releaseAssetRecord": "रिलीज़ एसेट रिकॉर्ड",
+      "verifiedShort": "SHA-256 सत्यापित",
+      "availableShort": "SHA-256 उपलब्ध",
+      "signingCertificate": "साइनिंग प्रमाणपत्र"
+    },
+    "notes": {
+      "title": "रिलीज़ नोट्स",
+      "empty": "कोई रिलीज़ नोट प्रकाशित नहीं किए गए।",
+      "emptyChangelog": "कोई चेंजलॉग आइटम प्रकाशित नहीं किए गए।",
+      "showLess": "कम दिखाएँ",
+      "readMore": "और पढ़ें"
+    },
+    "timeline": {
+      "base": "बेस {version}",
+      "notSpecified": "निर्दिष्ट नहीं",
+      "assets": "{count, plural, =0 {कोई एसेट नहीं} one {# एसेट} other {# एसेट}}",
+      "hideChangelog": "चेंजलॉग छिपाएँ",
+      "showChangelog": "चेंजलॉग दिखाएँ",
+      "emptyChangelog": "इस रिलीज़ के लिए कोई चेंजलॉग आइटम प्रकाशित नहीं किए गए।"
+    },
+    "metadata": {
+      "title": "MyInsta रिलीज़ — आधिकारिक APK डाउनलोड",
+      "description": "Android के लिए आधिकारिक MyInsta APK डाउनलोड, रिलीज़ नोट्स, संगतता विवरण, चेकसम और चेंजलॉग के साथ।",
+      "latestTitle": "नवीनतम रिलीज़",
+      "latestDescription": "नवीनतम प्रकाशित MyInsta रिलीज़ खोजें और अपना APK डाउनलोड चुनें।",
+      "detailTitle": "{title} · v{version} — आधिकारिक APK डाउनलोड"
+    }
+  },
+  "Search": {
+    "eyebrow": "रिकॉर्ड खोजें",
+    "title": "खोजें",
+    "titleAccent": "सब कुछ सार्वजनिक।",
+    "inputLabel": "प्रकाशित सामग्री खोजें",
+    "placeholder": "रिलीज़, फ़ीचर, गाइड, वर्ज़न…",
+    "disabledPlaceholder": "खोज फ़िलहाल बंद है",
+    "resultsCount": "{count, plural, =0 {कोई परिणाम नहीं} one {“{query}” के लिए # परिणाम} other {“{query}” के लिए # परिणाम}}",
+    "noResults": "उस वाक्यांश से कोई सार्वजनिक रिकॉर्ड नहीं मिला।",
+    "shortQuery": "कम से कम दो अक्षरों से शुरू करें। टाइप करते ही परिणाम अपडेट होते हैं; आगे बढ़ने के लिए तीर कुंजियों का उपयोग करें।",
+    "disabled": "प्रशासक ने सार्वजनिक खोज बंद कर दी है।",
+    "errors": {
+      "tooShort": "खोज क्वेरी बहुत छोटी है।",
+      "tooLong": "खोज क्वेरी बहुत लंबी है।",
+      "rateLimited": "खोज पर अस्थायी रूप से सीमा लगी है। कृपया थोड़ी देर बाद फिर कोशिश करें।",
+      "disabled": "खोज फ़िलहाल बंद है।",
+      "unavailable": "खोज अस्थायी रूप से उपलब्ध नहीं है।"
+    },
+    "metadata": {
+      "title": "खोजें",
+      "description": "MyInsta रिलीज़, जर्नल पोस्ट और प्रकाशित पृष्ठ खोजें।"
+    }
+  }
+}

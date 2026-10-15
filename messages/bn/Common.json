@@ -1,0 +1,85 @@
+{
+  "navigation": {
+    "features": "বৈশিষ্ট্য",
+    "releases": "রিলিজ",
+    "journal": "জার্নাল",
+    "support": "সহায়তা",
+    "product": "পণ্য",
+    "menu": "মেনু"
+  },
+  "status": {
+    "latest": "সর্বশেষ",
+    "unavailable": "অনুপলব্ধ"
+  },
+  "actions": {
+    "downloadVersionPrefix": "v ডাউনলোড করুন",
+    "viewReleases": "রিলিজ দেখুন"
+  },
+  "aria": {
+    "primaryNavigation": "প্রধান নেভিগেশন",
+    "home": "{siteName} হোম",
+    "openMenu": "নেভিগেশন মেনু খুলুন",
+    "closeMenu": "নেভিগেশন মেনু বন্ধ করুন",
+    "socialLinks": "সামাজিক লিংক",
+    "legal": "আইনি"
+  },
+  "language": {
+    "label": "ভাষা",
+    "en": "ইংরেজি",
+    "hi": "হিন্দি",
+    "pt-BR": "পর্তুগিজ (ব্রাজিল)",
+    "es": "স্প্যানিশ",
+    "id": "ইন্দোনেশীয়",
+    "tr": "তুর্কি",
+    "fil": "ফিলিপিনো",
+    "de": "জার্মান",
+    "fr": "ফরাসি",
+    "ar": "আরবি",
+    "ru": "রুশ",
+    "bn": "বাংলা",
+    "ja": "জাপানি",
+    "ko": "কোরিয়ান"
+  },
+  "newsletter": {
+    "emailAddress": "ইমেল ঠিকানা",
+    "emailPlaceholder": "you@example.com",
+    "join": "রিলিজ নোটে যোগ দিন",
+    "joining": "যোগ দেওয়া হচ্ছে…",
+    "checkInbox": "ইনবক্স দেখুন",
+    "subscriptionStarted": "সাবস্ক্রিপশন শুরু হয়েছে। নিশ্চিত করতে ইনবক্স দেখুন।",
+    "subscriptionUnavailable": "ইমেল ডেলিভারি বন্ধ বা কনফিগার করা নেই, তাই সাবস্ক্রিপশন বর্তমানে উপলব্ধ নয়।",
+    "subscriptionFailed": "সাবস্ক্রিপশন ব্যর্থ হয়েছে। আবার চেষ্টা করুন।",
+    "unavailable": "রিলিজের বিজ্ঞপ্তি বর্তমানে উপলব্ধ নয়।",
+    "paused": "রিলিজের বিজ্ঞপ্তি বর্তমানে স্থগিত আছে।"
+  },
+  "footer": {
+    "description": "{siteName}-এর আপডেট, রিলিজ এবং সহায়তার সংস্থান এক জায়গায়।",
+    "us": "আমরা",
+    "reachOutLine1": "আমাদের সঙ্গে",
+    "reachOutLine2": "যোগাযোগ করুন",
+    "unaffiliated": "myinsta.dev হল MyInsta-এর অফিসিয়াল সাইট। myinsta.app-এর সঙ্গে MyInsta-এর কোনো সম্পর্ক নেই।"
+  },
+  "legal": {
+    "privacy": "গোপনীয়তা",
+    "terms": "শর্তাবলি"
+  },
+  "community": {
+    "ariaLabel": "MyInsta কমিউনিটিতে যোগ দিন",
+    "join": "আমাদের {platform}-এ যোগ দিন"
+  },
+  "theme": {
+    "colorTheme": "রঙের থিম",
+    "change": "রঙের থিম বদলান",
+    "systemTheme": "সিস্টেম থিম ({resolved})",
+    "current": "{theme} থিম",
+    "switch": "{theme} থিমে বদলান",
+    "light": "হালকা",
+    "dark": "গাঢ়",
+    "system": "সিস্টেম"
+  },
+  "metadata": {
+    "skipToContent": "কনটেন্টে যান",
+    "privacyTitle": "গোপনীয়তা নীতি",
+    "privacyDescription": "MyInsta কীভাবে ওয়েবসাইট অ্যানালিটিক্স, অ্যাপের অনুরোধ এবং রিলিজের সত্যতা সামলায়।"
+  }
+}

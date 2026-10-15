@@ -1,0 +1,40 @@
+{
+  "grid": {
+    "empty": "No published stories yet.",
+    "team": "MyInsta team",
+    "unscheduled": "Unscheduled"
+  },
+  "article": {
+    "share": "Share",
+    "copied": "Copied",
+    "copyLink": "Copy link"
+  },
+  "metadata": {
+    "title": "Journal",
+    "pageTitle": "Journal · Page {page}",
+    "description": "MyInsta release context, product notes, security explanations, and practical guides."
+  },
+  "taxonomy": {
+    "categoryLabel": "Journal category",
+    "tagLabel": "Journal tag",
+    "categoryDescription": "MyInsta journal posts filed under {name}.",
+    "tagDescription": "Published MyInsta journal posts tagged {name}."
+  },
+  "index": {
+    "eyebrow": "Journal",
+    "title": "The thinking",
+    "titleAccent": "behind the build.",
+    "description": "Release context, product decisions, compatibility notes, and straightforward guides from the live editorial desk.",
+    "search": "Search the archive",
+    "categories": "Journal categories",
+    "published": "Published notes",
+    "count": "{total} total · page {page} of {pages}",
+    "sort": "Sort",
+    "latest": "Latest first",
+    "oldest": "Oldest first",
+    "apply": "Apply",
+    "pagination": "Journal pagination",
+    "previous": "Previous",
+    "next": "Next"
+  }
+}

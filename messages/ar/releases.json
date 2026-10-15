@@ -1,0 +1,132 @@
+{
+  "dateUnavailable": "التاريخ غير متاح",
+  "releaseDateUnavailable": "تاريخ الإصدار غير متاح",
+  "channels": {
+    "ALL": "الكل",
+    "STABLE": "مستقر",
+    "BETA": "بيتا",
+    "ALPHA": "ألفا",
+    "LEGACY": "قديم"
+  },
+  "breadcrumbs": {
+    "home": "الرئيسية",
+    "releases": "الإصدارات"
+  },
+  "facts": {
+    "build": "البنية",
+    "channel": "القناة",
+    "base": "الأساس",
+    "androidRequirement": "متطلبات Android",
+    "buildTarget": "هدف البنية",
+    "primaryArchitecture": "معمارية APK الأساسية"
+  },
+  "index": {
+    "closeChanges": "إغلاق التغييرات",
+    "seeChanges": "عرض التغييرات",
+    "latestDownloadHelp": "اختر APK من أحدث إصدار.",
+    "noBuild": "لا توجد بنية عامة بعد.",
+    "noBuildDescription": "سيظهر الإصدار هنا عندما يصبح أصله الأساسي جاهزًا للتوزيع العام.",
+    "searchLabel": "البحث في الإصدارات",
+    "searchPlaceholder": "ابحث عن إصدار أو سجل تغييرات أو مشكلة معروفة…",
+    "channelGroup": "قناة الإصدار",
+    "noMatches": "لا يطابق هذه المرشحات أي إصدار منشور."
+  },
+  "detail": {
+    "allReleases": "كل الإصدارات",
+    "current": "الحالي",
+    "latest": "الأحدث",
+    "versionBuild": "الإصدار {version} · البنية {build}",
+    "chooseApk": "اختر APK الخاص بك",
+    "cloneDescription": "يستخدم حزمة منفصلة ليتمكن من التعايش مع Instagram.",
+    "uncloneDescription": "يستخدم الحزمة الأصلية؛ تحقّق من التعارضات وانسخ بياناتك المحلية احتياطيًا قبل استبدال تطبيق مثبّت.",
+    "abiDescription": "طابق ABI لجهازك: ARM64 لمعالجات ARM ذات 64 بت، وARM32 لمعالجات ARM ذات 32 بت، أو x86/x86_64 لأجهزة Intel المتوافقة والمحاكيات. استخدم Universal فقط عندما يدرجه هذا الإصدار. هدف البنية منفصل عن الحد الأدنى لمتطلبات Android.",
+    "installationHelp": "مساعدة التثبيت وتعارض الحزم",
+    "noPrimaryAsset": "لا يتوفر حاليًا أصل أساسي قابل للتنزيل.",
+    "coverAlt": "غلاف إصدار {title}",
+    "experimentalChannel": "قناة تجريبية",
+    "alphaWarning": "قد تكون بنيات ألفا غير مكتملة، وهي مخصصة للاختبار المتعمد.",
+    "betaWarning": "قد تحتوي بنيات بيتا على تراجعات غير موجودة في القناة المستقرة.",
+    "buildRecord": "سجل البنية",
+    "whatChanged": "ما الذي تغيّر",
+    "fixedInBuild": "تم إصلاحه في هذه البنية",
+    "knownIssues": "المشكلات المعروفة",
+    "installation": "التثبيت",
+    "upgrade": "الترقية",
+    "rollbackNotes": "ملاحظات التراجع",
+    "screenshots": "لقطات الشاشة",
+    "compatibility": "التوافق",
+    "securityNote": "ملاحظة أمنية",
+    "readRelated": "اقرأ: {title}",
+    "previous": "السابق v{version}"
+  },
+  "download": {
+    "download": "تنزيل",
+    "downloadAdFree": "تنزيل (من دون إعلانات)",
+    "openExternal": "فتح APK خارجي",
+    "downloadSize": "تنزيل {size}",
+    "unavailable": "تعذّر إعداد رابط التنزيل. تأكّد من أن البنية لا تزال متاحة، ثم حاول مرة أخرى؛ يُنشأ رابط موقّع جديد مع كل نقرة.",
+    "apkDownloads": "تنزيلات APK",
+    "unspecifiedAbi": "ABI غير محدد",
+    "ariaLabel": "{variant} {abi} {type}",
+    "assetAriaLabel": "تنزيل {label}",
+    "external": "تنزيل خارجي",
+    "apk": "تنزيل APK",
+    "recommended": "موصى به لهذا الجهاز",
+    "browserAbi": "يُبلغ المتصفح عن {abi}. تحقّق من أن جهازك يدعم ABI هذا.",
+    "browserUnknownAbi": "لا يُبلغ متصفحك عن ABI. اختر Universal عند توفره، أو تحقّق من معمارية جهازك.",
+    "otherDownloads": "تنزيلات أخرى",
+    "options": "خيارات التنزيل",
+    "externalDownload": "تنزيل خارجي",
+    "errors": {
+      "notFound": "التنزيل غير موجود",
+      "rateLimited": "محاولات تنزيل كثيرة جدًا",
+      "unavailable": "التنزيل غير متاح مؤقتًا.",
+      "verifying": "لا يزال التحقق من التنزيل جاريًا.",
+      "sourceUnavailable": "مصدر التنزيل هذا لم يعد متاحًا.",
+      "unsafeSource": "مصدر التنزيل هذا غير آمن للفتح.",
+      "prepareFailed": "تعذّر إعداد التنزيل. يُرجى إعادة المحاولة.",
+      "rangeNotSatisfiable": "النطاق المطلوب غير قابل للتلبية."
+    }
+  },
+  "verification": {
+    "details": "تفاصيل التحقق",
+    "externalWithChecksum": "مضيف خارجي: قارن الملف الذي تستلمه مع قيمة التحقق المنشورة. لا يتحقق هذا الموقع من الاستجابة الخارجية.",
+    "externalWithoutChecksum": "مضيف خارجي: لم تُنشر قيمة تحقق. لا يتحقق هذا الموقع من الاستجابة الخارجية.",
+    "verified": "يحتوي APK المخزّن على قيمة تحقق مسجلة وفحص لشهادة التوقيع. لا يضمن ذلك سلوك التطبيق أو أمان الحساب.",
+    "unverified": "لا يتوفر سجل تحقق مكتمل لهذا الملف.",
+    "noChecksum": "لم تُنشر قيمة تحقق لهذا الملف.",
+    "certificateSha256": "SHA-256 لشهادة التوقيع",
+    "copyChecksum": "نسخ قيمة التحقق",
+    "copied": "تم النسخ",
+    "primaryVerified": "تم التحقق من APK الأساسي",
+    "primaryApk": "APK الأساسي",
+    "internalRecord": "سجل التحقق الداخلي",
+    "externalDelivery": "تسليم خارجي",
+    "releaseAssetRecord": "سجل أصل الإصدار",
+    "verifiedShort": "تم التحقق من SHA-256",
+    "availableShort": "SHA-256 متاح",
+    "signingCertificate": "شهادة التوقيع"
+  },
+  "notes": {
+    "title": "ملاحظات الإصدار",
+    "empty": "لم تُنشر ملاحظات للإصدار.",
+    "emptyChangelog": "لم تُنشر عناصر في سجل التغييرات.",
+    "showLess": "عرض أقل",
+    "readMore": "اقرأ المزيد"
+  },
+  "timeline": {
+    "base": "الأساس {version}",
+    "notSpecified": "غير محدد",
+    "assets": "{count, plural, =0 {لا توجد أصول} one {# أصل} other {# أصول}}",
+    "hideChangelog": "إخفاء سجل التغييرات",
+    "showChangelog": "إظهار سجل التغييرات",
+    "emptyChangelog": "لم تُنشر عناصر في سجل تغييرات هذا الإصدار."
+  },
+  "metadata": {
+    "title": "إصدارات MyInsta — تنزيلات APK الرسمية",
+    "description": "تنزيلات APK الرسمية من MyInsta لنظام Android، مع ملاحظات الإصدار وتفاصيل التوافق وقيم التحقق وسجلات التغييرات.",
+    "latestTitle": "أحدث إصدار",
+    "latestDescription": "اعثر على أحدث إصدار منشور من MyInsta واختر تنزيل APK الخاص بك.",
+    "detailTitle": "{title} · v{version} — تنزيل APK الرسمي"
+  }
+}

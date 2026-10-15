@@ -1,0 +1,443 @@
+{
+  "Common": {
+    "navigation": {
+      "features": "Recursos",
+      "releases": "Versões",
+      "journal": "Diário",
+      "support": "Suporte",
+      "product": "Produto",
+      "menu": "Menu"
+    },
+    "status": {
+      "latest": "Mais recente",
+      "unavailable": "Indisponível"
+    },
+    "actions": {
+      "downloadVersionPrefix": "Baixar v",
+      "viewReleases": "Ver versões"
+    },
+    "aria": {
+      "primaryNavigation": "Navegação principal",
+      "home": "Página inicial de {siteName}",
+      "openMenu": "Abrir menu de navegação",
+      "closeMenu": "Fechar menu de navegação",
+      "socialLinks": "Links sociais",
+      "legal": "Informações legais"
+    },
+    "language": {
+      "label": "Idioma",
+      "en": "English",
+      "hi": "Hindi",
+      "pt-BR": "Português (Brasil)",
+      "es": "Español",
+      "id": "Bahasa Indonesia",
+      "tr": "Türkçe",
+      "fil": "Filipino",
+      "de": "Deutsch",
+      "fr": "Français",
+      "ar": "العربية",
+      "ru": "Русский",
+      "bn": "বাংলা",
+      "ja": "日本語",
+      "ko": "한국어"
+    },
+    "newsletter": {
+      "emailAddress": "Endereço de e-mail",
+      "emailPlaceholder": "you@example.com",
+      "join": "Receber notas de versão",
+      "joining": "Entrando…",
+      "checkInbox": "Confira sua caixa de entrada",
+      "subscriptionStarted": "Assinatura iniciada. Confira sua caixa de entrada para confirmar.",
+      "subscriptionUnavailable": "As assinaturas estão indisponíveis porque o envio de e-mails está desativado ou não configurado.",
+      "subscriptionFailed": "Falha na assinatura. Tente novamente.",
+      "unavailable": "As notificações de versões estão indisponíveis.",
+      "paused": "As notificações de versões estão pausadas."
+    },
+    "footer": {
+      "description": "Atualizações, versões e recursos de suporte de {siteName} em um só lugar.",
+      "us": "Nós",
+      "reachOutLine1": "Fale",
+      "reachOutLine2": "com a gente",
+      "unaffiliated": "myinsta.dev é o site oficial do MyInsta. myinsta.app não tem vínculo com o MyInsta."
+    },
+    "legal": {
+      "privacy": "Privacidade",
+      "terms": "Termos"
+    },
+    "community": {
+      "ariaLabel": "Entre para a comunidade MyInsta",
+      "join": "Entre no nosso {platform}"
+    },
+    "theme": {
+      "colorTheme": "Tema de cores",
+      "change": "Mudar tema de cores",
+      "systemTheme": "Tema do sistema ({resolved})",
+      "current": "Tema {theme}",
+      "switch": "Mudar para o tema {theme}",
+      "light": "Claro",
+      "dark": "Escuro",
+      "system": "Sistema"
+    },
+    "metadata": {
+      "skipToContent": "Pular para o conteúdo",
+      "privacyTitle": "Política de privacidade",
+      "privacyDescription": "Como o MyInsta lida com as análises do site, solicitações do app e autenticidade das versões."
+    }
+  },
+  "Home": {
+    "hero": {
+      "subheadline": "Use o Ghost Mode, baixe mídias compatíveis e escolha a aparência do Instagram.",
+      "intro": "Oculte confirmações de leitura com o Ghost Mode, salve fotos e Stories e personalize o Instagram no Android.",
+      "headline": "Instagram, do seu jeito.",
+      "controls": "Seus controles",
+      "publicBuilds": "Versões públicas",
+      "independentDescription": "{applicationName} é um mod independente do Instagram para Android.",
+      "yourWay": "{applicationName}, do seu jeito.",
+      "yourWayHighlight": "do seu jeito."
+    },
+    "actions": {
+      "downloadMyInsta": "Baixar MyInsta",
+      "browseReleases": "Explorar versões",
+      "installationGuide": "Guia de instalação",
+      "seeHowItWorks": "Veja como funciona",
+      "viewAppScreen": "Ver tela do app",
+      "releaseNotes": "Notas de versão"
+    },
+    "sections": {
+      "getStarted": "Comece agora",
+      "makeInstagramWork": "Faça o Instagram trabalhar para você.",
+      "makeInstagramDescription": "Oculte confirmações de leitura, salve fotos e Stories e escolha a aparência do Instagram.",
+      "commonQuestions": "Perguntas frequentes"
+    },
+    "fallbackFeatures": {
+      "privacy": {
+        "title": "Controles de privacidade",
+        "detail": "Escolha o que sai do seu dispositivo",
+        "description": "Mantenha confirmações de leitura, indicadores de digitação, visualizações de Stories e sinais de presença sob mais controle quando a versão atual oferecer suporte."
+      },
+      "media": {
+        "title": "Ferramentas de mídia",
+        "detail": "Guarde o que importa",
+        "description": "Salve fotos, vídeos e Stories compatíveis com controles feitos para manter o conteúdo por perto."
+      },
+      "interface": {
+        "title": "Opções de interface",
+        "detail": "Deixe o app com a sua cara",
+        "description": "Ajuste detalhes de layout e interação sem perder a essência da experiência."
+      }
+    },
+    "features": {
+      "fallbackDescription": "Explore esta opção nas configurações do MyInsta. As opções disponíveis podem variar por versão."
+    },
+    "steps": {
+      "download": {
+        "title": "Baixar MyInsta",
+        "withAsset": "Escolha v{version}, leia as notas de versão e abra o link de download do APK.",
+        "withoutAsset": "Abra v{version} para ler as notas de versão e as opções de download disponíveis.",
+        "noRelease": "Escolha uma versão publicada, leia as notas de versão e abra as opções de download."
+      },
+      "controls": {
+        "title": "Escolha seus controles",
+        "description": "Abra as configurações do MyInsta e escolha as opções de privacidade, download e aparência que deseja usar."
+      },
+      "keepUsing": {
+        "title": "Continue usando o Instagram",
+        "description": "Navegue pelo feed, assista a Stories e converse com seus amigos usando as configurações escolhidas."
+      }
+    },
+    "facts": {
+      "latestRelease": "Versão mais recente",
+      "released": "Lançada em {date}.",
+      "readReleaseNotes": "Leia as notas de versão desta compilação.",
+      "download": "Baixar",
+      "externalDownload": "Página de download externo",
+      "apkDownload": "Download do APK",
+      "releaseDetails": "Detalhes da versão",
+      "openFileHost": "Abra o servidor de arquivos vinculado a esta versão para obter o APK.",
+      "getApk": "Obtenha o APK pelo link de download desta versão.",
+      "availableFiles": "Leia as notas de versão para ver os arquivos e requisitos disponíveis.",
+      "compatibility": "Compatibilidade",
+      "deviceRequirements": "Confira as notas de versão para ver os requisitos do dispositivo."
+    },
+    "proofs": {
+      "latestTitle": "Baixe a versão mais recente do MyInsta.",
+      "releasesTitle": "Encontre as versões do MyInsta.",
+      "description": "Confira as notas de versão e os requisitos do Android antes de escolher um download.",
+      "noRelease": "Novas compilações aparecerão na página de versões quando estiverem disponíveis.",
+      "chooseDownload": "Escolha seu APK e a opção de download na página da versão."
+    },
+    "faq": {
+      "fallbackAnswer": "Consulte o registro da versão relevante ou fale com o suporte para obter a resposta atual.",
+      "moreQuestions": "Ainda tem dúvidas? Estamos aqui para ajudar."
+    },
+    "journal": {
+      "eyebrow": "Do diário",
+      "title": "Notas que vale a pena guardar.",
+      "category": "Diário",
+      "readingTime": "{minutes} min de leitura"
+    },
+    "cta": {
+      "stable": "Estável v{version}",
+      "appForAndroid": "{applicationName} para Android",
+      "title": "Pronto para deixar o Instagram com a sua cara?",
+      "latestPublished": "Última versão estável publicada em {date}"
+    },
+    "aria": {
+      "featureIllustrations": "Ilustrações de recursos do MyInsta",
+      "featureScreenshot": "Ver a captura de {feature} em tela cheia",
+      "appScreenshots": "Capturas de tela do app MyInsta",
+      "screenshotFullscreen": "Ver a captura de {label} em tela cheia"
+    },
+    "screenshots": {
+      "title": "Veja por dentro.",
+      "description": "Telas reais do MyInsta. Deslize para explorar ou toque em uma tela para vê-la de perto.",
+      "carousel": "carrossel",
+      "viewFullscreen": "Ver em tela cheia",
+      "previous": "Captura anterior",
+      "resume": "Retomar capturas automáticas",
+      "pause": "Pausar capturas automáticas",
+      "next": "Próxima captura",
+      "interval": "Muda a cada 8 segundos",
+      "choose": "Escolha uma captura",
+      "viewerDescription": "Captura completa. Use os controles de zoom para ver detalhes, deslize ou use as setas para mudar de tela e pressione Escape para fechar.",
+      "zoomOut": "Reduzir zoom",
+      "zoomIn": "Aumentar zoom",
+      "fit": "Ajustar captura à tela",
+      "fitShort": "Ajustar",
+      "openOriginal": "Abrir original",
+      "items": {
+        "overview": {
+          "label": "Visão geral das configurações",
+          "alt": "Visão geral das configurações do MyInsta com controles para feed, interface e mensagens"
+        },
+        "appearance": {
+          "label": "Aparência",
+          "alt": "Controles de aparência do MyInsta para temas, fontes, navegação, sugestões e mensagens"
+        },
+        "download-story": {
+          "label": "Baixar Story",
+          "alt": "Painel Baixar Story do MyInsta com opções de vídeo, foto, primeiro quadro, áudio e qualidade"
+        },
+        "ghost-mode": {
+          "label": "Ghost Mode",
+          "alt": "Configurações do Ghost Mode do MyInsta para mensagens, Stories, Live, capturas e mídias de visualização única"
+        },
+        "unsent-messages": {
+          "label": "Mensagens não enviadas",
+          "alt": "Configurações do MyInsta para manter mensagens que outras pessoas desfazem o envio"
+        },
+        "stories": {
+          "label": "Stories",
+          "alt": "Controles de Stories do MyInsta para ver e gerenciar conteúdo de Story"
+        },
+        "instants": {
+          "label": "Instants",
+          "alt": "Configurações de Instants do MyInsta para uma experiência de compartilhamento focada"
+        },
+        "hide-save": {
+          "label": "Hide Save",
+          "alt": "Controles Hide Save do MyInsta para manter mídias selecionadas fora das visualizações salvas"
+        }
+      }
+    },
+    "metadata": {
+      "title": "{siteName} — Site oficial e download do APK para Android",
+      "description": "Baixe {siteName} para Android, compare variantes de APK e leia as notas de versão e a ajuda de instalação."
+    }
+  },
+  "Blog": {
+    "grid": {
+      "empty": "Ainda não há histórias publicadas.",
+      "team": "Equipe MyInsta",
+      "unscheduled": "Sem agendamento"
+    },
+    "article": {
+      "share": "Compartilhar",
+      "copied": "Copiado",
+      "copyLink": "Copiar link"
+    },
+    "metadata": {
+      "title": "Diário",
+      "pageTitle": "Diário · Página {page}",
+      "description": "Contexto das versões do MyInsta, notas de produto, explicações de segurança e guias práticos."
+    },
+    "taxonomy": {
+      "categoryLabel": "Categoria do jornal",
+      "tagLabel": "Tag do jornal",
+      "categoryDescription": "Posts do jornal do MyInsta classificados em {name}.",
+      "tagDescription": "Posts publicados no jornal do MyInsta com a tag {name}."
+    },
+    "index": {
+      "eyebrow": "Jornal",
+      "title": "O pensamento",
+      "titleAccent": "por trás da construção.",
+      "description": "Contexto de versões, decisões de produto, notas de compatibilidade e guias diretos da equipe editorial.",
+      "search": "Pesquisar no arquivo",
+      "categories": "Categorias do jornal",
+      "published": "Notas publicadas",
+      "count": "{total} no total · página {page} de {pages}",
+      "sort": "Ordenar",
+      "latest": "Mais recentes primeiro",
+      "oldest": "Mais antigos primeiro",
+      "apply": "Aplicar",
+      "pagination": "Paginação do jornal",
+      "previous": "Anterior",
+      "next": "Próximo"
+    }
+  },
+  "Releases": {
+    "dateUnavailable": "Data indisponível",
+    "releaseDateUnavailable": "Data da versão indisponível",
+    "channels": {
+      "ALL": "Todas",
+      "STABLE": "Estável",
+      "BETA": "Beta",
+      "ALPHA": "Alpha",
+      "LEGACY": "Legada"
+    },
+    "breadcrumbs": {
+      "home": "Início",
+      "releases": "Versões"
+    },
+    "facts": {
+      "build": "Compilação",
+      "channel": "Canal",
+      "base": "Base",
+      "androidRequirement": "Requisito do Android",
+      "buildTarget": "Alvo da compilação",
+      "primaryArchitecture": "Arquitetura principal do APK"
+    },
+    "index": {
+      "closeChanges": "Fechar alterações",
+      "seeChanges": "Ver alterações",
+      "latestDownloadHelp": "Escolha um APK da versão mais recente.",
+      "noBuild": "Ainda não há uma compilação pública.",
+      "noBuildDescription": "Uma versão aparecerá aqui quando seu recurso principal estiver pronto para distribuição pública.",
+      "searchLabel": "Pesquisar versões",
+      "searchPlaceholder": "Pesquise versão, changelog ou problema conhecido…",
+      "channelGroup": "Canal da versão",
+      "noMatches": "Nenhuma versão publicada corresponde a esses filtros."
+    },
+    "detail": {
+      "allReleases": "Todas as versões",
+      "current": "Atual",
+      "latest": "Mais recente",
+      "versionBuild": "Versão {version} · compilação {build}",
+      "chooseApk": "Escolha seu APK",
+      "cloneDescription": "usa um pacote separado para poder coexistir com o Instagram.",
+      "uncloneDescription": "usa o pacote original; verifique conflitos e faça backup dos dados locais antes de substituir um app instalado.",
+      "abiDescription": "Escolha o ABI do seu dispositivo: ARM64 para ARM de 64 bits, ARM32 para ARM de 32 bits ou x86/x86_64 para dispositivos Intel e emuladores compatíveis. Use Universal apenas quando esta versão o listar. O alvo da compilação é separado do requisito mínimo do Android.",
+      "installationHelp": "Ajuda de instalação e conflitos de pacote",
+      "noPrimaryAsset": "Nenhum recurso principal para download está disponível no momento.",
+      "coverAlt": "Capa da versão {title}",
+      "experimentalChannel": "Canal experimental",
+      "alphaWarning": "As compilações Alpha podem estar incompletas e destinam-se a testes planejados.",
+      "betaWarning": "As compilações Beta podem conter regressões ausentes no canal estável.",
+      "buildRecord": "Registro da compilação",
+      "whatChanged": "O que mudou",
+      "fixedInBuild": "Corrigido nesta compilação",
+      "knownIssues": "Problemas conhecidos",
+      "installation": "Instalação",
+      "upgrade": "Atualizar",
+      "rollbackNotes": "Notas de reversão",
+      "screenshots": "Capturas de tela",
+      "compatibility": "Compatibilidade",
+      "securityNote": "Nota de segurança",
+      "readRelated": "Ler: {title}",
+      "previous": "Anterior v{version}"
+    },
+    "download": {
+      "download": "Baixar",
+      "downloadAdFree": "Baixar (sem anúncios)",
+      "openExternal": "Abrir APK externo",
+      "downloadSize": "Baixar {size}",
+      "unavailable": "Não foi possível preparar o link de download. Confirme se a compilação ainda está disponível e tente novamente; um novo link assinado é criado a cada clique.",
+      "apkDownloads": "Downloads de APK",
+      "unspecifiedAbi": "ABI não especificado",
+      "ariaLabel": "{variant} {abi} {type}",
+      "assetAriaLabel": "Download de {label}",
+      "external": "download externo",
+      "apk": "Download do APK",
+      "recommended": "Recomendado para este dispositivo",
+      "browserAbi": "O navegador informa {abi}. Verifique se o dispositivo é compatível com este ABI.",
+      "browserUnknownAbi": "Seu navegador não informa um ABI. Escolha Universal quando disponível ou verifique a arquitetura do dispositivo.",
+      "otherDownloads": "Outros downloads",
+      "options": "Opções de download",
+      "externalDownload": "Download externo",
+      "errors": {
+        "notFound": "Download não encontrado",
+        "rateLimited": "Tentativas de download demais",
+        "unavailable": "O download está temporariamente indisponível.",
+        "verifying": "A verificação do download ainda está em andamento.",
+        "sourceUnavailable": "Esta fonte de download não está mais disponível.",
+        "unsafeSource": "Não é seguro abrir esta fonte de download.",
+        "prepareFailed": "Não foi possível preparar o download. Tente novamente.",
+        "rangeNotSatisfiable": "O intervalo solicitado não pode ser atendido."
+      }
+    },
+    "verification": {
+      "details": "Detalhes da verificação",
+      "externalWithChecksum": "Host externo: compare o arquivo recebido com o checksum publicado. Este site não verifica a resposta externa.",
+      "externalWithoutChecksum": "Host externo: nenhum checksum foi publicado. Este site não verifica a resposta externa.",
+      "verified": "O APK armazenado tem um checksum registrado e uma verificação do certificado de assinatura. Isso não garante o comportamento do app nem a segurança da conta.",
+      "unverified": "Não há registro de verificação concluída para este arquivo.",
+      "noChecksum": "Nenhum checksum foi publicado para este arquivo.",
+      "certificateSha256": "SHA-256 do certificado de assinatura",
+      "copyChecksum": "Copiar checksum",
+      "copied": "Copiado",
+      "primaryVerified": "APK principal verificado",
+      "primaryApk": "APK principal",
+      "internalRecord": "Registro de verificação interna",
+      "externalDelivery": "Entrega externa",
+      "releaseAssetRecord": "Registro do recurso da versão",
+      "verifiedShort": "SHA-256 verificado",
+      "availableShort": "SHA-256 disponível",
+      "signingCertificate": "Certificado de assinatura"
+    },
+    "notes": {
+      "title": "Notas de versão",
+      "empty": "Nenhuma nota de versão foi publicada.",
+      "emptyChangelog": "Nenhum item de changelog foi publicado.",
+      "showLess": "Mostrar menos",
+      "readMore": "Ler mais"
+    },
+    "timeline": {
+      "base": "Base {version}",
+      "notSpecified": "não especificado",
+      "assets": "{count, plural, =0 {Nenhum recurso} one {# recurso} other {# recursos}}",
+      "hideChangelog": "Ocultar changelog",
+      "showChangelog": "Mostrar changelog",
+      "emptyChangelog": "Nenhum item de changelog foi publicado para esta versão."
+    },
+    "metadata": {
+      "title": "Versões do MyInsta — Downloads oficiais de APK",
+      "description": "Downloads oficiais de APK do MyInsta para Android, com notas de versão, detalhes de compatibilidade, checksums e changelogs.",
+      "latestTitle": "Versão mais recente",
+      "latestDescription": "Encontre a versão mais recente publicada do MyInsta e escolha o download do seu APK.",
+      "detailTitle": "{title} · v{version} — Download oficial do APK"
+    }
+  },
+  "Search": {
+    "eyebrow": "Encontre o registro",
+    "title": "Pesquisar",
+    "titleAccent": "tudo o que é público.",
+    "inputLabel": "Pesquisar conteúdo publicado",
+    "placeholder": "Versão, recurso, guia, número da versão…",
+    "disabledPlaceholder": "A pesquisa está desativada",
+    "resultsCount": "{count, plural, =0 {Nenhum resultado} one {# resultado para “{query}”} other {# resultados para “{query}”}}",
+    "noResults": "Nenhum registro público correspondeu a essa frase.",
+    "shortQuery": "Comece com pelo menos dois caracteres. Os resultados são atualizados enquanto você digita; use as setas para navegar.",
+    "disabled": "A pesquisa pública foi desativada por um administrador.",
+    "errors": {
+      "tooShort": "A consulta de pesquisa é curta demais.",
+      "tooLong": "A consulta de pesquisa é longa demais.",
+      "rateLimited": "A pesquisa está temporariamente limitada. Tente novamente em instantes.",
+      "disabled": "A pesquisa está desativada.",
+      "unavailable": "A pesquisa está temporariamente indisponível."
+    },
+    "metadata": {
+      "title": "Pesquisar",
+      "description": "Pesquise versões do MyInsta, publicações do diário e páginas publicadas."
+    }
+  }
+}
