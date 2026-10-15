@@ -24,6 +24,16 @@ async function updateContentManifest(root, sourceContent) {
   await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
 }
 
+async function seedTargetContentToSource(root) {
+  const source = JSON.parse(await readFile(join(root, "translations", "source", "en.json"), "utf8"));
+  for (const locale of ["hi", "pt-BR", "es", "id", "tr", "fil", "de", "fr", "ar", "ru", "bn", "ja", "ko"]) {
+    const targetPath = join(root, "translations", locale, "en.json");
+    const target = JSON.parse(await readFile(targetPath, "utf8"));
+    const seeded = Object.fromEntries(Object.entries(source).map(([key, value]) => [key, target[key] ?? value]));
+    await writeFile(targetPath, `${JSON.stringify(seeded, null, 2)}\n`);
+  }
+}
+
 async function markCmsDraftsCurrent(root) {
   const manifest = JSON.parse(await readFile(join(root, "translations", "manifest.json"), "utf8"));
   const statusPath = join(root, "translations", "draft-status.json");
@@ -63,6 +73,7 @@ async function fixture(t) {
 
 test("rejects missing and empty static privacy JSON values", async (t) => {
   const root = await fixture(t);
+  await seedTargetContentToSource(root);
   await markCmsDraftsCurrent(root);
   const hiPath = join(root, "translations", "hi", "en.json");
   const hi = JSON.parse(await readFile(hiPath, "utf8"));
