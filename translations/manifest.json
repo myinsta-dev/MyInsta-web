@@ -18,8 +18,776 @@
     "ko"
   ],
   "sourceFile": "translations/source/en.json",
-  "sourceContentHash": "e9e93010c39ee56cbbdc5184e3be01129291093c8245ae6532ad2c2fbab9f42c",
+  "sourceContentHash": "86a97a179570817b133b1892079c408dcd54c6b0df172dfaaf941c5445d0f9dc",
   "entries": [
+    {
+      "key": "application.myinsta.description",
+      "slug": "myinsta",
+      "kind": "home",
+      "format": "plain",
+      "sourceHash": "081667885a68089585da9077b5ff9a3dbeafe882ea688f93f3d43c88beeadcff",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "application.myinsta.name",
+      "slug": "myinsta",
+      "kind": "home",
+      "format": "icu",
+      "sourceHash": "b6a6a1956eb7e124a87a02669aea1afe3cf84e48783bb07e99029410f5a06911",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "blog.faq.body",
+      "slug": "faq",
+      "kind": "blog",
+      "format": "html",
+      "sourceHash": "de118b69a58a15a024f16c84026b1d61facd8d7e3646122d5579e7335b0395a4",
+      "indexable": true,
+      "sourcePath": "translations/source/html/blog.faq.body.html"
+    },
+    {
+      "key": "blog.faq.excerpt",
+      "slug": "faq",
+      "kind": "blog",
+      "format": "plain",
+      "sourceHash": "f9b05647ea6c0f3059a11d85c3b04d4745bee27e19f2e57f95cdd2fe4e04cb3e",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "blog.faq.seodescription",
+      "slug": "faq",
+      "kind": "blog",
+      "format": "plain",
+      "sourceHash": "f9b05647ea6c0f3059a11d85c3b04d4745bee27e19f2e57f95cdd2fe4e04cb3e",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "blog.faq.seotitle",
+      "slug": "faq",
+      "kind": "blog",
+      "format": "icu",
+      "sourceHash": "b6a6a1956eb7e124a87a02669aea1afe3cf84e48783bb07e99029410f5a06911",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "blog.faq.title",
+      "slug": "faq",
+      "kind": "blog",
+      "format": "icu",
+      "sourceHash": "dc34b2b46a585c7c69f7a1813236537738448c6707c4ff19e9a491be66c293e7",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "blog.installation.body",
+      "slug": "installation",
+      "kind": "blog",
+      "format": "html",
+      "sourceHash": "48fdf13fc507485d57d307f9740cd25d68fc54dea610e7e36263b3f5565b0c11",
+      "indexable": true,
+      "sourcePath": "translations/source/html/blog.installation.body.html"
+    },
+    {
+      "key": "blog.installation.excerpt",
+      "slug": "installation",
+      "kind": "blog",
+      "format": "plain",
+      "sourceHash": "a609313cfb9fee477f433a6eb753a614f990f4d7d07a24be503504aea34a1818",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "blog.installation.seodescription",
+      "slug": "installation",
+      "kind": "blog",
+      "format": "plain",
+      "sourceHash": "a609313cfb9fee477f433a6eb753a614f990f4d7d07a24be503504aea34a1818",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "blog.installation.seotitle",
+      "slug": "installation",
+      "kind": "blog",
+      "format": "icu",
+      "sourceHash": "b6a6a1956eb7e124a87a02669aea1afe3cf84e48783bb07e99029410f5a06911",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "blog.installation.title",
+      "slug": "installation",
+      "kind": "blog",
+      "format": "icu",
+      "sourceHash": "a4c8e6f05ec8028db073e72a656d2f6cdac4031dc60a7a4f04f6effbe5640ccb",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.faqs.affiliation.payload.answer",
+      "slug": "affiliation",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "b7e54cb647ea1fa0907886da8fa5393c86c22018684f19a1cf8c109332bad104",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.faqs.affiliation.title",
+      "slug": "affiliation",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "68bb7491f289691e20c99a09b7fc21a4e1877011d862f9e6ff44c54e5575c1ff",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.faqs.android-version.payload.answer",
+      "slug": "android-version",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "3899af247f713e91eb4d266503c669911956e7e20ed7d27c8e827d5b6225b327",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.faqs.android-version.title",
+      "slug": "android-version",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "d6550657f1b846b8813320fde4462ca47f2de53783d81172113c27a9ebaf453a",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.faqs.description",
+      "slug": "faqs",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "186244c5e6a07e8bd4d2a81ed27f10530dd93999d0633567a2244cc73fa640d4",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.faqs.download-verification.payload.answer",
+      "slug": "download-verification",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "c5dd21e2f4b6472a360a690177da7bd02663848e214a4a9ccbd99ecbab7ad90a",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.faqs.download-verification.title",
+      "slug": "download-verification",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "04a20a7b0b07932ad9420b892e7ff2dcaa1d2156134bdbbe98a3eea90a74afaf",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.faqs.name",
+      "slug": "faqs",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "7d3acae7cb44e8357d07e9c9487a58c8bcc8187611682872a270424bb5fc7c3e",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.faqs.official-downloads.payload.answer",
+      "slug": "official-downloads",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "99409518cf92c3042664fb0e8fa585aa665fb583c46fd067d4127eb0c6357942",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.faqs.official-downloads.title",
+      "slug": "official-downloads",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "29eecaac28444f5905da1a2113eb6320f6594d07ca27e98f624b884948efa466",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.faqs.updates.payload.answer",
+      "slug": "updates",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "88eeef42217a63729b7436d14c22c26344aad1be4346a4bb5a40b4f566f06b33",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.faqs.updates.title",
+      "slug": "updates",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "8b2be1d19a58dd1c3dffa3a8fc826e0ed6d0a46d3cb000c716d5bf8cb3576fd8",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.description",
+      "slug": "features",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "11820e0fa5f42458d0211d716271aabb1b841a449f30da59c14fc707c421456c",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.ghost-mode.payload.description",
+      "slug": "ghost-mode",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "67068d380ae8b228af9be4006e98147169699cc6c1e6028fcb33fce6dfe12ddb",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.ghost-mode.payload.detail",
+      "slug": "ghost-mode",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "3537114f9621c4ede5b167d6789c8ca14adbc7cc8c497590f8e71001bfa3da32",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.ghost-mode.title",
+      "slug": "ghost-mode",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "f45a41c03d9faf78c6719fdf28e7c9edef3bada2182868894abeab544afa26ea",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.interface-choices.payload.description",
+      "slug": "interface-choices",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "c5b5144d05ed6ff9c0fb6a005a65f8daa90a3768bccff586bc46f1afa6e3763c",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.interface-choices.payload.detail",
+      "slug": "interface-choices",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "36e8ec6ab4a09a299b5b8c8ec26103d9ba3a651f9ed26540efc807b3e996a590",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.interface-choices.title",
+      "slug": "interface-choices",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "b69fc1f8128958fc9b6586394b54c7743d6f7c4da7a580ae2699baee65a110cb",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.media-tools.payload.description",
+      "slug": "media-tools",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "bb4566e02877e1089865201ad8a45144c97e503ec0c5210e7cbdd4013ac02062",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.media-tools.payload.detail",
+      "slug": "media-tools",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "97f65cc8c3f4324437fc4f03dd47e9efebf7ec6b0ede33d8f67fb08380ac0b91",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.media-tools.title",
+      "slug": "media-tools",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "d79d684bbf93b1bd702d5de1ee22cda0f2249a9886b8d118cbcc17b8590dcf13",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.name",
+      "slug": "features",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "f88ce18a62e7a04ee50db38a7e7f2b8b43712514d0006b5ab2b372f3e1f31ab4",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.privacy-controls.payload.description",
+      "slug": "privacy-controls",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "f8c1c3db07485c74ec65fd3d94a4b46e3e6b4f373f1c5f275eb57a9b74a05562",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.privacy-controls.payload.detail",
+      "slug": "privacy-controls",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "aef9d4e3c956b30a3fbd127743f906b1e921722db98c8c815ad35335bb5141c1",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.privacy-controls.title",
+      "slug": "privacy-controls",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "24c96016ec3f9fce0a886de035f44ff55fbdc21ec93945ffe0a4960b339ea021",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.quieter-feed.payload.description",
+      "slug": "quieter-feed",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "4eb84fa73d41910b5dedd4ff4bf47bf89501b422340d0f6406079c9377361f81",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.quieter-feed.payload.detail",
+      "slug": "quieter-feed",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "60a5bdebe7155111a95876fc04354eb900f1ea675cc088af520aa8593dfa1134",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.quieter-feed.title",
+      "slug": "quieter-feed",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "17bbccaa96e3c6b5a757b2cc974739632541c582966195f6c0448b4fb1a80bdd",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.transparent-releases.payload.description",
+      "slug": "transparent-releases",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "f87c100e5e7ca46e23539046642bcbbbdb021c9f5b3c7f9175e034060c0d0cb2",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.transparent-releases.payload.detail",
+      "slug": "transparent-releases",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "b40a84cbfcd8110a563d1453b8741d1f0accd46d8f7fda5e9eda3f2f5930219a",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.features.transparent-releases.title",
+      "slug": "transparent-releases",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "75de52ef521db83eead951e85b06c6a01bc75a6f02a08536a39e95c553f5216e",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.release-proof.analytics.payload.description",
+      "slug": "analytics",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "5befcd84e037df458bbd3638e62849aa4c9e0cba79024943deb9c3f2771003ef",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.release-proof.analytics.payload.value",
+      "slug": "analytics",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "fda1c6c5e25aa1b7bc7cd41f227f92986c1c8beb4631a1bfb9f39e697c8f7429",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.release-proof.analytics.title",
+      "slug": "analytics",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "6c6b7df3070f112f2b6d5f2b57cb7bc885e62f52497e4121bb79431d188c7982",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.release-proof.checksum.payload.description",
+      "slug": "checksum",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "a9fe49408b36e66390b36a1d508bee59e6be95c3e40e6b25f4501420fb282b9e",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.release-proof.checksum.payload.value",
+      "slug": "checksum",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "a38260793d22fffb9d477dd0358f770f5e3a714e7f3cdba729337d52f9ed872a",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.release-proof.checksum.title",
+      "slug": "checksum",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "75de52ef521db83eead951e85b06c6a01bc75a6f02a08536a39e95c553f5216e",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.release-proof.description",
+      "slug": "release-proof",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "828d1ee62369b001d364078b50ac857363c8790233fe7fa22a3895e04a8c1559",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.release-proof.name",
+      "slug": "release-proof",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "1e360ce0c0d349811f3b8d469b5ada5c589e6815c81ad7ac857c727c8f60919d",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.release-proof.signing.payload.description",
+      "slug": "signing",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "ca144f023fca528062ebf56815f7b3a2ff77f23cc36b5af7529d997bce76ede8",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.release-proof.signing.payload.value",
+      "slug": "signing",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "a38260793d22fffb9d477dd0358f770f5e3a714e7f3cdba729337d52f9ed872a",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.release-proof.signing.title",
+      "slug": "signing",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "d0754d89d66547b444c2d299152807f3a619f1d39e725c29d4b28dd2e2f3bdd1",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.release-proof.storage.payload.description",
+      "slug": "storage",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "e1150f6ddd50e9b68923a92129e0e1906bd949ef0abcc9ec1fc0b10c73a223f5",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.release-proof.storage.payload.value",
+      "slug": "storage",
+      "kind": "collection",
+      "format": "plain",
+      "sourceHash": "7b1717d6f852754ac30823ddced77297b0c06f418d589d7f5fb4970711ba57db",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "collection.release-proof.storage.title",
+      "slug": "storage",
+      "kind": "collection",
+      "format": "icu",
+      "sourceHash": "fe3f6ab149157df13b02c2d379b464412f9b5a2417aec92234759454fc84e67f",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "navigation.header.blog.label",
+      "slug": "header",
+      "kind": "navigation",
+      "format": "icu",
+      "sourceHash": "87fb85425ae8623d6ed2d262d065c5ad687a6339cb9a1b3736a1cd1c83b70c17",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "navigation.header.features.label",
+      "slug": "header",
+      "kind": "navigation",
+      "format": "icu",
+      "sourceHash": "5ba7137beafc546fd1f158261c26eb856fc806b187977a07566494355e9e4e9b",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "navigation.header.releases.label",
+      "slug": "header",
+      "kind": "navigation",
+      "format": "icu",
+      "sourceHash": "51b3be9d0618584c41ffface3beb9dc07ef86b91a56b26ca0969528cb4a86f53",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "navigation.header.security.label",
+      "slug": "header",
+      "kind": "navigation",
+      "format": "icu",
+      "sourceHash": "f534bbe691d443f8daa30e9b83334464b7364127361cfd439f5b5e997e25ec47",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "navigation.header.support.label",
+      "slug": "header",
+      "kind": "navigation",
+      "format": "icu",
+      "sourceHash": "7744c89b4e37c0a5d0d1f024860cedbd760ec3a4d96cb0b7bfa5a94146661c94",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.about.frame.001.text",
+      "slug": "about",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "a48d26a0f4e8e47ece0e2beeb5df51c34d705584b5abce53528e2c0c0bcb297c",
+      "contextHash": "e914a3aeb00737f2c2f2b5235bd895c7aad1bcfcf1fb72166230e622980fb496",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.about.frame.002.text",
+      "slug": "about",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "5f66ca3193f893307a757af5714f8f9a5fcdaf757478bf28fb1304c0094c1971",
+      "contextHash": "2fed9f4b5b532a191d5b05a8e67a2857b0c99dbd2bec2dc67f3ca176fd86e594",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.about.frame.003.text",
+      "slug": "about",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "a15d333a4e3c9417c8d228b1e3e070882a577baee2a9a0e6f4316f4b966fd8ce",
+      "contextHash": "9c4729297644e2e2a603e68d212466808fd7364b57e12544dfa60dd44d991814",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.about.frame.005.label",
+      "slug": "about",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "bcd956b4d02b1c49085c4807669499291fc035d86695b07fd77a8a9ec7dfcb6e",
+      "contextHash": "d56712a941f13058f4c0ab485fceb36e3062f768847153fb6511918d41ac7cfc",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.about.seodescription",
+      "slug": "about",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "c3bbbd8cef9a0573d12b03e94b4920e9070722b280c1bc276bcc4b60cbd36598",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.about.seotitle",
+      "slug": "about",
+      "kind": "page",
+      "format": "icu",
+      "sourceHash": "857dfdc96d07ba2eb3b6e7fe079b785205deba4903120cb050d636461dca3b24",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.about.title",
+      "slug": "about",
+      "kind": "page",
+      "format": "icu",
+      "sourceHash": "857dfdc96d07ba2eb3b6e7fe079b785205deba4903120cb050d636461dca3b24",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.faq.frame.001.text",
+      "slug": "faq",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "eb1692945c52a44bfa122ec17ee36efffb9785d37d4c0dc3a8436dd575fa519b",
+      "contextHash": "e914a3aeb00737f2c2f2b5235bd895c7aad1bcfcf1fb72166230e622980fb496",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.faq.frame.002.text",
+      "slug": "faq",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "95bb502687c2069a94a1fa5eec5476556029e2bb8076af9fc8dd61407d40646c",
+      "contextHash": "2fed9f4b5b532a191d5b05a8e67a2857b0c99dbd2bec2dc67f3ca176fd86e594",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.faq.frame.003.text",
+      "slug": "faq",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "b4c9968998408c6a0590db692c07e399f8cd5d6ce9ffa2553ac3d328b37372de",
+      "contextHash": "9c4729297644e2e2a603e68d212466808fd7364b57e12544dfa60dd44d991814",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.faq.frame.005.label",
+      "slug": "faq",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "5f19df08b472ddf4b3f3b1caba6d09d0b557bd7387cd7d210a1699efe607952b",
+      "contextHash": "5cc3ee115b05d0bf5c2f4e72b4545d1789eebbbab3f40449becfd0330d517063",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.faq.seodescription",
+      "slug": "faq",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "3f8d0a6d3bff9d28ea887132311c555e2de0fe319cc508c162467919dd1078f3",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.faq.seotitle",
+      "slug": "faq",
+      "kind": "page",
+      "format": "icu",
+      "sourceHash": "dc34b2b46a585c7c69f7a1813236537738448c6707c4ff19e9a491be66c293e7",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.faq.title",
+      "slug": "faq",
+      "kind": "page",
+      "format": "icu",
+      "sourceHash": "dc34b2b46a585c7c69f7a1813236537738448c6707c4ff19e9a491be66c293e7",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.features.frame.001.text",
+      "slug": "features",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "fcb42db8471b9ee28ca95b0f727164184cfc2f679a095be15ca8ff8fc6c54498",
+      "contextHash": "e914a3aeb00737f2c2f2b5235bd895c7aad1bcfcf1fb72166230e622980fb496",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.features.frame.002.text",
+      "slug": "features",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "20e5cd8c4ad60ccaf29326056d30732a9a4832b2b8825c61f219bc4555f6c1a3",
+      "contextHash": "2fed9f4b5b532a191d5b05a8e67a2857b0c99dbd2bec2dc67f3ca176fd86e594",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.features.frame.003.text",
+      "slug": "features",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "2a64f85294c8ffbb236067885e9987b81d4ab9a700b102a549a06478b50e4b5f",
+      "contextHash": "9c4729297644e2e2a603e68d212466808fd7364b57e12544dfa60dd44d991814",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.features.frame.005.label",
+      "slug": "features",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "d5f3db7fb2771d8fff785a8512ddf661e8fe209339fb4380e5823cc77d73a02a",
+      "contextHash": "fdfd0e5df2e32a1a9db625eee9fd11b0301d06610fb748fc1315e5307e4a0246",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.features.seodescription",
+      "slug": "features",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "cffc71fd4b451dd2c91db9253ad9c0a0de18df99d9206c5c21d9b0b0be3e8885",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.features.seotitle",
+      "slug": "features",
+      "kind": "page",
+      "format": "icu",
+      "sourceHash": "5ba7137beafc546fd1f158261c26eb856fc806b187977a07566494355e9e4e9b",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.features.title",
+      "slug": "features",
+      "kind": "page",
+      "format": "icu",
+      "sourceHash": "5ba7137beafc546fd1f158261c26eb856fc806b187977a07566494355e9e4e9b",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
     {
       "key": "page.privacy.body",
       "slug": "privacy",
@@ -53,6 +821,729 @@
       "kind": "page",
       "format": "icu",
       "sourceHash": "ff4dc63bcd9a9acc29fb658aaec74ebb37e8b2c6ad144eb26259b5cacb93907f",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.security.frame.001.text",
+      "slug": "security",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "8f65bb0d7774b3c70a5396ef3502797c450c73b121aea5e7ffa468f44a00d4a5",
+      "contextHash": "e914a3aeb00737f2c2f2b5235bd895c7aad1bcfcf1fb72166230e622980fb496",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.security.frame.002.text",
+      "slug": "security",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "204d55f1dba3f90b60c4672e13571492b1a334c079818f1b2f1b8bb94b1aa68b",
+      "contextHash": "2fed9f4b5b532a191d5b05a8e67a2857b0c99dbd2bec2dc67f3ca176fd86e594",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.security.frame.003.text",
+      "slug": "security",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "51c7bbad1202fe583b131131d12525d7a344bc398a980616817d89aa77f0bd43",
+      "contextHash": "9c4729297644e2e2a603e68d212466808fd7364b57e12544dfa60dd44d991814",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.security.frame.005.label",
+      "slug": "security",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "3df438503a140ba36d718a44de29029e58dc19ec3f88075bdb0424261ee569be",
+      "contextHash": "d56712a941f13058f4c0ab485fceb36e3062f768847153fb6511918d41ac7cfc",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.security.seodescription",
+      "slug": "security",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "659c9251c3f22655e08c4dcbd0285ee6a3b3802c5ca043de9d5f79fdeed88acb",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.security.seotitle",
+      "slug": "security",
+      "kind": "page",
+      "format": "icu",
+      "sourceHash": "f534bbe691d443f8daa30e9b83334464b7364127361cfd439f5b5e997e25ec47",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.security.title",
+      "slug": "security",
+      "kind": "page",
+      "format": "icu",
+      "sourceHash": "f534bbe691d443f8daa30e9b83334464b7364127361cfd439f5b5e997e25ec47",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.support.frame.001.text",
+      "slug": "support",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "7cff9162786d3f970ced5578743d41a4e099de0a7f30299a447b3dc7d30a5343",
+      "contextHash": "e914a3aeb00737f2c2f2b5235bd895c7aad1bcfcf1fb72166230e622980fb496",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.support.frame.002.text",
+      "slug": "support",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "f08fc300373c9491088ffa263ba5c911de85e749c38b576b03c4f016711a2046",
+      "contextHash": "2fed9f4b5b532a191d5b05a8e67a2857b0c99dbd2bec2dc67f3ca176fd86e594",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.support.frame.003.text",
+      "slug": "support",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "f1c3b4bc5328d5fb231a402559fd5c7878b600d658d861d2d5cf8f8f8d1964ba",
+      "contextHash": "9c4729297644e2e2a603e68d212466808fd7364b57e12544dfa60dd44d991814",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.support.frame.005.label",
+      "slug": "support",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "5f19df08b472ddf4b3f3b1caba6d09d0b557bd7387cd7d210a1699efe607952b",
+      "contextHash": "2d97e24e100c3e887b6d5c30edc93dee00adbc55ff26e65d132a1f46aa2d8284",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.support.seodescription",
+      "slug": "support",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "20e5021725c2de4538eb892bece001ad1da46b956c489c1dd3bf6eb0b8bae7ce",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.support.seotitle",
+      "slug": "support",
+      "kind": "page",
+      "format": "icu",
+      "sourceHash": "7744c89b4e37c0a5d0d1f024860cedbd760ec3a4d96cb0b7bfa5a94146661c94",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.support.title",
+      "slug": "support",
+      "kind": "page",
+      "format": "icu",
+      "sourceHash": "7744c89b4e37c0a5d0d1f024860cedbd760ec3a4d96cb0b7bfa5a94146661c94",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.terms.frame.001.text",
+      "slug": "terms",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "d14d9440cf936f01b9313eb82901050b5cdfb25943b8ce88ab7363fd62d482c0",
+      "contextHash": "e914a3aeb00737f2c2f2b5235bd895c7aad1bcfcf1fb72166230e622980fb496",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.terms.frame.002.text",
+      "slug": "terms",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "d667686216444f289772323696dc464321969320b552ebf6085770da5ea68281",
+      "contextHash": "2fed9f4b5b532a191d5b05a8e67a2857b0c99dbd2bec2dc67f3ca176fd86e594",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.terms.frame.003.text",
+      "slug": "terms",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "020d22560751143c27f2c23e2b5b686ce9262d1b3ae6669655d1cadf9e12061c",
+      "contextHash": "9c4729297644e2e2a603e68d212466808fd7364b57e12544dfa60dd44d991814",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.terms.frame.005.label",
+      "slug": "terms",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "1db3fda25be05e1573d13cdd666f9c5e4b5080cba34630810e288bc5a4b1012c",
+      "contextHash": "d56712a941f13058f4c0ab485fceb36e3062f768847153fb6511918d41ac7cfc",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.terms.seodescription",
+      "slug": "terms",
+      "kind": "page",
+      "format": "plain",
+      "sourceHash": "2c1e9398ebe5c0b4ec9224d74e71a5cea4adcb2f101f12c9244018a734b6ebde",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.terms.seotitle",
+      "slug": "terms",
+      "kind": "page",
+      "format": "icu",
+      "sourceHash": "06b2dd027a0d1a0d54238dff7bea34681c68ec730e678a27bb9ffc21f7352124",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "page.terms.title",
+      "slug": "terms",
+      "kind": "page",
+      "format": "icu",
+      "sourceHash": "06b2dd027a0d1a0d54238dff7bea34681c68ec730e678a27bb9ffc21f7352124",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v16.application",
+      "slug": "myinsta-v16",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "b6a6a1956eb7e124a87a02669aea1afe3cf84e48783bb07e99029410f5a06911",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v16.fixedissues",
+      "slug": "myinsta-v16",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v16.installationinstructions",
+      "slug": "myinsta-v16",
+      "kind": "release",
+      "format": "html",
+      "sourceHash": "74abff1299d6fe8a6cd3be628234b6dec0399b2a2e722cafd38ba07eb4374ee8",
+      "indexable": true,
+      "sourcePath": "translations/source/html/release.myinsta-v16.installationinstructions.html"
+    },
+    {
+      "key": "release.myinsta-v16.knownissues",
+      "slug": "myinsta-v16",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v16.patchnotes",
+      "slug": "myinsta-v16",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "60da8b58c268e356f571b1d6ba1820447e71441efe1e356996be59ec412a7a7f",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v16.summary",
+      "slug": "myinsta-v16",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "c7e7bac9f66d623433f1d4094f26c8673b5f460ddfa4b9339bb743e9d164fc97",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v16.title",
+      "slug": "myinsta-v16",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "2e68300f1cf59c9febf266bf3f77cd53333e2790b323573b94f1058682eaa77f",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v17.application",
+      "slug": "myinsta-v17",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "b6a6a1956eb7e124a87a02669aea1afe3cf84e48783bb07e99029410f5a06911",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v17.fixedissues",
+      "slug": "myinsta-v17",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v17.installationinstructions",
+      "slug": "myinsta-v17",
+      "kind": "release",
+      "format": "html",
+      "sourceHash": "74abff1299d6fe8a6cd3be628234b6dec0399b2a2e722cafd38ba07eb4374ee8",
+      "indexable": true,
+      "sourcePath": "translations/source/html/release.myinsta-v17.installationinstructions.html"
+    },
+    {
+      "key": "release.myinsta-v17.knownissues",
+      "slug": "myinsta-v17",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v17.patchnotes",
+      "slug": "myinsta-v17",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "df4e506e93656a97534a1bdcf6c1d30e7abef48cf29ed7c6252c409e827c9aeb",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v17.summary",
+      "slug": "myinsta-v17",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "2a573494c676ebd521df2924821a43ebac1927026b1ca80cc6ba8051ec859de0",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v17.title",
+      "slug": "myinsta-v17",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "dd061cbef7763e321f0524a41dd18eb954c5967421d8ee5a06767bf6fe17e790",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v18.application",
+      "slug": "myinsta-v18",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "b6a6a1956eb7e124a87a02669aea1afe3cf84e48783bb07e99029410f5a06911",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v18.fixedissues",
+      "slug": "myinsta-v18",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v18.installationinstructions",
+      "slug": "myinsta-v18",
+      "kind": "release",
+      "format": "html",
+      "sourceHash": "74abff1299d6fe8a6cd3be628234b6dec0399b2a2e722cafd38ba07eb4374ee8",
+      "indexable": true,
+      "sourcePath": "translations/source/html/release.myinsta-v18.installationinstructions.html"
+    },
+    {
+      "key": "release.myinsta-v18.knownissues",
+      "slug": "myinsta-v18",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v18.patchnotes",
+      "slug": "myinsta-v18",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "5ae14627b7604b3ca2ce321adab89644b53e8a8f3fad8e5546ec35d0e1b9d1ac",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v18.summary",
+      "slug": "myinsta-v18",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "41d36b74f66f9a47ca5e1dcf79119faf4f59a9bcdc6e80317f7beef661010fb3",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v18.title",
+      "slug": "myinsta-v18",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "ce0b811647c09c36e07161afaa927b6ef568c39fd0f7157be07d8828f37173cd",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v21.application",
+      "slug": "myinsta-v21",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "b6a6a1956eb7e124a87a02669aea1afe3cf84e48783bb07e99029410f5a06911",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v21.fixedissues",
+      "slug": "myinsta-v21",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v21.installationinstructions",
+      "slug": "myinsta-v21",
+      "kind": "release",
+      "format": "html",
+      "sourceHash": "74abff1299d6fe8a6cd3be628234b6dec0399b2a2e722cafd38ba07eb4374ee8",
+      "indexable": true,
+      "sourcePath": "translations/source/html/release.myinsta-v21.installationinstructions.html"
+    },
+    {
+      "key": "release.myinsta-v21.knownissues",
+      "slug": "myinsta-v21",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v21.patchnotes",
+      "slug": "myinsta-v21",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "2b9840003075233f32ce37adcf4d3d6a3b77de4f904b10f1569d9464d4483568",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v21.summary",
+      "slug": "myinsta-v21",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "b86e9ac71f54d6a36f2c6256311dbc93358c1746a16e3492395c4406c340c7fc",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v21.title",
+      "slug": "myinsta-v21",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "d1cf2add43774bdeeff68be90bcb86efe3bac516961e65d025ffd695666211ac",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v25.application",
+      "slug": "myinsta-v25",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "b6a6a1956eb7e124a87a02669aea1afe3cf84e48783bb07e99029410f5a06911",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v25.fixedissues",
+      "slug": "myinsta-v25",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v25.installationinstructions",
+      "slug": "myinsta-v25",
+      "kind": "release",
+      "format": "html",
+      "sourceHash": "74abff1299d6fe8a6cd3be628234b6dec0399b2a2e722cafd38ba07eb4374ee8",
+      "indexable": true,
+      "sourcePath": "translations/source/html/release.myinsta-v25.installationinstructions.html"
+    },
+    {
+      "key": "release.myinsta-v25.knownissues",
+      "slug": "myinsta-v25",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v25.patchnotes",
+      "slug": "myinsta-v25",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "295db50b87e024ca69e330668a49c521d1cc17708fc2a818dcbcaf325105cded",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v25.summary",
+      "slug": "myinsta-v25",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "0022ea2a6a83a6f0b135d29e0812059d248a56b287a1e12df65fea1e2d4c8053",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v25.title",
+      "slug": "myinsta-v25",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "6c0351aa9fa03ad5d9169698c7e3f181eed2a0cbc0be27a01a3e911934744f59",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v26.application",
+      "slug": "myinsta-v26",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "b6a6a1956eb7e124a87a02669aea1afe3cf84e48783bb07e99029410f5a06911",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v26.fixedissues",
+      "slug": "myinsta-v26",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v26.installationinstructions",
+      "slug": "myinsta-v26",
+      "kind": "release",
+      "format": "html",
+      "sourceHash": "cd2ffd71baa237e6346354c4be56e5a4bbe42e34e01763061c5b41350d832394",
+      "indexable": true,
+      "sourcePath": "translations/source/html/release.myinsta-v26.installationinstructions.html"
+    },
+    {
+      "key": "release.myinsta-v26.knownissues",
+      "slug": "myinsta-v26",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v26.patchnotes",
+      "slug": "myinsta-v26",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "0adfc4595b19c89eb89ffe29ea733f26079b12e958f96d84ca515fe7e0f3c012",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v26.summary",
+      "slug": "myinsta-v26",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "a8cde94014d83d2784fc922c6eecba8a1442e57c105e76ba8682ffe4b6854cbd",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v26.title",
+      "slug": "myinsta-v26",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "0fcc1b64fa6aeb7698ba173cd2981732345c934073a543b17c0e13e96523b8e5",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v27.application",
+      "slug": "myinsta-v27",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "b6a6a1956eb7e124a87a02669aea1afe3cf84e48783bb07e99029410f5a06911",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v27.compatibilitynotes",
+      "slug": "myinsta-v27",
+      "kind": "release",
+      "format": "plain",
+      "sourceHash": "4e0b74b844d387336bea49f652087acf703ddaec49909c9d119248ef70211b14",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v27.fixedissues",
+      "slug": "myinsta-v27",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v27.installationinstructions",
+      "slug": "myinsta-v27",
+      "kind": "release",
+      "format": "html",
+      "sourceHash": "f6a408eb001335dd1ba97f7b7d188386c1c86b6722f697879188af0409ea33e1",
+      "indexable": true,
+      "sourcePath": "translations/source/html/release.myinsta-v27.installationinstructions.html"
+    },
+    {
+      "key": "release.myinsta-v27.knownissues",
+      "slug": "myinsta-v27",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "46cddae108ae8c076b20458584ec022a9313b60b5991d982a5b992ae53daceb9",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v27.patchnotes",
+      "slug": "myinsta-v27",
+      "kind": "release",
+      "format": "json",
+      "sourceHash": "3e2bfcc40bbaaaf094c83b86cfc05de908aa5c2228f89c2f65b41f9e0fb27d7a",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v27.summary",
+      "slug": "myinsta-v27",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "52ffa180d8691f4b569a021471318f1787d07244107c5b200ad6d800ecf3fd99",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "release.myinsta-v27.title",
+      "slug": "myinsta-v27",
+      "kind": "release",
+      "format": "icu",
+      "sourceHash": "777a9d0966ab29f94f0a91705e05c023cded393ea10496a5ac7e865c03c83a96",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "settings.general.defaultmetadescription",
+      "kind": "settings",
+      "format": "icu",
+      "sourceHash": "2f37c9d70a921c336d3902f6e42d21f41330810ef232a84ef0ec76efe208169d",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "settings.general.defaultseotitle",
+      "kind": "settings",
+      "format": "icu",
+      "sourceHash": "13a520153e9b5ae4d5d283afb62c52e776c0f668714c789c5971a09b2c67a181",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "settings.general.downloadwarning",
+      "kind": "settings",
+      "format": "icu",
+      "sourceHash": "cec6d9094d01758baaf91c21eeb897d04f3e5d48544f96295e4eba92ec5e8c53",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "settings.general.footernote",
+      "kind": "settings",
+      "format": "icu",
+      "sourceHash": "31c7f7d8de930fa5edfbfbed7a47cf9898e1d4daf60cb909719cb182646f056a",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "settings.general.homepageeyebrow",
+      "kind": "settings",
+      "format": "icu",
+      "sourceHash": "863eba1dda7f98655c2f80efadc8a7d684568fc0181ca5ab0ed8df9a9b00b510",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "settings.general.homepageheadline",
+      "kind": "settings",
+      "format": "icu",
+      "sourceHash": "33ec8daf5ab51f5ed16e80949b7d06050f9877bad6fd2c0f19ee3cdd51e83f93",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "settings.general.homepagesubheadline",
+      "kind": "settings",
+      "format": "icu",
+      "sourceHash": "2f203ad09ecd77604f2e547eb8e593946838bfdc8d9570005460c263cc9eaa09",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "settings.general.sitedescription",
+      "kind": "settings",
+      "format": "icu",
+      "sourceHash": "081667885a68089585da9077b5ff9a3dbeafe882ea688f93f3d43c88beeadcff",
+      "indexable": true,
+      "sourcePath": "translations/source/en.json"
+    },
+    {
+      "key": "settings.general.sitename",
+      "kind": "settings",
+      "format": "icu",
+      "sourceHash": "b6a6a1956eb7e124a87a02669aea1afe3cf84e48783bb07e99029410f5a06911",
       "indexable": true,
       "sourcePath": "translations/source/en.json"
     }
