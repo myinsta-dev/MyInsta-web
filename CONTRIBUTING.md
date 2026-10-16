@@ -5,8 +5,8 @@ public catalog data and are reviewed before they can be used by the website.
 
 ## Before editing
 
-1. Choose one configured locale directory: `hi`, `pt-BR`, `es`, `id`, `tr`,
-   `fil`, `de`, `fr`, `ar`, `ru`, `bn`, `ja`, or `ko`.
+1. Choose one configured locale directory: `pt-BR`, `es`, `id`, `tr`, `fil`,
+   `de`, `fr`, `ar`, `ru`, `ja`, or `ko`.
 2. Read [GLOSSARY.md](GLOSSARY.md).
 3. Use the English file in `messages/en/` as the source of truth. Keep the
    object shape, key spelling, ICU syntax, and required markup unchanged.

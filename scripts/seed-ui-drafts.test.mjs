@@ -40,7 +40,7 @@ test("UI seeder preserves exported CMS files and existing target drafts", async 
   const manifestText = `${JSON.stringify({
     schemaVersion: 1,
     sourceLocale: "en",
-    locales: ["en", "hi"],
+    locales: ["en", "es"],
     sourceFile: "translations/source/en.json",
     sourceContentHash: "cms-export-sentinel",
     entries: [{ key: "page.privacy.title", format: "icu" }],

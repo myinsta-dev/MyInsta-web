@@ -6,7 +6,7 @@ import { join } from "node:path";
 // receives a complete UI key tree; the wording and native review still require
 // contributor review. The script never reads the private application
 // repository and leaves the separately exported CMS catalog untouched.
-const locales = ["hi", "pt-BR", "es", "id", "tr", "fil", "de", "fr", "ar", "ru", "bn", "ja", "ko"];
+const locales = ["pt-BR", "es", "id", "tr", "fil", "de", "fr", "ar", "ru", "ja", "ko"];
 const namespaces = ["Blog", "Common", "Home", "releases", "search"];
 
 const shared = {

@@ -27,7 +27,6 @@
     "language": {
       "label": "Sprache",
       "en": "Englisch",
-      "hi": "Hindi",
       "pt-BR": "Português (Brasilien)",
       "es": "Spanisch",
       "id": "Bahasa Indonesien",
@@ -37,7 +36,6 @@
       "fr": "Französisch",
       "ar": "العربية",
       "ru": "Russisch",
-      "bn": "বাংলা",
       "ja": "日本語",
       "ko": "한국어"
     },
