@@ -91,6 +91,10 @@ function multiset(values) {
   return [...values].sort().join("\u0000");
 }
 
+function protectedTermCount(value, term) {
+  return [...value.matchAll(new RegExp(`\\b${term}\\b`, "g"))].length;
+}
+
 function icuShape(value) {
   const placeholders = [...value.matchAll(/\{([A-Za-z][A-Za-z0-9_.-]*)(?=\s*(?:,|}))/g)].map((match) => match[1]);
   const branches = [...value.matchAll(/(=\d+|zero|one|two|few|many|other|male|female)\s*\{/g)].map((match) => match[1]);
@@ -116,8 +120,8 @@ function compareValues(source, target, locale, file, path, allowKeyDrift = false
     if (expected.pounds !== actual.pounds) error(`${locale}/${file}:${path}: # marker count differs`);
     if (multiset(expected.tags) !== multiset(actual.tags)) error(`${locale}/${file}:${path}: markup tags differ`);
     for (const term of protectedTerms) {
-      const sourceCount = source.split(term).length - 1;
-      const targetCount = target.split(term).length - 1;
+      const sourceCount = protectedTermCount(source, term);
+      const targetCount = protectedTermCount(target, term);
       if (targetCount < sourceCount) error(`${locale}/${file}:${path}: protected term missing: ${term}`);
     }
     if (source === target) warning(`${locale}/${file}:${path}: unchanged English draft`);
@@ -171,7 +175,7 @@ function protectedHtmlLiterals(value) {
 function protectedHtmlTerms(value) {
   const text = value.replace(/<[^>]*>/g, " ");
   return protectedTerms.flatMap((term) => {
-    const count = text.split(term).length - 1;
+    const count = protectedTermCount(text, term);
     return Array.from({ length: count }, () => term);
   });
 }

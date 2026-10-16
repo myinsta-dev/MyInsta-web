@@ -25,9 +25,12 @@ or label should remain the same. Crowdin contributors should still complete
 native and legal review for each namespace before a locale is considered for
 launch.
 
-The public content source currently contains only the static privacy policy
-catalog: title and SEO fields in `translations/source/en.json`, plus its rich
-HTML body under `translations/source/html/`. The production CMS export remains
-pending and will be added only through the reviewed private export workflow.
-Private posts, pages, release metadata, IDs, media, and analytics are excluded
-from this repository.
+The published CMS source contains 158 JSON entries (225 string leaves) and
+10 HTML files, including both blogs, seven release changelogs and installation
+instructions, and the privacy policy. Each retained locale has a complete
+initial AI translation draft for this content. The CMS source hash is recorded
+in `translations/draft-status.json`; these drafts remain unapproved and require
+native and legal review before the private approved-only importer can use them.
+
+Only published public strings are exported. Private drafts, database IDs,
+credentials, media, and analytics are excluded from this repository.

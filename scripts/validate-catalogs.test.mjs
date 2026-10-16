@@ -185,6 +185,17 @@ test("rejects changed HTML protected product literals", async (t) => {
   assert.match(result.output, /ERROR pt-BR\/html\/page\.privacy\.body\.html: protected product literal changed: MyInsta/);
 });
 
+test("does not mistake ABI inside CAPABILITIES for a protected token", async (t) => {
+  const root = await fixture(t);
+  const source = JSON.parse(await readFile(join(root, "translations/source/en.json"), "utf8"));
+  const es = JSON.parse(await readFile(join(root, "translations/es/en.json"), "utf8"));
+  assert.equal(source["page.features.frame.001.text"], "PRODUCT / CAPABILITIES");
+  assert.ok(!es["page.features.frame.001.text"].includes("ABI"));
+
+  const result = await runValidator(root);
+  assert.equal(result.code, 0, result.output);
+});
+
 test("rejects a missing HTML source declared by the content manifest", async (t) => {
   const root = await fixture(t);
   await rm(join(root, "translations/source/html/page.privacy.body.html"));
