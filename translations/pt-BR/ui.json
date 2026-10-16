@@ -1,4 +1,44 @@
 {
+  "Blog": {
+    "grid": {
+      "empty": "Ainda não há histórias publicadas.",
+      "team": "Equipe MyInsta",
+      "unscheduled": "Sem agendamento"
+    },
+    "article": {
+      "share": "Compartilhar",
+      "copied": "Copiado",
+      "copyLink": "Copiar link"
+    },
+    "metadata": {
+      "title": "Diário",
+      "pageTitle": "Diário · Página {page}",
+      "description": "Contexto das versões do MyInsta, notas de produto, explicações de segurança e guias práticos."
+    },
+    "taxonomy": {
+      "categoryLabel": "Categoria do jornal",
+      "tagLabel": "Tag do jornal",
+      "categoryDescription": "Posts do jornal do MyInsta classificados em {name}.",
+      "tagDescription": "Posts publicados no jornal do MyInsta com a tag {name}."
+    },
+    "index": {
+      "eyebrow": "Jornal",
+      "title": "O pensamento",
+      "titleAccent": "por trás da construção.",
+      "description": "Contexto de versões, decisões de produto, notas de compatibilidade e guias diretos da equipe editorial.",
+      "search": "Pesquisar no arquivo",
+      "categories": "Categorias do jornal",
+      "published": "Notas publicadas",
+      "count": "{total} no total · página {page} de {pages}",
+      "sort": "Ordenar",
+      "latest": "Mais recentes primeiro",
+      "oldest": "Mais antigos primeiro",
+      "apply": "Aplicar",
+      "pagination": "Paginação do jornal",
+      "previous": "Anterior",
+      "next": "Próximo"
+    }
+  },
   "Common": {
     "navigation": {
       "features": "Recursos",
@@ -32,10 +72,7 @@
       "id": "Bahasa Indonesia",
       "tr": "Türkçe",
       "fil": "Filipino",
-      "de": "Deutsch",
-      "fr": "Français",
-      "ar": "العربية",
-      "ru": "Русский"
+      "de": "Deutsch"
     },
     "newsletter": {
       "emailAddress": "Endereço de e-mail",
@@ -239,46 +276,6 @@
     "metadata": {
       "title": "{siteName} — Site oficial e download do APK para Android",
       "description": "Baixe {siteName} para Android, compare variantes de APK e leia as notas de versão e a ajuda de instalação."
-    }
-  },
-  "Blog": {
-    "grid": {
-      "empty": "Ainda não há histórias publicadas.",
-      "team": "Equipe MyInsta",
-      "unscheduled": "Sem agendamento"
-    },
-    "article": {
-      "share": "Compartilhar",
-      "copied": "Copiado",
-      "copyLink": "Copiar link"
-    },
-    "metadata": {
-      "title": "Diário",
-      "pageTitle": "Diário · Página {page}",
-      "description": "Contexto das versões do MyInsta, notas de produto, explicações de segurança e guias práticos."
-    },
-    "taxonomy": {
-      "categoryLabel": "Categoria do jornal",
-      "tagLabel": "Tag do jornal",
-      "categoryDescription": "Posts do jornal do MyInsta classificados em {name}.",
-      "tagDescription": "Posts publicados no jornal do MyInsta com a tag {name}."
-    },
-    "index": {
-      "eyebrow": "Jornal",
-      "title": "O pensamento",
-      "titleAccent": "por trás da construção.",
-      "description": "Contexto de versões, decisões de produto, notas de compatibilidade e guias diretos da equipe editorial.",
-      "search": "Pesquisar no arquivo",
-      "categories": "Categorias do jornal",
-      "published": "Notas publicadas",
-      "count": "{total} no total · página {page} de {pages}",
-      "sort": "Ordenar",
-      "latest": "Mais recentes primeiro",
-      "oldest": "Mais antigos primeiro",
-      "apply": "Aplicar",
-      "pagination": "Paginação do jornal",
-      "previous": "Anterior",
-      "next": "Próximo"
     }
   },
   "Releases": {

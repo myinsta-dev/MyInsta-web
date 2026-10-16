@@ -8,10 +8,7 @@
     "id",
     "tr",
     "fil",
-    "de",
-    "fr",
-    "ar",
-    "ru"
+    "de"
   ],
   "sourceFile": "translations/source/en.json",
   "sourceContentHash": "86a97a179570817b133b1892079c408dcd54c6b0df172dfaaf941c5445d0f9dc",

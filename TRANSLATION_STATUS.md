@@ -2,7 +2,7 @@
 
 The catalog seed covers the UI namespaces for the target languages selected
 from the country distribution review. All rows below are **draft only**. All
-9 locale catalogs contain complete draft trees for the 311 UI strings. The
+6 locale catalogs contain complete draft trees for the 308 UI strings. The
 translated wording is still under review; `translations/draft-status.json`
 records `keyCoverage: "complete"`, `translation: "needs-review"`, and
 `nativeReview: "needs-review"` for every locale. Validator warnings for
@@ -17,12 +17,9 @@ terms, placeholders, and labels that should remain unchanged.
 | `tr` | Current | `translations/tr/ui.json` | Unapproved; native review required | Not launched |
 | `fil` | Current | `translations/fil/ui.json` | Unapproved; native review required | Not launched |
 | `de` | Current | `translations/de/ui.json` | Unapproved; native review required | Not launched |
-| `fr` | Current | `translations/fr/ui.json` | Unapproved; native review required | Not launched |
-| `ar` | Current | `translations/ar/ui.json` | Unapproved; native review required | Not launched |
-| `ru` | Current | `translations/ru/ui.json` | Unapproved; native review required | Not launched |
 
 The draft seed preserves populated locale values and refreshes only missing
-keys. Each locale has a draft value for all 311 UI strings; unchanged values
+keys. Each locale has a draft value for all 308 UI strings; unchanged values
 that the validator reports are intentional where the source term, placeholder,
 or label should remain the same. Crowdin contributors should still complete
 native and legal review for each namespace before a locale is considered for
