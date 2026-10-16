@@ -3,7 +3,7 @@ import { readFile, readdir } from "node:fs/promises";
 import { join } from "node:path";
 
 const root = new URL("..", import.meta.url).pathname;
-const locales = ["hi", "pt-BR", "es", "id", "tr", "fil", "de", "fr", "ar", "ru", "bn", "ja", "ko"];
+const locales = ["pt-BR", "es", "id", "tr", "fil", "de", "fr", "ar", "ru", "ja", "ko"];
 const files = ["Blog.json", "Common.json", "Home.json", "releases.json", "search.json"];
 const namespaces = ["Blog", "Common", "Home", "Releases", "Search"];
 const protectedTerms = ["MyInsta", "Instagram", "APK", "Android", "ABI", "ARM64", "ARM32", "x86", "x86_64", "SHA-256", "Google Play", "Play Store"];

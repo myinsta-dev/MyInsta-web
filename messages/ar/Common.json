@@ -26,7 +26,6 @@
   "language": {
     "label": "اللغة",
     "en": "English",
-    "hi": "Hindi",
     "pt-BR": "Português (Brasil)",
     "es": "Español",
     "id": "Bahasa Indonesia",
@@ -36,7 +35,6 @@
     "fr": "Français",
     "ar": "العربية",
     "ru": "Русский",
-    "bn": "বাংলা",
     "ja": "日本語",
     "ko": "한국어"
   },

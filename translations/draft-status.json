@@ -6,18 +6,6 @@
     "translations/source/ui.json"
   ],
   "locales": {
-    "hi": {
-      "status": "DRAFT",
-      "approved": false,
-      "nativeReviewRequired": true,
-      "keyCoverage": "complete",
-      "translation": "needs-review",
-      "nativeReview": "needs-review",
-      "cms": {
-        "sourceContentHash": "e9e93010c39ee56cbbdc5184e3be01129291093c8245ae6532ad2c2fbab9f42c",
-        "keyCoverage": "complete"
-      }
-    },
     "pt-BR": {
       "status": "DRAFT",
       "approved": false,
@@ -115,18 +103,6 @@
       }
     },
     "ru": {
-      "status": "DRAFT",
-      "approved": false,
-      "nativeReviewRequired": true,
-      "keyCoverage": "complete",
-      "translation": "needs-review",
-      "nativeReview": "needs-review",
-      "cms": {
-        "sourceContentHash": "e9e93010c39ee56cbbdc5184e3be01129291093c8245ae6532ad2c2fbab9f42c",
-        "keyCoverage": "complete"
-      }
-    },
-    "bn": {
       "status": "DRAFT",
       "approved": false,
       "nativeReviewRequired": true,

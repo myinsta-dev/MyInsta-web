@@ -26,7 +26,7 @@ async function updateContentManifest(root, sourceContent) {
 
 async function seedTargetContentToSource(root) {
   const source = JSON.parse(await readFile(join(root, "translations", "source", "en.json"), "utf8"));
-  for (const locale of ["hi", "pt-BR", "es", "id", "tr", "fil", "de", "fr", "ar", "ru", "bn", "ja", "ko"]) {
+  for (const locale of ["pt-BR", "es", "id", "tr", "fil", "de", "fr", "ar", "ru", "ja", "ko"]) {
     const targetPath = join(root, "translations", locale, "en.json");
     const target = JSON.parse(await readFile(targetPath, "utf8"));
     const seeded = Object.fromEntries(Object.entries(source).map(([key, value]) => [key, target[key] ?? value]));
@@ -75,20 +75,20 @@ test("rejects missing and empty static privacy JSON values", async (t) => {
   const root = await fixture(t);
   await seedTargetContentToSource(root);
   await markCmsDraftsCurrent(root);
-  const hiPath = join(root, "translations", "hi", "en.json");
-  const hi = JSON.parse(await readFile(hiPath, "utf8"));
-  delete hi["page.privacy.title"];
-  await writeFile(hiPath, `${JSON.stringify(hi, null, 2)}\n`);
+  const esPath = join(root, "translations", "es", "en.json");
+  const es = JSON.parse(await readFile(esPath, "utf8"));
+  delete es["page.privacy.title"];
+  await writeFile(esPath, `${JSON.stringify(es, null, 2)}\n`);
 
-  const bnPath = join(root, "translations", "bn", "en.json");
-  const bn = JSON.parse(await readFile(bnPath, "utf8"));
-  bn["page.privacy.title"] = "";
-  await writeFile(bnPath, `${JSON.stringify(bn, null, 2)}\n`);
+  const ptPath = join(root, "translations", "pt-BR", "en.json");
+  const pt = JSON.parse(await readFile(ptPath, "utf8"));
+  pt["page.privacy.title"] = "";
+  await writeFile(ptPath, `${JSON.stringify(pt, null, 2)}\n`);
 
   const result = await runValidator(root);
   assert.notEqual(result.code, 0);
-  assert.match(result.output, /ERROR hi\/en\.json:\(root\): keys differ/);
-  assert.match(result.output, /ERROR bn\/en\.json:page\.privacy\.title: empty translation/);
+  assert.match(result.output, /ERROR es\/en\.json:\(root\): keys differ/);
+  assert.match(result.output, /ERROR pt-BR\/en\.json:page\.privacy\.title: empty translation/);
 });
 
 test("warns about source keys added after the CMS draft export", async (t) => {
@@ -102,7 +102,7 @@ test("warns about source keys added after the CMS draft export", async (t) => {
 
   const result = await runValidator(root);
   assert.equal(result.code, 0);
-  assert.match(result.output, /WARN hi\/en\.json:.*missing key in stale CMS draft: page\.privacy\.new/);
+  assert.match(result.output, /WARN pt-BR\/en\.json:.*missing key in stale CMS draft: page\.privacy\.new/);
   assert.doesNotMatch(result.output, /ERROR .*keys differ/);
 });
 
@@ -115,29 +115,29 @@ test("skips static target validation while the CMS source is empty", async (t) =
   const result = await runValidator(root);
   assert.equal(result.code, 0);
   assert.match(result.output, /WARN translations\/source\/en\.json is empty/);
-  assert.match(result.output, /Validated 13 unapproved locales against 315 UI strings: 0 errors/);
+  assert.match(result.output, /Validated 11 unapproved locales against 313 UI strings: 0 errors/);
 });
 
 test("rejects changed HTML URLs", async (t) => {
   const root = await fixture(t);
-  const hiPath = join(root, "translations", "hi", "html", "page.privacy.body.html");
-  const hi = await readFile(hiPath, "utf8");
-  await writeFile(hiPath, hi.replace("https://www.cloudflare.com/privacypolicy/", "https://evil.example/privacy/"));
+  const esPath = join(root, "translations", "es", "html", "page.privacy.body.html");
+  const es = await readFile(esPath, "utf8");
+  await writeFile(esPath, es.replace("https://www.cloudflare.com/privacypolicy/", "https://evil.example/privacy/"));
 
   const result = await runValidator(root);
   assert.notEqual(result.code, 0);
-  assert.match(result.output, /ERROR hi\/html\/page\.privacy\.body\.html: HTML attributes differ/);
+  assert.match(result.output, /ERROR es\/html\/page\.privacy\.body\.html: HTML attributes differ/);
 });
 
 test("rejects changed HTML IDs", async (t) => {
   const root = await fixture(t);
-  const hiPath = join(root, "translations", "hi", "html", "page.privacy.body.html");
-  const hi = await readFile(hiPath, "utf8");
-  await writeFile(hiPath, hi.replace('id="website-title"', 'id="changed-title"'));
+  const esPath = join(root, "translations", "es", "html", "page.privacy.body.html");
+  const es = await readFile(esPath, "utf8");
+  await writeFile(esPath, es.replace('id="website-title"', 'id="changed-title"'));
 
   const result = await runValidator(root);
   assert.notEqual(result.code, 0);
-  assert.match(result.output, /ERROR hi\/html\/page\.privacy\.body\.html: HTML attributes differ/);
+  assert.match(result.output, /ERROR es\/html\/page\.privacy\.body\.html: HTML attributes differ/);
 });
 
 test("rejects changed trailing slash in an unquoted HTML URL", async (t) => {
@@ -146,13 +146,13 @@ test("rejects changed trailing slash in an unquoted HTML URL", async (t) => {
   const source = await readFile(sourcePath, "utf8");
   await writeFile(sourcePath, source.replace('href="https://www.cloudflare.com/privacypolicy/"', "href=https://www.cloudflare.com/privacypolicy/"));
 
-  const hiPath = join(root, "translations", "hi", "html", "page.privacy.body.html");
-  const hi = await readFile(hiPath, "utf8");
-  await writeFile(hiPath, hi.replace('href="https://www.cloudflare.com/privacypolicy/"', "href=https://www.cloudflare.com/privacypolicy"));
+  const esPath = join(root, "translations", "es", "html", "page.privacy.body.html");
+  const es = await readFile(esPath, "utf8");
+  await writeFile(esPath, es.replace('href="https://www.cloudflare.com/privacypolicy/"', "href=https://www.cloudflare.com/privacypolicy"));
 
   const result = await runValidator(root);
   assert.notEqual(result.code, 0);
-  assert.match(result.output, /ERROR hi\/html\/page\.privacy\.body\.html: HTML attributes differ/);
+  assert.match(result.output, /ERROR es\/html\/page\.privacy\.body\.html: HTML attributes differ/);
 });
 
 test("rejects fewer protected JSON term occurrences", async (t) => {
@@ -163,26 +163,26 @@ test("rejects fewer protected JSON term occurrences", async (t) => {
   await writeFile(sourcePath, `${JSON.stringify(source, null, 2)}\n`);
   await updateContentManifest(root, source);
 
-  const hiPath = join(root, "translations", "hi", "en.json");
-  const hi = JSON.parse(await readFile(hiPath, "utf8"));
-  hi["page.privacy.seodescription"] = hi["page.privacy.seodescription"].replace("MyInsta", "MyInsta");
-  await writeFile(hiPath, `${JSON.stringify(hi, null, 2)}\n`);
+  const esPath = join(root, "translations", "es", "en.json");
+  const es = JSON.parse(await readFile(esPath, "utf8"));
+  es["page.privacy.seodescription"] = es["page.privacy.seodescription"].replace("MyInsta", "MyInsta");
+  await writeFile(esPath, `${JSON.stringify(es, null, 2)}\n`);
 
   const result = await runValidator(root);
   assert.notEqual(result.code, 0);
-  assert.match(result.output, /ERROR hi\/en\.json:page\.privacy\.seodescription: protected term missing: MyInsta/);
+  assert.match(result.output, /ERROR es\/en\.json:page\.privacy\.seodescription: protected term missing: MyInsta/);
 });
 
 test("rejects changed HTML protected product literals", async (t) => {
   const root = await fixture(t);
 
-  const bnPath = join(root, "translations", "bn", "html", "page.privacy.body.html");
-  const bn = await readFile(bnPath, "utf8");
-  await writeFile(bnPath, bn.replace("MyInsta টিম", "OtherProduct টিম"));
+  const ptPath = join(root, "translations", "pt-BR", "html", "page.privacy.body.html");
+  const pt = await readFile(ptPath, "utf8");
+  await writeFile(ptPath, pt.replace("Equipe MyInsta", "Equipe OtherProduct"));
 
   const result = await runValidator(root);
   assert.notEqual(result.code, 0);
-  assert.match(result.output, /ERROR bn\/html\/page\.privacy\.body\.html: protected product literal changed: MyInsta/);
+  assert.match(result.output, /ERROR pt-BR\/html\/page\.privacy\.body\.html: protected product literal changed: MyInsta/);
 });
 
 test("rejects a missing HTML source declared by the content manifest", async (t) => {
