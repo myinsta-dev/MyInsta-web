@@ -26,7 +26,7 @@ async function updateContentManifest(root, sourceContent) {
 
 async function seedTargetContentToSource(root) {
   const source = JSON.parse(await readFile(join(root, "translations", "source", "en.json"), "utf8"));
-  for (const locale of ["pt-BR", "es", "id", "tr", "fil", "de", "fr", "ar", "ru", "ja", "ko"]) {
+  for (const locale of ["pt-BR", "es", "id", "tr", "fil", "de", "fr", "ar", "ru"]) {
     const targetPath = join(root, "translations", locale, "en.json");
     const target = JSON.parse(await readFile(targetPath, "utf8"));
     const seeded = Object.fromEntries(Object.entries(source).map(([key, value]) => [key, target[key] ?? value]));
@@ -115,7 +115,7 @@ test("skips static target validation while the CMS source is empty", async (t) =
   const result = await runValidator(root);
   assert.equal(result.code, 0);
   assert.match(result.output, /WARN translations\/source\/en\.json is empty/);
-  assert.match(result.output, /Validated 11 unapproved locales against 313 UI strings: 0 errors/);
+  assert.match(result.output, /Validated 9 unapproved locales against 311 UI strings: 0 errors/);
 });
 
 test("rejects changed HTML URLs", async (t) => {

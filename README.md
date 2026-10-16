@@ -75,7 +75,7 @@ and only reads this repository's English files for newly missing UI keys:
 node scripts/seed-ui-drafts.mjs
 ```
 
-All 11 configured locale catalogs contain complete draft trees for the 313 UI
+All 9 configured locale catalogs contain complete draft trees for the 311 UI
 strings. Some draft values remain in English while contributors refine wording;
 the validator reports those as expected unchanged-value warnings. Every locale
 remains explicitly unapproved and requires native review before launch.

@@ -35,9 +35,7 @@
       "de": "Deutsch",
       "fr": "Französisch",
       "ar": "العربية",
-      "ru": "Russisch",
-      "ja": "日本語",
-      "ko": "한국어"
+      "ru": "Russisch"
     },
     "newsletter": {
       "emailAddress": "E-Mail-Adresse",

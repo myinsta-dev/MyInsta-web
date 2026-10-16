@@ -35,9 +35,7 @@
       "de": "Aleman",
       "fr": "Pranses",
       "ar": "Arabe",
-      "ru": "Ruso",
-      "ja": "Hapones",
-      "ko": "Koreano"
+      "ru": "Ruso"
     },
     "newsletter": {
       "emailAddress": "Address ng email",
