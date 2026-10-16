@@ -31,10 +31,7 @@
     "id": "Indones",
     "tr": "Turko",
     "fil": "Filipino",
-    "de": "Aleman",
-    "fr": "Pranses",
-    "ar": "Arabe",
-    "ru": "Ruso"
+    "de": "Aleman"
   },
   "newsletter": {
     "emailAddress": "Address ng email",

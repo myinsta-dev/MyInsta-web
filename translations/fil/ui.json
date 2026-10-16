@@ -1,4 +1,44 @@
 {
+  "Blog": {
+    "grid": {
+      "empty": "Wala pang na-publish na kuwento.",
+      "team": "Team ng MyInsta",
+      "unscheduled": "Hindi nakaiskedyul"
+    },
+    "article": {
+      "share": "Ibahagi",
+      "copied": "Nakopya",
+      "copyLink": "Kopyahin ang link"
+    },
+    "metadata": {
+      "title": "Talaarawan",
+      "pageTitle": "Journal · Pahina {page}",
+      "description": "Konteksto ng release ng MyInsta, mga tala ng produkto, paliwanag sa seguridad, at mga praktikal na gabay."
+    },
+    "taxonomy": {
+      "categoryLabel": "Kategorya ng journal",
+      "tagLabel": "Tag ng journal",
+      "categoryDescription": "Mga post sa journal ng MyInsta na nasa ilalim ng {name}.",
+      "tagDescription": "Mga nailathalang post sa journal ng MyInsta na may tag na {name}."
+    },
+    "index": {
+      "eyebrow": "Journal",
+      "title": "Ang kaisipan",
+      "titleAccent": "sa likod ng pagbuo.",
+      "description": "Konteksto ng release, mga desisyon sa produkto, tala sa compatibility, at malinaw na gabay mula sa editorial desk.",
+      "search": "Maghanap sa archive",
+      "categories": "Mga kategorya ng journal",
+      "published": "Mga nailathalang tala",
+      "count": "{total} lahat · pahina {page} sa {pages}",
+      "sort": "Ayusin",
+      "latest": "Pinakabago muna",
+      "oldest": "Pinakaluma muna",
+      "apply": "Ilapat",
+      "pagination": "Pagination ng journal",
+      "previous": "Nakaraan",
+      "next": "Susunod"
+    }
+  },
   "Common": {
     "navigation": {
       "features": "Mga feature",
@@ -32,10 +72,7 @@
       "id": "Indones",
       "tr": "Turko",
       "fil": "Filipino",
-      "de": "Aleman",
-      "fr": "Pranses",
-      "ar": "Arabe",
-      "ru": "Ruso"
+      "de": "Aleman"
     },
     "newsletter": {
       "emailAddress": "Address ng email",
@@ -239,46 +276,6 @@
     "metadata": {
       "title": "{siteName} — Opisyal na site at APK download para sa Android",
       "description": "I-download ang {siteName} para sa Android, ikumpara ang mga variant ng APK, at basahin ang mga tala ng release at tulong sa pag-install."
-    }
-  },
-  "Blog": {
-    "grid": {
-      "empty": "Wala pang na-publish na kuwento.",
-      "team": "Team ng MyInsta",
-      "unscheduled": "Hindi nakaiskedyul"
-    },
-    "article": {
-      "share": "Ibahagi",
-      "copied": "Nakopya",
-      "copyLink": "Kopyahin ang link"
-    },
-    "metadata": {
-      "title": "Talaarawan",
-      "pageTitle": "Journal · Pahina {page}",
-      "description": "Konteksto ng release ng MyInsta, mga tala ng produkto, paliwanag sa seguridad, at mga praktikal na gabay."
-    },
-    "taxonomy": {
-      "categoryLabel": "Kategorya ng journal",
-      "tagLabel": "Tag ng journal",
-      "categoryDescription": "Mga post sa journal ng MyInsta na nasa ilalim ng {name}.",
-      "tagDescription": "Mga nailathalang post sa journal ng MyInsta na may tag na {name}."
-    },
-    "index": {
-      "eyebrow": "Journal",
-      "title": "Ang kaisipan",
-      "titleAccent": "sa likod ng pagbuo.",
-      "description": "Konteksto ng release, mga desisyon sa produkto, tala sa compatibility, at malinaw na gabay mula sa editorial desk.",
-      "search": "Maghanap sa archive",
-      "categories": "Mga kategorya ng journal",
-      "published": "Mga nailathalang tala",
-      "count": "{total} lahat · pahina {page} sa {pages}",
-      "sort": "Ayusin",
-      "latest": "Pinakabago muna",
-      "oldest": "Pinakaluma muna",
-      "apply": "Ilapat",
-      "pagination": "Pagination ng journal",
-      "previous": "Nakaraan",
-      "next": "Susunod"
     }
   },
   "Releases": {
